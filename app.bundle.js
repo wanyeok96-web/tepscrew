@@ -984,6 +984,183 @@
     ]
   };
 
+  // data/guide.json
+  var guide_default = {
+    version: 1,
+    title: "TEPS \uAC00\uC774\uB4DC",
+    lede: "\uC2DC\uD5D8 \uAD6C\uC870\uC640 327 \uC900\uBE44 \uD750\uB984, \uD15D\uC2A4\uD06C\uB8E8 \uC0AC\uC6A9 \uC21C\uC11C\uB97C \uD55C\uACF3\uC5D0\uC11C \uD655\uC778\uD558\uC138\uC694.",
+    officialUrl: "https://www.teps.or.kr/",
+    officialLabel: "\uACF5\uC2DD TEPS \uC0AC\uC774\uD2B8 (\uC77C\uC815\xB7\uC811\uC218)",
+    sections: [
+      {
+        id: "overview",
+        navLabel: "TEPS \uC774\uD574",
+        title: "TEPS \uC774\uD574",
+        blocks: [
+          {
+            type: "p",
+            text: "TEPS(Test of English Proficiency developed by Seoul National University)\uB294 \uB300\uD559\xB7\uCDE8\uC5C5\xB7\uC790\uAE30\uACC4\uBC1C \uB4F1\uC5D0\uC11C \uC4F0\uC774\uB294 \uC2E4\uC6A9 \uC601\uC5B4 \uB2A5\uB825 \uC2DC\uD5D8\uC785\uB2C8\uB2E4. \uC131\uC778 \uD559\uC2B5\uC790\uAC00 \u2018\uC9C0\uAE08 \uC5BC\uB9C8\uB098 \uC4F8 \uC218 \uC788\uB294\uC9C0\u2019\uB97C \uC601\uC5ED\uBCC4\uB85C \uD655\uC778\uD558\uB294 \uB370 \uB9DE\uCDB0\uC838 \uC788\uC2B5\uB2C8\uB2E4."
+          },
+          {
+            type: "h3",
+            text: "\uB124 \uAC00\uC9C0 \uC601\uC5ED"
+          },
+          {
+            type: "ul",
+            items: [
+              "Listening \u2014 \uC9E7\uC740 \uC751\uB2F5\xB7\uB300\uD654\xB7\uB2F4\uD654\uC5D0\uC11C \uC0C1\uD669\uACFC \uC694\uC9C0\uB97C \uB4E3\uC2B5\uB2C8\uB2E4.",
+              "Vocabulary \u2014 \uBB38\uB9E5\xB7\uC5F0\uC5B4\xB7\uAD6C\uB3D9\uC0AC \uB4F1 \u2018\uC544\uB294 \uB2E8\uC5B4\u2019\uB97C \u2018\uC4F8 \uC218 \uC788\uB294 \uB2E8\uC5B4\u2019\uB85C \uBC14\uAFC9\uB2C8\uB2E4.",
+              "Grammar \u2014 \uC218\uC77C\uCE58\xB7\uAD00\uACC4\uC0AC\xB7\uC2DC\uC81C\uCC98\uB7FC \uC790\uC8FC \uB098\uC624\uB294 \uD328\uD134\uC744 \uC815\uD655\uD788 \uACE0\uB985\uB2C8\uB2E4.",
+              "Reading \u2014 \uC694\uC9C0\xB7\uC138\uBD80\xB7\uCD94\uB860\xB7\uBE48\uCE78\xB7\uC77C\uAD00\uC131 \uB4F1\uC73C\uB85C \uAE00\uC744 \uBE60\uB974\uAC8C \uC77D\uC2B5\uB2C8\uB2E4."
+            ]
+          },
+          {
+            type: "p",
+            text: "\uD15D\uC2A4\uD06C\uB8E8\uC758 Listening / Vocabulary / Grammar / Reading \uBA54\uB274\uB294 \uC704 \uC601\uC5ED\uACFC \uAC19\uC740 \uCD95\uC73C\uB85C \uB9DE\uCDB0 \uB450\uC5C8\uC2B5\uB2C8\uB2E4."
+          },
+          {
+            type: "h3",
+            text: "\uC65C 327 Target\uC778\uAC00"
+          },
+          {
+            type: "p",
+            text: "\uC774 \uC571\uC758 \uAE30\uBCF8 \uBAA9\uD45C\uB294 TEPS 327\uC810\uC785\uB2C8\uB2E4. \uC124\uC815\uC5D0\uC11C \uBAA9\uD45C \uC810\uC218\uB97C \uBC14\uAFC0 \uC218 \uC788\uC9C0\uB9CC, \uCF58\uD150\uCE20\xB7\uCD94\uCC9C\xB7327 Target \uD6C8\uB828\uC740 327\uC744 \uAE30\uC900\uC73C\uB85C \uC124\uACC4\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4. \u2018\uC644\uBCBD\uD55C \uC6D0\uC5B4\uBBFC\u2019\uC774 \uC544\uB2C8\uB77C, \uACF5\uBC31\uC774 \uAE38\uC5B4\uB3C4 \uB2E4\uC2DC \uC313\uC544 \uC62C\uB9B4 \uC218 \uC788\uB294 \uC2E4\uC9C8 \uBAA9\uD45C\uB85C \uC7A1\uC544 \uB454 \uAE30\uC900\uC810\uC785\uB2C8\uB2E4."
+          },
+          {
+            type: "callout",
+            variant: "notice",
+            text: "\uC571\uC5D0 \uD45C\uC2DC\uB418\uB294 \uC608\uC0C1\uC810\uC218\uB294 \uD559\uC2B5\uC6A9 \uCD94\uC815\uC785\uB2C8\uB2E4. \uACF5\uC2DD TEPS \uC131\uC801\uC774 \uC544\uB2C8\uBA70, \uB0B4\uC7A5 \uBB38\uD56D\uB3C4 \uD559\uC2B5\uC6A9 \uC790\uCCB4 \uC81C\uC791 \uCF58\uD150\uCE20\uC785\uB2C8\uB2E4(\uACF5\uC2DD \uAE30\uCD9C \uC544\uB2D8)."
+          }
+        ],
+        ctas: [
+          { label: "\uBE60\uB978 \uC9C4\uB2E8 \uC2DC\uC791", nav: "diagnosis", primary: true },
+          { label: "\uAE30\uCD08\uD559\uC2B5\uC73C\uB85C", nav: "foundation" }
+        ]
+      },
+      {
+        id: "prep",
+        navLabel: "\uC900\uBE44 \uBC29\uBC95",
+        title: "\uC900\uBE44 \uBC29\uBC95",
+        blocks: [
+          {
+            type: "p",
+            text: "\uC601\uC5B4 \uACF5\uBC31\uC774 \uAE38\uB2E4\uBA74 \u2018\uCC98\uC74C\uBD80\uD130 \uBAA8\uC758\uACE0\uC0AC\u2019\uBCF4\uB2E4 \uAE30\uCD08\uB97C \uBA3C\uC800 \uD68C\uBCF5\uD558\uB294 \uD3B8\uC774 \uD6A8\uC728\uC801\uC785\uB2C8\uB2E4. \uB9CE\uC774 \uD478\uB294 \uAC83\uBCF4\uB2E4, \uD2C0\uB9B0 \uC774\uC720\uB97C \uB0A8\uAE30\uACE0 \uB2E4\uC2DC \uAEBC\uB0B4\uB294 \uCABD\uC774 327\uC5D0 \uAC00\uAE5D\uC2B5\uB2C8\uB2E4."
+          },
+          {
+            type: "h3",
+            text: "\uD559\uC2B5 \uC21C\uD658"
+          },
+          {
+            type: "ol",
+            items: [
+              "\uAE30\uCD08 \uD68C\uBCF5 \u2014 \uBB38\uC7A5 \uBF08\uB300\xB7\uC790\uC8FC \uC4F0\uB294 \uC5B4\uD718\uB97C \uB2E4\uC2DC \uC5F0\uACB0\uD569\uB2C8\uB2E4.",
+              "\uC601\uC5ED \uD6C8\uB828 \u2014 Vocabulary\xB7Grammar\uBD80\uD130 \uBD84\uB7C9\uC744 \uC313\uACE0 Listening\xB7Reading\uC744 \uBD99\uC785\uB2C8\uB2E4.",
+              "\uC57D\uC810 \uC9D1\uC911 \u2014 \uC624\uB2F5\xB7\uBCF5\uC2B5\uACFC 327 Target\uC73C\uB85C \uB0AE\uC740 \uC219\uB828\uB3C4\uB9CC \uACE8\uB77C \uBC18\uBCF5\uD569\uB2C8\uB2E4.",
+              "\uBAA8\uC758\uB85C \uC810\uAC80 \u2014 Mini TEPS\uB85C \uC704\uCE58\uB97C \uD655\uC778\uD558\uACE0, \uD544\uC694\uD558\uBA74 Full\uB85C \uC804\uCCB4 \uD750\uB984\uC744 \uBD05\uB2C8\uB2E4."
+            ]
+          },
+          {
+            type: "h3",
+            text: "\uD558\uB8E8 \uB8E8\uD2F4 \uC608\uC2DC"
+          },
+          {
+            type: "p",
+            text: "\uC124\uC815 \uAE30\uBCF8\uAC12\uC740 \uD558\uB8E8 \uC57D 30\uBD84\uC785\uB2C8\uB2E4. \uC544\uB798\uCC98\uB7FC \uC9E7\uAC8C \uB098\uB220\uB3C4 \uB429\uB2C8\uB2E4."
+          },
+          {
+            type: "ul",
+            items: [
+              "10\uBD84 \u2014 \uAE30\uCD08 Lesson \uB610\uB294 \uC5B4\uD718 \uBCF5\uC2B5",
+              "15\uBD84 \u2014 \uBB38\uC81C\uD6C8\uB828 (\uD55C \uC601\uC5ED\uB9CC)",
+              "5\uBD84 \u2014 \uC624\uB298 \uD2C0\uB9B0 \uBB38\uD56D \uC624\uB2F5 \uD655\uC778"
+            ]
+          },
+          {
+            type: "h3",
+            text: "\uC601\uC5ED\uBCC4 \uD55C \uC904 \uC804\uB7B5"
+          },
+          {
+            type: "ul",
+            items: [
+              "Vocabulary \u2014 \uBAA9\uB85D\uC744 \uB2E4\uC2DC \uC77D\uAE30\uBCF4\uB2E4, \uBCF4\uC9C0 \uC54A\uACE0 \uB5A0\uC62C\uB9AC\uB294 \uC778\uCD9C \uC5F0\uC2B5\uC744 \uC6B0\uC120\uD569\uB2C8\uB2E4.",
+              "Grammar \u2014 \uADDC\uCE59\uC744 \uC678\uC6B0\uAE30\uBCF4\uB2E4 \u2018\uC65C \uC774 \uC120\uD0DD\uC774 \uB418\uB294\uAC00\u2019\uB97C \uBB38\uC7A5\uC73C\uB85C \uD655\uC778\uD569\uB2C8\uB2E4.",
+              "Reading \u2014 \uC804\uCCB4\uB97C \uBC88\uC5ED\uD558\uAE30\uBCF4\uB2E4 \uC694\uC9C0\xB7\uBE48\uCE78 \uC804\uD6C4 \uB17C\uB9AC\uB97C \uBA3C\uC800 \uC7A1\uC2B5\uB2C8\uB2E4.",
+              "Listening \u2014 \uB300\uBCF8 \uC5C6\uC774 \uC0C1\uD669\uC744 \uC608\uCE21\uD55C \uB4A4, \uD544\uC694\uD560 \uB54C\uB9CC transcript\uB85C \uD655\uC778\uD569\uB2C8\uB2E4."
+            ]
+          }
+        ],
+        ctas: [
+          { label: "\uD648\uC5D0\uC11C \uC624\uB298 \uD559\uC2B5 \uBCF4\uAE30", nav: "home", primary: true }
+        ]
+      },
+      {
+        id: "app",
+        navLabel: "\uC571 \uC774\uC6A9",
+        title: "\uC571 \uC774\uC6A9 \uAC00\uC774\uB4DC",
+        blocks: [
+          {
+            type: "p",
+            text: "\uB85C\uADF8\uC778 \uC5C6\uC774 \uBE0C\uB77C\uC6B0\uC800\uC5D0\uC11C \uBC14\uB85C \uD559\uC2B5\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. AI\uB294 \uC120\uD0DD \uC0AC\uD56D\uC774\uBA70, \uC5F0\uACB0\uD558\uC9C0 \uC54A\uC544\uB3C4 \uBB38\uC81C \uD480\uC774\xB7\uD574\uC124\xB7\uBCF5\uC2B5\uC774 \uB3D9\uC791\uD569\uB2C8\uB2E4."
+          },
+          {
+            type: "h3",
+            text: "\uCD94\uCC9C \uCCAB \uACBD\uB85C"
+          },
+          {
+            type: "ol",
+            items: [
+              "\uBE60\uB978 \uC9C4\uB2E8(Quick Diagnosis)\uC73C\uB85C \uC2DC\uC791\uC810\uC744 \uC7A1\uC2B5\uB2C8\uB2E4.",
+              "\uD648\uC758 \uC624\uB298 \uD559\uC2B5 \uCD94\uCC9C\uC744 \uB530\uB985\uB2C8\uB2E4.",
+              "\uAE30\uCD08\uD559\uC2B5\uC73C\uB85C \uBB38\uC7A5\xB7\uC5B4\uD718 \uAC10\uAC01\uC744 \uD68C\uBCF5\uD569\uB2C8\uB2E4.",
+              "TEPS \uD559\uC2B5\xB7\uBB38\uC81C\uD6C8\uB828\uC73C\uB85C \uC601\uC5ED\uBCC4 \uBB38\uD56D\uC744 \uD489\uB2C8\uB2E4.",
+              "\uC624\uB2F5\xB7\uBCF5\uC2B5\uC5D0 \uD2C0\uB9B0 \uBB38\uD56D\uC744 \uB0A8\uAE41\uB2C8\uB2E4.",
+              "Mini TEPS\uB85C \uC704\uCE58\uB97C \uC810\uAC80\uD558\uACE0, 327 Target\uC73C\uB85C \uC57D\uC810\uC744 \uBA54\uC6C1\uB2C8\uB2E4."
+            ]
+          },
+          {
+            type: "h3",
+            text: "\uD0ED\uBCC4 \uC5ED\uD560"
+          },
+          {
+            type: "ul",
+            items: [
+              "\uD648 \u2014 \uC608\uC0C1\uC810\uC218\xB7\uC624\uB298 \uD560 \uC77C\xB7\uC774\uC5B4\uC11C \uD559\uC2B5",
+              "\uAC00\uC774\uB4DC \u2014 TEPS \uC774\uD574\xB7\uC900\uBE44\uBC95\xB7\uC774\uC6A9\uBC95 (\uC9C0\uAE08 \uBCF4\uB294 \uD654\uBA74)",
+              "\uAE30\uCD08\uD559\uC2B5 \u2014 \uC601\uC5B4 \uBF08\uB300\uB97C \uB2E4\uC2DC \uC313\uB294 Lesson",
+              "TEPS \uD559\uC2B5 \u2014 Listening\xB7Vocabulary\xB7Grammar\xB7Reading \uD5C8\uBE0C",
+              "\uBB38\uC81C\uD6C8\uB828 \u2014 \uC720\uD615\xB7\uB09C\uC774\uB3C4\uBCC4 \uC5F0\uC2B5\uACFC 327 Target",
+              "\uBAA8\uC758\uACE0\uC0AC \u2014 Mini / Full \uD559\uC2B5\uC6A9 \uC810\uAC80",
+              "\uC624\uB2F5\xB7\uBCF5\uC2B5 \u2014 \uD2C0\uB9B0 \uBB38\uD56D\uACFC \uB2E8\uC5B4 \uB2E4\uC2DC \uBCF4\uAE30",
+              "My TEPS \u2014 \uC219\uB828\uB3C4\xB7\uAE30\uB85D \uC694\uC57D",
+              "\uC124\uC815 \u2014 \uBAA9\uD45C\xB7AI Key\xB7\uBC31\uC5C5"
+            ]
+          },
+          {
+            type: "h3",
+            text: "AI \xB7 \uB370\uC774\uD130"
+          },
+          {
+            type: "ul",
+            items: [
+              "AI Tutor\uB294 \uC124\uC815\uC5D0\uC11C Provider\uC640 API Key\uB97C \uB123\uC73C\uBA74 \uC0AC\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+              "\uD559\uC2B5 \uAE30\uB85D\uC740 \uC774 \uAE30\uAE30\uC758 \uBE0C\uB77C\uC6B0\uC800(IndexedDB)\uC5D0 \uC800\uC7A5\uB429\uB2C8\uB2E4.",
+              "\uAE30\uAE30 \uBCC0\uACBD\uC774\uB098 \uCD08\uAE30\uD654\uC5D0 \uB300\uBE44\uD574 \uC124\uC815\uC5D0\uC11C \uD559\uC2B5 \uB370\uC774\uD130 \uBC31\uC5C5\uC744 \uAD8C\uC7A5\uD569\uB2C8\uB2E4."
+            ]
+          },
+          {
+            type: "callout",
+            variant: "notice",
+            text: "\uC608\uC0C1\uC810\uC218\xB7\uBAA8\uC758 \uACB0\uACFC\uB294 \uD559\uC2B5\uC6A9 \uCD94\uC815\uCE58\uC785\uB2C8\uB2E4. \uC2DC\uD5D8 \uC77C\uC815\xB7\uC811\uC218\xB7\uADDC\uC815\uC740 \uACF5\uC2DD TEPS \uC0AC\uC774\uD2B8\uC5D0\uC11C \uD655\uC778\uD558\uC138\uC694."
+          }
+        ],
+        ctas: [
+          { label: "\uBB38\uC81C\uD6C8\uB828 \uC2DC\uC791", nav: "practice", primary: true },
+          { label: "\uBAA8\uC758\uACE0\uC0AC \uBCF4\uAE30", nav: "mock" }
+        ]
+      }
+    ]
+  };
+
   // data/packs/manifest.json
   var manifest_default = {
     version: 1,
@@ -3102,6 +3279,7 @@
     "./data/grammar.json": grammar_default,
     "./data/reading.json": reading_default,
     "./data/listening.json": listening_default,
+    "./data/guide.json": guide_default,
     "./data/packs/manifest.json": manifest_default,
     "./data/packs/TEPS_Crew_Pack_001.json": TEPS_Crew_Pack_001_default,
     "./data/packs/TEPS_Crew_Pack_002.json": TEPS_Crew_Pack_002_default
@@ -4276,7 +4454,8 @@
       vocabulary: null,
       grammar: null,
       reading: null,
-      listening: null
+      listening: null,
+      guide: null
     },
     learningRecords: [],
     reviewQueue: [],
@@ -4670,14 +4849,15 @@
     return state.questionBank;
   }
   async function loadContent() {
-    const [foundation, vocabulary, grammar, reading, listening] = await Promise.all([
+    const [foundation, vocabulary, grammar, reading, listening, guide] = await Promise.all([
       fetchJson("./data/foundation.json"),
       fetchJson("./data/vocabulary.json"),
       fetchJson("./data/grammar.json"),
       fetchJson("./data/reading.json"),
-      fetchJson("./data/listening.json")
+      fetchJson("./data/listening.json"),
+      fetchJson("./data/guide.json")
     ]);
-    state.content = { foundation, vocabulary, grammar, reading, listening };
+    state.content = { foundation, vocabulary, grammar, reading, listening, guide };
   }
   async function loadProgressCaches() {
     const [records, review, mocks, progress, vocab, customVocab] = await Promise.all([
@@ -4852,6 +5032,7 @@
   // js/router.js
   var ROUTES = {
     home: { page: "home", title: "\uD648" },
+    guide: { page: "guide", title: "TEPS \uAC00\uC774\uB4DC" },
     foundation: { page: "foundation", title: "\uAE30\uCD08\uD559\uC2B5" },
     lesson: { page: "lesson", title: "Lesson" },
     teps: { page: "teps", title: "TEPS \uD559\uC2B5" },
@@ -4907,6 +5088,7 @@
   function getNavItems() {
     return [
       { id: "home", label: "\uD648", emoji: "\u{1F3E0}", icon: "home", href: "#home" },
+      { id: "guide", label: "\uAC00\uC774\uB4DC", emoji: "\u{1F5FA}\uFE0F", icon: "guide", href: "#guide" },
       { id: "foundation", label: "\uAE30\uCD08\uD559\uC2B5", emoji: "\u{1F9F1}", icon: "foundation", href: "#foundation" },
       { id: "teps", label: "TEPS \uD559\uC2B5", emoji: "\u{1F4D8}", icon: "teps", href: "#teps" },
       { id: "practice", label: "\uBB38\uC81C\uD6C8\uB828", emoji: "\u270F\uFE0F", icon: "practice", href: "#practice" },
@@ -5515,6 +5697,7 @@ ${JSON.stringify(
           </p>
           <div class="home-cta-row">
             <button type="button" class="btn btn-primary btn-lg" data-nav="diagnosis">\u{1F680} \uBE60\uB978 \uC9C4\uB2E8 \uC2DC\uC791</button>
+            <button type="button" class="btn btn-secondary btn-lg" data-nav="guide">\u{1F5FA}\uFE0F TEPS \uAC00\uC774\uB4DC</button>
             <button type="button" class="btn btn-secondary btn-lg" id="welcome-dismiss">\u{1F440} \uBA3C\uC800 \uB458\uB7EC\uBCF4\uAE30</button>
           </div>
           <p class="home-footnote">\u{1F510} \uB85C\uADF8\uC778 \uC5C6\uC74C \xB7 \u2728 AI\uB294 \uC120\uD0DD \xB7 \u2705 \uC9C0\uAE08 \uBC14\uB85C \uD559\uC2B5 \uAC00\uB2A5</p>
@@ -5563,9 +5746,10 @@ ${JSON.stringify(
         ${renderProgressBar(summary.estimated, summary.target)}
 
         ${!hasScore ? `<div class="home-inline-cta">
-                <p>\uCCAB \uC9C4\uB2E8\uC73C\uB85C \uC2DC\uC791\uC810\uC744 \uC815\uD558\uBA74 Today \uCD94\uCC9C\uC774 \uC5F4\uB9BD\uB2C8\uB2E4.</p>
+                <p>\uCCAB \uC9C4\uB2E8\uC73C\uB85C \uC2DC\uC791\uC810\uC744 \uC815\uD558\uBA74 Today \uCD94\uCC9C\uC774 \uC5F4\uB9BD\uB2C8\uB2E4. TEPS \uAD6C\uC870\uAC00 \uAD81\uAE08\uD558\uBA74 \uAC00\uC774\uB4DC\uB97C \uBA3C\uC800 \uBCF4\uC138\uC694.</p>
                 <div class="home-cta-row">
                   <button type="button" class="btn btn-primary" data-nav="diagnosis">\u{1F680} \uBE60\uB978 \uC9C4\uB2E8</button>
+                  <button type="button" class="btn btn-secondary" data-nav="guide">\u{1F5FA}\uFE0F TEPS \uAC00\uC774\uB4DC</button>
                   <button type="button" class="btn btn-secondary" data-nav="practice">\u270F\uFE0F \uBB38\uC81C\uD6C8\uB828</button>
                 </div>
               </div>` : ""}
@@ -5844,11 +6028,10 @@ ${JSON.stringify(
       <section class="card">
         <h2>\u2753 \uB3C4\uC6C0\uB9D0</h2>
         <ul class="bullet-list">
-          <li>\uCC98\uC74C\uC5D0\uB294 Quick Diagnosis\uB85C \uC2DC\uC791\uC810\uC744 \uD655\uC778\uD558\uC138\uC694.</li>
+          <li>\uC790\uC138\uD55C TEPS \uC774\uD574\xB7\uC900\uBE44\uBC95\xB7\uC571 \uC21C\uC11C\uB294 <button type="button" class="linkish" data-nav="guide">\uAC00\uC774\uB4DC</button> \uD0ED\uC744 \uBCF4\uC138\uC694.</li>
           <li>\uD648\uC758 \uC624\uB298 \uD559\uC2B5 \u2192 \uBB38\uC81C\uD480\uC774 \u2192 \uC624\uB2F5\uBCF5\uC2B5 \uC21C\uC73C\uB85C \uB8E8\uD2F4\uC744 \uB9CC\uB4DC\uC138\uC694.</li>
-          <li>Mini TEPS\uB85C \uD604\uC7AC \uC704\uCE58\uB97C, 327 Target\uC73C\uB85C \uC57D\uC810\uC744 \uBCF4\uC644\uD558\uC138\uC694.</li>
-          <li>AI\uB294 \uC124\uC815\uC5D0\uC11C \uC5F0\uACB0\uD558\uBA74 Tutor\uB85C \uD65C\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.</li>
-          <li>\uC911\uC694\uD55C \uC21C\uAC04\uB9C8\uB2E4 \uBC31\uC5C5\uC744 \uB0B4\uBCF4\uB0B4 \uB450\uC138\uC694.</li>
+          <li>Mini TEPS\uB85C \uC704\uCE58\uB97C, 327 Target\uC73C\uB85C \uC57D\uC810\uC744 \uBCF4\uC644\uD558\uC138\uC694.</li>
+          <li>AI\xB7\uBC31\uC5C5\uC740 \uC704 \uC124\uC815\uC5D0\uC11C \uAD00\uB9AC\uD569\uB2C8\uB2E4.</li>
         </ul>
       </section>
     </section>
@@ -6010,6 +6193,9 @@ ${JSON.stringify(
       } catch (err) {
         showToast(err.message || "\uCD08\uAE30\uD654\uC5D0 \uC2E4\uD328\uD588\uC2B5\uB2C8\uB2E4.", "error");
       }
+    });
+    root.querySelectorAll("[data-nav]").forEach((el) => {
+      el.addEventListener("click", () => navigate(el.getAttribute("data-nav") || "home"));
     });
   }
 
@@ -8665,6 +8851,111 @@ ${JSON.stringify(
     root.querySelector('[data-nav="home"]')?.addEventListener("click", () => navigate("home"));
   }
 
+  // js/guide.js
+  function renderBlock(block) {
+    if (!block || !block.type) return "";
+    switch (block.type) {
+      case "h3":
+        return `<h3 class="guide-h3">${escapeHtml(block.text || "")}</h3>`;
+      case "p":
+        return `<p class="guide-p">${escapeHtml(block.text || "")}</p>`;
+      case "ul":
+        return `<ul class="guide-list">${(block.items || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
+      case "ol":
+        return `<ol class="guide-list guide-list-ol">${(block.items || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ol>`;
+      case "callout":
+        return `<aside class="guide-callout guide-callout-${escapeHtml(
+          block.variant || "notice"
+        )}" role="note"><p>${escapeHtml(block.text || "")}</p></aside>`;
+      default:
+        return "";
+    }
+  }
+  function renderCtas(ctas = []) {
+    if (!ctas.length) return "";
+    return `
+    <div class="guide-cta-row btn-row wrap">
+      ${ctas.map(
+      (cta) => `
+        <button
+          type="button"
+          class="btn ${cta.primary ? "btn-primary" : "btn-secondary"}"
+          data-nav="${escapeHtml(cta.nav || "home")}"
+        >${escapeHtml(cta.label || "\uC774\uB3D9")}</button>`
+    ).join("")}
+    </div>
+  `;
+  }
+  function renderGuide() {
+    const guide = getState().content?.guide;
+    if (!guide?.sections?.length) {
+      return `
+      <section class="page">
+        <div class="empty-state card">
+          <p class="empty-title">\uAC00\uC774\uB4DC\uB97C \uBD88\uB7EC\uC624\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4.</p>
+          <button type="button" class="btn btn-primary" data-nav="home">\uD648\uC73C\uB85C</button>
+        </div>
+      </section>
+    `;
+    }
+    const sections = guide.sections;
+    return `
+    <section class="page guide-page">
+      <header class="guide-hero">
+        <p class="eyebrow">TEPS Crew</p>
+        <h1>${escapeHtml(guide.title || "TEPS \uAC00\uC774\uB4DC")}</h1>
+        <p class="guide-lede muted">${escapeHtml(guide.lede || "")}</p>
+        <nav class="guide-jump" aria-label="\uAC00\uC774\uB4DC \uC139\uC158">
+          ${sections.map(
+      (s) => `
+            <button type="button" class="guide-jump-chip" data-jump="${escapeHtml(
+        s.id
+      )}">${escapeHtml(s.navLabel || s.title)}</button>`
+    ).join("")}
+        </nav>
+      </header>
+
+      ${guide.officialUrl ? `<aside class="guide-official">
+              <p>\uC2DC\uD5D8 \uC77C\uC815\xB7\uC811\uC218\xB7\uADDC\uC815\uC740 \uACF5\uC2DD \uC548\uB0B4\uB97C \uB530\uB985\uB2C8\uB2E4.</p>
+              <a class="btn btn-secondary" href="${escapeHtml(
+      guide.officialUrl
+    )}" target="_blank" rel="noopener noreferrer">${escapeHtml(
+      guide.officialLabel || "\uACF5\uC2DD TEPS \uC0AC\uC774\uD2B8"
+    )}</a>
+            </aside>` : ""}
+
+      ${sections.map(
+      (section) => `
+        <section
+          class="guide-section"
+          id="guide-section-${escapeHtml(section.id)}"
+          aria-labelledby="guide-heading-${escapeHtml(section.id)}"
+        >
+          <h2 id="guide-heading-${escapeHtml(section.id)}">${escapeHtml(section.title)}</h2>
+          <div class="guide-body">
+            ${(section.blocks || []).map(renderBlock).join("")}
+          </div>
+          ${renderCtas(section.ctas)}
+        </section>`
+    ).join("")}
+    </section>
+  `;
+  }
+  function bindGuide(root) {
+    root.querySelectorAll("[data-nav]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        navigate(btn.getAttribute("data-nav") || "home");
+      });
+    });
+    root.querySelectorAll("[data-jump]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-jump");
+        const target = root.querySelector(`#guide-section-${CSS.escape(id || "")}`);
+        target?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
+
   // scripts.js
   var currentCleanup = null;
   function renderNav(activePage) {
@@ -8737,6 +9028,7 @@ ${JSON.stringify(
     updateTopTarget();
     const map = {
       home: [renderDashboard, bindDashboard],
+      guide: [renderGuide, bindGuide],
       foundation: [renderFoundation, bindFoundation],
       lesson: [() => renderLesson(route.params), bindLesson],
       teps: [() => renderTeps(route.params), bindTeps],

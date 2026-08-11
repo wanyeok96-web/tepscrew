@@ -8,6 +8,7 @@ import vocabulary from '../../data/vocabulary.json';
 import grammar from '../../data/grammar.json';
 import reading from '../../data/reading.json';
 import listening from '../../data/listening.json';
+import guide from '../../data/guide.json';
 import packManifest from '../../data/packs/manifest.json';
 import pack001 from '../../data/packs/TEPS_Crew_Pack_001.json';
 import pack002 from '../../data/packs/TEPS_Crew_Pack_002.json';
@@ -18,6 +19,7 @@ const EMBEDDED = {
   './data/grammar.json': grammar,
   './data/reading.json': reading,
   './data/listening.json': listening,
+  './data/guide.json': guide,
   './data/packs/manifest.json': packManifest,
   './data/packs/TEPS_Crew_Pack_001.json': pack001,
   './data/packs/TEPS_Crew_Pack_002.json': pack002,

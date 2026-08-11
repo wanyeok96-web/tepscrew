@@ -4,6 +4,7 @@
 
 const ROUTES = {
   home: { page: 'home', title: '홈' },
+  guide: { page: 'guide', title: 'TEPS 가이드' },
   foundation: { page: 'foundation', title: '기초학습' },
   lesson: { page: 'lesson', title: 'Lesson' },
   teps: { page: 'teps', title: 'TEPS 학습' },
@@ -74,6 +75,7 @@ export function startRouter(onChange) {
 export function getNavItems() {
   return [
     { id: 'home', label: '홈', emoji: '🏠', icon: 'home', href: '#home' },
+    { id: 'guide', label: '가이드', emoji: '🗺️', icon: 'guide', href: '#guide' },
     { id: 'foundation', label: '기초학습', emoji: '🧱', icon: 'foundation', href: '#foundation' },
     { id: 'teps', label: 'TEPS 학습', emoji: '📘', icon: 'teps', href: '#teps' },
     { id: 'practice', label: '문제훈련', emoji: '✏️', icon: 'practice', href: '#practice' },

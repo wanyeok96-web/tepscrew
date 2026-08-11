@@ -2721,3 +2721,135 @@ fieldset.field {
     gap: 2px;
   }
 }
+
+/* Guide hub */
+
+.guide-page {
+  max-width: 720px;
+}
+
+.guide-hero {
+  margin-bottom: var(--space-5);
+}
+
+.guide-hero h1 {
+  margin: 4px 0 10px;
+  font-size: clamp(1.6rem, 2.4vw, 2rem);
+  letter-spacing: -0.02em;
+}
+
+.guide-lede {
+  margin: 0 0 var(--space-4);
+  line-height: 1.55;
+}
+
+.guide-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.guide-jump-chip {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color var(--ease), background var(--ease);
+}
+
+.guide-jump-chip:hover,
+.guide-jump-chip:focus-visible {
+  border-color: var(--brand, #2563eb);
+  outline: none;
+}
+
+.guide-official {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  margin-bottom: var(--space-5);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.guide-official p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.guide-section {
+  scroll-margin-top: 88px;
+  padding: var(--space-5) 0;
+  border-top: 1px solid var(--border);
+}
+
+.guide-section h2 {
+  margin: 0 0 var(--space-4);
+  font-size: 1.25rem;
+  letter-spacing: -0.01em;
+}
+
+.guide-h3 {
+  margin: var(--space-4) 0 8px;
+  font-size: 1.02rem;
+}
+
+.guide-p {
+  margin: 0 0 12px;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.guide-list {
+  margin: 0 0 14px;
+  padding-left: 1.2rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.guide-list li + li {
+  margin-top: 6px;
+}
+
+.guide-callout {
+  margin: 16px 0;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #f0f4ff;
+}
+
+.guide-callout p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+}
+
+.guide-cta-row {
+  margin-top: var(--space-4);
+}
+
+button.linkish {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: none;
+  color: var(--brand, #2563eb);
+  font: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+

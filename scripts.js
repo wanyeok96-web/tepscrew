@@ -42,6 +42,7 @@ import {
   renderNotFound,
   bindNotFound,
 } from './js/pages.js';
+import { renderGuide, bindGuide } from './js/guide.js';
 import { getAiStatus } from './js/ai/ai-service.js';
 
 let currentCleanup = null;
@@ -146,6 +147,7 @@ function renderPage(route) {
 
   const map = {
     home: [renderDashboard, bindDashboard],
+    guide: [renderGuide, bindGuide],
     foundation: [renderFoundation, bindFoundation],
     lesson: [() => renderLesson(route.params), bindLesson],
     teps: [() => renderTeps(route.params), bindTeps],

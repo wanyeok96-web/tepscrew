@@ -111,6 +111,7 @@ tepscrew/
 ├── README.md
 ├── data/
 │   ├── foundation.json / vocabulary.json / …
+│   ├── guide.json
 │   └── packs/
 │       ├── manifest.json
 │       ├── TEPS_Crew_Pack_001.json

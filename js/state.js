@@ -65,6 +65,7 @@ const state = {
     grammar: null,
     reading: null,
     listening: null,
+    guide: null,
   },
   learningRecords: [],
   reviewQueue: [],
@@ -570,14 +571,15 @@ async function ensureQuestionBankSeeded() {
 }
 
 async function loadContent() {
-  const [foundation, vocabulary, grammar, reading, listening] = await Promise.all([
+  const [foundation, vocabulary, grammar, reading, listening, guide] = await Promise.all([
     fetchJson('./data/foundation.json'),
     fetchJson('./data/vocabulary.json'),
     fetchJson('./data/grammar.json'),
     fetchJson('./data/reading.json'),
     fetchJson('./data/listening.json'),
+    fetchJson('./data/guide.json'),
   ]);
-  state.content = { foundation, vocabulary, grammar, reading, listening };
+  state.content = { foundation, vocabulary, grammar, reading, listening, guide };
 }
 
 async function loadProgressCaches() {

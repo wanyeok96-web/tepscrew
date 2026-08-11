@@ -81,6 +81,7 @@ export function renderDashboard() {
           </p>
           <div class="home-cta-row">
             <button type="button" class="btn btn-primary btn-lg" data-nav="diagnosis">🚀 빠른 진단 시작</button>
+            <button type="button" class="btn btn-secondary btn-lg" data-nav="guide">🗺️ TEPS 가이드</button>
             <button type="button" class="btn btn-secondary btn-lg" id="welcome-dismiss">👀 먼저 둘러보기</button>
           </div>
           <p class="home-footnote">🔐 로그인 없음 · ✨ AI는 선택 · ✅ 지금 바로 학습 가능</p>
@@ -140,9 +141,10 @@ export function renderDashboard() {
         ${
           !hasScore
             ? `<div class="home-inline-cta">
-                <p>첫 진단으로 시작점을 정하면 Today 추천이 열립니다.</p>
+                <p>첫 진단으로 시작점을 정하면 Today 추천이 열립니다. TEPS 구조가 궁금하면 가이드를 먼저 보세요.</p>
                 <div class="home-cta-row">
                   <button type="button" class="btn btn-primary" data-nav="diagnosis">🚀 빠른 진단</button>
+                  <button type="button" class="btn btn-secondary" data-nav="guide">🗺️ TEPS 가이드</button>
                   <button type="button" class="btn btn-secondary" data-nav="practice">✏️ 문제훈련</button>
                 </div>
               </div>`

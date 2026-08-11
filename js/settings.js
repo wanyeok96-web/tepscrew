@@ -18,6 +18,7 @@ import { validateQuestionBank } from './validator.js';
 import { testAiConnection, getAiStatus } from './ai/ai-service.js';
 import { AI_CONFIG } from './ai/ai-config.js';
 import { showConfirmModal, setLoading } from './ui/modal.js';
+import { navigate } from './router.js';
 import { difficultyLabel } from './content/packs.js';
 
 export function renderSettings() {
@@ -181,11 +182,10 @@ export function renderSettings() {
       <section class="card">
         <h2>❓ 도움말</h2>
         <ul class="bullet-list">
-          <li>처음에는 Quick Diagnosis로 시작점을 확인하세요.</li>
+          <li>자세한 TEPS 이해·준비법·앱 순서는 <button type="button" class="linkish" data-nav="guide">가이드</button> 탭을 보세요.</li>
           <li>홈의 오늘 학습 → 문제풀이 → 오답복습 순으로 루틴을 만드세요.</li>
-          <li>Mini TEPS로 현재 위치를, 327 Target으로 약점을 보완하세요.</li>
-          <li>AI는 설정에서 연결하면 Tutor로 활용할 수 있습니다.</li>
-          <li>중요한 순간마다 백업을 내보내 두세요.</li>
+          <li>Mini TEPS로 위치를, 327 Target으로 약점을 보완하세요.</li>
+          <li>AI·백업은 위 설정에서 관리합니다.</li>
         </ul>
       </section>
     </section>
@@ -375,5 +375,9 @@ export function bindSettings(root) {
     } catch (err) {
       showToast(err.message || '초기화에 실패했습니다.', 'error');
     }
+  });
+
+  root.querySelectorAll('[data-nav]').forEach((el) => {
+    el.addEventListener('click', () => navigate(el.getAttribute('data-nav') || 'home'));
   });
 }
