@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="텝스크루 — TEPS 327점을 향한 성인 영어 학습 앱" />
+    <title>TEPS Crew · 텝스크루</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app" class="app-shell">
+      <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+
+      <aside class="sidebar" id="sidebar" aria-label="주 메뉴">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">327</div>
+          <div class="brand-text">
+            <strong>TEPS Crew</strong>
+            <span>텝스크루</span>
+          </div>
+        </div>
+        <p class="brand-tagline">327을 향한 나의 TEPS 학습</p>
+        <nav class="side-nav" id="side-nav"></nav>
+      </aside>
+
+      <div class="main-column">
+        <header class="topbar" id="topbar">
+          <button
+            type="button"
+            class="icon-btn"
+            id="menu-toggle"
+            aria-label="메뉴 열기"
+            aria-controls="sidebar"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+          <div class="topbar-brand">
+            <strong>TEPS Crew</strong>
+            <span>텝스크루</span>
+          </div>
+          <span class="topbar-target" title="목표점수">목표 327</span>
+        </header>
+
+        <main id="main-content" class="main-content" tabindex="-1">
+          <div class="boot-screen" id="boot-screen">
+            <div class="boot-card">
+              <div class="brand-mark brand-mark-pulse">327</div>
+              <p id="boot-status">텝스크루를 준비하는 중…</p>
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <nav class="bottom-nav" id="bottom-nav" aria-label="모바일 메뉴"></nav>
+      <div class="sidebar-backdrop" id="sidebar-backdrop" hidden></div>
+    </div>
+
+    <!-- Classic bundle: works with file:// double-click and http:// -->
+    <script src="./app.bundle.js" defer></script>
+  </body>
+</html>
