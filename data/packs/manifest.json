@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "tepscrew-pack-001",
+      "title": "TEPS Crew Pack 001",
+      "version": 1,
+      "sections": ["vocabulary", "grammar"],
+      "questionCount": 50,
+      "file": "./data/packs/TEPS_Crew_Pack_001.json",
+      "notes": "Vocabulary 25 + Grammar 25 · TEPS 327 Target 학습용 자체 제작 문항"
+    },
+    {
+      "id": "tepscrew-pack-002",
+      "title": "TEPS Crew Pack 002",
+      "version": 1,
+      "sections": ["reading", "listening"],
+      "questionCount": 22,
+      "file": "./data/packs/TEPS_Crew_Pack_002.json",
+      "notes": "Reading 12 + Listening 10 · TEPS 327 Target 학습용 자체 제작 문항"
+    }
+  ]
+}

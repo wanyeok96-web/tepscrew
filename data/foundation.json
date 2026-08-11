@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "demo": true,
+  "lessons": [
+    {
+      "id": "F-001",
+      "order": 1,
+      "title": "영어 문장의 뼈대",
+      "category": "sentence",
+      "estimatedMinutes": 12,
+      "status": "recommended",
+      "objectives": [
+        "영어 문장의 기본 구조를 이해한다",
+        "주어·동사·목적어·보어의 역할을 구분한다",
+        "간단한 문장을 구조적으로 분석한다"
+      ],
+      "concept": {
+        "summary": "영어 문장은 주어(Subject)와 동사(Verb)를 중심으로 구성됩니다. 여기에 목적어(Object)나 보어(Complement)가 더해지며 의미가 완성됩니다.",
+        "points": [
+          "S + V : 주어가 무엇을 한다",
+          "S + V + O : 주어가 목적어에게 행위한다",
+          "S + V + C : 주어의 상태를 보어로 설명한다",
+          "S + V + O + C / S + V + IO + DO : 문장이 확장된다"
+        ]
+      },
+      "examples": [
+        {
+          "en": "She studies.",
+          "ko": "그녀는 공부한다.",
+          "structure": "S + V"
+        },
+        {
+          "en": "He reads a book.",
+          "ko": "그는 책을 읽는다.",
+          "structure": "S + V + O"
+        },
+        {
+          "en": "The soup tastes delicious.",
+          "ko": "그 수프는 맛있다.",
+          "structure": "S + V + C"
+        }
+      ],
+      "checks": [
+        {
+          "id": "F-001-Q1",
+          "question": "\"Tom opened the door.\"의 문장 구조는?",
+          "choices": ["S + V", "S + V + O", "S + V + C", "S + V + IO + DO"],
+          "answer": 1,
+          "explanation": "Tom(주어)이 opened(동사)로 the door(목적어)를 열었습니다. S + V + O 구조입니다."
+        },
+        {
+          "id": "F-001-Q2",
+          "question": "다음 중 보어(Complement)가 있는 문장은?",
+          "choices": [
+            "I bought a ticket.",
+            "She became a teacher.",
+            "They watched a movie.",
+            "We closed the window."
+          ],
+          "answer": 1,
+          "explanation": "became 다음에 오는 a teacher는 주어 She의 상태를 설명하는 보어입니다."
+        },
+        {
+          "id": "F-001-Q3",
+          "question": "영어 문장에서 가장 중심이 되는 두 요소는?",
+          "choices": ["형용사와 부사", "전치사와 접속사", "주어와 동사", "목적어와 보어"],
+          "answer": 2,
+          "explanation": "주어와 동사는 영어 문장의 뼈대입니다. 나머지 요소는 이 위에 확장됩니다."
+        }
+      ]
+    },
+    {
+      "id": "F-002",
+      "order": 2,
+      "title": "품사",
+      "category": "sentence",
+      "estimatedMinutes": 10,
+      "status": "not_started",
+      "objectives": [
+        "주요 품사의 역할을 이해한다",
+        "문장 속에서 품사를 식별한다"
+      ],
+      "concept": {
+        "summary": "품사는 단어가 문장에서 하는 역할입니다. 명사, 동사, 형용사, 부사, 전치사, 접속사 등을 구분할 수 있어야 합니다.",
+        "points": [
+          "명사: 사람·사물·개념의 이름",
+          "동사: 동작이나 상태",
+          "형용사: 명사를 수식",
+          "부사: 동사·형용사·다른 부사를 수식"
+        ]
+      },
+      "examples": [
+        {
+          "en": "A careful student reads slowly.",
+          "ko": "신중한 학생은 천천히 읽는다.",
+          "structure": "형용사 careful / 부사 slowly"
+        }
+      ],
+      "checks": []
+    },
+    {
+      "id": "F-003",
+      "order": 3,
+      "title": "주어와 동사",
+      "category": "sentence",
+      "estimatedMinutes": 10,
+      "status": "not_started",
+      "objectives": ["주어와 동사의 일치를 이해한다"],
+      "concept": {
+        "summary": "주어의 수(단수/복수)에 따라 동사 형태가 달라집니다. 수일치(Subject-Verb Agreement)는 TEPS 문법의 기본입니다.",
+        "points": ["단수 주어 → 단수 동사", "복수 주어 → 복수 동사", "집합명사·부정대명사에 주의"]
+      },
+      "examples": [],
+      "checks": []
+    },
+    {
+      "id": "F-004",
+      "order": 4,
+      "title": "목적어와 보어",
+      "category": "sentence",
+      "estimatedMinutes": 10,
+      "status": "not_started",
+      "objectives": [],
+      "concept": { "summary": "", "points": [] },
+      "examples": [],
+      "checks": []
+    },
+    {
+      "id": "F-005",
+      "order": 5,
+      "title": "시제",
+      "category": "grammar",
+      "estimatedMinutes": 15,
+      "status": "not_started",
+      "objectives": [],
+      "concept": { "summary": "", "points": [] },
+      "examples": [],
+      "checks": []
+    },
+    {
+      "id": "F-006",
+      "order": 6,
+      "title": "조동사",
+      "category": "grammar",
+      "estimatedMinutes": 12,
+      "status": "not_started",
+      "objectives": [],
+      "concept": { "summary": "", "points": [] },
+      "examples": [],
+      "checks": []
+    },
+    {
+      "id": "F-007",
+      "order": 7,
+      "title": "수동태",
+      "category": "grammar",
+      "estimatedMinutes": 12,
+      "status": "not_started",
+      "objectives": [],
+      "concept": { "summary": "", "points": [] },
+      "examples": [],
+      "checks": []
+    },
+    {
+      "id": "F-008",
+      "order": 8,
+      "title": "to부정사",
+      "category": "grammar",
+      "estimatedMinutes": 12,
+      "status": "not_started",
+      "objectives": [],
+      "concept": { "summary": "", "points": [] },
+      "examples": [],
+      "checks": []
+    },
+    {
+      "id": "F-009",
+      "order": 9,
+      "title": "동명사",
+      "category": "grammar",
+      "estimatedMinutes": 12,
+      "status": "not_started",
+      "objectives": [],
+      "concept": { "summary": "", "points": [] },
+      "examples": [],
+      "checks": []
+    },
+    {
+      "id": "F-010",
+      "order": 10,
+      "title": "분사",
+      "category": "grammar",
+      "estimatedMinutes": 12,
+      "status": "not_started",
+      "objectives": [],
+      "concept": { "summary": "", "points": [] },
+      "examples": [],
+      "checks": []
+    },
+    {
+      "id": "F-011",
+      "order": 11,
+      "title": "접속사",
+      "category": "grammar",
+      "estimatedMinutes": 12,
+      "status": "not_started",
+      "objectives": [],
+      "concept": { "summary": "", "points": [] },
+      "examples": [],
+      "checks": []
+    },
+    {
+      "id": "F-012",
+      "order": 12,
+      "title": "관계사",
+      "category": "grammar",
+      "estimatedMinutes": 15,
+      "status": "not_started",
+      "objectives": [],
+      "concept": { "summary": "", "points": [] },
+      "examples": [],
+      "checks": []
+    }
+  ],
+  "categories": [
+    { "id": "sentence", "title": "문장 기초", "description": "영어 문장의 기본 구조를 다시 세웁니다." },
+    { "id": "grammar", "title": "문법 기초", "description": "핵심 문법 개념을 정리합니다." },
+    { "id": "expand", "title": "문장 확장", "description": "더 긴 문장을 읽고 쓰는 힘을 키웁니다." },
+    { "id": "reading", "title": "독해 기초", "description": "짧은 지문부터 독해 감각을 회복합니다." },
+    { "id": "listening", "title": "청해 기초", "description": "기본 청취 패턴에 익숙해집니다." }
+  ]
+}

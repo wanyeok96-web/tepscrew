@@ -1,0 +1,1352 @@
+[
+{
+"id": "V-PHR-0001",
+"section": "vocabulary",
+"part": 1,
+"type": "phrasal-verb",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["phrasal-verb", "workplace"],
+"question": "Choose the option that best completes the blank.",
+"passage": "A: I heard you're relocating to Busan next month.\nB: Right. The company asked me to ___ the branch office there.",
+"choices": ["take over", "take off", "take up", "take in"],
+"answer": 0,
+"explanation": {
+"summary": "지사(branch office)를 '맡아 운영한다'는 의미가 필요하므로 경영권·업무를 인수한다는 뜻의 phrasal verb를 고른다.",
+"evidence": "The company asked me to ___ the branch office라는 문맥에서 목적어가 조직(office)이므로 '인수하다, 맡다'의 의미만 성립한다.",
+"choiceAnalysis": [
+"정답. take over는 '(업무·조직·역할을) 인계받아 맡다'라는 뜻으로 branch office와 자연스럽게 결합한다.",
+"오답(Collocation Trap). take off는 '이륙하다, (옷을) 벗다, 휴가를 내다'로 조직을 목적어로 취하지 않는다.",
+"오답(Collocation Trap). take up은 '(취미·공간·시간을) 차지하다, 시작하다'로 조직 운영의 의미가 없다.",
+"오답(Collocation Trap). take in은 '이해하다, 받아들이다, (옷을) 줄이다'로 문맥에 맞지 않는다."
+]
+},
+"collocations": ["take over a business", "take over a role", "take over from someone"],
+"synonyms": ["assume control of", "run"],
+"confusableWords": ["take off", "take up", "take in"],
+"vocabulary": [{"word": "branch office", "meaning": "지사, 지점"}],
+"skills": ["collocation", "context", "phrasal-verb"]
+},
+{
+"id": "V-COL-0002",
+"section": "vocabulary",
+"part": 2,
+"type": "collocation",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["collocation", "organization"],
+"question": "Choose the option that best completes the blank.",
+"passage": "After three hours of debate, the committee finally ___ a decision on next year's budget.",
+"choices": ["arrived", "concluded", "reached", "accomplished"],
+"answer": 2,
+"explanation": {
+"summary": "decision과 결합하는 동사 collocation을 묻는 문제로, '결론에 이르다'를 뜻하는 동사를 고른다.",
+"evidence": "빈칸 뒤에 전치사 없이 목적어 a decision이 바로 오므로 타동사로 decision을 취할 수 있는 동사여야 한다.",
+"choiceAnalysis": [
+"오답(Grammar Trap). arrive는 자동사여서 arrive at a decision처럼 전치사 at이 반드시 필요하다.",
+"오답(Collocation Trap). conclude는 conclude a meeting/an agreement에는 쓰이지만 conclude a decision은 어색하다.",
+"정답. reach a decision은 '(논의 끝에) 결정을 내리다'라는 표준 collocation이다.",
+"오답(Collocation Trap). accomplish는 goal, task, mission과 어울리며 decision과는 결합하지 않는다."
+]
+},
+"collocations": ["reach a decision", "reach an agreement", "arrive at a conclusion"],
+"synonyms": ["settle on", "come to"],
+"confusableWords": ["arrive at", "conclude"],
+"vocabulary": [{"word": "committee", "meaning": "위원회"}],
+"skills": ["collocation", "verb-noun-pattern"]
+},
+{
+"id": "V-CTX-0003",
+"section": "vocabulary",
+"part": 2,
+"type": "context",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["context", "society"],
+"question": "Choose the option that best completes the blank.",
+"passage": "The witness's account ___ with the security footage, which cast serious doubt on his testimony.",
+"choices": ["contrasted", "conflicted", "competed", "collided"],
+"answer": 1,
+"explanation": {
+"summary": "'진술의 신빙성이 의심받았다'는 결과절이 단서이므로, 두 정보가 서로 '모순된다'는 뜻의 동사를 고른다.",
+"evidence": "which cast serious doubt on his testimony는 진술과 영상이 단순히 다른 것이 아니라 서로 어긋났음을 나타낸다.",
+"choiceAnalysis": [
+"오답(Partial Match). contrast with는 '대조를 이루다'로 차이를 부각할 뿐 모순·충돌의 의미는 약해 의심의 근거가 되기 어렵다.",
+"정답. conflict with는 '(정보·진술이) 상충하다, 모순되다'라는 뜻으로 신빙성 훼손이라는 결과와 이어진다.",
+"오답(Collocation Trap). compete with는 '경쟁하다'로 사람·기업 등이 주어일 때 쓰인다.",
+"오답(Context Trap). collide with는 주로 물리적 충돌을 의미하며 진술과 영상에는 쓰지 않는다."
+]
+},
+"collocations": ["conflict with the evidence", "cast doubt on", "conflicting accounts"],
+"synonyms": ["contradict", "clash with"],
+"confusableWords": ["contrast with", "collide with"],
+"vocabulary": [{"word": "account", "meaning": "진술, 설명"}, {"word": "cast doubt on", "meaning": "~에 의문을 제기하다"}],
+"skills": ["context", "logical-reasoning", "collocation"]
+},
+{
+"id": "V-PHR-0004",
+"section": "vocabulary",
+"part": 1,
+"type": "phrasal-verb",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["phrasal-verb", "schedule"],
+"question": "Choose the option that best completes the blank.",
+"passage": "A: Aren't we presenting the proposal tomorrow?\nB: Didn't you hear? They ___ the meeting until next Friday.",
+"choices": ["put out", "put down", "put away", "put off"],
+"answer": 3,
+"explanation": {
+"summary": "until next Friday라는 시간 표현이 결정적 단서로, '연기하다'를 뜻하는 phrasal verb를 고른다.",
+"evidence": "회의가 다음 주 금요일까지 미뤄졌다는 흐름이므로 일정 연기의 의미가 필요하다.",
+"choiceAnalysis": [
+"오답(Collocation Trap). put out은 '(불을) 끄다, 내놓다'로 일정에는 쓰지 않는다.",
+"오답(Collocation Trap). put down은 '내려놓다, 적어두다, 진압하다'로 문맥과 맞지 않는다.",
+"오답(Collocation Trap). put away는 '치워 두다, 저축하다'라는 뜻이다.",
+"정답. put off는 '(일정을) 연기하다'로 뒤의 until next Friday와 자연스럽게 이어진다."
+]
+},
+"collocations": ["put off a meeting", "put off until later", "postpone indefinitely"],
+"synonyms": ["postpone", "push back"],
+"confusableWords": ["put out", "put down", "put away"],
+"vocabulary": [{"word": "proposal", "meaning": "제안(서)"}],
+"skills": ["collocation", "context", "phrasal-verb"]
+},
+{
+"id": "V-COL-0005",
+"section": "vocabulary",
+"part": 2,
+"type": "collocation",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["collocation", "work"],
+"question": "Choose the option that best completes the blank.",
+"passage": "Unless we bring in additional staff, we won't be able to ___ the deadline.",
+"choices": ["keep", "meet", "catch", "follow"],
+"answer": 1,
+"explanation": {
+"summary": "deadline과 함께 쓰이는 기본 동사 collocation을 확인하는 문제다.",
+"evidence": "인력이 부족하면 '기한을 지키지 못한다'는 의미이므로 deadline의 짝이 되는 동사를 골라야 한다.",
+"choiceAnalysis": [
+"오답(Collocation Trap). keep은 keep a promise/an appointment에는 쓰이지만 keep the deadline은 자연스럽지 않다.",
+"정답. meet the deadline은 '기한을 맞추다'라는 고정 collocation이다.",
+"오답(Collocation Trap). catch는 catch a train/a cold처럼 쓰이며 deadline과 결합하지 않는다.",
+"오답(Collocation Trap). follow는 follow instructions/a rule에 쓰인다."
+]
+},
+"collocations": ["meet a deadline", "miss a deadline", "extend a deadline"],
+"synonyms": ["make the deadline"],
+"confusableWords": ["keep a promise", "follow a rule"],
+"vocabulary": [{"word": "bring in", "meaning": "(인력을) 투입하다, 영입하다"}],
+"skills": ["collocation", "verb-noun-pattern"]
+},
+{
+"id": "V-SYN-0006",
+"section": "vocabulary",
+"part": 2,
+"type": "synonym-distinction",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["synonym", "travel"],
+"question": "Choose the option that best completes the blank.",
+"passage": "Our flight was ___ for nearly three hours because of dense fog at the airport.",
+"choices": ["canceled", "suspended", "delayed", "postponed"],
+"answer": 2,
+"explanation": {
+"summary": "'세 시간 동안'이라는 지속 시간 표현이 단서이므로, 예정보다 늦어졌지만 결국 진행된 상황을 나타내는 단어를 고른다.",
+"evidence": "for nearly three hours는 출발이 그만큼 지체되었음을 뜻하며, 운항 자체가 없어졌다는 의미는 아니다.",
+"choiceAnalysis": [
+"오답(Reversal). cancel은 아예 취소되어 진행되지 않는 것이므로 '세 시간 동안'과 함께 쓸 수 없다.",
+"오답(Scope Error). suspend는 운항·서비스를 일시 중단하는 제도적 조치를 뜻해 개별 항공편의 지연에는 어색하다.",
+"정답. delay는 '예정보다 늦어지다'로 for + 기간과 결합해 지연 시간을 나타낸다.",
+"오답(Context Trap). postpone은 다른 날짜·시점으로 일정을 다시 잡는 것이라 기상으로 인한 몇 시간 지연에는 맞지 않는다."
+]
+},
+"collocations": ["be delayed for two hours", "a two-hour delay", "postpone until next week"],
+"synonyms": ["hold up"],
+"confusableWords": ["delay", "postpone", "cancel", "suspend"],
+"vocabulary": [{"word": "dense fog", "meaning": "짙은 안개"}],
+"skills": ["context", "synonym-distinction"]
+},
+{
+"id": "V-CTX-0007",
+"section": "vocabulary",
+"part": 2,
+"type": "context",
+"difficulty": 3,
+"targetScoreBand": "280-330",
+"tags": ["context", "education"],
+"question": "Choose the option that best completes the blank.",
+"passage": "The scholarship is ___ to students who maintain a B average or higher.",
+"choices": ["restricted", "reduced", "refused", "removed"],
+"answer": 0,
+"explanation": {
+"summary": "'~인 학생에게만 해당된다'는 자격 제한의 의미를 만드는 단어를 고른다.",
+"evidence": "to students who maintain a B average라는 조건절이 수혜 대상의 범위를 한정하고 있다.",
+"choiceAnalysis": [
+"정답. be restricted to는 '~로 한정되다, ~에게만 주어지다'라는 뜻으로 자격 요건과 함께 쓰인다.",
+"오답(Keyword Trap). reduce는 금액·규모를 줄이는 것으로 be reduced to는 '~로 전락하다'라는 다른 의미가 된다.",
+"오답(Reversal). refuse는 '거절하다'이며 be refused to students라는 형태 자체가 성립하지 않는다.",
+"오답(Context Trap). remove는 '제거하다'로 장학금이 사라졌다는 의미가 되어 조건절과 논리가 맞지 않는다."
+]
+},
+"collocations": ["be restricted to", "be limited to", "maintain an average"],
+"synonyms": ["be limited to", "be confined to"],
+"confusableWords": ["reduce", "restrict"],
+"vocabulary": [{"word": "maintain", "meaning": "유지하다"}],
+"skills": ["context", "collocation"]
+},
+{
+"id": "V-COL-0008",
+"section": "vocabulary",
+"part": 2,
+"type": "collocation",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["collocation", "city"],
+"question": "Choose the option that best completes the blank.",
+"passage": "Several residents ___ concerns about the noise coming from the construction site.",
+"choices": ["rose", "lifted", "increased", "raised"],
+"answer": 3,
+"explanation": {
+"summary": "concerns를 목적어로 취할 수 있는 타동사이자 '문제를 제기하다'라는 뜻의 동사를 고른다.",
+"evidence": "빈칸 뒤에 목적어 concerns가 바로 오므로 타동사여야 하며, 주민이 우려를 표명한 상황이다.",
+"choiceAnalysis": [
+"오답(Grammar Trap). rose는 자동사 rise의 과거형이라 목적어 concerns를 취할 수 없다.",
+"오답(Collocation Trap). lift는 '들어 올리다, (제재를) 해제하다'로 concerns와 결합하지 않는다.",
+"오답(Partial Match). increase는 '우려가 커지다'라는 뜻은 만들 수 있으나, 주민이 문제를 '제기했다'는 행위의 의미는 없다.",
+"정답. raise concerns는 '우려를 제기하다'라는 표준 collocation이다."
+]
+},
+"collocations": ["raise concerns", "raise an issue", "raise a question"],
+"synonyms": ["voice", "express"],
+"confusableWords": ["rise", "raise", "arise"],
+"vocabulary": [{"word": "construction site", "meaning": "공사 현장"}],
+"skills": ["collocation", "sentence-structure"]
+},
+{
+"id": "V-COQ-0009",
+"section": "vocabulary",
+"part": 1,
+"type": "colloquial",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["colloquial", "university"],
+"question": "Choose the option that best completes the blank.",
+"passage": "A: How did your presentation go this morning?\nB: Not well. The moment I saw the audience, I completely ___.",
+"choices": ["broke out", "blanked out", "blacked out", "burned out"],
+"answer": 1,
+"explanation": {
+"summary": "발표가 잘 안 됐다는 흐름에서 '머릿속이 하얘졌다'는 구어 표현을 고른다.",
+"evidence": "The moment I saw the audience는 긴장으로 준비한 내용이 순간적으로 떠오르지 않았음을 시사한다.",
+"choiceAnalysis": [
+"오답(Collocation Trap). break out은 '(전쟁·화재가) 발발하다, 탈출하다'로 사람이 주어인 이 문맥에 맞지 않는다.",
+"정답. blank out은 '(긴장해서) 머릿속이 하얘지다, 아무 생각도 나지 않다'라는 구어 표현이다.",
+"오답(Context Trap). black out은 '의식을 잃다'로 실제 기절을 뜻하므로 지나치게 강한 의미가 된다.",
+"오답(Scope Error). burn out은 장기간 과로로 '소진되다'라는 뜻이라 순간적인 반응을 나타내지 못한다."
+]
+},
+"collocations": ["blank out during a test", "draw a blank"],
+"synonyms": ["go blank", "freeze up"],
+"confusableWords": ["black out", "burn out"],
+"vocabulary": [{"word": "audience", "meaning": "청중"}],
+"skills": ["context", "colloquial-expression"]
+},
+{
+"id": "V-WFM-0010",
+"section": "vocabulary",
+"part": 2,
+"type": "word-form",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["word-form", "culture"],
+"question": "Choose the option that best completes the blank.",
+"passage": "Although the novel was written a century ago, its central themes remain strikingly ___.",
+"choices": ["reliable", "relative", "relevant", "related"],
+"answer": 2,
+"explanation": {
+"summary": "'백 년 전 작품이지만 여전히'라는 양보의 흐름에서 '오늘날에도 유의미한'이라는 뜻의 형용사를 고른다.",
+"evidence": "Although ~ a century ago와 remain이 대비를 이루며 현재에도 의미가 있다는 내용을 요구한다.",
+"choiceAnalysis": [
+"오답(Keyword Trap). reliable은 '믿을 만한'으로 주제의 시의성과는 무관하다.",
+"오답(Keyword Trap). relative는 '상대적인'이라는 뜻으로 문맥이 성립하지 않는다.",
+"정답. relevant는 '(현재 상황과) 관련 있는, 유의미한'이라는 뜻으로 시대를 뛰어넘는 가치라는 흐름에 맞는다.",
+"오답(Grammar Trap). related는 related to의 형태로 대상이 명시되어야 하며 단독으로는 의미가 완성되지 않는다."
+]
+},
+"collocations": ["remain relevant", "highly relevant to", "be related to"],
+"synonyms": ["pertinent", "applicable"],
+"confusableWords": ["relevant", "relative", "related", "reliable"],
+"vocabulary": [{"word": "strikingly", "meaning": "놀랄 만큼, 두드러지게"}],
+"skills": ["context", "word-form"]
+},
+{
+"id": "V-COL-0011",
+"section": "vocabulary",
+"part": 2,
+"type": "collocation",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["collocation", "science"],
+"question": "Choose the option that best completes the blank.",
+"passage": "The article fails to ___ a clear distinction between correlation and causation.",
+"choices": ["draw", "pull", "give", "put"],
+"answer": 0,
+"explanation": {
+"summary": "distinction과 결합하는 동사를 묻는 collocation 문제다.",
+"evidence": "a clear distinction between A and B라는 구조에서 '구분을 짓다'라는 동사가 필요하다.",
+"choiceAnalysis": [
+"정답. draw a distinction은 '구분을 짓다'라는 관용적 collocation이다.",
+"오답(Collocation Trap). pull은 물리적으로 '당기다'라는 뜻이며 distinction과 쓰이지 않는다.",
+"오답(Collocation Trap). give는 give an example/an answer에는 쓰이지만 give a distinction은 어색하다.",
+"오답(Collocation Trap). put은 put a question처럼 제한적으로 쓰이며 이 문맥의 표준 표현이 아니다."
+]
+},
+"collocations": ["draw a distinction", "draw a conclusion", "draw a comparison"],
+"synonyms": ["make a distinction", "differentiate"],
+"confusableWords": ["draw", "give"],
+"vocabulary": [{"word": "causation", "meaning": "인과관계"}, {"word": "correlation", "meaning": "상관관계"}],
+"skills": ["collocation", "logical-reasoning"]
+},
+{
+"id": "V-SYN-0012",
+"section": "vocabulary",
+"part": 2,
+"type": "synonym-distinction",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["synonym", "economy"],
+"question": "Choose the option that best completes the blank.",
+"passage": "Firms that fail to ___ to shifting consumer habits rarely survive more than a decade.",
+"choices": ["admit", "afford", "adopt", "adapt"],
+"answer": 3,
+"explanation": {
+"summary": "전치사 to와 결합해 '변화에 적응하다'라는 의미를 만드는 자동사를 고른다.",
+"evidence": "빈칸 뒤 to shifting consumer habits는 변화하는 환경을 가리키며, 여기에 맞춰 스스로를 바꾼다는 뜻이 필요하다.",
+"choiceAnalysis": [
+"오답(Keyword Trap). admit은 '인정하다, 입장을 허가하다'로 변화 대응의 의미가 없다.",
+"오답(Collocation Trap). afford는 '~할 여유가 있다'로 뒤에 to부정사나 명사 목적어가 오며 문맥이 성립하지 않는다.",
+"오답(Confusable Word). adopt는 '(방침을) 채택하다'라는 타동사로 전치사 to를 취하지 않는다.",
+"정답. adapt to는 '~에 적응하다'로 변화하는 소비 습관에 맞춰 기업이 스스로 변한다는 뜻이 된다."
+]
+},
+"collocations": ["adapt to change", "adopt a policy", "adapt quickly"],
+"synonyms": ["adjust to", "accommodate"],
+"confusableWords": ["adapt", "adopt", "adept"],
+"vocabulary": [{"word": "shifting", "meaning": "변화하는"}],
+"skills": ["collocation", "synonym-distinction", "context"]
+},
+{
+"id": "V-CTX-0013",
+"section": "vocabulary",
+"part": 2,
+"type": "context",
+"difficulty": 4,
+"targetScoreBand": "330-400",
+"tags": ["context", "society"],
+"question": "Choose the option that best completes the blank.",
+"passage": "The prosecution's case rested on evidence far too ___ to convince a jury.",
+"choices": ["fragile", "brittle", "flimsy", "hollow"],
+"answer": 2,
+"explanation": {
+"summary": "evidence를 수식하면서 '설득력이 없고 근거가 빈약하다'는 뜻을 나타내는 형용사를 고른다.",
+"evidence": "too ~ to convince a jury는 증거의 설득력 부족을 의미하므로 '빈약한'이라는 평가어가 필요하다.",
+"choiceAnalysis": [
+"오답(Collocation Trap). fragile은 물건이 '깨지기 쉬운' 상태나 fragile peace처럼 불안정한 상황에 쓰인다.",
+"오답(Context Trap). brittle은 재질이 '쉽게 부서지는'이라는 물리적 성질을 나타낸다.",
+"정답. flimsy evidence는 '근거가 빈약한 증거'라는 고정 collocation이다.",
+"오답(Partial Match). hollow는 hollow promise처럼 '공허한'이라는 뜻으로 주로 말·약속에 쓰인다."
+]
+},
+"collocations": ["flimsy evidence", "flimsy excuse", "convince a jury"],
+"synonyms": ["weak", "unconvincing"],
+"confusableWords": ["fragile", "brittle", "flimsy"],
+"vocabulary": [{"word": "prosecution", "meaning": "검찰 측, 기소"}, {"word": "rest on", "meaning": "~에 근거를 두다"}],
+"skills": ["collocation", "context"]
+},
+{
+"id": "V-IDM-0014",
+"section": "vocabulary",
+"part": 1,
+"type": "idiom",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["idiom", "relationships"],
+"question": "Choose the option that best completes the blank.",
+"passage": "A: Do you think Kevin will finally apologize?\nB: Don't ___ your breath. He's never admitted a mistake in his life.",
+"choices": ["hold", "keep", "catch", "save"],
+"answer": 0,
+"explanation": {
+"summary": "'기대하지 마라'는 뜻의 관용 표현을 완성하는 문제다.",
+"evidence": "뒤 문장 He's never admitted a mistake가 사과 가능성이 희박함을 알려 주므로 부정적 기대를 나타내는 관용구가 와야 한다.",
+"choiceAnalysis": [
+"정답. Don't hold your breath는 '(그 일이 일어나리라고) 기대하지 마라'라는 관용 표현이다.",
+"오답(Collocation Trap). keep은 keep your word/keep quiet 등에 쓰이며 breath와 결합해 이 의미를 만들지 못한다.",
+"오답(Collocation Trap). catch one's breath는 '숨을 고르다'로 의미가 전혀 다르다.",
+"오답(Collocation Trap). save one's breath는 '말해 봐야 소용없으니 말을 아끼다'로 상대의 기대를 겨냥한 표현이 아니다."
+]
+},
+"collocations": ["don't hold your breath", "catch one's breath", "save your breath"],
+"synonyms": ["don't count on it"],
+"confusableWords": ["catch one's breath", "save one's breath"],
+"vocabulary": [{"word": "admit a mistake", "meaning": "잘못을 인정하다"}],
+"skills": ["colloquial-expression", "context"]
+},
+{
+"id": "V-COL-0015",
+"section": "vocabulary",
+"part": 1,
+"type": "collocation",
+"difficulty": 2,
+"targetScoreBand": "200-280",
+"tags": ["collocation", "daily-life"],
+"question": "Choose the option that best completes the blank.",
+"passage": "A: Is your father home right now?\nB: No, he stepped out to ___ a few errands.",
+"choices": ["do", "make", "take", "run"],
+"answer": 3,
+"explanation": {
+"summary": "errands와 결합하는 기본 동사 collocation을 확인하는 문제다.",
+"evidence": "stepped out은 볼일을 보러 잠시 나갔다는 뜻이므로 '용무를 보다'라는 표현이 필요하다.",
+"choiceAnalysis": [
+"오답(Collocation Trap). do는 do the dishes/do homework에 쓰이며 errands와는 결합하지 않는다.",
+"오답(Collocation Trap). make는 make a call/make a reservation 등에 쓰인다.",
+"오답(Collocation Trap). take는 take a break/take a message 등에 쓰인다.",
+"정답. run errands는 '(은행·우체국 등에서) 잡다한 볼일을 보다'라는 고정 표현이다."
+]
+},
+"collocations": ["run errands", "step out", "run an errand for someone"],
+"synonyms": ["do chores outside"],
+"confusableWords": ["do", "make", "take"],
+"vocabulary": [{"word": "errand", "meaning": "심부름, 볼일"}],
+"skills": ["collocation"]
+},
+{
+"id": "V-COL-0016",
+"section": "vocabulary",
+"part": 2,
+"type": "collocation",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["collocation", "business"],
+"question": "Choose the option that best completes the blank.",
+"passage": "First-quarter sales ___ short of the targets the board had set in January.",
+"choices": ["declined", "fell", "dropped", "lowered"],
+"answer": 1,
+"explanation": {
+"summary": "short of와 함께 '목표에 미치지 못하다'라는 관용 표현을 완성하는 문제다.",
+"evidence": "short of the targets라는 표현이 결정적 단서로, 기준에 도달하지 못했음을 나타낸다.",
+"choiceAnalysis": [
+"오답(Partial Match). decline은 '감소하다'라는 의미는 있으나 decline short of라는 결합은 쓰이지 않는다.",
+"정답. fall short of는 '(기대·목표)에 미치지 못하다'라는 표준 관용구다.",
+"오답(Collocation Trap). drop은 수치 하락에는 쓰이지만 short of와 함께 쓰지 않는다.",
+"오답(Grammar Trap). lower는 타동사로 '~을 낮추다'라는 뜻이라 이 구조에서 주어 sales와 맞지 않는다."
+]
+},
+"collocations": ["fall short of expectations", "meet a target", "set a target"],
+"synonyms": ["fail to reach"],
+"confusableWords": ["fall", "lower", "drop"],
+"vocabulary": [{"word": "fall short of", "meaning": "~에 못 미치다"}],
+"skills": ["collocation", "context"]
+},
+{
+"id": "V-WFM-0017",
+"section": "vocabulary",
+"part": 2,
+"type": "word-form",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["word-form", "environment"],
+"question": "Choose the option that best completes the blank.",
+"passage": "Replacing the old bulbs with LEDs turned out to be far more ___ in the long run.",
+"choices": ["economical", "economic", "economy", "economics"],
+"answer": 0,
+"explanation": {
+"summary": "'돈이 덜 드는, 경제적인'이라는 뜻의 형용사를 파생어 중에서 구분하는 문제다.",
+"evidence": "be동사 뒤 보어 자리이며 in the long run은 장기적으로 비용이 절약된다는 의미를 만든다.",
+"choiceAnalysis": [
+"정답. economical은 '비용이 적게 드는, 절약이 되는'이라는 뜻으로 개별 선택의 비용 효율을 나타낸다.",
+"오답(Confusable Word). economic은 '경제의, 경제와 관련된'으로 economic growth처럼 국가 경제를 다룰 때 쓴다.",
+"오답(Grammar Trap). economy는 명사라서 more의 수식을 받아 보어가 되기에 부적절하다.",
+"오답(Grammar Trap). economics는 '경제학'이라는 명사로 문맥과 품사가 모두 맞지 않는다."
+]
+},
+"collocations": ["economical option", "economic growth", "in the long run"],
+"synonyms": ["cost-effective"],
+"confusableWords": ["economic", "economical"],
+"vocabulary": [{"word": "in the long run", "meaning": "장기적으로 보면"}],
+"skills": ["word-form", "context"]
+},
+{
+"id": "V-COL-0018",
+"section": "vocabulary",
+"part": 2,
+"type": "collocation",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["collocation", "education"],
+"question": "Choose the option that best completes the blank.",
+"passage": "The proposal to shorten the semester sparked a ___ debate among faculty members.",
+"choices": ["warm", "burning", "heated", "hot"],
+"answer": 2,
+"explanation": {
+"summary": "debate를 수식해 '격렬한 논쟁'이라는 의미를 만드는 형용사 collocation을 고른다.",
+"evidence": "sparked는 논쟁이 촉발되었음을 뜻하므로 논쟁의 강도를 나타내는 형용사가 필요하다.",
+"choiceAnalysis": [
+"오답(Collocation Trap). warm은 warm welcome처럼 우호적 분위기를 나타내어 논쟁의 강도와 어울리지 않는다.",
+"오답(Collocation Trap). burning은 burning issue(초미의 관심사)에는 쓰이지만 burning debate는 자연스럽지 않다.",
+"정답. heated debate는 '격론'을 뜻하는 표준 collocation이다.",
+"오답(Context Trap). hot은 hot topic에는 쓰이나 debate를 직접 수식하는 관용 표현으로는 쓰이지 않는다."
+]
+},
+"collocations": ["heated debate", "spark a debate", "burning issue"],
+"synonyms": ["fierce", "intense"],
+"confusableWords": ["hot", "heated"],
+"vocabulary": [{"word": "faculty", "meaning": "교수진"}, {"word": "spark", "meaning": "촉발하다"}],
+"skills": ["collocation", "context"]
+},
+{
+"id": "V-CTX-0019",
+"section": "vocabulary",
+"part": 2,
+"type": "context",
+"difficulty": 4,
+"targetScoreBand": "330-400",
+"tags": ["context", "health"],
+"question": "Choose the option that best completes the blank.",
+"passage": "The medication may ___ drowsiness, so patients are advised not to drive after taking it.",
+"choices": ["infect", "inflict", "impose", "induce"],
+"answer": 3,
+"explanation": {
+"summary": "약이 특정 상태를 '유발한다'는 의미의 동사를 고르는 문제다.",
+"evidence": "so patients are advised not to drive는 약 복용이 졸음을 일으킨다는 인과 관계를 보여 준다.",
+"choiceAnalysis": [
+"오답(Keyword Trap). infect는 '감염시키다'로 병원체가 주어일 때 쓰인다.",
+"오답(Grammar Trap). inflict는 inflict damage on someone처럼 피해를 '가하다'라는 뜻이며 전치사 on을 동반한다.",
+"오답(Collocation Trap). impose는 impose a fine/a rule처럼 제재나 규정을 부과할 때 쓴다.",
+"정답. induce는 '(생리적 반응·상태를) 유발하다'라는 뜻으로 의학 문맥에서 자주 쓰인다."
+]
+},
+"collocations": ["induce drowsiness", "induce sleep", "impose a penalty"],
+"synonyms": ["bring about", "cause"],
+"confusableWords": ["induce", "inflict", "impose"],
+"vocabulary": [{"word": "drowsiness", "meaning": "졸음"}],
+"skills": ["context", "collocation"]
+},
+{
+"id": "V-IDM-0020",
+"section": "vocabulary",
+"part": 1,
+"type": "idiom",
+"difficulty": 3,
+"targetScoreBand": "280-330",
+"tags": ["idiom", "daily-life"],
+"question": "Choose the option that best completes the blank.",
+"passage": "A: I can't believe Tom forgot to send out the invitations.\nB: To be fair, he's had a lot ___ his plate this month.",
+"choices": ["over", "on", "in", "at"],
+"answer": 1,
+"explanation": {
+"summary": "'할 일이 많다'는 뜻의 관용구에 들어갈 전치사를 고르는 문제다.",
+"evidence": "To be fair는 상대를 변호하는 표현이므로 Tom이 바빴다는 뜻의 관용구가 이어져야 한다.",
+"choiceAnalysis": [
+"오답(Grammar Trap). over는 have something over one's head처럼 다른 표현과 혼동한 결과다.",
+"정답. have a lot on one's plate는 '처리할 일이 많다'라는 관용 표현이다.",
+"오답(Grammar Trap). in은 접시 위에 놓인다는 이미지와 맞지 않아 이 관용구에서 쓰이지 않는다.",
+"오답(Grammar Trap). at은 장소의 한 지점을 나타내어 이 표현과 결합하지 않는다."
+]
+},
+"collocations": ["have a lot on one's plate", "to be fair", "send out invitations"],
+"synonyms": ["be swamped"],
+"confusableWords": ["on one's plate", "over one's head"],
+"vocabulary": [{"word": "to be fair", "meaning": "공정하게 말하자면"}],
+"skills": ["colloquial-expression", "context"]
+},
+{
+"id": "V-COL-0021",
+"section": "vocabulary",
+"part": 2,
+"type": "collocation",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["collocation", "technology"],
+"question": "Choose the option that best completes the blank.",
+"passage": "The plant added a third production line to ___ the growing demand for its batteries.",
+"choices": ["meet", "answer", "reply", "obey"],
+"answer": 0,
+"explanation": {
+"summary": "demand와 결합하는 동사 collocation을 확인하는 문제다.",
+"evidence": "생산 라인을 늘린 목적은 늘어나는 수요를 '충족하기' 위한 것이다.",
+"choiceAnalysis": [
+"정답. meet demand는 '수요를 충족시키다'라는 표준 collocation이다.",
+"오답(Collocation Trap). answer는 answer a question/the phone에 쓰이며 demand와는 잘 결합하지 않는다.",
+"오답(Grammar Trap). reply는 자동사여서 reply to의 형태가 필요하다.",
+"오답(Context Trap). obey는 '명령·규칙에 복종하다'라는 뜻으로 수요에는 쓰지 않는다."
+]
+},
+"collocations": ["meet demand", "growing demand for", "production line"],
+"synonyms": ["satisfy", "keep up with"],
+"confusableWords": ["meet", "answer"],
+"vocabulary": [{"word": "demand for", "meaning": "~에 대한 수요"}],
+"skills": ["collocation"]
+},
+{
+"id": "V-CTX-0022",
+"section": "vocabulary",
+"part": 2,
+"type": "context",
+"difficulty": 4,
+"targetScoreBand": "330-400",
+"tags": ["context", "communication"],
+"question": "Choose the option that best completes the blank.",
+"passage": "Her entire argument rests on the questionable ___ that all readers share the same cultural background.",
+"choices": ["impression", "conclusion", "assumption", "assertion"],
+"answer": 2,
+"explanation": {
+"summary": "논증의 '토대'가 되는 것, 즉 검증되지 않은 전제를 가리키는 명사를 고른다.",
+"evidence": "rests on은 논증이 무엇 위에 세워졌는지를 나타내므로 결론이 아니라 출발점인 전제가 들어가야 한다.",
+"choiceAnalysis": [
+"오답(Partial Match). impression은 개인적 인상을 뜻해 논증의 논리적 토대를 지칭하지 못한다.",
+"오답(Reversal). conclusion은 논증의 결과이므로 논증이 그 위에 놓인다는 rest on과 방향이 반대다.",
+"정답. assumption은 '(검증되지 않은) 전제, 가정'으로 questionable assumption that ~ 형태로 자주 쓰인다.",
+"오답(Scope Error). assertion은 겉으로 내세운 주장 자체를 가리켜, 논증의 밑바탕이 되는 암묵적 전제와는 층위가 다르다."
+]
+},
+"collocations": ["rest on an assumption", "questionable assumption", "underlying assumption"],
+"synonyms": ["premise", "presupposition"],
+"confusableWords": ["assumption", "assertion", "conclusion"],
+"vocabulary": [{"word": "questionable", "meaning": "의심스러운"}],
+"skills": ["logical-reasoning", "context"]
+},
+{
+"id": "V-WFM-0023",
+"section": "vocabulary",
+"part": 1,
+"type": "word-form",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["word-form", "relationships"],
+"question": "Choose the option that best completes the blank.",
+"passage": "A: I saved you a seat near the front.\nB: That was very ___ of you. Thanks a lot.",
+"choices": ["considering", "considered", "considerable", "considerate"],
+"answer": 3,
+"explanation": {
+"summary": "It/That was very ___ of you 구문에서 사람의 태도를 평가하는 형용사를 고른다.",
+"evidence": "of you 앞에는 사람의 성품을 나타내는 형용사가 오며, 자리를 맡아 준 배려에 감사하는 상황이다.",
+"choiceAnalysis": [
+"오답(Grammar Trap). considering은 '~을 고려하면'이라는 전치사·분사 용법으로 보어 자리에 맞지 않는다.",
+"오답(Grammar Trap). considered는 well-considered처럼 쓰이며 of you 구문의 성품 형용사가 아니다.",
+"오답(Confusable Word). considerable은 '상당한(양·정도)'이라는 뜻으로 사람의 태도를 나타내지 않는다.",
+"정답. considerate는 '사려 깊은, 배려하는'이라는 뜻으로 That was very considerate of you 형태로 쓰인다."
+]
+},
+"collocations": ["considerate of you", "a considerable amount", "save someone a seat"],
+"synonyms": ["thoughtful", "kind"],
+"confusableWords": ["considerate", "considerable"],
+"vocabulary": [{"word": "considerate", "meaning": "사려 깊은"}],
+"skills": ["word-form", "colloquial-expression"]
+},
+{
+"id": "V-COL-0024",
+"section": "vocabulary",
+"part": 1,
+"type": "collocation",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["collocation", "work"],
+"question": "Choose the option that best completes the blank.",
+"passage": "A: How do you manage so many freelance projects at once?\nB: Honestly, it's hard to ___ track of what I've already been paid for.",
+"choices": ["take", "keep", "hold", "make"],
+"answer": 1,
+"explanation": {
+"summary": "track of와 결합해 '~을 파악하고 있다'는 뜻을 만드는 동사를 고른다.",
+"evidence": "지급받은 내역을 계속 파악하기 어렵다는 문맥이므로 지속적인 관리의 의미가 필요하다.",
+"choiceAnalysis": [
+"오답(Collocation Trap). take는 take note of라는 다른 표현과 혼동하기 쉬우나 track과는 결합하지 않는다.",
+"정답. keep track of는 '~을 계속 파악하다, 기록해 두다'라는 고정 표현이다.",
+"오답(Collocation Trap). hold는 hold a meeting/a position 등에 쓰인다.",
+"오답(Collocation Trap). make는 make progress/make a note에 쓰이며 track of와 결합하지 않는다."
+]
+},
+"collocations": ["keep track of", "lose track of", "at once"],
+"synonyms": ["monitor", "stay on top of"],
+"confusableWords": ["keep track of", "take note of"],
+"vocabulary": [{"word": "keep track of", "meaning": "~을 계속 파악하다"}],
+"skills": ["collocation"]
+},
+{
+"id": "V-CTX-0025",
+"section": "vocabulary",
+"part": 2,
+"type": "context",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["context", "society"],
+"question": "Choose the option that best completes the blank.",
+"passage": "After eight months of negotiation, the two sides finally reached a ___ that fully satisfied neither of them.",
+"choices": ["compromise", "comparison", "commitment", "composition"],
+"answer": 0,
+"explanation": {
+"summary": "'어느 쪽도 완전히 만족하지 못했다'는 단서를 통해 서로 양보한 결과를 뜻하는 명사를 고른다.",
+"evidence": "that fully satisfied neither of them은 양측이 각자 일부를 포기했음을 시사한다.",
+"choiceAnalysis": [
+"정답. compromise는 '타협(안)'으로 양측이 양보한 결과라는 문맥과 정확히 일치한다.",
+"오답(Keyword Trap). comparison은 '비교'로 협상 결과를 가리키지 않는다.",
+"오답(Partial Match). commitment는 '약속, 헌신'으로 양측이 불만족스러워한다는 단서와 연결되지 않는다.",
+"오답(Keyword Trap). composition은 '구성, 작문'이라는 뜻으로 문맥에 맞지 않는다."
+]
+},
+"collocations": ["reach a compromise", "reach an agreement", "after months of negotiation"],
+"synonyms": ["settlement", "middle ground"],
+"confusableWords": ["compromise", "commitment"],
+"vocabulary": [{"word": "negotiation", "meaning": "협상"}],
+"skills": ["context", "logical-reasoning"]
+},
+{
+"id": "G-TNS-0001",
+"section": "grammar",
+"part": 2,
+"type": "tense",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["tense", "past-perfect"],
+"concept": "과거완료(대과거)와 기간 표현",
+"question": "Choose the option that best completes the blank.",
+"passage": "By the time the engineer arrived, the server ___ down for nearly two hours.",
+"choices": ["has been", "was being", "had been", "would be"],
+"answer": 2,
+"explanation": {
+"summary": "과거의 특정 시점(arrived)보다 더 앞선 시점부터 이어진 상태를 나타내는 시제를 고른다.",
+"rule": "By the time + 과거시제 절이 오면 주절에는 그보다 앞선 상황을 나타내는 과거완료(had p.p.)를 쓴다. for + 기간과 함께 쓰면 그 시점까지의 지속을 나타낸다.",
+"sentenceAnalysis": "종속절 the engineer arrived가 과거 기준점이고, 서버가 다운된 상태는 그 이전부터 두 시간 가까이 계속되었다.",
+"choiceAnalysis": [
+"오답. has been은 현재완료로 현재까지의 지속을 나타내므로 과거 기준점 arrived와 시제가 충돌한다.",
+"오답. was being은 과거진행 수동 형태로 상태의 지속 기간(for two hours)을 자연스럽게 표현하지 못한다.",
+"정답. had been down for nearly two hours가 과거 시점 이전부터 이어진 상태를 정확히 나타낸다.",
+"오답. would be는 과거에서 본 미래를 뜻해 이미 두 시간 지속된 상황과 맞지 않는다."
+]
+},
+"skills": ["tense", "sentence-structure"]
+},
+{
+"id": "G-SVA-0002",
+"section": "grammar",
+"part": 2,
+"type": "subject-verb-agreement",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["agreement", "education"],
+"concept": "the number of + 복수명사의 수일치",
+"question": "Choose the option that best completes the blank.",
+"passage": "The number of students applying for the exchange program ___ steadily since 2019.",
+"choices": ["has risen", "have risen", "are rising", "were risen"],
+"answer": 0,
+"explanation": {
+"summary": "주어의 핵이 The number이므로 단수 동사를 쓰고, since 2019에 맞춰 현재완료를 선택한다.",
+"rule": "the number of + 복수명사는 '~의 수'로 단수 취급하고, a number of + 복수명사는 '많은 ~'으로 복수 취급한다. since + 과거 시점은 현재완료와 함께 쓴다.",
+"sentenceAnalysis": "applying for the exchange program은 students를 수식하는 현재분사구일 뿐 주어의 수를 바꾸지 않는다.",
+"choiceAnalysis": [
+"정답. 단수 주어 The number에 맞는 has와 since 2019에 어울리는 현재완료가 모두 충족된다.",
+"오답. have는 복수 동사이므로 단수 주어 The number와 수일치가 어긋난다.",
+"오답. are rising은 수일치도 맞지 않고 since 2019와 결합하는 시제도 아니다.",
+"오답. rise는 자동사여서 수동태 were risen 자체가 성립하지 않는다."
+]
+},
+"skills": ["subject-verb-agreement", "tense"]
+},
+{
+"id": "G-REL-0003",
+"section": "grammar",
+"part": 2,
+"type": "relative-clause",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["relative-clause", "university"],
+"concept": "소유격 관계대명사 whose",
+"question": "Choose the option that best completes the blank.",
+"passage": "The professor ___ lecture I attended last semester has just published a new book.",
+"choices": ["whom", "whose", "which", "of whom"],
+"answer": 1,
+"explanation": {
+"summary": "빈칸 뒤에 관사 없는 명사 lecture가 바로 오므로 소유 관계를 나타내는 관계대명사가 필요하다.",
+"rule": "선행사가 사람이고 뒤에 명사가 이어지면 소유격 관계대명사 whose를 쓴다(= the professor's lecture).",
+"sentenceAnalysis": "whose lecture가 관계절 내부에서 attended의 목적어 역할을 하며, 주절의 동사는 has published다.",
+"choiceAnalysis": [
+"오답. whom은 목적격이라 뒤에 명사가 아니라 주어+동사가 이어져야 한다.",
+"정답. whose lecture는 '그 교수의 강의'라는 소유 관계를 정확히 나타낸다.",
+"오답. which는 사람을 선행사로 받을 수 없다.",
+"오답. of whom은 the lecture of whom처럼 명사 뒤에 와야 하며 이 어순에서는 성립하지 않는다."
+]
+},
+"skills": ["relative-clause", "sentence-structure"]
+},
+{
+"id": "G-SUB-0004",
+"section": "grammar",
+"part": 2,
+"type": "subjunctive",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["subjunctive", "business"],
+"concept": "주장·요구·명령 동사 뒤의 that절 가정법 현재",
+"question": "Choose the option that best completes the blank.",
+"passage": "The board insisted that the audit report ___ before the end of the quarter.",
+"choices": ["is submitted", "was submitted", "will be submitted", "be submitted"],
+"answer": 3,
+"explanation": {
+"summary": "insist가 '요구'의 의미로 쓰였으므로 that절 동사는 원형(should 생략형)이어야 한다.",
+"rule": "insist, demand, suggest, require, recommend 등 주장·요구·제안·명령 동사의 that절에서는 (should +) 동사원형을 쓴다. 수동태이면 be p.p. 형태가 된다.",
+"sentenceAnalysis": "the audit report는 제출되는 대상이므로 수동이며, 시제 일치의 영향을 받지 않고 원형 be가 유지된다.",
+"choiceAnalysis": [
+"오답. is submitted는 직설법 현재로, 요구를 나타내는 insist의 that절에는 쓰지 않는다.",
+"오답. was submitted는 시제 일치를 잘못 적용한 형태다.",
+"오답. will be submitted는 단순 예측을 나타내어 요구의 의미를 담지 못한다.",
+"정답. be submitted가 (should) be submitted에서 should가 생략된 표준형이다."
+]
+},
+"skills": ["subjunctive", "verb-form"]
+},
+{
+"id": "G-PTC-0005",
+"section": "grammar",
+"part": 2,
+"type": "participle",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["participle", "culture"],
+"concept": "분사구문의 능동·수동 구분",
+"question": "Choose the option that best completes the blank.",
+"passage": "___ in the 1920s, the theater still hosts a concert almost every weekend.",
+"choices": ["Built", "Building", "Having built", "To build"],
+"answer": 0,
+"explanation": {
+"summary": "주어 the theater가 '지어진' 대상이므로 과거분사로 시작하는 분사구문을 고른다.",
+"rule": "분사구문의 의미상 주어가 행위의 대상이면 과거분사(p.p.)를, 행위의 주체이면 현재분사(-ing)를 쓴다.",
+"sentenceAnalysis": "Built in the 1920s는 Since it was built in the 1920s를 줄인 수동 분사구문이다.",
+"choiceAnalysis": [
+"정답. Built가 수동 관계를 나타내어 '1920년대에 지어진'이라는 의미가 된다.",
+"오답. Building은 극장이 무언가를 짓는다는 능동 의미가 되어 성립하지 않는다.",
+"오답. Having built도 능동 완료형이므로 주어와 의미 관계가 어긋난다.",
+"오답. To build는 목적을 나타내는 부정사로 이 문맥과 맞지 않는다."
+]
+},
+"skills": ["participle", "sentence-structure"]
+},
+{
+"id": "G-CMP-0006",
+"section": "grammar",
+"part": 2,
+"type": "comparison",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["comparison", "technology"],
+"concept": "비교급을 강조하는 부사",
+"question": "Choose the option that best completes the blank.",
+"passage": "The latest model is ___ more energy-efficient than the one it replaced.",
+"choices": ["very", "too", "far", "so"],
+"answer": 2,
+"explanation": {
+"summary": "비교급 more energy-efficient를 강조할 수 있는 부사를 고른다.",
+"rule": "비교급 강조에는 far, much, even, still, a lot을 쓰고, very는 원급을 강조한다.",
+"sentenceAnalysis": "than the one it replaced가 있으므로 비교 구문이 확정되며, 빈칸은 비교급을 강조하는 자리다.",
+"choiceAnalysis": [
+"오답. very는 very efficient처럼 원급만 강조한다.",
+"오답. too는 'too ~ to' 구문에서 부정적 정도를 나타내며 비교급 강조로 쓰이지 않는다.",
+"정답. far more efficient는 '훨씬 더 효율적인'이라는 표준 강조 표현이다.",
+"오답. so는 원급을 강조하거나 so ~ that 구문에 쓰인다."
+]
+},
+"skills": ["comparison", "modifier"]
+},
+{
+"id": "G-CON-0007",
+"section": "grammar",
+"part": 2,
+"type": "conjunction",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["conjunction", "daily-life"],
+"concept": "양보의 전치사와 접속사 구분",
+"question": "Choose the option that best completes the blank.",
+"passage": "___ the heavy rain, the outdoor ceremony went ahead exactly as scheduled.",
+"choices": ["Although", "Despite", "However", "Nevertheless"],
+"answer": 1,
+"explanation": {
+"summary": "빈칸 뒤에 명사구만 있으므로 접속사가 아니라 전치사를 골라야 한다.",
+"rule": "despite/in spite of + 명사(구), although/though + 주어 + 동사. however와 nevertheless는 접속부사로 두 문장을 잇는다.",
+"sentenceAnalysis": "the heavy rain은 절이 아니라 명사구이므로 전치사가 필요하다.",
+"choiceAnalysis": [
+"오답. Although는 접속사여서 뒤에 주어와 동사가 있어야 한다.",
+"정답. Despite는 전치사로 명사구를 목적어로 취해 '~에도 불구하고'를 나타낸다.",
+"오답. However는 접속부사라 명사구를 이끌 수 없다.",
+"오답. Nevertheless도 접속부사이며 보통 앞 문장과 세미콜론이나 마침표로 연결된다."
+]
+},
+"skills": ["conjunction", "sentence-structure"]
+},
+{
+"id": "G-GER-0008",
+"section": "grammar",
+"part": 1,
+"type": "gerund",
+"difficulty": 2,
+"targetScoreBand": "200-280",
+"tags": ["gerund", "workplace"],
+"concept": "mind + 동명사",
+"question": "Choose the option that best completes the blank.",
+"passage": "A: Would you mind ___ a bit later tomorrow?\nB: Not at all. I have nothing planned in the evening.",
+"choices": ["to stay", "stay", "to staying", "staying"],
+"answer": 3,
+"explanation": {
+"summary": "mind는 목적어로 동명사만 취하는 동사임을 확인하는 문제다.",
+"rule": "mind, enjoy, avoid, finish, suggest, consider 등은 목적어로 동명사를 취한다.",
+"sentenceAnalysis": "Would you mind -ing?는 '~해 주시겠어요?'라는 정중한 요청 표현이다.",
+"choiceAnalysis": [
+"오답. to stay는 to부정사로 mind의 목적어가 될 수 없다.",
+"오답. stay는 동사원형이라 목적어 자리에 올 수 없다.",
+"오답. to staying은 mind가 전치사 to를 취하지 않으므로 틀린 형태다.",
+"정답. staying이 mind의 목적어로 쓰인 올바른 동명사 형태다."
+]
+},
+"skills": ["gerund", "verb-pattern"]
+},
+{
+"id": "G-CDT-0009",
+"section": "grammar",
+"part": 2,
+"type": "conditional",
+"difficulty": 4,
+"targetScoreBand": "330-400",
+"tags": ["conditional", "daily-life"],
+"concept": "혼합 가정법",
+"question": "Choose the option that best completes the blank.",
+"passage": "If she ___ the earlier train, she would be sitting in the office right now.",
+"choices": ["had taken", "took", "has taken", "would take"],
+"answer": 0,
+"explanation": {
+"summary": "주절이 현재 사실의 반대(would be ~ right now)이고 조건절은 과거 사실의 반대이므로 혼합 가정법을 쓴다.",
+"rule": "혼합 가정법은 'If + 주어 + had p.p. ~, 주어 + would + 동사원형'의 형태로, 과거의 일이 현재에 미쳤을 결과를 나타낸다.",
+"sentenceAnalysis": "기차를 탄 것은 과거의 일이고, 사무실에 앉아 있는 것은 현재 시점(right now)의 결과다.",
+"choiceAnalysis": [
+"정답. had taken이 과거 사실의 반대를 나타내어 현재 결과를 말하는 주절과 결합한다.",
+"오답. took은 가정법 과거 형태로, 현재 사실의 반대를 가정할 때 쓰므로 과거 행위와 맞지 않는다.",
+"오답. has taken은 직설법 현재완료로 가정법 조건절에 쓰이지 않는다.",
+"오답. would take는 조건절(if절)에 쓰지 않는 형태다."
+]
+},
+"skills": ["conditional", "tense"]
+},
+{
+"id": "G-PSV-0010",
+"section": "grammar",
+"part": 2,
+"type": "passive",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["passive", "administration"],
+"concept": "조동사 + 수동태",
+"question": "Choose the option that best completes the blank.",
+"passage": "All applications ___ by June 30; submissions made after that date will not be reviewed.",
+"choices": ["must receive", "must be receiving", "must be received", "must have received"],
+"answer": 2,
+"explanation": {
+"summary": "주어 applications가 접수되는 대상이므로 조동사 뒤에 수동태를 써야 한다.",
+"rule": "조동사 뒤의 수동태는 '조동사 + be + p.p.' 형태로 쓴다.",
+"sentenceAnalysis": "뒤 절의 will not be reviewed 역시 수동태로, 지원서가 처리 대상임을 확인해 준다.",
+"choiceAnalysis": [
+"오답. must receive는 능동태로 지원서가 무언가를 받는다는 의미가 되어 성립하지 않는다.",
+"오답. must be receiving은 진행형이라 마감 기한과 함께 쓰기에 부적절하고 태도 능동이다.",
+"정답. must be received가 '접수되어야 한다'는 의미의 올바른 조동사 수동태다.",
+"오답. must have received는 과거에 대한 강한 추측을 나타내는 능동형이다."
+]
+},
+"skills": ["passive", "verb-form"]
+},
+{
+"id": "G-PRO-0011",
+"section": "grammar",
+"part": 2,
+"type": "pronoun",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["pronoun", "organization"],
+"concept": "집합명사를 받는 소유격 대명사",
+"question": "Choose the option that best completes the blank.",
+"passage": "The committee announced ___ decision only after a two-hour closed session.",
+"choices": ["their", "its", "it's", "theirs"],
+"answer": 1,
+"explanation": {
+"summary": "committee를 하나의 조직 단위로 보고 단수 소유격 대명사를 쓴다.",
+"rule": "committee, board, team 등 집합명사가 하나의 단위로 행동할 때는 단수 취급하며 소유격은 its를 쓴다. it's는 it is의 축약형이다.",
+"sentenceAnalysis": "announced 뒤의 명사 decision을 수식할 소유격이 필요하며, 위원회가 하나의 결정을 발표했다.",
+"choiceAnalysis": [
+"오답. their는 복수 소유격으로, 위원회를 하나의 단위로 보는 이 문장에서는 어색하다.",
+"정답. its가 단수 집합명사를 받는 올바른 소유격이다.",
+"오답. it's는 it is의 축약형이므로 명사 앞 수식어가 될 수 없다.",
+"오답. theirs는 소유대명사라 뒤에 명사를 둘 수 없다."
+]
+},
+"skills": ["pronoun", "agreement"]
+},
+{
+"id": "G-ART-0012",
+"section": "grammar",
+"part": 2,
+"type": "article",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["article", "university"],
+"concept": "유일한 직책을 나타내는 명사의 무관사 용법",
+"question": "Choose the option that best completes the blank.",
+"passage": "She was elected ___ of the student council last spring.",
+"choices": ["president", "a president", "the presidents", "presidents"],
+"answer": 0,
+"explanation": {
+"summary": "elect, appoint, name 뒤에서 유일한 직책을 나타내는 명사는 관사 없이 쓴다.",
+"rule": "elect/appoint/name + 목적(보)어로 쓰인 직책 명사가 조직 내 유일한 자리를 가리킬 때는 관사를 붙이지 않는다.",
+"sentenceAnalysis": "of the student council가 있어 학생회에 한 명뿐인 회장직임이 분명하다.",
+"choiceAnalysis": [
+"정답. 무관사 president가 유일한 직책을 나타내는 표준 용법이다.",
+"오답. a president는 여러 명 중 하나라는 뜻이 되어 유일한 직책과 어울리지 않는다.",
+"오답. the presidents는 복수형이라 한 사람이 선출된 상황과 맞지 않는다.",
+"오답. presidents 역시 복수형이므로 단수 주어 She와 의미가 충돌한다."
+]
+},
+"skills": ["article", "sentence-structure"]
+},
+{
+"id": "G-PRP-0013",
+"section": "grammar",
+"part": 2,
+"type": "preposition",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["preposition", "science"],
+"concept": "형용사와 결합하는 전치사",
+"question": "Choose the option that best completes the blank.",
+"passage": "The new findings are entirely consistent ___ what earlier studies reported.",
+"choices": ["to", "for", "on", "with"],
+"answer": 3,
+"explanation": {
+"summary": "consistent가 요구하는 고정 전치사를 고르는 문제다.",
+"rule": "be consistent with는 '~와 일치하다'라는 뜻으로 전치사 with를 취한다. be similar to, be responsible for처럼 형용사마다 짝이 되는 전치사를 함께 외워야 한다.",
+"sentenceAnalysis": "what earlier studies reported는 명사절로 전치사의 목적어 역할을 한다.",
+"choiceAnalysis": [
+"오답. to는 similar to, opposed to 등과 결합하며 consistent와는 쓰이지 않는다.",
+"오답. for는 responsible for, famous for 등에 쓰인다.",
+"오답. on은 dependent on, based on 등에 쓰인다.",
+"정답. with가 consistent와 결합해 '~와 일치하는'이라는 의미를 만든다."
+]
+},
+"skills": ["preposition", "collocation"]
+},
+{
+"id": "G-NCL-0014",
+"section": "grammar",
+"part": 2,
+"type": "noun-clause",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["noun-clause", "work"],
+"concept": "불확실성을 나타내는 명사절 접속사 whether",
+"question": "Choose the option that best completes the blank.",
+"passage": "It is not yet clear ___ the new policy will apply to part-time employees as well.",
+"choices": ["that", "what", "whether", "which"],
+"answer": 2,
+"explanation": {
+"summary": "'~인지 아닌지'라는 불확실한 내용을 이끄는 명사절 접속사를 고른다.",
+"rule": "not clear, uncertain, unknown 등 불확실성을 나타내는 표현 뒤에는 whether절이 온다. that절은 사실로 전제된 내용을 이끈다.",
+"sentenceAnalysis": "It은 가주어이고 빈칸 이하가 진주어인 명사절이며, 절 내부는 the new policy will apply로 성분이 모두 갖춰져 있다.",
+"choiceAnalysis": [
+"오답. that은 내용을 사실로 전제하므로 '아직 불분명하다'는 주절과 논리적으로 충돌한다.",
+"오답. what은 절 안에 빠진 명사 성분이 있어야 하는데 이 절은 완전하다.",
+"정답. whether가 '~인지 아닌지'라는 불확실성을 나타내어 not yet clear와 맞물린다.",
+"오답. which는 선택지가 제시된 상황에서 쓰이며 뒤에 명사가 오거나 불완전한 절이 이어져야 한다."
+]
+},
+"skills": ["noun-clause", "logical-reasoning"]
+},
+{
+"id": "G-INV-0015",
+"section": "grammar",
+"part": 2,
+"type": "inversion",
+"difficulty": 4,
+"targetScoreBand": "330-400",
+"tags": ["inversion", "literature"],
+"concept": "부정어구 문두 도치",
+"question": "Choose the option that best completes the blank.",
+"passage": "Not until the final chapter ___ the narrator's real identity.",
+"choices": ["we learn", "do we learn", "we do learn", "learn we"],
+"answer": 1,
+"explanation": {
+"summary": "부정어구 Not until이 문두에 왔으므로 주어와 조동사를 도치해야 한다.",
+"rule": "Not until, Never, Hardly, Little 등 부정어(구)가 문장 앞에 오면 '조동사 + 주어 + 본동사' 어순으로 도치한다. 일반동사는 do/does/did를 사용한다.",
+"sentenceAnalysis": "Not until the final chapter가 부사구로 문두에 나왔고, 주어 we와 본동사 learn이 도치 대상이다.",
+"choiceAnalysis": [
+"오답. we learn은 도치가 적용되지 않은 평서문 어순이다.",
+"정답. do we learn이 부정어구 도치의 올바른 어순이다.",
+"오답. we do learn은 강조형이지만 어순이 도치되지 않았다.",
+"오답. learn we는 본동사를 앞세운 형태로 현대 영어의 도치 규칙에 어긋난다."
+]
+},
+"skills": ["inversion", "sentence-structure"]
+},
+{
+"id": "G-TNS-0016",
+"section": "grammar",
+"part": 2,
+"type": "tense",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["tense", "career"],
+"concept": "과거 시점 기준의 완료 시제",
+"question": "Choose the option that best completes the blank.",
+"passage": "She ___ for the firm for six years when she was offered the directorship.",
+"choices": ["has worked", "works", "is working", "had worked"],
+"answer": 3,
+"explanation": {
+"summary": "제안을 받은 과거 시점까지의 근무 기간을 나타내야 하므로 과거완료를 고른다.",
+"rule": "과거의 어느 시점까지 이어진 기간을 말할 때는 'had p.p. + for + 기간'을 쓴다.",
+"sentenceAnalysis": "when she was offered the directorship이 과거 기준점이고, 6년간의 근무는 그 이전부터의 일이다.",
+"choiceAnalysis": [
+"오답. has worked는 현재까지의 지속을 나타내어 과거 기준점과 충돌한다.",
+"오답. works는 단순 현재형으로 과거의 사건과 시제가 맞지 않는다.",
+"오답. is working은 현재진행형이라 과거 문맥에 쓸 수 없다.",
+"정답. had worked가 과거 시점 이전부터 이어진 6년의 근무를 정확히 나타낸다."
+]
+},
+"skills": ["tense", "time-reference"]
+},
+{
+"id": "G-ADV-0017",
+"section": "grammar",
+"part": 1,
+"type": "adverbial-clause",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["conjunction", "daily-life"],
+"concept": "조건 부사절 접속사 unless",
+"question": "Choose the option that best completes the blank.",
+"passage": "A: ___ you leave within the next ten minutes, you'll miss the last shuttle.\nB: Then I'd better get going right away.",
+"choices": ["Unless", "If", "Although", "Whether"],
+"answer": 0,
+"explanation": {
+"summary": "'지금 나가지 않으면 놓친다'는 논리이므로 부정 조건 접속사를 고른다.",
+"rule": "unless는 'if ~ not'의 의미로 부정 조건을 나타내며, 절 안에 not을 다시 쓰지 않는다.",
+"sentenceAnalysis": "B의 대답 I'd better get going right away가 서둘러야 한다는 뜻이므로 조건절은 부정이어야 한다.",
+"choiceAnalysis": [
+"정답. Unless you leave는 '떠나지 않으면'이라는 뜻으로 뒤 절의 경고와 논리가 맞는다.",
+"오답(Reversal). If를 쓰면 '지금 떠나면 막차를 놓친다'는 정반대 의미가 된다.",
+"오답. Although는 양보를 나타내어 인과 흐름과 맞지 않는다.",
+"오답. Whether는 '~이든 아니든'이라는 뜻으로 조건의 인과 관계를 만들지 못한다."
+]
+},
+"skills": ["conjunction", "logical-reasoning"]
+},
+{
+"id": "G-SVA-0018",
+"section": "grammar",
+"part": 2,
+"type": "subject-verb-agreement",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["agreement", "business"],
+"concept": "each of + 복수명사의 수일치",
+"question": "Choose the option that best completes the blank.",
+"passage": "Each of the three proposals ___ merit, but the budget allows for only one.",
+"choices": ["have", "are having", "has", "having"],
+"answer": 2,
+"explanation": {
+"summary": "주어의 핵이 Each이므로 단수 동사를 써야 한다.",
+"rule": "each of, one of, either of + 복수명사는 단수 취급한다. 전치사구 안의 복수명사에 동사를 맞추지 않도록 주의한다.",
+"sentenceAnalysis": "of the three proposals는 전치사구일 뿐 주어가 아니며, 주어는 Each다.",
+"choiceAnalysis": [
+"오답. have는 복수 동사여서 단수 주어 Each와 맞지 않는다.",
+"오답. are having은 수일치도 틀리고, 상태를 뜻하는 have는 진행형으로 쓰지 않는다.",
+"정답. has가 단수 주어 Each에 맞는 동사다.",
+"오답. having은 준동사여서 문장의 본동사가 될 수 없다."
+]
+},
+"skills": ["subject-verb-agreement", "sentence-structure"]
+},
+{
+"id": "G-REL-0019",
+"section": "grammar",
+"part": 2,
+"type": "relative-clause",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["relative-clause", "science"],
+"concept": "계속적 용법의 관계대명사",
+"question": "Choose the option that best completes the blank.",
+"passage": "The research center, ___ opened in 2019, now employs more than fifty scientists.",
+"choices": ["that", "which", "where", "what"],
+"answer": 1,
+"explanation": {
+"summary": "콤마가 있는 계속적 용법이며 관계절 안에 주어가 비어 있으므로 주격 관계대명사 which가 필요하다.",
+"rule": "관계대명사 that은 계속적 용법(콤마 뒤)에 쓸 수 없다. 선행사가 사물이고 관계절에 주어가 없으면 which를 쓴다.",
+"sentenceAnalysis": "opened in 2019에는 주어가 없으므로 선행사 The research center를 대신할 주격 관계대명사가 들어가야 한다.",
+"choiceAnalysis": [
+"오답. that은 콤마 뒤 계속적 용법으로 쓸 수 없다.",
+"정답. which가 사물 선행사를 받는 주격 관계대명사로 알맞다.",
+"오답. where는 관계부사여서 뒤에 완전한 절이 와야 하는데 주어가 비어 있다.",
+"오답. what은 선행사를 포함하는 관계대명사라 앞에 선행사가 있으면 쓸 수 없다."
+]
+},
+"skills": ["relative-clause", "sentence-structure"]
+},
+{
+"id": "G-ERR-0020",
+"section": "grammar",
+"part": 3,
+"type": "error-identification",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["error-identification", "comparison"],
+"concept": "비교급의 중복 사용",
+"question": "Identify the option that contains an awkward or grammatically incorrect expression.",
+"passage": "(a) A: How did the job interview go yesterday?\n(b) B: Honestly, I think I could have prepared more better.\n(c) A: Don't be so hard on yourself. You've been busy all month.\n(d) B: Thanks. I'll hear back from them next week.",
+"choices": ["(a)", "(b)", "(c)", "(d)"],
+"answer": 1,
+"explanation": {
+"summary": "비교급이 두 번 겹쳐 쓰인 부분을 찾아내는 문제다.",
+"rule": "better는 이미 well/good의 비교급이므로 more를 덧붙일 수 없다. 강조하려면 much better, far better처럼 쓴다.",
+"sentenceAnalysis": "(b)의 more better는 could have prepared better 또는 could have prepared much better로 고쳐야 한다.",
+"choiceAnalysis": [
+"오답. (a)는 과거 시점 yesterday와 과거시제 did가 일치하는 자연스러운 문장이다.",
+"정답. (b)의 more better는 비교급을 중복 사용한 오류다.",
+"오답. (c)는 be hard on oneself라는 관용 표현과 현재완료진행이 모두 적절하다.",
+"오답. (d)는 hear back from someone과 미래 표현 next week이 자연스럽게 쓰였다."
+]
+},
+"skills": ["comparison", "error-identification"]
+},
+{
+"id": "G-ERR-0021",
+"section": "grammar",
+"part": 4,
+"type": "error-identification",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["error-identification", "work"],
+"concept": "가목적어 it의 필요성",
+"question": "Identify the sentence that contains an awkward or grammatically incorrect expression.",
+"passage": "(a) Remote work has become standard practice in a growing number of industries. (b) Many employees say they concentrate better without the constant interruptions of an open office. (c) Others, however, find difficult to draw a line between working hours and personal time. (d) In response, several firms have introduced hybrid schedules that combine the two arrangements.",
+"choices": ["(a)", "(b)", "(c)", "(d)"],
+"answer": 2,
+"explanation": {
+"summary": "5형식 구조에서 가목적어 it이 빠진 문장을 찾는 문제다.",
+"rule": "find/think/make/consider + 목적어 + 목적격보어 구조에서 진목적어가 to부정사구이면 가목적어 it을 반드시 넣어야 한다.",
+"sentenceAnalysis": "(c)는 find it difficult to draw a line ~으로 고쳐야 하며, 현재의 형태는 difficult가 목적어처럼 놓여 구조가 성립하지 않는다.",
+"choiceAnalysis": [
+"오답. (a)는 현재완료 has become과 보어 standard practice가 자연스럽게 결합했다.",
+"오답. (b)는 say 뒤의 that절 생략과 비교급 better의 사용이 모두 적절하다.",
+"정답. (c)는 가목적어 it이 빠져 find difficult to draw가 된 오류다.",
+"오답. (d)는 관계대명사 that이 이끄는 절이 schedules를 정확히 수식한다."
+]
+},
+"skills": ["sentence-structure", "error-identification"]
+},
+{
+"id": "G-PAR-0022",
+"section": "grammar",
+"part": 2,
+"type": "parallelism",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["parallelism", "education"],
+"concept": "상관접속사의 병렬 구조",
+"question": "Choose the option that best completes the blank.",
+"passage": "The internship program aims not only to provide practical experience but also ___ students to professionals in the field.",
+"choices": ["introducing", "introduces", "introduce", "to introduce"],
+"answer": 3,
+"explanation": {
+"summary": "not only A but also B 구조에서 A와 B의 문법 형태를 일치시켜야 한다.",
+"rule": "not only A but also B, both A and B, either A or B 등 상관접속사는 연결되는 두 요소의 품사와 형태를 동일하게 맞춘다.",
+"sentenceAnalysis": "not only 뒤가 to provide이므로 but also 뒤에도 to부정사가 와야 한다.",
+"choiceAnalysis": [
+"오답. introducing은 동명사·분사 형태로 to provide와 병렬을 이루지 못한다.",
+"오답. introduces는 정동사 형태여서 to부정사와 연결될 수 없다.",
+"오답. introduce는 동사원형으로, to provide와 형태가 어긋난다.",
+"정답. to introduce가 to provide와 정확한 병렬 구조를 이룬다."
+]
+},
+"skills": ["parallelism", "sentence-structure"]
+},
+{
+"id": "G-CMP-0023",
+"section": "grammar",
+"part": 2,
+"type": "comparison",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["comparison", "writing"],
+"concept": "the 비교급, the 비교급 구문과 가산명사 수식",
+"question": "Choose the option that best completes the blank.",
+"passage": "The more carefully you proofread, ___ errors your final draft will contain.",
+"choices": ["the fewer", "the less", "fewer", "the fewest"],
+"answer": 0,
+"explanation": {
+"summary": "'~할수록 더 …하다' 구문의 후반부 형태와, 가산명사를 수식하는 비교급을 함께 판단한다.",
+"rule": "'The + 비교급 ~, the + 비교급 ~' 구문에서는 두 번째 절도 반드시 the로 시작한다. 셀 수 있는 명사(errors)에는 fewer를, 셀 수 없는 명사에는 less를 쓴다.",
+"sentenceAnalysis": "앞 절이 The more carefully로 시작하므로 뒤 절도 the + 비교급으로 시작해야 하며, errors는 가산명사다.",
+"choiceAnalysis": [
+"정답. the fewer errors가 구문 형식과 가산명사 수식 조건을 모두 충족한다.",
+"오답. the less는 불가산명사를 수식하므로 errors와 맞지 않는다.",
+"오답. fewer는 the가 빠져 상관 구문의 형식이 깨진다.",
+"오답. the fewest는 최상급이라 이 구문에 쓸 수 없다."
+]
+},
+"skills": ["comparison", "countability"]
+},
+{
+"id": "G-CAU-0024",
+"section": "grammar",
+"part": 1,
+"type": "causative",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["causative", "technology"],
+"concept": "have + 목적어 + 과거분사",
+"question": "Choose the option that best completes the blank.",
+"passage": "A: Is your laptop working again?\nB: Yes, I had the screen ___ right after the crack appeared.",
+"choices": ["repair", "repairing", "repaired", "to repair"],
+"answer": 2,
+"explanation": {
+"summary": "목적어 the screen이 수리되는 대상이므로 사역동사 have 뒤에 과거분사를 쓴다.",
+"rule": "have/get + 목적어 + p.p.는 '~을 …되게 하다'라는 뜻으로 목적어와 보어가 수동 관계일 때 쓴다. 목적어가 행위의 주체이면 동사원형(have him repair)을 쓴다.",
+"sentenceAnalysis": "화면은 스스로 수리하는 주체가 아니라 수리되는 대상이므로 수동 관계다.",
+"choiceAnalysis": [
+"오답. repair는 목적어가 행위의 주체일 때 쓰는 형태로 the screen과 맞지 않는다.",
+"오답. repairing은 능동·진행의 의미가 되어 수동 관계를 나타내지 못한다.",
+"정답. repaired가 목적어와의 수동 관계를 정확히 표현한다.",
+"오답. to repair는 have의 목적격보어로 쓰이지 않는다."
+]
+},
+"skills": ["causative", "verb-form"]
+},
+{
+"id": "G-SUC-0025",
+"section": "grammar",
+"part": 2,
+"type": "structure",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["sentence-structure", "communication"],
+"concept": "such a + 형용사 + 명사 that 구문",
+"question": "Choose the option that best completes the blank.",
+"passage": "It was ___ a persuasive argument that even the harshest critics changed their minds.",
+"choices": ["so", "such", "very", "too"],
+"answer": 1,
+"explanation": {
+"summary": "빈칸 뒤가 'a + 형용사 + 명사'이므로 such를 써야 한다.",
+"rule": "such + a(n) + 형용사 + 명사 + that절, so + 형용사 + a(n) + 명사 + that절. 즉 명사가 포함된 구를 수식할 때는 such를 쓴다.",
+"sentenceAnalysis": "a persuasive argument라는 명사구 전체를 수식하며 that절이 결과를 나타낸다.",
+"choiceAnalysis": [
+"오답. so를 쓰려면 so persuasive an argument처럼 어순을 바꿔야 한다.",
+"정답. such a persuasive argument that ~이 올바른 형식이다.",
+"오답. very는 that절과 결합해 결과 구문을 만들지 못한다.",
+"오답. too는 'too ~ to' 구문에 쓰이며 that절 결과 구문과 어울리지 않는다."
+]
+},
+"skills": ["sentence-structure", "conjunction"]
+}
+]

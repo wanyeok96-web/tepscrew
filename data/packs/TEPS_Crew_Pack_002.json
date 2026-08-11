@@ -1,0 +1,730 @@
+[
+{
+"id": "R-BLK-0001",
+"section": "reading",
+"part": 1,
+"type": "blank",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["blank", "learning", "cause-effect"],
+"question": "Choose the option that best completes the passage.",
+"passage": "Many adults who return to studying English after a long break assume that their earlier knowledge is simply gone. In fact, most of it is still stored; what has weakened is the pathway used to retrieve it. This is why a learner may fail to produce a word in conversation and yet recognize it instantly on a printed page. Recovery therefore depends less on relearning vocabulary from zero than on ___. Short, frequent attempts to recall words without looking them up restore access far more efficiently than rereading long lists.",
+"choices": [
+"rebuilding the ability to recall what is already stored",
+"memorizing an entirely new set of academic words",
+"avoiding conversation until accuracy has improved",
+"replacing reading practice with listening practice"
+],
+"answer": 0,
+"explanation": {
+"summary": "빈칸 앞뒤가 '지식은 남아 있고 인출 경로만 약해졌다 → 그래서 회복은 ___에 달려 있다'는 구조다. 따라서 '이미 저장된 것을 다시 꺼내는 능력의 복구'가 들어가야 한다.",
+"evidence": "most of it is still stored; what has weakened is the pathway used to retrieve it와 마지막 문장의 Short, frequent attempts to recall words가 빈칸 내용을 앞뒤에서 동시에 지지한다.",
+"choiceAnalysis": [
+"정답. still stored(저장은 되어 있음) + attempts to recall(인출 연습)을 한 문장으로 요약한 표현이다.",
+"오답. 지문은 '새 단어를 외우는 것'이 아니라 relearning vocabulary from zero를 오히려 부정하고 있다.",
+"오답. 대화를 피하라는 조언은 지문 어디에도 없으며, 인출 연습을 강조하는 결론과 반대 방향이다.",
+"오답. 읽기와 듣기의 우열은 논점이 아니다. 지문의 대조축은 '인출 연습 vs 수동적 반복 읽기'이다."
+]
+},
+"skills": ["blank", "context", "paraphrase"],
+"vocabulary": [
+{"word": "retrieve", "meaning": "(기억을) 인출하다, 되찾다"},
+{"word": "pathway", "meaning": "경로, 통로"}
+]
+},
+{
+"id": "R-MAI-0002",
+"section": "reading",
+"part": 1,
+"type": "main-idea",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["main-idea", "workplace", "research"],
+"question": "What is the main idea of the passage?",
+"passage": "When open-plan offices spread through the corporate world, they were promoted as engines of collaboration: remove the walls, the argument went, and ideas would circulate freely. Recent workplace research complicates that claim. After one firm moved its staff from cubicles to an open floor, face-to-face interaction fell by roughly seventy percent, while email and instant messaging rose sharply. Employees appear to have responded to the loss of privacy by retreating into headphones and digital channels. The layout did not eliminate communication so much as push it into forms that felt less exposed. Openness, in short, had been designed into the architecture but not into the behavior.",
+"choices": [
+"Open-plan offices often produce the opposite of the interaction they were meant to create.",
+"Employees prefer digital communication no matter how their workplace is arranged.",
+"Cubicles have been shown to be more productive than open floors for most kinds of work.",
+"Companies adopted open-plan layouts mainly in order to reduce real estate costs."
+],
+"answer": 0,
+"explanation": {
+"summary": "'개방형 사무실은 협업을 늘린다'는 통념을 제시한 뒤, 실제로는 대면 소통이 급감하고 디지털 소통으로 옮겨갔다는 반전을 보여주는 글이다. 즉 의도와 결과가 어긋났다는 것이 요지다.",
+"evidence": "Recent workplace research complicates that claim과 face-to-face interaction fell by roughly seventy percent, 그리고 마지막 문장 designed into the architecture but not into the behavior가 핵심이다.",
+"choiceAnalysis": [
+"정답. '협업을 위해 만든 구조가 오히려 대면 소통을 줄였다'는 지문 전체의 반전 구조를 그대로 요약한다.",
+"오답(과잉 일반화). 직원들이 원래 디지털 소통을 선호한다는 말은 없다. 지문은 프라이버시 상실에 대한 '반응'으로 설명한다.",
+"오답(비교 확대). 큐비클과 개방형의 생산성 우열은 언급되지 않았고, 측정된 것은 상호작용 방식의 변화다.",
+"오답(정보 없음). 임대 비용 절감 동기는 지문에 등장하지 않는 외부 지식이다."
+]
+},
+"skills": ["main-idea", "summarize", "author-purpose"],
+"vocabulary": [
+{"word": "circulate", "meaning": "(정보·아이디어가) 돌다, 유통되다"},
+{"word": "complicate a claim", "meaning": "주장을 단순하지 않게 만들다, 반박 근거를 더하다"}
+]
+},
+{
+"id": "R-DET-0003",
+"section": "reading",
+"part": 1,
+"type": "detail",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["detail", "notice", "practical-english"],
+"question": "According to the notice, which of the following is correct?",
+"passage": "NOTICE - Riverside Community Center: Evening English Program\n\nRegistration for the fall term opens on September 2 and closes on September 16. Classes meet twice a week, on Tuesdays and Thursdays, from 7:30 to 9:00 p.m., beginning September 22. The full-term fee is 120,000 won; residents of the Riverside district pay 90,000 won upon presenting proof of address at the front desk. Learners who miss more than four sessions cannot receive a completion certificate, although they may continue to attend the remaining classes. Refunds are available in full until the first class meets, and at fifty percent from that point until the end of the fourth week.",
+"choices": [
+"District residents pay a reduced fee if they show proof of address.",
+"Registration closes on the same day the first class meets.",
+"Learners who miss five sessions are no longer allowed to attend classes.",
+"No refund of any kind is possible once registration has closed."
+],
+"answer": 0,
+"explanation": {
+"summary": "공지의 세부 정보를 대조하는 문제다. 거주민 할인 조건(주소 증빙 제시)이 명시되어 있으므로 첫 번째 선택지가 유일하게 사실과 일치한다.",
+"evidence": "residents of the Riverside district pay 90,000 won upon presenting proof of address가 직접적인 근거다.",
+"choiceAnalysis": [
+"정답. 120,000원 → 90,000원 할인 조건이 proof of address로 명시되어 있다.",
+"오답(날짜 혼동). 등록 마감은 9월 16일, 개강은 9월 22일로 서로 다른 날짜다.",
+"오답(범위 왜곡). 4회 초과 결석 시 잃는 것은 수료증(completion certificate)이며, 수업 참석 자체는 they may continue to attend으로 허용된다.",
+"오답(조건 확대). 등록 마감이 아니라 '첫 수업'을 기준으로 전액 환불이 끝나고, 이후 4주차까지 50% 환불이 가능하다."
+]
+},
+"skills": ["detail", "scanning", "fact-check"],
+"vocabulary": [
+{"word": "proof of address", "meaning": "주소 증빙 서류"},
+{"word": "completion certificate", "meaning": "수료증"}
+]
+},
+{
+"id": "R-INF-0004",
+"section": "reading",
+"part": 1,
+"type": "inference",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["inference", "interview", "attitude"],
+"question": "What can be inferred about Hallward from the passage?",
+"passage": "Reviewers of Hallward's second novel have praised its \"effortless\" prose, a compliment the author receives with visible discomfort. In a recent interview he mentioned, almost in passing, that the opening chapter went through nineteen drafts, and that he had discarded a full year's work before he found the voice of the narrator. He did not offer this to correct the reviewers so much as to describe his method. He added, however, that readers who assume good writing should feel easy tend to stop as soon as it stops feeling that way.",
+"choices": [
+"The apparent ease of his prose conceals a great deal of labor.",
+"He resents reviewers and considers their praise dishonest.",
+"He writes quickly and rarely finds revision necessary.",
+"He encourages new writers to publish their early drafts."
+],
+"answer": 0,
+"explanation": {
+"summary": "'힘들이지 않은 듯한 문체'라는 칭찬에 불편해하면서 19번의 초고와 버린 1년치 원고를 언급한다는 것은, 매끄러움 뒤에 엄청난 노동이 숨어 있다는 뜻이다.",
+"evidence": "praised its \"effortless\" prose ... with visible discomfort와 nineteen drafts, discarded a full year's work의 대조가 추론의 근거다.",
+"choiceAnalysis": [
+"정답. effortless라는 겉모습과 nineteen drafts라는 실제 과정의 대비에서 바로 도출된다.",
+"오답(과도한 추론). He did not offer this to correct the reviewers라고 명시되어 있어 '리뷰어를 원망한다'는 해석은 지나치다.",
+"오답(정반대). 19번의 개고와 1년치 원고 폐기는 '수정을 거의 하지 않는다'와 정면으로 충돌한다.",
+"오답(정보 없음). 초고 출간을 권한다는 언급은 없고, 오히려 쉽게 느껴지지 않을 때 포기하는 태도를 경계한다."
+]
+},
+"skills": ["inference", "attitude", "context"],
+"vocabulary": [
+{"word": "effortless", "meaning": "힘들이지 않은 듯한, 수월해 보이는"},
+{"word": "in passing", "meaning": "말하는 김에, 지나가는 말로"},
+{"word": "discard", "meaning": "버리다, 폐기하다"}
+]
+},
+{
+"id": "R-COH-0005",
+"section": "reading",
+"part": 1,
+"type": "coherence",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["coherence", "odd-sentence", "history"],
+"question": "Choose the sentence that does NOT fit in the context of the passage.",
+"passage": "(a) Sleep researchers long treated the eight-hour night as the human default. (b) Historical records, however, suggest that people in pre-industrial Europe commonly slept in two segments, waking for an hour or so around midnight. (c) During that interval they prayed, talked, mended tools, or visited neighbors before returning to a second sleep. (d) Mattress technology has improved dramatically in both support and durability over the past two decades. (e) The single consolidated block we now consider natural may therefore be a fairly recent product of artificial lighting and industrial work schedules.",
+"choices": ["(b)", "(c)", "(d)", "(e)"],
+"answer": 2,
+"explanation": {
+"summary": "글의 흐름은 '8시간 수면은 기본값이 아니다 → 산업화 이전의 분할 수면 → 그 사이 시간의 활동 → 그러므로 연속 수면은 최근의 산물'이다. 매트리스 기술 발전은 이 논지와 무관하다.",
+"evidence": "(d)의 Mattress technology는 수면의 '역사적 형태'라는 주제축과 연결되지 않으며, (c)와 (e) 사이의 인과 흐름을 끊는다.",
+"choiceAnalysis": [
+"오답. (b)는 however로 (a)의 통념을 뒤집으며 분할 수면이라는 핵심 소재를 도입한다.",
+"오답. (c)는 (b)가 언급한 that interval(한밤중 깨어 있는 시간)을 구체화하는 필수 문장이다.",
+"정답. (d)는 매트리스 산업 기술에 관한 내용으로, 수면 습관의 역사적 변화라는 논지와 무관한 삽입 문장이다.",
+"오답. (e)는 therefore로 앞의 근거를 받아 결론을 내리는 문장으로, 반드시 있어야 한다."
+]
+},
+"skills": ["coherence", "logical-flow", "main-idea"],
+"vocabulary": [
+{"word": "pre-industrial", "meaning": "산업화 이전의"},
+{"word": "consolidated", "meaning": "하나로 합쳐진, 통합된"}
+]
+},
+{
+"id": "R-BLK-0006",
+"section": "reading",
+"part": 1,
+"type": "blank",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["blank", "connector", "education"],
+"question": "Choose the option that best completes the blank.",
+"passage": "Bilingual education programs are usually evaluated after two or three years, and the results tend to look disappointing: students in bilingual classes often lag behind their peers on standardized reading tests. Longer studies tell a different story. By the sixth or seventh year, the same students typically match or surpass classmates who were taught in one language only. ___, the early gap reflects the time required to build two systems at once, not a failure of the method itself.",
+"choices": ["In other words", "Nevertheless", "By contrast", "For instance"],
+"answer": 0,
+"explanation": {
+"summary": "빈칸 문장은 앞에서 제시한 장기 연구 결과를 다시 정리·해석하는 문장이다. 따라서 '바꿔 말하면'에 해당하는 연결어가 필요하다.",
+"evidence": "By the sixth or seventh year ... match or surpass라는 사실을, 뒤 문장이 the early gap reflects the time required ... not a failure of the method로 재진술하고 있다.",
+"choiceAnalysis": [
+"정답. In other words는 앞 내용을 다른 말로 정리·해석할 때 쓰이며, 사실 → 해석의 흐름과 정확히 맞는다.",
+"오답(논리 오류). Nevertheless는 양보·역접인데, 빈칸 앞뒤는 서로 충돌하지 않고 같은 방향이다.",
+"오답(논리 오류). By contrast는 대조 대상이 필요하지만, 빈칸 문장은 앞 문장을 뒤집지 않고 설명한다.",
+"오답(기능 불일치). For instance 뒤에는 구체적 사례가 와야 하는데, 여기서는 일반화된 해석이 이어진다."
+]
+},
+"skills": ["blank", "connector", "logical-flow"],
+"vocabulary": [
+{"word": "lag behind", "meaning": "~보다 뒤처지다"},
+{"word": "surpass", "meaning": "능가하다, 앞지르다"}
+]
+},
+{
+"id": "R-DET-0007",
+"section": "reading",
+"part": 1,
+"type": "detail",
+"difficulty": 3,
+"targetScoreBand": "320-350",
+"tags": ["detail", "history", "science"],
+"question": "According to the passage, which of the following is correct about the Antikythera mechanism?",
+"passage": "The Antikythera mechanism, recovered in 1901 from a Roman-era shipwreck off a Greek island, sat largely unexamined in a museum for decades. Only in the 1970s, when researchers applied X-ray imaging, did the scale of its complexity become clear: at least thirty bronze gears arranged to model the movements of the sun and moon and to predict eclipses. Nothing of comparable intricacy appears again in the surviving record until the astronomical clocks of fourteenth-century Europe. The device was not a navigational instrument, as some early observers had assumed, but a calendrical calculator, and its inscriptions indicate that it was made for users who could read Greek.",
+"choices": [
+"Its internal structure became clear only after imaging technology was used on it.",
+"It was carried by sailors to determine their position at sea.",
+"Devices of similar complexity continued to be produced in the centuries that followed.",
+"It was uncovered during the excavation of a fourteenth-century European site."
+],
+"answer": 0,
+"explanation": {
+"summary": "1901년에 인양되었지만 수십 년간 방치되었고, 1970년대 X선 영상 기술이 적용된 뒤에야 내부 구조가 밝혀졌다는 세부 정보를 확인하는 문제다.",
+"evidence": "Only in the 1970s, when researchers applied X-ray imaging, did the scale of its complexity become clear가 직접 근거다.",
+"choiceAnalysis": [
+"정답. X-ray imaging 적용 시점과 복잡성 규명 시점이 인과적으로 연결되어 있다.",
+"오답(명시적 부정). not a navigational instrument, as some early observers had assumed라고 지문이 직접 부정한다.",
+"오답(정반대). Nothing of comparable intricacy appears again ... until the fourteenth century는 '한동안 단절되었다'는 뜻이다.",
+"오답(시점 혼동). 14세기는 비슷한 정교함이 다시 등장한 시기이고, 발견은 1901년 로마 시대 난파선에서 이루어졌다."
+]
+},
+"skills": ["detail", "scanning", "paraphrase"],
+"vocabulary": [
+{"word": "shipwreck", "meaning": "난파선"},
+{"word": "intricacy", "meaning": "정교함, 복잡함"},
+{"word": "inscription", "meaning": "새겨진 글, 명문"}
+]
+},
+{
+"id": "R-MAI-0008",
+"section": "reading",
+"part": 1,
+"type": "main-idea",
+"difficulty": 4,
+"targetScoreBand": "320-350",
+"tags": ["main-idea", "technology", "labor"],
+"question": "What is the main point of the passage?",
+"passage": "Public discussion of automation usually stalls on a single question: how many jobs will disappear? The framing is convenient but misleading. Occupations are bundles of tasks, and machines rarely take the whole bundle. A radiologist's image-reading may be substantially automated while the consultation, the judgment call, and the legal responsibility remain human work. What changes, then, is not the existence of the job but its internal composition, and with it the skills that command a premium. Policies built around headcount forecasts will keep missing this, because the disruption registers inside occupations long before it shows up in employment statistics.",
+"choices": [
+"Automation reshapes the internal composition of jobs rather than simply erasing them.",
+"Most forecasts greatly exaggerate the number of jobs automation will destroy.",
+"Radiology demonstrates that professional work is essentially resistant to automation.",
+"Employment statistics remain the most reliable measure of technological disruption."
+],
+"answer": 0,
+"explanation": {
+"summary": "'몇 개의 일자리가 사라지는가'라는 질문 자체가 잘못된 틀이며, 실제 변화는 직업의 소멸이 아니라 직업 내부 과업 구성의 재편이라는 것이 핵심이다.",
+"evidence": "What changes, then, is not the existence of the job but its internal composition과 the disruption registers inside occupations가 요지를 직접 진술한다.",
+"choiceAnalysis": [
+"정답. not the existence of the job but its internal composition을 그대로 요약한 진술이다.",
+"오답(미세 왜곡). 지문은 예측치가 '과장되었다'가 아니라 질문의 틀(headcount) 자체가 잘못되었다고 말한다.",
+"오답(과잉 일반화). 방사선과 사례는 '자동화가 불가능하다'가 아니라 '일부 과업만 자동화된다'를 보여주는 예시다.",
+"오답(정반대). 마지막 문장은 고용 통계가 변화를 뒤늦게 반영한다고 지적하므로 신뢰도를 높이 평가하지 않는다."
+]
+},
+"skills": ["main-idea", "author-purpose", "summarize"],
+"vocabulary": [
+{"word": "bundle of tasks", "meaning": "여러 과업의 묶음"},
+{"word": "command a premium", "meaning": "웃돈을 받다, 높은 가치를 인정받다"},
+{"word": "headcount", "meaning": "인원수"}
+]
+},
+{
+"id": "R-INF-0009",
+"section": "reading",
+"part": 1,
+"type": "inference",
+"difficulty": 4,
+"targetScoreBand": "327-target",
+"tags": ["inference", "argument", "causation"],
+"question": "What can be inferred from the passage?",
+"passage": "The city's bicycle-sharing scheme reports that ridership has doubled since the fare was cut in March. Officials cite the figure as proof that price had been the main barrier to use. March, however, was also the month the riverside path opened, connecting two districts that previously had no safe route between them, and the scheme's own data show that nearly forty percent of new trips begin or end at stations along that path. No survey has yet asked riders why they started.",
+"choices": [
+"The claim that the fare cut caused the increase has not yet been established.",
+"The fare reduction had no effect at all on the number of riders.",
+"Most riders would have continued using the scheme at the original fare.",
+"The riverside path was built as a response to rising demand for bicycles."
+],
+"answer": 0,
+"explanation": {
+"summary": "요금 인하와 같은 달에 자전거 도로 개통이라는 다른 변수가 있었고, 이용 동기를 묻는 조사도 없었다. 따라서 인과관계가 아직 입증되지 않았다는 추론만 안전하다.",
+"evidence": "March, however, was also the month the riverside path opened와 No survey has yet asked riders why they started가 인과 단정 불가의 근거다.",
+"choiceAnalysis": [
+"정답. 교란 변수(riverside path)와 자료 부재(no survey)를 근거로 '아직 증명되지 않았다'는 절제된 추론이다.",
+"오답(과도한 추론). 요금 인하 효과가 '전혀 없었다'는 것도 똑같이 근거 없는 단정이다.",
+"오답(정보 없음). 원래 요금에서도 계속 이용했을지는 조사가 없었다고 명시되어 있어 알 수 없다.",
+"오답(인과 역전). 자전거 도로가 수요 증가의 '결과'라는 서술은 없으며, 지문에서는 증가의 잠재적 '원인'으로 제시된다."
+]
+},
+"skills": ["inference", "logical-flow", "critical-reading"],
+"vocabulary": [
+{"word": "ridership", "meaning": "이용객 수, 이용률"},
+{"word": "barrier", "meaning": "장벽, 장애 요인"}
+]
+},
+{
+"id": "R-BLK-0010",
+"section": "reading",
+"part": 1,
+"type": "blank",
+"difficulty": 4,
+"targetScoreBand": "320-350",
+"tags": ["blank", "culture", "abstract"],
+"question": "Choose the option that best completes the blank.",
+"passage": "Museums have spent two decades digitizing their collections, and the benefits are undeniable: a scholar in Seoul can now examine a manuscript held in Oxford without leaving her desk. Curators, however, have begun to notice a side effect. Because digitized items are the ones that get cited, taught, and reproduced, they steadily accumulate scholarly weight, while comparable objects left in storage drift further out of view. The archive, in this sense, ___. What began as neutral preservation quietly becomes a form of selection.",
+"choices": [
+"does not merely record scholarship but helps determine its direction",
+"has grown too large for any single scholar to survey in a lifetime",
+"should be closed to the public until digitization has been completed",
+"reproduces images far more accurately than printed catalogues ever did"
+],
+"answer": 0,
+"explanation": {
+"summary": "디지털화된 자료만 인용·교육·재생산되면서 학문적 비중을 얻고 나머지는 잊힌다는 설명이므로, 아카이브가 연구를 '기록'하는 데 그치지 않고 연구의 방향을 '결정'한다는 진술이 들어가야 한다.",
+"evidence": "digitized items are the ones that get cited, taught, and reproduced와 마지막 문장 neutral preservation quietly becomes a form of selection이 빈칸을 앞뒤로 감싼다.",
+"choiceAnalysis": [
+"정답. '보존'이 사실상 '선별'이 된다는 마지막 문장을 그대로 예고하는 표현이다.",
+"오답(초점 이탈). 아카이브의 규모 문제는 언급되지 않았고, 논점은 크기가 아니라 가시성의 불균형이다.",
+"오답(비약). 대중 공개를 중단하라는 주장은 지문의 어조(관찰과 문제 제기)와도 맞지 않는다.",
+"오답(무관). 복제 정확도는 여기서 다루는 쟁점이 아니며, 뒤 문장의 selection과 연결되지 않는다."
+]
+},
+"skills": ["blank", "logical-flow", "abstract-reasoning"],
+"vocabulary": [
+{"word": "digitize", "meaning": "디지털화하다"},
+{"word": "drift out of view", "meaning": "점차 시야에서 사라지다"},
+{"word": "preservation", "meaning": "보존"}
+]
+},
+{
+"id": "R-COH-0011",
+"section": "reading",
+"part": 1,
+"type": "coherence",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["coherence", "sentence-order", "everyday"],
+"question": "Read the first sentence and choose the best order for the sentences that follow.",
+"passage": "Learning to cook from a recipe is not the same as learning to cook.\n\n(a) At that point the recipe stops being a script and becomes a suggestion.\n(b) A recipe tells you what to do but rarely why, so the first few attempts are mostly imitation.\n(c) Over time, though, you begin to notice patterns: why the onions go in before the garlic, why the pan has to be hot.",
+"choices": ["(b) - (c) - (a)", "(c) - (b) - (a)", "(b) - (a) - (c)", "(a) - (c) - (b)"],
+"answer": 0,
+"explanation": {
+"summary": "'모방 단계(b) → 시간이 지나며 원리를 파악(c) → 그 시점에서 레시피는 제안이 됨(a)'의 시간·논리 순서가 자연스럽다.",
+"evidence": "(c)의 Over time, though가 (b)의 초기 모방 단계를 전제로 하고, (a)의 At that point는 (c)가 말한 '원리를 알게 되는 시점'을 가리킨다.",
+"choiceAnalysis": [
+"정답. 모방 → 패턴 인식 → 레시피의 지위 변화라는 흐름이 지시어 though와 At that point로 모두 연결된다.",
+"오답. (c)의 though는 앞에 반전 대상이 있어야 하므로 (b)보다 앞에 올 수 없다.",
+"오답. (a)의 At that point가 가리킬 시점이 아직 제시되지 않은 상태에서 (a)가 먼저 나올 수 없다.",
+"오답. (a)로 시작하면 첫 문장과 지시 관계가 끊기고, 이어지는 (c)-(b)도 시간 순서가 거꾸로다."
+]
+},
+"skills": ["coherence", "sentence-order", "cohesive-devices"],
+"vocabulary": [
+{"word": "imitation", "meaning": "모방, 따라 하기"},
+{"word": "script", "meaning": "대본, 그대로 따라야 하는 지시문"}
+]
+},
+{
+"id": "R-DET-0012",
+"section": "reading",
+"part": 1,
+"type": "detail",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["detail", "correspondence", "practical-english"],
+"question": "According to the email, which of the following is correct?",
+"passage": "Dear Mr. Baek,\n\nThank you for taking our placement test on July 3. Your overall result places you in Intermediate II, although your listening score fell one band below your reading score. For that reason we recommend enrolling in the standard Intermediate II class and adding the twice-weekly listening lab, which is offered at no additional cost to students enrolled in a regular class. Please note that the lab is capped at twelve participants and places are assigned on a first-come basis. Should you prefer to repeat the placement test, you may do so once, but not until sixty days have passed since your first attempt.\n\nRegards,\nJ. Moon, Academic Office",
+"choices": [
+"The listening lab costs nothing extra for students in a regular class.",
+"Mr. Baek's listening score was higher than his reading score.",
+"He may take the placement test again whenever he wishes.",
+"Every Intermediate II student is guaranteed a place in the listening lab."
+],
+"answer": 0,
+"explanation": {
+"summary": "리스닝 랩의 비용 조건, 점수 관계, 재시험 조건, 정원 제한이 각각 다르게 서술되어 있다. 정규반 수강생에게 랩이 무료라는 점만 사실과 일치한다.",
+"evidence": "which is offered at no additional cost to students enrolled in a regular class가 직접 근거다.",
+"choiceAnalysis": [
+"정답. 정규 수업 등록자에게 추가 비용이 없다는 조건이 그대로 명시되어 있다.",
+"오답(관계 역전). your listening score fell one band below your reading score이므로 리스닝이 더 낮다.",
+"오답(조건 누락). 재시험은 1회, 그것도 첫 응시 후 60일이 지나야 가능하다.",
+"오답(과잉 일반화). 랩은 정원 12명에 선착순(first-come basis)이므로 모두에게 보장되지 않는다."
+]
+},
+"skills": ["detail", "scanning", "fact-check"],
+"vocabulary": [
+{"word": "placement test", "meaning": "레벨 배치 고사"},
+{"word": "capped at", "meaning": "~명으로 정원이 제한된"},
+{"word": "on a first-come basis", "meaning": "선착순으로"}
+]
+},
+{
+"id": "L-RSP-0001",
+"section": "listening",
+"part": 1,
+"type": "response",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["response", "conversation", "study"],
+"question": "Choose the most appropriate response to complete the conversation.",
+"passage": "",
+"transcript": "W: I'm thinking of taking an English test in October, but I haven't studied since college.\nM: ___",
+"choices": [
+"Then start with the basics. There's still plenty of time.",
+"You should have registered before you graduated.",
+"I didn't realize the results had already come out.",
+"Right, October is when the scores expire."
+],
+"answer": 0,
+"explanation": {
+"summary": "'오랫동안 공부를 쉬었다'는 걱정에 대한 자연스러운 반응은 조언과 안심시키기다. 기초부터 시작하라는 제안이 맥락에 맞는다.",
+"evidence": "I haven't studied since college라는 걱정에 대해 대응해야 하므로, 학습 출발점과 남은 기간을 언급한 응답이 적절하다.",
+"choiceAnalysis": [
+"정답. 공백에 대한 해법(기초부터)과 안심(시간이 있다)을 함께 제시하는 자연스러운 응답이다.",
+"오답(시제·논리 오류). 여자는 아직 시험을 준비하는 단계이며, 졸업 전 등록이라는 조언은 상황과 맞지 않는다.",
+"오답(정보 왜곡). 아직 시험을 보지도 않았으므로 '결과가 나왔다'는 전제가 성립하지 않는다.",
+"오답(연상 함정). October만 받아 만든 응답으로, 점수 만료라는 화제는 대화에 등장하지 않는다."
+]
+},
+"skills": ["response", "context", "conversation-flow"],
+"vocabulary": [
+{"word": "start with the basics", "meaning": "기초부터 시작하다"}
+]
+},
+{
+"id": "L-DIA-0002",
+"section": "listening",
+"part": 1,
+"type": "dialogue",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["dialogue", "next-action", "scheduling"],
+"question": "What will the man most likely do next?",
+"passage": "",
+"transcript": "W: Did you get the confirmation email for the workshop?\nM: I got one, but it says Saturday. I signed up for the Friday session.\nW: They probably moved you when Friday filled up.\nM: That doesn't work for me. I'll call the office before it closes and see if there's still a spot.",
+"choices": [
+"Contact the workshop office about changing his session",
+"Attend the Saturday session as it was assigned",
+"Ask the woman to forward her confirmation email",
+"Sign up for a completely different workshop"
+],
+"answer": 0,
+"explanation": {
+"summary": "남자가 마지막 발화에서 '사무실이 문 닫기 전에 전화해서 자리가 있는지 알아보겠다'고 직접 말한다. 다음 행동은 사무실 연락이다.",
+"evidence": "I'll call the office before it closes and see if there's still a spot이 결정적 근거다.",
+"choiceAnalysis": [
+"정답. call the office ... see if there's still a spot을 그대로 바꿔 표현한 것이다.",
+"오답(정반대). That doesn't work for me라고 했으므로 토요일 수업을 그대로 듣지 않는다.",
+"오답(정보 없음). 여자의 이메일을 전달받겠다는 언급은 전혀 없다.",
+"오답(비약). 다른 워크숍으로 갈아탄다는 말은 없고, 같은 워크숍의 요일 변경을 시도한다."
+]
+},
+"skills": ["dialogue", "next-action", "detail"],
+"vocabulary": [
+{"word": "confirmation email", "meaning": "확정 안내 메일"},
+{"word": "fill up", "meaning": "(자리가) 다 차다"}
+]
+},
+{
+"id": "L-DET-0003",
+"section": "listening",
+"part": 1,
+"type": "detail",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["detail", "announcement", "transportation"],
+"question": "According to the announcement, which of the following is correct?",
+"passage": "",
+"transcript": "M: Attention passengers on the 6:40 express to Daejeon. Because of track maintenance near Cheonan, this train will depart from Platform 4 rather than Platform 2, and arrival in Daejeon is now expected at 8:15, about twenty minutes later than scheduled. Passengers holding seats in cars nine and ten should note that these two cars have been removed from today's service; the ticket counter on the first floor will reassign your seats at no charge. Refreshment service will not be available on this run.",
+"choices": [
+"Passengers in two of the cars need to have their seats reassigned.",
+"The train will leave from Platform 2 as it normally does.",
+"The delay adds roughly forty minutes to the journey.",
+"Passengers whose seats are reassigned must pay a small fee."
+],
+"answer": 0,
+"explanation": {
+"summary": "9호차와 10호차가 오늘 운행에서 제외되어 해당 승객은 좌석을 재배정받아야 한다는 것이 방송의 핵심 세부 정보다.",
+"evidence": "cars nine and ten ... have been removed from today's service; the ticket counter ... will reassign your seats at no charge가 근거다.",
+"choiceAnalysis": [
+"정답. 두 개 호차(9, 10호차) 승객의 좌석 재배정이 명시되어 있다.",
+"오답(숫자 함정). Platform 4 rather than Platform 2라고 했으므로 승강장이 변경되었다.",
+"오답(숫자 함정). 지연은 about twenty minutes이며 40분은 언급되지 않았다.",
+"오답(명시적 부정). at no charge라고 했으므로 비용은 발생하지 않는다."
+]
+},
+"skills": ["detail", "listening-for-numbers", "fact-check"],
+"vocabulary": [
+{"word": "reassign", "meaning": "재배정하다"},
+{"word": "at no charge", "meaning": "무료로"}
+]
+},
+{
+"id": "L-INF-0004",
+"section": "listening",
+"part": 1,
+"type": "inference",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["inference", "dialogue", "implication"],
+"question": "What can be inferred about the man?",
+"passage": "",
+"transcript": "W: How was the apartment you looked at yesterday?\nM: The rooms were bigger than I expected, and the rent is fair for that area.\nW: So you're taking it?\nM: The commute would be ninety minutes each way.\nW: Ah.",
+"choices": [
+"He is reluctant to take the apartment despite its advantages.",
+"He has already signed the lease for the apartment.",
+"He thinks the rent is too high for that neighborhood.",
+"He intends to move closer to his office next year."
+],
+"answer": 0,
+"explanation": {
+"summary": "'계약할 거냐'는 질문에 남자는 예/아니오 대신 편도 90분 통근을 언급한다. 직접 거절하지 않으면서 망설임을 드러내는 전형적 화법이다.",
+"evidence": "So you're taking it?에 대한 대답이 The commute would be ninety minutes each way라는 점, 그리고 여자의 Ah라는 반응이 근거다.",
+"choiceAnalysis": [
+"정답. 장점(넓은 방, 적정 임대료)을 인정하면서도 통근 시간을 문제로 꺼내 망설임을 나타낸다.",
+"오답(정보 없음). 계약을 이미 했다면 So you're taking it?이라는 질문 자체가 성립하지 않는다.",
+"오답(정반대). the rent is fair for that area라고 직접 말했으므로 비싸다고 여기지 않는다.",
+"오답(과도한 추론). 내년 이사 계획은 대화에 전혀 등장하지 않는다."
+]
+},
+"skills": ["inference", "implication", "dialogue"],
+"vocabulary": [
+{"word": "commute", "meaning": "통근, 통근하다"},
+{"word": "each way", "meaning": "편도로"}
+]
+},
+{
+"id": "L-RSP-0005",
+"section": "listening",
+"part": 1,
+"type": "response",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["response", "workplace", "apology"],
+"question": "Choose the most appropriate response to complete the conversation.",
+"passage": "",
+"transcript": "M: I'm sorry to bring this up again, but the report was supposed to be on my desk Monday.\nW: ___",
+"choices": [
+"I know. I should have told you earlier that the data came in late.",
+"Then I'll put it on your desk as soon as it's finished on Monday.",
+"You're welcome. Just let me know if you need anything else.",
+"Actually, I never received your report from Monday."
+],
+"answer": 0,
+"explanation": {
+"summary": "지연에 대한 정중한 항의이므로, 사실을 인정하고 늦어진 이유를 설명하는 응답이 자연스럽다.",
+"evidence": "the report was supposed to be on my desk Monday라는 과거 시점의 미이행 지적에 대해, 인정 + 사유 설명이 이어져야 한다.",
+"choiceAnalysis": [
+"정답. I know로 사실을 인정하고 should have told you로 늦은 사유를 설명하는 자연스러운 사과 반응이다.",
+"오답(시제 함정). Monday는 이미 지난 기한인데 미래 시점처럼 다루어 논리가 어긋난다.",
+"오답(기능 불일치). 항의에 대해 You're welcome으로 답하는 것은 대화 기능상 성립하지 않는다.",
+"오답(역할 뒤바꿈). 보고서를 제출해야 하는 쪽은 여자이므로 남자에게 못 받았다고 하는 것은 앞뒤가 맞지 않는다."
+]
+},
+"skills": ["response", "conversation-flow", "register"],
+"vocabulary": [
+{"word": "bring something up", "meaning": "(화제를) 꺼내다, 언급하다"},
+{"word": "come in late", "meaning": "늦게 들어오다, 늦게 도착하다"}
+]
+},
+{
+"id": "L-DIA-0006",
+"section": "listening",
+"part": 1,
+"type": "dialogue",
+"difficulty": 3,
+"targetScoreBand": "320-350",
+"tags": ["dialogue", "main-point", "reasoning"],
+"question": "What is the woman's main point?",
+"passage": "",
+"transcript": "M: Enrollment in the evening classes has dropped for the third term in a row.\nW: I'd be careful about reading too much into that. We moved the start time to 7:30 last year, and the campus shuttle stops running at seven.\nM: So you think it's access, not interest?\nW: I think we can't tell those two apart until we ask the people who dropped out.",
+"choices": [
+"The cause of the decline cannot be determined without more information.",
+"The class start time should be moved back to its original hour.",
+"Interest in the evening classes has clearly fallen among students.",
+"The campus shuttle should run later into the evening."
+],
+"answer": 0,
+"explanation": {
+"summary": "여자는 등록자 감소의 원인을 단정하지 말라고 하며, 접근성과 관심도를 구분하려면 중도 이탈자에게 물어봐야 한다고 말한다. 즉 '정보 부족'이 요지다.",
+"evidence": "I'd be careful about reading too much into that과 we can't tell those two apart until we ask the people who dropped out이 핵심이다.",
+"choiceAnalysis": [
+"정답. 원인 판단을 유보하고 추가 조사를 전제로 삼는 여자의 태도를 정확히 요약한다.",
+"오답(비약). 시작 시간은 원인 가능성으로 언급되었을 뿐, 되돌리자는 제안은 하지 않는다.",
+"오답(정반대). 여자는 관심도 하락이라는 해석 자체를 경계하고 있다.",
+"오답(비약). 셔틀 운행 시간도 가능한 요인으로 든 것이지 정책 제안은 아니다."
+]
+},
+"skills": ["dialogue", "main-idea", "inference"],
+"vocabulary": [
+{"word": "read too much into", "meaning": "~을 과대 해석하다"},
+{"word": "in a row", "meaning": "연속으로"},
+{"word": "drop out", "meaning": "중도에 그만두다"}
+]
+},
+{
+"id": "L-DET-0007",
+"section": "listening",
+"part": 1,
+"type": "detail",
+"difficulty": 4,
+"targetScoreBand": "320-350",
+"tags": ["detail", "monologue", "academic"],
+"question": "According to the speaker, which of the following is correct?",
+"passage": "",
+"transcript": "W: One last note before we finish. For the final project you may work alone or in pairs, but pairs must submit a one-page statement describing who did what. That statement isn't graded; it simply has to exist. The project itself is due on the last Friday of the term, and I don't grant extensions for it, since grades go to the registrar three days later. If you're worried about time, you may send me a draft two weeks early and I'll give you comments, though not a provisional grade.",
+"choices": [
+"Students can get feedback on an early draft but no grade for it.",
+"The statement about the division of labor counts toward the project grade.",
+"Extensions are granted as long as they are requested before the deadline.",
+"All students are required to complete the final project in pairs."
+],
+"answer": 0,
+"explanation": {
+"summary": "2주 전 초안 제출 시 코멘트는 받지만 잠정 점수는 주지 않는다는 조건이 그대로 진술된다.",
+"evidence": "you may send me a draft two weeks early and I'll give you comments, though not a provisional grade가 근거다.",
+"choiceAnalysis": [
+"정답. comments는 제공되지만 provisional grade는 제공되지 않는다는 조건을 정확히 옮겼다.",
+"오답(명시적 부정). That statement isn't graded라고 분명히 말했다.",
+"오답(명시적 부정). I don't grant extensions for it이라고 했으며, 사전 요청 예외도 언급되지 않았다.",
+"오답(조건 왜곡). you may work alone or in pairs이므로 짝 활동은 의무가 아니라 선택이다."
+]
+},
+"skills": ["detail", "listening-for-conditions", "fact-check"],
+"vocabulary": [
+{"word": "grant an extension", "meaning": "기한 연장을 허용하다"},
+{"word": "provisional", "meaning": "잠정적인, 임시의"},
+{"word": "registrar", "meaning": "학적 담당 부서, 교무처"}
+]
+},
+{
+"id": "L-INF-0008",
+"section": "listening",
+"part": 1,
+"type": "inference",
+"difficulty": 4,
+"targetScoreBand": "327-target",
+"tags": ["inference", "indirect-refusal", "workplace"],
+"question": "What can be inferred about the woman?",
+"passage": "",
+"transcript": "M: You've been with the company eleven years now. Have you ever thought about the opening in the Singapore office?\nW: My daughter starts high school in March.\nM: They'd cover the relocation costs, apparently.\nW: That's generous of them.",
+"choices": [
+"She is turning down the idea without saying so directly.",
+"She is seriously considering the post now that relocation is covered.",
+"She is dissatisfied with her current position at the company.",
+"She considers the relocation package insufficient."
+],
+"answer": 0,
+"explanation": {
+"summary": "여자는 제안에 대해 딸의 진학이라는 개인 사정을 먼저 꺼내고, 이사 비용 지원에도 That's generous of them이라는 거리 두는 논평만 한다. 직접 말하지 않는 완곡한 거절이다.",
+"evidence": "질문에 대한 대답이 My daughter starts high school in March라는 점, 그리고 제안에 대해 관심 표현 없이 That's generous of them으로 마무리하는 점이 근거다.",
+"choiceAnalysis": [
+"정답. 개인 사정 제시 + 제3자 시점의 논평은 영어 대화에서 전형적인 간접 거절 신호다.",
+"오답(정반대). 진지하게 고려한다면 조건이나 일정에 대한 후속 질문이 따라오는 것이 자연스럽다.",
+"오답(정보 없음). 현재 직무에 대한 불만은 전혀 언급되지 않았다.",
+"오답(어휘 오독). generous는 '후하다'는 긍정 평가이므로 지원이 부족하다는 해석은 반대다."
+]
+},
+"skills": ["inference", "implication", "pragmatics"],
+"vocabulary": [
+{"word": "opening", "meaning": "(일자리의) 공석, 자리"},
+{"word": "cover relocation costs", "meaning": "이주 비용을 부담하다"}
+]
+},
+{
+"id": "L-DIA-0009",
+"section": "listening",
+"part": 1,
+"type": "dialogue",
+"difficulty": 2,
+"targetScoreBand": "250-320",
+"tags": ["dialogue", "topic", "language-learning"],
+"question": "What are the speakers mainly talking about?",
+"passage": "",
+"transcript": "W: Your English sounds different from last year.\nM: I stopped trying to translate in my head. I just repeat whole phrases now.\nW: Does that actually work?\nM: For speaking, yes. My grammar explanations are worse, but I hesitate a lot less.",
+"choices": [
+"A change in the way the man practices English",
+"The man's plan to sign up for a grammar course",
+"The reason the man's test scores have fallen",
+"The difficulty of translating technical terms"
+],
+"answer": 0,
+"explanation": {
+"summary": "머릿속 번역을 그만두고 통문장 반복으로 학습법을 바꿨고 그 결과를 이야기하는 대화다. 주제는 학습 방식의 변화다.",
+"evidence": "I stopped trying to translate in my head. I just repeat whole phrases now와 I hesitate a lot less가 화제를 규정한다.",
+"choiceAnalysis": [
+"정답. 학습 방법의 변화와 그 효과(말할 때 덜 머뭇거림)가 대화 전체를 관통한다.",
+"오답(연상 함정). grammar가 언급되지만 수업 등록 계획은 나오지 않는다.",
+"오답(정보 없음). 시험 점수 이야기는 전혀 등장하지 않는다.",
+"오답(연상 함정). translate가 나오지만 전문 용어 번역의 어려움은 주제가 아니다."
+]
+},
+"skills": ["dialogue", "main-idea", "topic-identification"],
+"vocabulary": [
+{"word": "hesitate", "meaning": "머뭇거리다, 주저하다"},
+{"word": "whole phrase", "meaning": "덩어리 표현, 통문장"}
+]
+},
+{
+"id": "L-DET-0010",
+"section": "listening",
+"part": 1,
+"type": "detail",
+"difficulty": 3,
+"targetScoreBand": "327-target",
+"tags": ["detail", "voicemail", "appointment"],
+"question": "According to the message, which of the following is correct?",
+"passage": "",
+"transcript": "M: Hi, this is Daniel calling from Hansol Dental for Ms. Yoon. You're scheduled with Dr. Lim this Thursday at two, but he's been called into a procedure that afternoon, so we'd like to move your appointment. We can offer Thursday at ten in the morning, or Friday at the same time as your original booking. Whichever you choose, please arrive fifteen minutes early. The insurance form we mailed you has to be signed here in person, so there's no need to bring your copy. Just call us back at this number.",
+"choices": [
+"Ms. Yoon should arrive early because a form must be signed in person.",
+"The appointment was canceled because of an unpaid balance.",
+"She is asked to bring the insurance form that was mailed to her.",
+"The Friday option is at ten o'clock in the morning."
+],
+"answer": 0,
+"explanation": {
+"summary": "일정 변경 안내 음성 메시지다. 어떤 시간을 택하든 15분 일찍 와야 하며, 그 이유는 보험 서류를 현장에서 서명해야 하기 때문이다.",
+"evidence": "please arrive fifteen minutes early. The insurance form we mailed you has to be signed here in person이 근거다.",
+"choiceAnalysis": [
+"정답. 조기 도착 요청과 그 이유(현장 서명)가 연결되어 그대로 진술된다.",
+"오답(정보 없음). 변경 사유는 원장의 시술 일정(called into a procedure)이며 미납 요금은 언급되지 않았다.",
+"오답(명시적 부정). there's no need to bring your copy라고 분명히 말했다.",
+"오답(시간 함정). 10시는 목요일 대안이고, 금요일은 원래 예약과 같은 시각인 오후 2시다."
+]
+},
+"skills": ["detail", "listening-for-numbers", "fact-check"],
+"vocabulary": [
+{"word": "be called into a procedure", "meaning": "(의료) 시술에 투입되다"},
+{"word": "in person", "meaning": "직접, 본인이 와서"},
+{"word": "original booking", "meaning": "원래 예약"}
+]
+}
+]

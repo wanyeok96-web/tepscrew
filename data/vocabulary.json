@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "demo": true,
+  "words": [
+    {
+      "id": "V-001",
+      "word": "retain",
+      "meaning": "유지하다, 보유하다",
+      "examples": ["retain information", "retain control"],
+      "tags": ["academic"],
+      "difficulty": 2
+    },
+    {
+      "id": "V-002",
+      "word": "enhance",
+      "meaning": "향상시키다, 강화하다",
+      "examples": ["enhance performance", "enhance understanding"],
+      "tags": ["academic"],
+      "difficulty": 2
+    },
+    {
+      "id": "V-003",
+      "word": "comprise",
+      "meaning": "~로 구성되다, 포함하다",
+      "examples": ["The committee comprises five members.", "comprise a majority"],
+      "tags": ["academic"],
+      "difficulty": 3
+    },
+    {
+      "id": "V-004",
+      "word": "substantial",
+      "meaning": "상당한, 실질적인",
+      "examples": ["a substantial increase", "substantial evidence"],
+      "tags": ["academic"],
+      "difficulty": 3
+    },
+    {
+      "id": "V-005",
+      "word": "reluctant",
+      "meaning": "마지못한, 꺼리는",
+      "examples": ["reluctant to admit", "a reluctant participant"],
+      "tags": ["academic"],
+      "difficulty": 2
+    },
+    {
+      "id": "V-006",
+      "word": "allocate",
+      "meaning": "할당하다, 배분하다",
+      "examples": ["allocate resources", "allocate time"],
+      "tags": ["business"],
+      "difficulty": 3
+    },
+    {
+      "id": "V-007",
+      "word": "precede",
+      "meaning": "~보다 앞서다, 선행하다",
+      "examples": ["Events that precede the meeting", "precede by a short introduction"],
+      "tags": ["academic"],
+      "difficulty": 3
+    },
+    {
+      "id": "V-008",
+      "word": "ambiguous",
+      "meaning": "모호한, 애매한",
+      "examples": ["an ambiguous statement", "ambiguous results"],
+      "tags": ["academic"],
+      "difficulty": 3
+    }
+  ]
+}

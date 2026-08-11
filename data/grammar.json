@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "demo": true,
+  "questions": [
+    {
+      "id": "G-AGR-0001",
+      "section": "grammar",
+      "part": 1,
+      "type": "agreement",
+      "difficulty": 2,
+      "targetScoreBand": "foundation",
+      "tags": ["수일치"],
+      "question": "Choose the correct verb form.",
+      "passage": "Neither of the proposals ____ acceptable to the board.",
+      "choices": ["are", "is", "were", "have been"],
+      "answer": 1,
+      "explanation": {
+        "summary": "Neither of + 복수명사 뒤에는 단수 동사가 옵니다.",
+        "evidence": "Neither of the proposals → 단수 취급",
+        "choiceAnalysis": [
+          "are: 복수 동사로 수일치 오류",
+          "is: 올바른 단수 동사",
+          "were: 과거·복수로 부적절",
+          "have been: 복수·시제 모두 부적절"
+        ]
+      },
+      "vocabulary": [],
+      "skills": ["agreement"]
+    },
+    {
+      "id": "G-PASS-0001",
+      "section": "grammar",
+      "part": 1,
+      "type": "passive",
+      "difficulty": 2,
+      "targetScoreBand": "foundation",
+      "tags": ["수동태"],
+      "question": "Select the grammatically correct sentence.",
+      "passage": "",
+      "choices": [
+        "The report was written by the intern yesterday.",
+        "The report written by the intern yesterday.",
+        "The report was writing by the intern yesterday.",
+        "The report has wrote by the intern yesterday."
+      ],
+      "answer": 0,
+      "explanation": {
+        "summary": "수동태는 be + 과거분사 형태입니다.",
+        "evidence": "was written = 수동태 과거",
+        "choiceAnalysis": [
+          "올바른 수동태 과거형",
+          "동사가 없어 문장이 불완전",
+          "was writing은 진행형이며 by와 어울리지 않음",
+          "has wrote는 과거분사 형태 오류"
+        ]
+      },
+      "vocabulary": [],
+      "skills": ["passive"]
+    },
+    {
+      "id": "G-REL-0001",
+      "section": "grammar",
+      "part": 1,
+      "type": "relative",
+      "difficulty": 3,
+      "targetScoreBand": "327-target",
+      "tags": ["관계사"],
+      "question": "Choose the word that best completes the sentence.",
+      "passage": "The researcher ____ findings were published last month will speak today.",
+      "choices": ["who", "whom", "whose", "which"],
+      "answer": 2,
+      "explanation": {
+        "summary": "소유격을 나타내는 관계사 whose가 필요합니다.",
+        "evidence": "whose findings = 그 연구자의 연구 결과",
+        "choiceAnalysis": [
+          "who: 주격 관계대명사",
+          "whom: 목적격 관계대명사",
+          "whose: 소유격으로 올바름",
+          "which: 사물 선행사에 주로 사용"
+        ]
+      },
+      "vocabulary": [],
+      "skills": ["relative"]
+    }
+  ]
+}

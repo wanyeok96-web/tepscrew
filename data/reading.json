@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "demo": true,
+  "questions": [
+    {
+      "id": "R-INF-0001",
+      "section": "reading",
+      "part": 1,
+      "type": "inference",
+      "difficulty": 3,
+      "targetScoreBand": "327-target",
+      "tags": ["inference"],
+      "question": "What can be inferred from the passage?",
+      "passage": "For years, the city's public libraries operated primarily as quiet places for borrowing books. Recently, however, many branches have begun offering evening workshops on digital skills, job applications, and small-business planning. Attendance has grown steadily, especially among adults who returned to learning after long gaps in formal education. Librarians report that visitors now stay longer and ask more questions about practical next steps, not only about book recommendations.",
+      "choices": [
+        "Libraries have completely stopped lending books.",
+        "Adult learners are using libraries for practical skill development.",
+        "Evening workshops are mainly designed for children.",
+        "Librarians prefer visitors to leave quickly."
+      ],
+      "answer": 1,
+      "explanation": {
+        "summary": "성인 학습자들이 실무 기술 워크숍을 위해 도서관을 활용하고 있음을 추론할 수 있습니다.",
+        "evidence": "evening workshops on digital skills... Attendance has grown... adults who returned to learning",
+        "choiceAnalysis": [
+          "도서 대출이 중단되었다는 근거 없음",
+          "성인 학습자의 실무 학습 활용을 올바르게 추론",
+          "아동 대상이라는 언급 없음",
+          "방문객이 오래 머문다고 했으므로 반대"
+        ]
+      },
+      "vocabulary": ["attendance", "formal education"],
+      "skills": ["inference"]
+    },
+    {
+      "id": "R-MAIN-0001",
+      "section": "reading",
+      "part": 1,
+      "type": "main-idea",
+      "difficulty": 2,
+      "targetScoreBand": "build-up",
+      "tags": ["main-idea"],
+      "question": "What is the main idea of the passage?",
+      "passage": "Short daily review sessions often produce better long-term retention than occasional marathon study. When learners revisit material briefly over several days, the brain repeatedly retrieves information and strengthens memory traces. This approach also reduces fatigue and makes it easier to maintain a study habit.",
+      "choices": [
+        "Marathon study is the most efficient method.",
+        "Daily short review improves long-term memory.",
+        "Fatigue has no effect on learning.",
+        "Learners should avoid reviewing old material."
+      ],
+      "answer": 1,
+      "explanation": {
+        "summary": "짧은 매일 복습이 장기 기억에 더 효과적이라는 것이 중심 내용입니다.",
+        "evidence": "Short daily review sessions often produce better long-term retention",
+        "choiceAnalysis": [
+          "지문은 마라톤 학습보다 짧은 복습을 권함",
+          "중심 내용을 정확히 반영",
+          "피로가 학습에 영향이 없다고 하지 않음",
+          "복습을 피하라는 내용과 반대"
+        ]
+      },
+      "vocabulary": ["retention", "retrieve"],
+      "skills": ["main-idea"]
+    },
+    {
+      "id": "R-BLANK-0001",
+      "section": "reading",
+      "part": 2,
+      "type": "blank",
+      "difficulty": 3,
+      "targetScoreBand": "327-target",
+      "tags": ["blank"],
+      "question": "Which option best completes the blank?",
+      "passage": "Although the new policy aimed to simplify the application process, many applicants still found the instructions confusing. As a result, support staff spent more time answering basic questions, and the expected efficiency gains were ____.",
+      "choices": ["accelerated", "delayed", "celebrated", "ignored"],
+      "answer": 1,
+      "explanation": {
+        "summary": "혼란으로 인해 기대했던 효율 향상이 지연되었다는 흐름이 자연스럽습니다.",
+        "evidence": "still found the instructions confusing... expected efficiency gains were ____",
+        "choiceAnalysis": [
+          "accelerated: 혼란과 반대 결과",
+          "delayed: 문맥상 가장 적절",
+          "celebrated: 부정적 결과와 안 맞음",
+          "ignored: 문장 논리상 어색"
+        ]
+      },
+      "vocabulary": ["efficiency"],
+      "skills": ["blank"]
+    }
+  ]
+}

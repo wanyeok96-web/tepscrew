@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "demo": true,
+  "questions": [
+    {
+      "id": "L-RESP-0001",
+      "section": "listening",
+      "part": 1,
+      "type": "response",
+      "difficulty": 2,
+      "targetScoreBand": "build-up",
+      "tags": ["response"],
+      "question": "Choose the best response. (Demo — script provided instead of audio)",
+      "passage": "[Script] A: Could you send me the revised schedule by noon?\nB: ____",
+      "choices": [
+        "Sure, I'll email it before lunch.",
+        "Yes, I already ate lunch.",
+        "The meeting was canceled last week.",
+        "I prefer the morning train."
+      ],
+      "answer": 0,
+      "explanation": {
+        "summary": "수정 일정을 정오까지 보내달라는 요청에 대한 적절한 수락 응답입니다.",
+        "evidence": "send me the revised schedule by noon",
+        "choiceAnalysis": [
+          "요청에 맞는 직접적 수락",
+          "lunch와 관련 없는 오해",
+          "요청과 무관한 정보",
+          "주제와 무관"
+        ]
+      },
+      "vocabulary": ["revised", "schedule"],
+      "skills": ["response"],
+      "audio": null
+    }
+  ]
+}
