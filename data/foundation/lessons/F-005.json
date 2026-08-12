@@ -1,0 +1,175 @@
+{
+  "id": "F-005",
+  "order": 5,
+  "title": "시제",
+  "category": "grammar",
+  "estimatedMinutes": 15,
+  "skills": [
+    "tense-choice",
+    "present-perfect",
+    "past-vs-perfect"
+  ],
+  "objectives": [
+    "현재·과거·현재완료의 쓰임 차이를 정리한다",
+    "시간 표현과 어울리는 시제를 고른다",
+    "완료시제와 단순시제 함정을 구분한다"
+  ],
+  "concept": {
+    "summary": "시제는 ‘언제’뿐 아니라 ‘현재와의 연결’을 나타냅니다. 단순과거는 끝난 시점, 현재완료는 경험·결과·계속처럼 현재와 이어진 상황에 쓰입니다. 시간 부사(ago, since, yet)와 함께 보면 선택이 쉬워집니다.",
+    "points": [
+      "단순현재: 습관·사실 / 현재진행: 지금 진행",
+      "단순과거: 과거 특정 시점의 완료 (yesterday, in 2019)",
+      "현재완료: 경험·결과·계속 (already, yet, since, for)",
+      "과거완료: 과거보다 더 이전의 사건 (by then, before…)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "She submits reports every Friday.",
+      "ko": "그녀는 매주 금요일에 보고서를 제출한다.",
+      "structure": "단순현재(습관)"
+    },
+    {
+      "en": "They launched the app last month.",
+      "ko": "그들은 지난달에 앱을 출시했다.",
+      "structure": "단순과거"
+    },
+    {
+      "en": "I have already sent the invoice.",
+      "ko": "나는 이미 청구서를 보냈다.",
+      "structure": "현재완료(결과)"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-005-Q01",
+      "skill": "simple-past",
+      "question": "빈칸: \"We ___ the contract yesterday.\"",
+      "choices": [
+        "have signed",
+        "signed",
+        "had been signing",
+        "sign"
+      ],
+      "answer": 1,
+      "explanation": "yesterday는 특정 과거 시점이므로 단순과거 signed가 맞습니다."
+    },
+    {
+      "id": "F-005-Q02",
+      "skill": "present-perfect",
+      "question": "빈칸: \"She ___ here since 2020.\"",
+      "choices": [
+        "works",
+        "worked",
+        "has worked",
+        "had work"
+      ],
+      "answer": 2,
+      "explanation": "since + 시점과 함께 현재까지의 계속은 현재완료가 자연스럽습니다."
+    },
+    {
+      "id": "F-005-Q03",
+      "skill": "trap-ago",
+      "question": "ago와 함께 쓰기 적절한 시제는?",
+      "choices": [
+        "현재완료",
+        "단순과거",
+        "현재진행",
+        "미래완료만"
+      ],
+      "answer": 1,
+      "explanation": "ago는 단순과거와 함께 씁니다. (three days ago → left)"
+    },
+    {
+      "id": "F-005-Q04",
+      "skill": "present-simple",
+      "question": "\"Water ___ at 100°C.\"",
+      "choices": [
+        "is boiling",
+        "boiled",
+        "boils",
+        "has boiled"
+      ],
+      "answer": 2,
+      "explanation": "과학적 사실은 단순현재입니다."
+    },
+    {
+      "id": "F-005-Q05",
+      "skill": "past-perfect",
+      "question": "\"By the time we arrived, the meeting ___ .\"",
+      "choices": [
+        "starts",
+        "has started",
+        "had started",
+        "is starting"
+      ],
+      "answer": 2,
+      "explanation": "도착(과거)보다 이전 완료이므로 과거완료 had started입니다."
+    },
+    {
+      "id": "F-005-Q06",
+      "skill": "yet-already",
+      "question": "\"Have you finished the draft ___ ?\"",
+      "choices": [
+        "ago",
+        "yesterday",
+        "yet",
+        "last week"
+      ],
+      "answer": 2,
+      "explanation": "의문·부정의 현재완료에서 yet이 흔합니다."
+    },
+    {
+      "id": "F-005-Q07",
+      "skill": "application",
+      "question": "다음 중 시제 선택이 어색한 문장은?",
+      "choices": [
+        "I saw him two hours ago.",
+        "I have seen him two hours ago.",
+        "I have seen him twice.",
+        "I saw him yesterday."
+      ],
+      "answer": 1,
+      "explanation": "ago와 현재완료는 함께 쓰지 않습니다."
+    },
+    {
+      "id": "F-005-Q08",
+      "skill": "progressive",
+      "question": "\"Please be quiet. The baby ___ .\"",
+      "choices": [
+        "sleeps",
+        "slept",
+        "is sleeping",
+        "has sleep"
+      ],
+      "answer": 2,
+      "explanation": "지금 진행 중인 상황은 현재진행 is sleeping이 적합합니다."
+    },
+    {
+      "id": "F-005-Q09",
+      "skill": "for-since",
+      "question": "\"They have lived abroad ___ five years.\"",
+      "choices": [
+        "since",
+        "for",
+        "ago",
+        "during"
+      ],
+      "answer": 1,
+      "explanation": "기간(five years)에는 for를 씁니다. since는 시작점과 함께합니다."
+    },
+    {
+      "id": "F-005-Q10",
+      "skill": "concept",
+      "question": "현재완료의 핵심 감각으로 가장 알맞은 것은?",
+      "choices": [
+        "과거 특정 날짜만 강조",
+        "현재와 연결된 경험·결과·계속",
+        "항상 미래 의미",
+        "수동태와 동의어"
+      ],
+      "answer": 1,
+      "explanation": "현재완료는 과거 사건이 현재에 미치는 연결을 나타냅니다."
+    }
+  ]
+}

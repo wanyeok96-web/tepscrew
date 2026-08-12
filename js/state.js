@@ -51,6 +51,7 @@ import {
 import { TEPS_CONFIG } from './config.js';
 import { loadAllBuiltinPacks, computeBankStats } from './content/packs.js';
 import { ensureTaxonomyInMap } from './content/skill-taxonomy.js';
+import { loadFoundationContent } from './content/foundation-loader.js';
 
 const state = {
   ready: false,
@@ -190,9 +191,11 @@ export async function refreshLearningRecords() {
 }
 
 export async function saveFoundationProgress(lessonId, progress) {
+  const prev = state.foundationProgress[lessonId] || {};
   const item = {
-    id: lessonId,
+    ...prev,
     ...progress,
+    id: lessonId,
     updatedAt: new Date().toISOString(),
   };
   await putItem('foundationProgress', item);
@@ -572,7 +575,7 @@ async function ensureQuestionBankSeeded() {
 
 async function loadContent() {
   const [foundation, vocabulary, grammar, reading, listening, guide] = await Promise.all([
-    fetchJson('./data/foundation.json'),
+    loadFoundationContent(),
     fetchJson('./data/vocabulary.json'),
     fetchJson('./data/grammar.json'),
     fetchJson('./data/reading.json'),

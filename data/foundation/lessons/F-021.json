@@ -1,0 +1,181 @@
+{
+  "id": "F-021",
+  "order": 21,
+  "title": "짧은 추론",
+  "category": "reading",
+  "estimatedMinutes": 15,
+  "skills": ["inference", "implication", "attitude"],
+  "objectives": [
+    "지문에 직접 쓰이지 않은 내용을 논리적으로 추론한다",
+    "근거가 있는 추론과 과도한 비약을 구분한다",
+    "필자·인물의 태도·의도를 짧게 파악한다"
+  ],
+  "concept": {
+    "summary": "추론은 ‘쓰여 있지 않지만, 쓰인 내용을 바탕으로 합리적으로 알 수 있는 것’을 고르는 능력입니다. 지문에 없는 감정·사실을 마음대로 추가하면 오답이 됩니다. 항상 ‘어느 문장 때문에 그렇게 말할 수 있는가’를 확인하세요.",
+    "points": [
+      "직접 명시된 사실 ≠ 추론",
+      "근거 문장에서 한 걸음만 나아간다",
+      "절대표현(always/never)이 있는 선택지를 경계한다",
+      "태도 문제는 긍정·부정·유보 신호를 본다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "Only three seats remain for the seminar.",
+      "ko": "세미나 좌석이 세 자리만 남았다.",
+      "structure": "추론: 거의 마감에 가깝다"
+    },
+    {
+      "en": "She checked the clock and packed faster.",
+      "ko": "그녀는 시계를 확인하고 더 빨리 짐을 쌌다.",
+      "structure": "추론: 시간이 촉박하다"
+    },
+    {
+      "en": "The review praised the plot but criticized the ending.",
+      "ko": "리뷰는 줄거리는 칭찬했지만 결말은 비판했다.",
+      "structure": "태도: 부분적으로 긍정·부정"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-021-Q01",
+      "skill": "inference",
+      "question": "The bakery closes when the last loaf is sold. Today the shelves were empty by noon.\n\n추론으로 알맞은 것은?",
+      "choices": [
+        "오늘은 정오 전에 빵이 다 팔렸을 가능성이 크다",
+        "빵집이 오전에 문을 닫지 않았다",
+        "빵을 아무도 사지 않았다",
+        "내일은 무조건 늦게 닫는다"
+      ],
+      "answer": 0,
+      "explanation": "마지막 빵이 팔리면 닫고, 정오에 선반이 비었다는 점에서 오전에 매진되었을 수 있습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-021-Q02",
+      "skill": "implication",
+      "question": "\"I would join if the fee were lower,\" Mark said.\n\n마크에 대해 알 수 있는 것은?",
+      "choices": [
+        "그는 이미 참가비를 냈다",
+        "현재 참가비가 부담스럽다고 느낀다",
+        "그는 행사에 관심이 전혀 없다",
+        "그는 행사 주최자다"
+      ],
+      "answer": 1,
+      "explanation": "요금이 더 낮다면 참가하겠다는 조건부 발화이므로, 현재 요금이 부담이라는 함의가 있습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-021-Q03",
+      "skill": "inference",
+      "question": "After reading the email, Sora canceled her weekend trip and booked a train ticket to the office city.\n\n가장 타당한 추론은?",
+      "choices": [
+        "주말 여행이 더 중요해졌다",
+        "사무실 도시로 가야 할 일이 생겼다",
+        "이메일은 광고였다",
+        "기차가 취소되었다"
+      ],
+      "answer": 1,
+      "explanation": "여행을 취소하고 사무실 도시행 기차를 예약한 행동으로 업무·용무 가능성을 추론할 수 있습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-021-Q04",
+      "skill": "attitude",
+      "question": "The editor called the draft \"promising but incomplete.\"\n\n편집자의 태도는?",
+      "choices": [
+        "전적으로 부정적",
+        "전적으로 긍정적",
+        "부분적으로 긍정하되 보완이 필요하다고 봄",
+        "무관심"
+      ],
+      "answer": 2,
+      "explanation": "promising은 긍정, incomplete는 보완 필요를 나타냅니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-021-Q05",
+      "skill": "inference",
+      "question": "No one answered when the fire alarm rang during lunch. Later, staff learned it had been a drill announced on the intranet that morning.\n\n추론으로 적절한 것은?",
+      "choices": [
+        "직원 중 일부가 공지를 확인하지 못했을 수 있다",
+        "실제 화재가 발생했다",
+        "알람은 울리지 않았다",
+        "점심시간에 전원 출근하지 않았다"
+      ],
+      "answer": 0,
+      "explanation": "오전에 공지된 훈련이었는데 반응하지 않은 점으로, 공지 미확인 가능성을 추론할 수 있습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-021-Q06",
+      "skill": "implication",
+      "question": "\"Let's discuss this offline,\" the manager said during the large group call.\n\n함의로 가까운 것은?",
+      "choices": [
+        "지금 큰 회의에서 자세히 다루고 싶지 않다",
+        "회의를 즉시 종료한다",
+        "오프라인 매장으로 가자는 뜻이다",
+        "안건이 이미 결정되었다"
+      ],
+      "answer": 0,
+      "explanation": "대규모 통화에서 offline으로 미루자는 말은 별도·소규모 논의 의입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-021-Q07",
+      "skill": "inference",
+      "question": "The restaurant usually requires reservations. Tonight several empty tables remained after 8 p.m.\n\n타당한 추론은?",
+      "choices": [
+        "오늘 저녁은 평소보다 손님이 적을 수 있다",
+        "예약제가 없어졌다",
+        "식당이 폐업했다",
+        "8시 이후에는 항상 만석이다"
+      ],
+      "answer": 0,
+      "explanation": "평소 예약이 필요한데 빈자리가 남았다면 한산했을 가능성이 큽니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-021-Q08",
+      "skill": "attitude",
+      "question": "\"We appreciate the feedback, yet we will keep the current design,\" the company replied.\n\n회사의 입장은?",
+      "choices": [
+        "피드백을 반영해 디자인을 바꾼다",
+        "피드백은 받되 현 디자인을 유지한다",
+        "피드백을 거부하고 대화를 끊는다",
+        "디자인 논의를 시작한다"
+      ],
+      "answer": 1,
+      "explanation": "appreciate... yet keep에서 예의는 지키되 유지 결정임을 알 수 있습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-021-Q09",
+      "skill": "inference",
+      "question": "Jun turned down the overtime offer because his certification exam is tomorrow morning.\n\n추론으로 알맞은 것은?",
+      "choices": [
+        "그는 내일 시험을 위해 오늘 무리하지 않으려 한다",
+        "그는 야근 수당을 싫어한다",
+        "시험이 취소되었다",
+        "그는 이미 자격증을 받았다"
+      ],
+      "answer": 0,
+      "explanation": "내일 아침 시험을 이유로 야근을 거절했으므로 준비·컨디션 관리 의도입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-021-Q10",
+      "skill": "implication",
+      "question": "The guide said, \"If you leave now, you can still catch the last bus.\"\n\n함의는?",
+      "choices": [
+        "지금 출발하지 않으면 막차를 놓칠 수 있다",
+        "막차는 이미 출발했다",
+        "버스가 하루 종일 있다",
+        "가이드가 버스를 운전한다"
+      ],
+      "answer": 0,
+      "explanation": "조건부 조언은 지체 시 막차 놓침 가능성을 암시합니다.",
+      "transcript": ""
+    }
+  ]
+}

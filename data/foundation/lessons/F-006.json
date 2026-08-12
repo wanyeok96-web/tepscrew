@@ -1,0 +1,175 @@
+{
+  "id": "F-006",
+  "order": 6,
+  "title": "조동사",
+  "category": "grammar",
+  "estimatedMinutes": 12,
+  "skills": [
+    "modals",
+    "ability-permission",
+    "deduction-obligation"
+  ],
+  "objectives": [
+    "가능·허가·의무·추측 조동사의 기본 의미를 구분한다",
+    "must / have to / should의 뉘앙스 차이를 익힌다",
+    "조동사 + 원형동사 형태를 정확히 고른다"
+  ],
+  "concept": {
+    "summary": "조동사는 본동사 앞에 붙어 가능·의무·허가·추측 등의 태도를 더합니다. 형태는 조동사 + 동사원형이 기본이며, 의미 차이를 모르면 비슷한 선택지가 전부 맞아 보입니다.",
+    "points": [
+      "can/could: 능력·가능·허가 / may/might: 허가·약한 추측",
+      "must: 강한 의무·강한 추측 / have to: 외부 의무",
+      "should/ought to: 권고·당연",
+      "will/would: 미래·의지·정중한 요청"
+    ]
+  },
+  "examples": [
+    {
+      "en": "You must wear a badge in the lab.",
+      "ko": "실험실에서는 배지를 반드시 착용해야 한다.",
+      "structure": "must + 원형"
+    },
+    {
+      "en": "She can handle complex data.",
+      "ko": "그녀는 복잡한 데이터를 다룰 수 있다.",
+      "structure": "can = 능력"
+    },
+    {
+      "en": "He might be in a meeting.",
+      "ko": "그는 회의 중일지도 모른다.",
+      "structure": "might = 추측"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-006-Q01",
+      "skill": "form",
+      "question": "빈칸: \"Employees ___ arrive by 9.\" (강한 사내 규정)",
+      "choices": [
+        "must to",
+        "must",
+        "musts",
+        "musting"
+      ],
+      "answer": 1,
+      "explanation": "조동사 must 뒤에는 동사원형입니다. must arrive."
+    },
+    {
+      "id": "F-006-Q02",
+      "skill": "ability",
+      "question": "능력·가능을 나타내는 조동사는?",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "ought"
+      ],
+      "answer": 2,
+      "explanation": "can은 능력·가능성을 나타냅니다."
+    },
+    {
+      "id": "F-006-Q03",
+      "skill": "advice",
+      "question": "\"You ___ check the numbers again.\" (권고)",
+      "choices": [
+        "must to",
+        "should",
+        "can to",
+        "may to"
+      ],
+      "answer": 1,
+      "explanation": "권고에는 should가 자연스럽습니다."
+    },
+    {
+      "id": "F-006-Q04",
+      "skill": "deduction",
+      "question": "\"The lights are on. Someone ___ be inside.\" (강한 추측)",
+      "choices": [
+        "can",
+        "must",
+        "should",
+        "might not"
+      ],
+      "answer": 1,
+      "explanation": "강한 논리적 추측에는 must be가 흔합니다."
+    },
+    {
+      "id": "F-006-Q05",
+      "skill": "permission",
+      "question": "정중히 허가를 물을 때 알맞은 것은?",
+      "choices": [
+        "Must I borrow your pen?",
+        "May I borrow your pen?",
+        "Should I borrow must?",
+        "Will must I borrow?"
+      ],
+      "answer": 1,
+      "explanation": "May I…?는 정중한 허가 요청입니다."
+    },
+    {
+      "id": "F-006-Q06",
+      "skill": "trap-form",
+      "question": "문법적으로 틀린 것은?",
+      "choices": [
+        "She can finish early.",
+        "He must leave now.",
+        "They should to call.",
+        "We might delay."
+      ],
+      "answer": 2,
+      "explanation": "should 뒤에는 to 없이 원형입니다. should call이 맞습니다."
+    },
+    {
+      "id": "F-006-Q07",
+      "skill": "have-to",
+      "question": "\"I ___ leave early today—there's a train to catch.\" (상황상 의무)",
+      "choices": [
+        "can",
+        "might",
+        "have to",
+        "shall maybe"
+      ],
+      "answer": 2,
+      "explanation": "외부 상황·일정에 따른 의무는 have to가 자연스럽습니다."
+    },
+    {
+      "id": "F-006-Q08",
+      "skill": "negative-deduction",
+      "question": "\"He ___ be the manager; he looks too young.\" (강한 부정 추측)",
+      "choices": [
+        "must",
+        "can't",
+        "should",
+        "will"
+      ],
+      "answer": 1,
+      "explanation": "강한 ‘~일 리가 없다’는 can't be입니다."
+    },
+    {
+      "id": "F-006-Q09",
+      "skill": "past-ability",
+      "question": "\"When I was intern, I ___ stay late without overtime.\"",
+      "choices": [
+        "can",
+        "could",
+        "must",
+        "should to"
+      ],
+      "answer": 1,
+      "explanation": "과거의 능력·가능은 could로 나타냅니다."
+    },
+    {
+      "id": "F-006-Q10",
+      "skill": "application",
+      "question": "의무가 가장 강한 표현은?",
+      "choices": [
+        "You might submit it.",
+        "You could submit it.",
+        "You must submit it.",
+        "You may submit it."
+      ],
+      "answer": 2,
+      "explanation": "must는 강한 의무를 나타냅니다."
+    }
+  ]
+}

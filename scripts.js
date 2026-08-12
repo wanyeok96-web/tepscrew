@@ -41,6 +41,8 @@ import {
   bindMyTeps,
   renderNotFound,
   bindNotFound,
+  renderLessonQuiz,
+  bindLessonQuiz,
 } from './js/pages.js';
 import { renderGuide, bindGuide } from './js/guide.js';
 import { getAiStatus } from './js/ai/ai-service.js';
@@ -55,12 +57,13 @@ function renderNav(activePage) {
   const primaryBottom = new Set(['home', 'foundation', 'practice', 'review', 'my-teps']);
   const practicePages = new Set(['practice', 'practice-quiz', 'practice-result', 'target-preview']);
   const mockPages = new Set(['mock', 'mock-guide', 'mock-exam', 'mock-result', 'diagnosis']);
+  const foundationPages = new Set(['foundation', 'lesson', 'lesson-quiz']);
 
   side.innerHTML = items
     .map((item) => {
       const active =
         activePage === item.id ||
-        (item.id === 'foundation' && activePage === 'lesson') ||
+        (item.id === 'foundation' && foundationPages.has(activePage)) ||
         (item.id === 'teps' && activePage === 'vocabulary') ||
         (item.id === 'practice' && practicePages.has(activePage)) ||
         (item.id === 'mock' && mockPages.has(activePage));
@@ -148,8 +151,9 @@ function renderPage(route) {
   const map = {
     home: [renderDashboard, bindDashboard],
     guide: [renderGuide, bindGuide],
-    foundation: [renderFoundation, bindFoundation],
+    foundation: [() => renderFoundation(route.params), bindFoundation],
     lesson: [() => renderLesson(route.params), bindLesson],
+    'lesson-quiz': [() => renderLessonQuiz(route.params), bindLessonQuiz],
     teps: [() => renderTeps(route.params), bindTeps],
     vocabulary: [
       () => renderVocabulary(route.params),

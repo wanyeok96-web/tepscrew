@@ -1,0 +1,151 @@
+{
+  "id": "F-016",
+  "order": 16,
+  "title": "절을 연결하기",
+  "category": "expand",
+  "estimatedMinutes": 14,
+  "skills": ["clause-linking", "conjunctions", "sentence-expansion"],
+  "objectives": [
+    "등위·종속 접속사로 절을 연결하는 방법을 익힌다",
+    "원인·대조·조건·시간의 관계를 문장으로 표현한다",
+    "짧은 문장 두 개를 논리적으로 합친다"
+  ],
+  "concept": {
+    "summary": "긴 문장은 절과 절을 연결하는 능력에서 시작됩니다. and/but/so 같은 등위접속사와 because/although/if/when 같은 종속접속사를 구분하면 문장 확장이 쉬워집니다. TEPS 독해에서도 연결어가 논리 흐름의 신호입니다.",
+    "points": [
+      "등위접속사: 대등한 절을 연결한다",
+      "종속접속사: 주절에 종속절을 붙인다",
+      "연결어는 의미 관계(원인·대조·조건)를 드러낸다",
+      "콤마 사용은 절의 길이와 위치에 따라 달라진다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "She stayed home because she felt sick.",
+      "ko": "그녀는 아파서 집에 있었다.",
+      "structure": "주절 + because + 종속절"
+    },
+    {
+      "en": "Although the test was hard, he finished on time.",
+      "ko": "시험이 어려웠지만 그는 제시간에 끝냈다.",
+      "structure": "Although + 종속절, 주절"
+    },
+    {
+      "en": "If it rains, the event will be postponed.",
+      "ko": "비가 오면 행사는 연기될 것이다.",
+      "structure": "If + 조건절, 주절"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-016-Q01",
+      "skill": "conjunctions",
+      "question": "빈칸에 알맞은 것은? \"He left early ___ he had another appointment.\"",
+      "choices": ["although", "because", "unless", "while"],
+      "answer": 1,
+      "explanation": "이유를 나타내므로 because가 맞습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-016-Q02",
+      "skill": "clause-linking",
+      "question": "두 문장을 가장 자연스럽게 연결한 것은? \"It was late. She kept working.\"",
+      "choices": [
+        "It was late, so she kept working.",
+        "It was late, but she kept working.",
+        "It was late, because she kept working.",
+        "It was late, if she kept working."
+      ],
+      "answer": 1,
+      "explanation": "늦은 시간과 계속 일한 것은 대조 관계이므로 but이 자연스럽습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-016-Q03",
+      "skill": "conjunctions",
+      "question": "빈칸에 알맞은 것은? \"___ you finish the report, we can leave.\"",
+      "choices": ["Unless", "Although", "Once", "Yet"],
+      "answer": 2,
+      "explanation": "Once는 ‘~하자마자/~하면’의 시간·조건 연결에 쓰입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-016-Q04",
+      "skill": "sentence-expansion",
+      "question": "다음 중 문법적으로 올바른 문장은?",
+      "choices": [
+        "Because he was tired. He went to bed.",
+        "He went to bed because he was tired.",
+        "He went to bed, because of he was tired.",
+        "Because of he was tired, he went to bed."
+      ],
+      "answer": 1,
+      "explanation": "because 뒤에는 절(S+V)이 옵니다. Because만으로 문장을 끊으면 불완전합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-016-Q05",
+      "skill": "conjunctions",
+      "question": "\"She will join us ___ she is free.\"에 알맞은 것은?",
+      "choices": ["if", "although", "so", "but"],
+      "answer": 0,
+      "explanation": "조건을 나타내므로 if가 맞습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-016-Q06",
+      "skill": "clause-linking",
+      "question": "대조를 나타내는 연결로 알맞은 것은?",
+      "choices": [
+        "I studied hard, so I passed.",
+        "I studied hard, and I passed.",
+        "I studied hard, but I failed.",
+        "I studied hard, because I failed."
+      ],
+      "answer": 2,
+      "explanation": "but은 기대와 다른 결과를 잇는 대조 접속사입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-016-Q07",
+      "skill": "conjunctions",
+      "question": "빈칸에 알맞은 것은? \"___ the delay, the project was completed.\"",
+      "choices": ["Although", "Despite", "Because", "If"],
+      "answer": 1,
+      "explanation": "Despite 뒤에는 명사구가 옵니다. Although 뒤에는 절이 필요합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-016-Q08",
+      "skill": "sentence-expansion",
+      "question": "\"I will call you when I arrive.\"에서 when절의 역할은?",
+      "choices": ["주어", "목적어", "시간 종속절", "보어"],
+      "answer": 2,
+      "explanation": "when I arrive는 주절의 시간을 나타내는 종속절입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-016-Q09",
+      "skill": "clause-linking",
+      "question": "빈칸에 알맞은 것은? \"Take a map, ___ you may get lost.\"",
+      "choices": ["or", "but", "so", "although"],
+      "answer": 0,
+      "explanation": "그렇지 않으면(~하지 않으면)의 경고·선택 관계에서는 or가 자연스럽습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-016-Q10",
+      "skill": "conjunctions",
+      "question": "다음 중 unless의 의미가 올바른 문장은?",
+      "choices": [
+        "Unless you hurry, you will be late.",
+        "Unless you hurry, you will not be late.",
+        "Unless it is cheap, I will buy it.",
+        "Unless she studied, she passed."
+      ],
+      "answer": 0,
+      "explanation": "unless는 if not(~하지 않으면)입니다. 서두르지 않으면 늦는다는 뜻이 됩니다.",
+      "transcript": ""
+    }
+  ]
+}

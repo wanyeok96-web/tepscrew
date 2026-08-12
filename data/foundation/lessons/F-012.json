@@ -1,0 +1,175 @@
+{
+  "id": "F-012",
+  "order": 12,
+  "title": "관계사",
+  "category": "grammar",
+  "estimatedMinutes": 15,
+  "skills": [
+    "relatives",
+    "who-which-that",
+    "whose-where"
+  ],
+  "objectives": [
+    "관계대명사 who/which/that의 기본 쓰임을 익힌다",
+    "소유격 whose와 관계부사 where/when을 구분한다",
+    "관계절이 선행사를 수식하는 구조를 빠르게 읽는다"
+  ],
+  "concept": {
+    "summary": "관계사는 선행사를 받는 절을 이끌어 정보를 덧붙입니다. 사람 who, 사물 which, 둘 다 that이 기본이며, whose는 소유, where/when은 장소·시간을 연결합니다. 콤마 유무(제한/비제한)도 의미에 영향을 줍니다.",
+    "points": [
+      "사람: the manager who approved it",
+      "사물: the tool which/that we use",
+      "소유: an employee whose idea won",
+      "장소·시간: the office where… / the year when…"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The analyst who prepared the chart joined us.",
+      "ko": "차트를 준비한 분석가가 합류했다.",
+      "structure": "who + 사람"
+    },
+    {
+      "en": "This is the dataset that we cleaned yesterday.",
+      "ko": "이것이 우리가 어제 정리한 데이터셋이다.",
+      "structure": "that + 사물"
+    },
+    {
+      "en": "She works at a firm whose clients are global.",
+      "ko": "그녀는 고객이 글로벌인 회사에서 일한다.",
+      "structure": "whose + 소유"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-012-Q01",
+      "skill": "who",
+      "question": "빈칸: \"The engineer ___ fixed the bug got credit.\"",
+      "choices": [
+        "which",
+        "who",
+        "where",
+        "whose"
+      ],
+      "answer": 1,
+      "explanation": "사람 선행사에는 who가 자연스럽습니다."
+    },
+    {
+      "id": "F-012-Q02",
+      "skill": "which",
+      "question": "\"Here is the report ___ you requested.\"",
+      "choices": [
+        "who",
+        "whose",
+        "which",
+        "where"
+      ],
+      "answer": 2,
+      "explanation": "사물 report에는 which/that이 옵니다."
+    },
+    {
+      "id": "F-012-Q03",
+      "skill": "whose",
+      "question": "\"I met a designer ___ portfolio impressed me.\"",
+      "choices": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "answer": 2,
+      "explanation": "portfolio의 소유주가 designer이므로 whose입니다."
+    },
+    {
+      "id": "F-012-Q04",
+      "skill": "where",
+      "question": "\"This is the lab ___ we test prototypes.\"",
+      "choices": [
+        "who",
+        "which",
+        "where",
+        "whose"
+      ],
+      "answer": 2,
+      "explanation": "장소 lab + where 관계부사가 자연스럽습니다."
+    },
+    {
+      "id": "F-012-Q05",
+      "skill": "omission",
+      "question": "목적격 관계대명사 생략이 자연스러운 것은?",
+      "choices": [
+        "the person who called (주어 who 생략)",
+        "the file that I sent → the file I sent",
+        "the woman whose car… (whose 생략)",
+        "the office where… (where 항상 생략)"
+      ],
+      "answer": 1,
+      "explanation": "목적격 that/which는 자주 생략됩니다. the file I sent."
+    },
+    {
+      "id": "F-012-Q06",
+      "skill": "that-restrictive",
+      "question": "제한용법에 흔히 쓰이며 사람·사물 모두 가능한 것은?",
+      "choices": [
+        "where만",
+        "that",
+        "whose만",
+        "whom만"
+      ],
+      "answer": 1,
+      "explanation": "that은 제한 관계절에서 사람·사물 모두에 쓰입니다."
+    },
+    {
+      "id": "F-012-Q07",
+      "skill": "nonrestrictive",
+      "question": "비제한(콤마) 관계절에 보통 that을 쓰지 않는 이유로 가장 가까운 것은?",
+      "choices": [
+        "that은 동사다",
+        "비제한에는 which/who가 일반적이다",
+        "that은 전치사다",
+        "that은 항상 생략 필수"
+      ],
+      "answer": 1,
+      "explanation": "콤마가 있는 부가 설명에는 which/who가 일반적이고 that은 잘 안 씁니다."
+    },
+    {
+      "id": "F-012-Q08",
+      "skill": "application",
+      "question": "올바른 문장은?",
+      "choices": [
+        "The client which called is waiting.",
+        "The client who called is waiting.",
+        "The client where called is waiting.",
+        "The client whose called is waiting."
+      ],
+      "answer": 1,
+      "explanation": "사람 client에는 who가 맞습니다."
+    },
+    {
+      "id": "F-012-Q09",
+      "skill": "when",
+      "question": "\"I remember the week ___ we launched.\"",
+      "choices": [
+        "who",
+        "whose",
+        "when",
+        "which who"
+      ],
+      "answer": 2,
+      "explanation": "시간 선행사에는 when이 자연스럽습니다."
+    },
+    {
+      "id": "F-012-Q10",
+      "skill": "trap-preposition",
+      "question": "\"the project ___ we talked about\"",
+      "choices": [
+        "who",
+        "where",
+        "that/which",
+        "whose"
+      ],
+      "answer": 2,
+      "explanation": "talk about의 목적어가 project이므로 that/which가 옵니다. (about이 절 끝에)"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "F-011",
+  "order": 11,
+  "title": "접속사",
+  "category": "grammar",
+  "estimatedMinutes": 12,
+  "skills": [
+    "conjunctions",
+    "coordinating",
+    "subordinating"
+  ],
+  "objectives": [
+    "등위접속사와 종속접속사의 역할을 구분한다",
+    "원인·대조·조건·시간을 나타내는 접속사를 고른다",
+    "접속사 뒤 절 구조(S+V)를 확인하는 습관을 기른다"
+  ],
+  "concept": {
+    "summary": "접속사는 단어·구·절을 논리적으로 연결합니다. and/but/or/so는 등위, because/if/when/although는 종속절을 이끕니다. TEPS에서는 접속사 선택과 절/구 혼동(despite vs although)이 자주 나옵니다.",
+    "points": [
+      "등위: and, but, or, so, yet",
+      "시간: when, while, before, after, until",
+      "원인·결과: because, since, so, therefore(부사)",
+      "대조·양보: but, although, even though / despite + 명사(구)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I called, but no one answered.",
+      "ko": "나는 전화했지만 아무도 받지 않았다.",
+      "structure": "등위 but"
+    },
+    {
+      "en": "We postponed the launch because the build failed.",
+      "ko": "빌드가 실패해서 출시를 미뤘다.",
+      "structure": "원인 because"
+    },
+    {
+      "en": "Although the budget is tight, we can proceed.",
+      "ko": "예산이 빠듯해도 진행할 수 있다.",
+      "structure": "양보 although"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-011-Q01",
+      "skill": "coordinating",
+      "question": "등위접속사가 아닌 것은?",
+      "choices": [
+        "and",
+        "but",
+        "because",
+        "or"
+      ],
+      "answer": 2,
+      "explanation": "because는 종속접속사입니다."
+    },
+    {
+      "id": "F-011-Q02",
+      "skill": "contrast",
+      "question": "빈칸: \"The plan is solid, ___ funding is uncertain.\"",
+      "choices": [
+        "and",
+        "but",
+        "because",
+        "so that"
+      ],
+      "answer": 1,
+      "explanation": "대조에는 but이 자연스럽습니다."
+    },
+    {
+      "id": "F-011-Q03",
+      "skill": "cause",
+      "question": "\"___ the server was down, we worked offline.\"",
+      "choices": [
+        "Despite",
+        "Because",
+        "Although of",
+        "But"
+      ],
+      "answer": 1,
+      "explanation": "원인 절을 이끌 때는 Because + S+V입니다."
+    },
+    {
+      "id": "F-011-Q04",
+      "skill": "trap-despite",
+      "question": "올바른 문장은?",
+      "choices": [
+        "Despite he was tired, he continued.",
+        "Despite being tired, he continued.",
+        "Although being tired, he continued.",
+        "Because of he was tired, he continued."
+      ],
+      "answer": 1,
+      "explanation": "despite 뒤에는 명사(구)/V-ing. despite being tired."
+    },
+    {
+      "id": "F-011-Q05",
+      "skill": "condition",
+      "question": "\"___ you confirm today, we can ship tomorrow.\"",
+      "choices": [
+        "If",
+        "Although",
+        "But",
+        "Or"
+      ],
+      "answer": 0,
+      "explanation": "조건은 If + 절입니다."
+    },
+    {
+      "id": "F-011-Q06",
+      "skill": "time",
+      "question": "\"Don't submit it ___ you double-check the figures.\"",
+      "choices": [
+        "while",
+        "until",
+        "during",
+        "despite"
+      ],
+      "answer": 1,
+      "explanation": "until은 ‘~할 때까지 (하지 마라)’에 적합합니다."
+    },
+    {
+      "id": "F-011-Q07",
+      "skill": "so-that",
+      "question": "목적·결과(‘~하도록’)에 가까운 연결은?",
+      "choices": [
+        "so that",
+        "but",
+        "or else and",
+        "despite"
+      ],
+      "answer": 0,
+      "explanation": "so that은 목적·결과 절을 이끕니다."
+    },
+    {
+      "id": "F-011-Q08",
+      "skill": "application",
+      "question": "접속사 뒤 구조가 올바른 것은?",
+      "choices": [
+        "Although the delay.",
+        "Although the delay was short, we apologized.",
+        "Although of the delay, we apologized.",
+        "Although delayed was short."
+      ],
+      "answer": 1,
+      "explanation": "although 뒤에는 절(S+V)이 옵니다."
+    },
+    {
+      "id": "F-011-Q09",
+      "skill": "while",
+      "question": "\"___ I agree with the goal, I question the timeline.\"",
+      "choices": [
+        "During",
+        "While",
+        "Despite",
+        "Or"
+      ],
+      "answer": 1,
+      "explanation": "While는 시간뿐 아니라 약한 대조(‘~이긴 하나’)에도 씁니다."
+    },
+    {
+      "id": "F-011-Q10",
+      "skill": "error",
+      "question": "어색한 연결은?",
+      "choices": [
+        "She was late because traffic was heavy.",
+        "She was late, so she apologized.",
+        "She was late although the roads were clear.",
+        "She was late despite traffic was heavy."
+      ],
+      "answer": 3,
+      "explanation": "despite 뒤에는 절이 바로 오지 않습니다. despite heavy traffic이 맞습니다."
+    }
+  ]
+}

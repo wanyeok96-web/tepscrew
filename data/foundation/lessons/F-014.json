@@ -1,0 +1,146 @@
+{
+  "id": "F-014",
+  "order": 14,
+  "title": "연어와 구동사",
+  "category": "vocabulary",
+  "estimatedMinutes": 14,
+  "skills": ["collocation", "phrasal-verb", "context"],
+  "objectives": [
+    "고빈도 연어(collocation) 패턴을 익힌다",
+    "구동사(phrasal verb)의 기본 의미를 구분한다",
+    "문맥에 맞는 전치사·부사 입력을 고른다"
+  ],
+  "concept": {
+    "summary": "영어는 단어 하나보다 ‘함께 자주 쓰이는 조합’이 중요합니다. make a decision, take responsibility처럼 동사+명사 연어와 look into, put off 같은 구동사를 세트로 익히면 어휘·독해·청해가 함께 좋아집니다. 뜻을 외울 때 전치사까지 붙여 기억하세요.",
+    "points": [
+      "동사+명사 연어는 통째로 암기한다",
+      "구동사는 동사+부사/전치사로 새 의미를 만든다",
+      "비슷해 보여도 전치사가 바뀌면 뜻이 달라진다",
+      "문장 전체 맥락으로 자연스러운 조합을 고른다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "We need to look into the complaint carefully.",
+      "ko": "우리는 그 불만을 주의 깊게 조사해야 한다.",
+      "structure": "look into = investigate"
+    },
+    {
+      "en": "She put off the meeting until Friday.",
+      "ko": "그녀는 회의를 금요일까지 연기했다.",
+      "structure": "put off = postpone"
+    },
+    {
+      "en": "He took responsibility for the delay.",
+      "ko": "그는 지연에 대한 책임을 졌다.",
+      "structure": "take responsibility for"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-014-Q01",
+      "skill": "phrasal-verb",
+      "question": "\"look into the matter\"의 의미는?",
+      "choices": ["문제를 무시하다", "문제를 조사하다", "문제를 공개하다", "문제를 연기하다"],
+      "answer": 1,
+      "explanation": "look into는 investigate, examine과 같아 ‘조사하다’입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-014-Q02",
+      "skill": "collocation",
+      "question": "빈칸에 알맞은 것은? \"They finally ___ a decision after a long debate.\"",
+      "choices": ["did", "made", "took", "had"],
+      "answer": 1,
+      "explanation": "make a decision이 표준 연어입니다. decision과 함께 do/take를 쓰지 않습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-014-Q03",
+      "skill": "phrasal-verb",
+      "question": "\"The flight was called off.\"에서 call off의 뜻은?",
+      "choices": ["연기하다", "취소하다", "확인하다", "출발하다"],
+      "answer": 1,
+      "explanation": "call off는 cancel, 즉 ‘취소하다’입니다. put off(연기)와 구분하세요.",
+      "transcript": ""
+    },
+    {
+      "id": "F-014-Q04",
+      "skill": "collocation",
+      "question": "다음 중 연어가 자연스러운 것은?",
+      "choices": [
+        "do a mistake",
+        "make an effort",
+        "take a research",
+        "give an attention"
+      ],
+      "answer": 1,
+      "explanation": "make an effort가 올바른 연어입니다. mistake는 make, research는 conduct/do, attention은 pay가 자연스럽습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-014-Q05",
+      "skill": "phrasal-verb",
+      "question": "빈칸에 알맞은 것은? \"Please ___ the form and submit it today.\"",
+      "choices": ["fill out", "fill up", "fill in on", "fill off"],
+      "answer": 0,
+      "explanation": "fill out (a form)은 ‘양식을 작성하다’입니다. fill up은 ‘가득 채우다’에 가깝습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-014-Q06",
+      "skill": "context",
+      "question": "\"She came across an old photo.\"의 의미로 알맞은 것은?",
+      "choices": [
+        "일부러 사진을 찾았다",
+        "우연히 사진을 발견했다",
+        "사진을 폐기했다",
+        "사진을 복사했다"
+      ],
+      "answer": 1,
+      "explanation": "come across는 ‘우연히 마주치다/발견하다’입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-014-Q07",
+      "skill": "collocation",
+      "question": "빈칸에 알맞은 것은? \"He ___ attention to the warning signs.\"",
+      "choices": ["made", "did", "paid", "gave"],
+      "answer": 2,
+      "explanation": "pay attention to가 고빈도 연어입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-014-Q08",
+      "skill": "phrasal-verb",
+      "question": "\"put up with the noise\"와 가장 가까운 뜻은?",
+      "choices": ["소음을 즐기다", "소음을 참다", "소음을 측정하다", "소음을 줄이다"],
+      "answer": 1,
+      "explanation": "put up with는 tolerate, endure로 ‘참다, 견디다’입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-014-Q09",
+      "skill": "context",
+      "question": "다음 중 put off가 올바르게 쓰인 문장은?",
+      "choices": [
+        "They put off the lights before leaving.",
+        "She put off her coat on the chair.",
+        "We put off discussing the budget.",
+        "He put off to the station early."
+      ],
+      "answer": 2,
+      "explanation": "put off + V-ing/명사는 ‘연기하다’입니다. 불을 끄는 것은 turn off, 옷을 벗는 것은 take off입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-014-Q10",
+      "skill": "collocation",
+      "question": "\"take part in the workshop\"의 의미는?",
+      "choices": ["워크숍을 취소하다", "워크숍에 참여하다", "워크숍을 준비하다", "워크숍을 평가하다"],
+      "answer": 1,
+      "explanation": "take part in은 participate in과 같아 ‘참여하다’입니다.",
+      "transcript": ""
+    }
+  ]
+}

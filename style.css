@@ -2710,6 +2710,68 @@ fieldset.field {
   margin-top: 10px;
 }
 
+/* Foundation upgrade */
+
+.foundation-next h2 {
+  margin: 4px 0 8px;
+}
+
+.foundation-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 var(--space-4);
+}
+
+.filter-chip {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  font: inherit;
+  font-size: 0.88rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filter-chip.is-active {
+  border-color: var(--brand, #2563eb);
+  color: var(--brand, #2563eb);
+  font-weight: 600;
+}
+
+.fq-progress {
+  margin-bottom: 14px;
+}
+
+.fq-transcript {
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #f8fafc;
+}
+
+.fq-transcript summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.fq-transcript p {
+  margin: 8px 0 0;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.fq-result .score-value {
+  font-size: 2.4rem;
+  margin: 8px 0;
+}
+
 @media (max-width: 768px) {
   .seg-btn {
     padding: 6px 8px;
@@ -2721,6 +2783,7 @@ fieldset.field {
     gap: 2px;
   }
 }
+
 
 /* Guide hub */
 

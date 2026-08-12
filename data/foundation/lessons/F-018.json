@@ -1,0 +1,146 @@
+{
+  "id": "F-018",
+  "order": 18,
+  "title": "긴 문장 읽기",
+  "category": "expand",
+  "estimatedMinutes": 15,
+  "skills": ["long-sentence", "core-structure", "modifier-parsing"],
+  "objectives": [
+    "긴 문장에서 주어·동사 뼈대를 먼저 찾는다",
+    "삽입·수식 요소를 괄호처럼 묶어 읽는다",
+    "핵심 의미를 한 문장으로 요약한다"
+  ],
+  "concept": {
+    "summary": "긴 문장은 정보가 많아서 어렵지, 구조가 완전히 다른 것은 아닙니다. 먼저 주어와 본동사를 찾고, 관계절·전치사구·삽입구는 잠시 옆에 두는 전략이 효과적입니다. TEPS 독해 문장도 같은 방식으로 ‘뼈대 → 수식’ 순으로 읽으면 속도가 붙습니다.",
+    "points": [
+      "S와 V를 먼저 표시한다",
+      "who/which/that절은 명사에 붙는 설명이다",
+      "콤마로 묶인 삽입구는 핵심이 아닐 수 있다",
+      "뼈대를 한 줄로 요약한 뒤 세부정보를 더한다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The report that the committee submitted last week includes several recommendations.",
+      "ko": "위원회가 지난주에 제출한 보고서는 몇 가지 권고안을 포함한다.",
+      "structure": "The report ... includes ..."
+    },
+    {
+      "en": "Many workers, tired after the long shift, went home immediately.",
+      "ko": "긴 근무 후 지친 많은 직원들이 곧바로 집에 갔다.",
+      "structure": "Many workers ... went home"
+    },
+    {
+      "en": "The policy announced in March aims to reduce traffic in the downtown area.",
+      "ko": "3월에 발표된 정책은 도심 교통을 줄이는 것을 목표로 한다.",
+      "structure": "The policy ... aims to reduce ..."
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-018-Q01",
+      "skill": "core-structure",
+      "question": "문장 \"The manager who joined last month revised the schedule.\"의 본동사는?",
+      "choices": ["who", "joined", "revised", "schedule"],
+      "answer": 2,
+      "explanation": "주어 The manager의 본동사는 revised입니다. who joined last month는 수식절입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-018-Q02",
+      "skill": "long-sentence",
+      "question": "\"Books written in simple English help adult learners rebuild confidence.\"의 주어 핵은?",
+      "choices": ["English", "Books", "learners", "confidence"],
+      "answer": 1,
+      "explanation": "주어의 핵은 Books이고, written in simple English가 수식합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-018-Q03",
+      "skill": "modifier-parsing",
+      "question": "다음 문장에서 삽입된 설명 부분은? \"The proposal, despite strong opposition, was approved.\"",
+      "choices": ["The proposal", "despite strong opposition", "was approved", "proposal was"],
+      "answer": 1,
+      "explanation": "콤마 사이의 despite strong opposition은 부가 정보입니다. 뼈대는 The proposal was approved입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-018-Q04",
+      "skill": "core-structure",
+      "question": "문장의 핵심 의미로 가장 가까운 것은? \"Customers who waited more than an hour received a discount.\"",
+      "choices": [
+        "모든 고객이 할인을 받았다",
+        "한 시간 이상 기다린 고객이 할인을 받았다",
+        "고객이 한 시간을 할인받았다",
+        "할인이 한 시간 이상 지연되었다"
+      ],
+      "answer": 1,
+      "explanation": "관계절 who waited more than an hour가 어떤 고객인지 한정합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-018-Q05",
+      "skill": "long-sentence",
+      "question": "\"The results collected during the survey suggest a clear trend.\"에서 주어의 핵은?",
+      "choices": ["survey", "trend", "The results", "collected"],
+      "answer": 2,
+      "explanation": "주어의 핵은 The results이고, collected during the survey는 수식어입니다. 동사 suggest와 수일치합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-018-Q06",
+      "skill": "modifier-parsing",
+      "question": "\"A plan to improve public transport was discussed at the meeting.\"에서 to improve public transport가 수식하는 것은?",
+      "choices": ["was", "meeting", "A plan", "discussed"],
+      "answer": 2,
+      "explanation": "to부정사구는 A plan의 내용을 설명합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-018-Q07",
+      "skill": "core-structure",
+      "question": "긴 문장 읽기에서 가장 먼저 할 일은?",
+      "choices": [
+        "모르는 단어를 모두 찾는다",
+        "주어와 본동사를 찾는다",
+        "접속사를 모두 번역한다",
+        "부사만 표시한다"
+      ],
+      "answer": 1,
+      "explanation": "뼈대(S+V)를 먼저 잡으면 수식 요소를 안전하게 처리할 수 있습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-018-Q08",
+      "skill": "long-sentence",
+      "question": "문장 요약으로 알맞은 것은? \"Researchers at the institute published a paper on sleep and memory last year.\"",
+      "choices": [
+        "연구소 연구자들이 수면과 기억에 관한 논문을 냈다",
+        "수면이 연구소를 출판했다",
+        "기억이 작년에 논문을 읽었다",
+        "연구소가 수면을 기억했다"
+      ],
+      "answer": 0,
+      "explanation": "뼈대는 Researchers published a paper입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-018-Q09",
+      "skill": "modifier-parsing",
+      "question": "\"The files on the shared drive need updating.\"에서 on the shared drive는?",
+      "choices": ["동사 need의 목적어", "The files를 수식하는 전치사구", "문장 부사", "보어"],
+      "answer": 1,
+      "explanation": "위치 전치사구가 The files를 수식합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-018-Q10",
+      "skill": "core-structure",
+      "question": "\"What the committee decided surprised everyone.\"의 주어에 해당하는 부분은?",
+      "choices": ["the committee", "What the committee decided", "surprised", "everyone"],
+      "answer": 1,
+      "explanation": "What the committee decided는 명사절 주어입니다. 본동사는 surprised입니다.",
+      "transcript": ""
+    }
+  ]
+}

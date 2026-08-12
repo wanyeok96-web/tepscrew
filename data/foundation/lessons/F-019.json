@@ -1,0 +1,171 @@
+{
+  "id": "F-019",
+  "order": 19,
+  "title": "짧은 지문 요지",
+  "category": "reading",
+  "estimatedMinutes": 15,
+  "skills": ["main-idea", "summarize", "topic"],
+  "objectives": [
+    "짧은 지문의 주제와 요지를 구분한다",
+    "세부정보에 끌려가지 않고 중심 생각을 고른다",
+    "선택지의 부분 진실·과장 함정을 걸러낸다"
+  ],
+  "concept": {
+    "summary": "요지 문제는 ‘지문이 말하려는 한 가지’를 찾는 훈련입니다. 세부사실·예시·숫자는 요지를 뒷받침할 뿐, 요지 자체가 아닙니다. 첫 문장과 마지막 문장, 그리고 반복되는 핵심어를 보면 주제가 빠르게 보입니다.",
+    "points": [
+      "주제(topic): 무엇에 관한 글인가",
+      "요지(main idea): 그 주제에 대해 무엇을 말하는가",
+      "예시는 요지를 지지하는 재료다",
+      "너무 좁거나 너무 넓은 선택지를 경계한다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "Remote work can raise productivity when goals are clear.",
+      "ko": "목표가 분명하면 원격근무는 생산성을 높일 수 있다.",
+      "structure": "요지 = 조건 하의 원격근무 효과"
+    },
+    {
+      "en": "Many adults restart English by rebuilding basic sentence sense.",
+      "ko": "많은 성인은 문장 감각을 다시 쌓으며 영어를 재시작한다.",
+      "structure": "요지 = 기초 회복의 중요성"
+    },
+    {
+      "en": "Short daily practice beats rare long study sessions.",
+      "ko": "가끔 오래 공부하는 것보다 매일 짧게 하는 편이 낫다.",
+      "structure": "요지 = 꾸준한 짧은 학습"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-019-Q01",
+      "skill": "main-idea",
+      "question": "Many offices now allow flexible hours. Employees can start earlier or later if they finish required tasks. Managers report that clear goals matter more than fixed schedules.\n\n이 글의 요지로 가장 알맞은 것은?",
+      "choices": [
+        "모든 회사가 재택근무를 도입했다",
+        "유연근무는 명확한 목표와 함께일 때 효과적일 수 있다",
+        "관리자는 고정 근무만 선호한다",
+        "직원은 업무를 끝내지 않아도 된다"
+      ],
+      "answer": 1,
+      "explanation": "유연근무 가능성과 함께 ‘명확한 목표가 더 중요하다’는 점이 중심입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-019-Q02",
+      "skill": "topic",
+      "question": "Drinking water regularly helps concentration. Even mild dehydration can slow thinking. Simple habits, such as keeping a bottle nearby, make a difference.\n\n이 글의 주제로 알맞은 것은?",
+      "choices": ["운동과 수면", "수분 섭취와 집중력", "병 디자인의 역사", "사고력 테스트 방법"],
+      "answer": 1,
+      "explanation": "전반적으로 물 섭취와 집중력의 관계를 다룹니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-019-Q03",
+      "skill": "summarize",
+      "question": "Public libraries are changing. Beyond lending books, they offer quiet study rooms, job workshops, and digital training. Communities increasingly treat them as learning hubs.\n\n요약으로 가장 알맞은 것은?",
+      "choices": [
+        "도서관은 책만 빌려주는 곳이다",
+        "도서관이 학습·지원 공간으로 역할이 넓어지고 있다",
+        "모든 도서관이 유료다",
+        "디지털 교육은 효과가 없다"
+      ],
+      "answer": 1,
+      "explanation": "대출을 넘어 학습 허브로 확장된다는 내용이 요지입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-019-Q04",
+      "skill": "main-idea",
+      "question": "People often wait for perfect conditions to start studying. Waiting usually delays progress. Starting small and adjusting later is more practical.\n\n필자의 주장에 가까운 것은?",
+      "choices": [
+        "완벽한 계획이 생길 때까지 기다려라",
+        "작게라도 먼저 시작하는 편이 낫다",
+        "공부는 나중에 몰아서 하라",
+        "조건이 나빠도 계획을 바꾸지 마라"
+      ],
+      "answer": 1,
+      "explanation": "완벽한 조건을 기다리지 말고 작게 시작하라는 메시지입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-019-Q05",
+      "skill": "main-idea",
+      "question": "City parks do more than decorate neighborhoods. They lower stress, encourage walking, and give residents a place to meet. Urban planners now treat parks as basic infrastructure.\n\n요지로 알맞은 것은?",
+      "choices": [
+        "공원은 장식용에 불과하다",
+        "도시 공원은 건강·교류를 위한 필수 인프라다",
+        "모든 주민이 매일 걷는다",
+        "도시 계획은 더 이상 필요 없다"
+      ],
+      "answer": 1,
+      "explanation": "공원의 실질적 기능과 인프라로서의 중요성이 중심입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-019-Q06",
+      "skill": "topic",
+      "question": "When adults return to English after a long break, grammar lists alone rarely help. They need sentence patterns they can reuse at work and in daily talk.\n\n주제는?",
+      "choices": ["여행 영어", "성인의 실용적 영어 회복", "어린이 발음 교육", "문학 번역 기법"],
+      "answer": 1,
+      "explanation": "공백 후 성인이 다시 영어를 쌓는 실용적 접근이 주제입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-019-Q07",
+      "skill": "summarize",
+      "question": "Online reviews influence buyers, but extreme opinions can mislead. Checking several reviews and looking for specific details leads to better decisions.\n\n요약으로 알맞은 것은?",
+      "choices": [
+        "리뷰는 항상 정확하다",
+        "극단적 리뷰만 믿어야 한다",
+        "여러 리뷰와 구체적 근거를 확인하는 것이 낫다",
+        "온라인 쇼핑은 피해야 한다"
+      ],
+      "answer": 2,
+      "explanation": "리뷰 영향력과 함께, 교차확인·구체성 확인이 요지입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-019-Q08",
+      "skill": "main-idea",
+      "question": "Sleep is not wasted time. During sleep, the brain sorts memories and restores energy. Cutting sleep to gain study hours often reduces learning quality.\n\n요지는?",
+      "choices": [
+        "수면은 시간 낭비다",
+        "수면을 줄이면 학습이 항상 늘는다",
+        "충분한 수면이 학습 질을 지키는 데 중요하다",
+        "기억은 깨어 있을 때만 정리된다"
+      ],
+      "answer": 2,
+      "explanation": "수면의 역할과, 수면 축소가 학습에 해로울 수 있다는 점이 중심입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-019-Q09",
+      "skill": "main-idea",
+      "question": "A company replaced long weekly meetings with short written updates. Staff saved hours and still shared key information. Communication improved because updates were clearer.\n\n요지로 가장 알맞은 것은?",
+      "choices": [
+        "회의는 무조건 없애야 한다",
+        "짧은 서면 업데이트가 긴 회의보다 효율적일 수 있다",
+        "직원은 정보를 공유하지 않았다",
+        "서면 업데이트는 항상 실패한다"
+      ],
+      "answer": 1,
+      "explanation": "긴 회의를 짧은 서면 업데이트로 바꿔 효율이 올랐다는 사례가 요지입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-019-Q10",
+      "skill": "summarize",
+      "question": "Learning vocabulary in word families—such as decide, decision, decisive—helps learners recognize related forms in reading passages more quickly.\n\n이 문장의 요지는?",
+      "choices": [
+        "단어족으로 배우면 관련 형태를 더 빨리 알아본다",
+        "단어는 하나씩만 외워야 한다",
+        "독해에서는 어휘가 필요 없다",
+        "decisive만 알면 충분하다"
+      ],
+      "answer": 0,
+      "explanation": "단어족 학습이 독해에서 관련 형태 인식에 도움이 된다는 내용입니다.",
+      "transcript": ""
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "F-017",
+  "order": 17,
+  "title": "수식어 붙이기",
+  "category": "expand",
+  "estimatedMinutes": 14,
+  "skills": ["modifiers", "adjective-adverb", "relative-modifier"],
+  "objectives": [
+    "형용사·부사·전치사구로 문장을 확장한다",
+    "수식 대상이 무엇인지 정확히 파악한다",
+    "관계절·분사구로 정보를 덧붙이는 감각을 익힌다"
+  ],
+  "concept": {
+    "summary": "기본 문장에 수식어를 붙이면 정보가 풍부한 문장이 됩니다. 형용사는 명사를, 부사는 동사·형용사·문장을 꾸밉니다. 전치사구와 관계절도 같은 ‘꾸미기’ 기능을 하므로, 무엇이 무엇을 수식하는지 표시하며 읽는 연습이 필요합니다.",
+    "points": [
+      "형용사: 명사 앞/뒤(보어)에서 명사를 꾸민다",
+      "부사: how/when/where/정도를 더한다",
+      "전치사구는 위치·시간·방법 정보를 붙인다",
+      "관계절·분사는 명사를 길게 수식한다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The careful manager reviewed the report thoroughly.",
+      "ko": "신중한 관리자가 보고서를 철저히 검토했다.",
+      "structure": "형용사 careful / 부사 thoroughly"
+    },
+    {
+      "en": "The book on the desk belongs to Mina.",
+      "ko": "책상 위의 책은 미나의 것이다.",
+      "structure": "전치사구 on the desk → book 수식"
+    },
+    {
+      "en": "Employees who arrive early get better seats.",
+      "ko": "일찍 도착하는 직원들이 더 좋은 좌석을 받는다.",
+      "structure": "관계절 who arrive early → Employees 수식"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-017-Q01",
+      "skill": "adjective-adverb",
+      "question": "\"She answered the question correctly.\"에서 correctly가 수식하는 것은?",
+      "choices": ["She", "question", "answered", "the"],
+      "answer": 2,
+      "explanation": "부사 correctly는 동사 answered의 방식을 수식합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-017-Q02",
+      "skill": "modifiers",
+      "question": "빈칸에 알맞은 것은? \"It was a ___ decision.\"",
+      "choices": ["careful", "carefully", "care", "caringness"],
+      "answer": 0,
+      "explanation": "명사 decision 앞에는 형용사 careful이 옵니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-017-Q03",
+      "skill": "relative-modifier",
+      "question": "\"The laptop that I bought yesterday is light.\"에서 that절이 수식하는 것은?",
+      "choices": ["yesterday", "is", "The laptop", "light"],
+      "answer": 2,
+      "explanation": "관계절 that I bought yesterday는 The laptop을 수식합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-017-Q04",
+      "skill": "modifiers",
+      "question": "다음 중 수식 관계가 어색한 문장은?",
+      "choices": [
+        "He spoke in a clear voice.",
+        "He spoke clearly.",
+        "He gave a clearly explanation.",
+        "His explanation was clear."
+      ],
+      "answer": 2,
+      "explanation": "명사 explanation 앞에는 형용사 clear가 필요합니다. clearly는 부사입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-017-Q05",
+      "skill": "modifiers",
+      "question": "\"People in the front row could hear better.\"에서 in the front row가 수식하는 것은?",
+      "choices": ["hear", "better", "People", "could"],
+      "answer": 2,
+      "explanation": "전치사구 in the front row는 People을 수식합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-017-Q06",
+      "skill": "adjective-adverb",
+      "question": "빈칸에 알맞은 것은? \"The team performed ___ in the final.\"",
+      "choices": ["impressive", "impressively", "impression", "impressed"],
+      "answer": 1,
+      "explanation": "동사 performed를 수식하려면 부사 impressively가 필요합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-017-Q07",
+      "skill": "relative-modifier",
+      "question": "문장을 확장할 때 가장 자연스러운 것은?",
+      "choices": [
+        "I met a woman works at the bank.",
+        "I met a woman who works at the bank.",
+        "I met a woman which works at the bank.",
+        "I met a woman working she at the bank."
+      ],
+      "answer": 1,
+      "explanation": "사람을 수식하는 관계대명사는 who가 자연스럽습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-017-Q08",
+      "skill": "modifiers",
+      "question": "\"Almost every applicant submitted a resume.\"에서 Almost가 수식하는 것은?",
+      "choices": ["submitted", "every", "resume", "applicant"],
+      "answer": 1,
+      "explanation": "Almost는 every를 수식하여 ‘거의 모든’의 의미를 만듭니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-017-Q09",
+      "skill": "adjective-adverb",
+      "question": "다음 중 올바른 문장은?",
+      "choices": [
+        "She feels happily today.",
+        "She feels happy today.",
+        "She feels more happily today.",
+        "She feels happinessly today."
+      ],
+      "answer": 1,
+      "explanation": "feel 같은 감각동사 뒤에는 주어 상태를 설명하는 형용사가 옵니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-017-Q10",
+      "skill": "relative-modifier",
+      "question": "\"Students interested in design joined the club.\"에서 interested in design의 역할은?",
+      "choices": ["주어", "본동사", "Students를 수식하는 분사구", "목적어"],
+      "answer": 2,
+      "explanation": "과거분사구 interested in design은 Students를 뒤에서 수식합니다.",
+      "transcript": ""
+    }
+  ]
+}

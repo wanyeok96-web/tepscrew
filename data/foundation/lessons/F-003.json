@@ -1,0 +1,175 @@
+{
+  "id": "F-003",
+  "order": 3,
+  "title": "주어와 동사",
+  "category": "sentence",
+  "estimatedMinutes": 12,
+  "skills": [
+    "subject-verb-agreement",
+    "head-noun",
+    "tricky-subjects"
+  ],
+  "objectives": [
+    "주어의 핵(head)을 찾아 동사 수를 맞춘다",
+    "부정대명사·집합명사·there 구문의 수일치를 익힌다",
+    "of 전치사구에 속지 않는 분석 습관을 기른다"
+  ],
+  "concept": {
+    "summary": "동사의 단수·복수는 주어의 핵에 맞춥니다. of 뒤의 명사, 관계절, 삽입구는 수식일 뿐 주어가 아닙니다. TEPS 문법에서도 이 ‘핵 찾기’가 반복됩니다.",
+    "points": [
+      "단수 주어 → 단수 동사 / 복수 주어 → 복수 동사",
+      "The list of items is… → 핵은 list",
+      "everyone, each, nobody 등은 보통 단수",
+      "a number of + 복수 = 복수 / the number of + 복수 = 단수"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The list of items is on the desk.",
+      "ko": "항목 목록이 책상 위에 있다.",
+      "structure": "핵 list(단수) → is"
+    },
+    {
+      "en": "Everyone wants a clear answer.",
+      "ko": "누구나 분명한 답을 원한다.",
+      "structure": "everyone → 단수 동사"
+    },
+    {
+      "en": "A number of staff are attending.",
+      "ko": "다수의 직원이 참석한다.",
+      "structure": "a number of + 복수 → are"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-003-Q01",
+      "skill": "agreement",
+      "question": "빈칸: \"The news ___ surprising.\"",
+      "choices": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answer": 2,
+      "explanation": "news는 형태는 복수처럼 보여도 단수 취급이므로 is가 맞습니다."
+    },
+    {
+      "id": "F-003-Q02",
+      "skill": "agreement",
+      "question": "다음 중 수일치가 올바른 문장은?",
+      "choices": [
+        "The results of the test is ready.",
+        "Each of the students have a book.",
+        "There are two options left.",
+        "Nobody know the answer."
+      ],
+      "answer": 2,
+      "explanation": "there are + 복수(options)가 올바릅니다. 나머지는 주어 핵·부정대명사 수일치 오류입니다."
+    },
+    {
+      "id": "F-003-Q03",
+      "skill": "a-number-of",
+      "question": "\"A number of people ___ waiting.\"에 알맞은 동사는?",
+      "choices": [
+        "is",
+        "was",
+        "has been",
+        "are"
+      ],
+      "answer": 3,
+      "explanation": "a number of + 복수명사는 ‘다수의 ~’로 복수 취급하여 are를 씁니다."
+    },
+    {
+      "id": "F-003-Q04",
+      "skill": "the-number-of",
+      "question": "\"The number of applicants ___ increased.\"",
+      "choices": [
+        "have",
+        "are",
+        "has",
+        "were"
+      ],
+      "answer": 2,
+      "explanation": "the number of는 ‘~의 수’로 단수 취급하므로 has가 맞습니다."
+    },
+    {
+      "id": "F-003-Q05",
+      "skill": "head-noun",
+      "question": "\"One of the managers ___ overseas.\"",
+      "choices": [
+        "work",
+        "are working",
+        "works",
+        "have worked"
+      ],
+      "answer": 2,
+      "explanation": "주어의 핵은 One(단수)이므로 works가 맞습니다."
+    },
+    {
+      "id": "F-003-Q06",
+      "skill": "collective",
+      "question": "팀이 구성원 개개인을 강조할 때: \"The team ___ arguing among themselves.\"",
+      "choices": [
+        "is",
+        "was",
+        "are",
+        "has"
+      ],
+      "answer": 2,
+      "explanation": "구성원의 개별 행동을 말할 때는 복수가 흔합니다. among themselves와 호응합니다."
+    },
+    {
+      "id": "F-003-Q07",
+      "skill": "neither",
+      "question": "\"Neither of the proposals ___ acceptable.\"",
+      "choices": [
+        "are",
+        "were",
+        "have been",
+        "is"
+      ],
+      "answer": 3,
+      "explanation": "neither of + 복수명사도 보통 단수 동사를 씁니다."
+    },
+    {
+      "id": "F-003-Q08",
+      "skill": "there-be",
+      "question": "\"There ___ several issues to discuss.\"",
+      "choices": [
+        "is",
+        "was",
+        "has",
+        "are"
+      ],
+      "answer": 3,
+      "explanation": "there 구문은 뒤따르는 명사의 수에 맞춥니다. several issues → are."
+    },
+    {
+      "id": "F-003-Q09",
+      "skill": "trap-along-with",
+      "question": "\"The CEO, along with the directors, ___ arrived.\"",
+      "choices": [
+        "have",
+        "are",
+        "has",
+        "were"
+      ],
+      "answer": 2,
+      "explanation": "along with 구는 삽입 수식입니다. 주어 핵은 The CEO(단수) → has."
+    },
+    {
+      "id": "F-003-Q10",
+      "skill": "application",
+      "question": "수일치 오류를 고르세요.",
+      "choices": [
+        "Each employee has a badge.",
+        "The data are incomplete. (학술 맥락)",
+        "Everybody know the deadline.",
+        "Many of the files are missing."
+      ],
+      "answer": 2,
+      "explanation": "everybody는 단수이므로 knows가 맞습니다. Everybody know는 오류입니다."
+    }
+  ]
+}

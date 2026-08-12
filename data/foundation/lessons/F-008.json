@@ -1,0 +1,175 @@
+{
+  "id": "F-008",
+  "order": 8,
+  "title": "to부정사",
+  "category": "grammar",
+  "estimatedMinutes": 12,
+  "skills": [
+    "infinitive",
+    "to-infinitive-uses",
+    "verb-patterns"
+  ],
+  "objectives": [
+    "to부정사의 명사·형용사·부사 용법을 구분한다",
+    "동사 뒤 to부정사 패턴을 익힌다",
+    "목적·의도 표현에서 to부정사를 정확히 쓴다"
+  ],
+  "concept": {
+    "summary": "to부정사(to + 동사원형)는 명사처럼 주어·목적어가 되거나, 명사를 수식하거나, 목적·결과를 나타내는 부사 역할도 합니다. decide/plan/hope/need 등은 to부정사를 목적어로 자주 취합니다.",
+    "points": [
+      "명사적: To err is human. / I want to leave.",
+      "형용사적: a report to submit (제출할 보고서)",
+      "부사적: She called to confirm. (목적)",
+      "동사 패턴: decide/agree/promise/refuse + to-V"
+    ]
+  },
+  "examples": [
+    {
+      "en": "We need to revise the draft.",
+      "ko": "우리는 초안을 수정해야 한다.",
+      "structure": "need + to-V"
+    },
+    {
+      "en": "He stayed late to finish the slides.",
+      "ko": "그는 슬라이드를 끝내려고 늦게까지 남았다.",
+      "structure": "부사적(목적)"
+    },
+    {
+      "en": "There is nothing to worry about.",
+      "ko": "걱정할 것은 없다.",
+      "structure": "형용사적 수식"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-008-Q01",
+      "skill": "form",
+      "question": "to부정사의 기본 형태는?",
+      "choices": [
+        "to + -ing",
+        "to + 과거형",
+        "to + 동사원형",
+        "to + p.p."
+      ],
+      "answer": 2,
+      "explanation": "to + 동사원형이 기본입니다. to go, to finish."
+    },
+    {
+      "id": "F-008-Q02",
+      "skill": "noun-use",
+      "question": "\"I hope ___ soon.\"",
+      "choices": [
+        "hearing",
+        "to hear",
+        "heard",
+        "hear to"
+      ],
+      "answer": 1,
+      "explanation": "hope는 to부정사를 목적어로 취합니다."
+    },
+    {
+      "id": "F-008-Q03",
+      "skill": "purpose",
+      "question": "목적을 나타내는 표현으로 알맞은 것은?",
+      "choices": [
+        "She left early for to catch the train.",
+        "She left early to catch the train.",
+        "She left early catch to the train.",
+        "She left early catching for."
+      ],
+      "answer": 1,
+      "explanation": "목적의 to부정사: left early to catch…"
+    },
+    {
+      "id": "F-008-Q04",
+      "skill": "adjective-use",
+      "question": "\"I have a call ___ .\"",
+      "choices": [
+        "to make",
+        "making to",
+        "made to",
+        "make"
+      ],
+      "answer": 0,
+      "explanation": "명사 call을 수식하는 형용사적 to부정사 to make입니다."
+    },
+    {
+      "id": "F-008-Q05",
+      "skill": "verb-pattern",
+      "question": "다음 중 to부정사를 목적어로 취하는 동사는?",
+      "choices": [
+        "enjoy",
+        "avoid",
+        "decide",
+        "finish"
+      ],
+      "answer": 2,
+      "explanation": "decide to V. enjoy/avoid/finish는 주로 동명사입니다."
+    },
+    {
+      "id": "F-008-Q06",
+      "skill": "trap-bare",
+      "question": "원형부정사(to 없음)가 오는 자리의 예는?",
+      "choices": [
+        "want ___ go",
+        "make someone ___ go",
+        "hope ___ go",
+        "plan ___ go"
+      ],
+      "answer": 1,
+      "explanation": "사역동사 make + O + 원형(go). to가 없습니다."
+    },
+    {
+      "id": "F-008-Q07",
+      "skill": "not-to",
+      "question": "to부정사의 부정형으로 가장 표준적인 것은?",
+      "choices": [
+        "to not go",
+        "not to go",
+        "to go not",
+        "notting to go"
+      ],
+      "answer": 1,
+      "explanation": "표준 문어에서는 not to go가 일반적입니다."
+    },
+    {
+      "id": "F-008-Q08",
+      "skill": "application",
+      "question": "\"The goal is ___ costs without cutting quality.\"",
+      "choices": [
+        "reduce",
+        "reducing to",
+        "to reduce",
+        "reduced"
+      ],
+      "answer": 2,
+      "explanation": "be + to-V로 목표·예정·역할을 나타낼 수 있습니다."
+    },
+    {
+      "id": "F-008-Q09",
+      "skill": "too-enough",
+      "question": "\"The file is too large ___ by email.\"",
+      "choices": [
+        "sending",
+        "to send",
+        "sent",
+        "send"
+      ],
+      "answer": 1,
+      "explanation": "too…to V 구문입니다."
+    },
+    {
+      "id": "F-008-Q10",
+      "skill": "error",
+      "question": "어색한 문장은?",
+      "choices": [
+        "She promised to help.",
+        "He agreed to wait.",
+        "They enjoy to wait.",
+        "We need to talk."
+      ],
+      "answer": 2,
+      "explanation": "enjoy는 동명사를 취합니다. enjoy waiting이 맞습니다."
+    }
+  ]
+}

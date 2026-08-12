@@ -1,0 +1,181 @@
+{
+  "id": "F-022",
+  "order": 22,
+  "title": "짧은 응답 파악",
+  "category": "listening",
+  "estimatedMinutes": 14,
+  "skills": ["response", "conversation-flow", "function"],
+  "objectives": [
+    "짧은 질문에 대한 자연스러운 응답을 고른다",
+    "제안·요청·확인에 맞는 대답 기능을 파악한다",
+    "문법만 맞고 상황에 어긋난 선택지를 걸러낸다"
+  ],
+  "concept": {
+    "summary": "짧은 응답 문제는 ‘질문의 의도’를 먼저 듣는 훈련입니다. Yes/No 질문, 정보 질문, 제안·요청은 답하는 방식이 다릅니다. 문법적으로 가능한 문장이라도 대화 흐름에 맞지 않으면 오답입니다. 대본을 들으며 질문 유형을 표시하세요.",
+    "points": [
+      "질문 유형(정보/제안/요청/확인)을 먼저 분류한다",
+      "직접 답 + 간단 이유가 자주 나온다",
+      "질문과 동떨어진 화제 전환은 오답 후보",
+      "공손한 거절도 올바른 응답이 될 수 있다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "A: Could you open the window? B: Sure, no problem.",
+      "ko": "A: 창문 좀 열어 주시겠어요? B: 네, 물론이죠.",
+      "structure": "요청 → 수락"
+    },
+    {
+      "en": "A: How about lunch at noon? B: Sounds good.",
+      "ko": "A: 정오에 점심 어때요? B: 좋네요.",
+      "structure": "제안 → 동의"
+    },
+    {
+      "en": "A: Is this seat taken? B: No, go ahead.",
+      "ko": "A: 이 자리 있어요? B: 아니요, 앉으세요.",
+      "structure": "확인 → 허가"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-022-Q01",
+      "skill": "response",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "Yes, at 3 p.m.",
+        "I took the bus.",
+        "It's on the second floor.",
+        "Nice to meet you."
+      ],
+      "answer": 0,
+      "explanation": "회의 시작 시간을 물었으므로 시간으로 답하는 A가 맞습니다.",
+      "transcript": "A: Do you know when the meeting starts?"
+    },
+    {
+      "id": "F-022-Q02",
+      "skill": "function",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "I already ate, thanks.",
+        "The restaurant is closed tomorrow.",
+        "Coffee has caffeine.",
+        "Please pass the salt."
+      ],
+      "answer": 0,
+      "explanation": "커피 제안이므로 수락·거절 응답이 자연스럽습니다.",
+      "transcript": "A: Would you like some coffee?"
+    },
+    {
+      "id": "F-022-Q03",
+      "skill": "conversation-flow",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "Sorry, I'm using it right now.",
+        "The printer is white.",
+        "I like documents.",
+        "See you next week."
+      ],
+      "answer": 0,
+      "explanation": "프린터 사용 가능 여부 질문이므로 사용 중이라고 답하는 것이 맞습니다.",
+      "transcript": "A: Is the printer free?"
+    },
+    {
+      "id": "F-022-Q04",
+      "skill": "response",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "About fifteen minutes by subway.",
+        "I bought a map yesterday.",
+        "Stations are crowded.",
+        "Let's cancel the trip."
+      ],
+      "answer": 0,
+      "explanation": "소요 시간을 물었으므로 시간으로 답합니다.",
+      "transcript": "A: How long does it take to get to the station?"
+    },
+    {
+      "id": "F-022-Q05",
+      "skill": "function",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "I'd love to, but I have another call.",
+        "Meetings are important.",
+        "The room number is 204.",
+        "Please write an agenda."
+      ],
+      "answer": 0,
+      "explanation": "함께 들어가자는 제안에 대한 공손한 거절이 자연스럽습니다.",
+      "transcript": "A: Why don't we join the meeting together?"
+    },
+    {
+      "id": "F-022-Q06",
+      "skill": "response",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "Yes, here it is.",
+        "Pens are cheap.",
+        "I lost my keys.",
+        "Blue looks nice."
+      ],
+      "answer": 0,
+      "explanation": "펜을 빌려달라는 요청에 건네는 응답이 맞습니다.",
+      "transcript": "A: Can I borrow your pen for a second?"
+    },
+    {
+      "id": "F-022-Q07",
+      "skill": "conversation-flow",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "No, this is my first visit.",
+        "The hotel has a gym.",
+        "I reserved online.",
+        "Check-out is at noon."
+      ],
+      "answer": 0,
+      "explanation": "방문 경험 여부 Yes/No 질문이므로 방문 여부를 답합니다.",
+      "transcript": "A: Have you been to this hotel before?"
+    },
+    {
+      "id": "F-022-Q08",
+      "skill": "response",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "It's next to the elevator.",
+        "Restrooms are clean.",
+        "I need water.",
+        "I don't drink coffee."
+      ],
+      "answer": 0,
+      "explanation": "위치 질문에는 장소로 답해야 합니다. 나머지 선택지는 질문과 무관합니다.",
+      "transcript": "A: Excuse me, where is the restroom?"
+    },
+    {
+      "id": "F-022-Q09",
+      "skill": "function",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "Congratulations! That's great news.",
+        "Promotion means higher pay.",
+        "I work in marketing.",
+        "When is the interview?"
+      ],
+      "answer": 0,
+      "explanation": "승진 소식에는 축하 응답이 자연스럽습니다.",
+      "transcript": "A: I got promoted today."
+    },
+    {
+      "id": "F-022-Q10",
+      "skill": "conversation-flow",
+      "question": "들은 말에 대한 알맞은 응답은?",
+      "choices": [
+        "Sure. How about Thursday afternoon?",
+        "Schedules are complicated.",
+        "I hate meetings.",
+        "The calendar is digital."
+      ],
+      "answer": 0,
+      "explanation": "일정 조율 제안에 구체적 시간을 제안하는 응답이 맞습니다.",
+      "transcript": "A: Can we reschedule our appointment?"
+    }
+  ]
+}

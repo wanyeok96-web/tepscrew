@@ -1,0 +1,141 @@
+{
+  "id": "F-020",
+  "order": 20,
+  "title": "지시어와 세부정보",
+  "category": "reading",
+  "estimatedMinutes": 15,
+  "skills": ["reference", "detail", "scanning"],
+  "objectives": [
+    "this/that/these/it/they 등 지시어가 가리키는 대상을 찾는다",
+    "세부정보 문제에서 근거 문장을 빠르게 찾는다",
+    "비슷한 숫자·고유명사 함정을 구분한다"
+  ],
+  "concept": {
+    "summary": "세부정보 문제는 지문 전체를 다시 읽는 것이 아니라, 질문의 키워드로 해당 문장을 찾는 훈련입니다. 지시어 문제는 대명사 앞에서 가장 가까운 명사·내용을 확인하면 됩니다. ‘비슷하지만 다른’ 선택지를 골라내는 습관이 점수를 만듭니다.",
+    "points": [
+      "지시어는 앞 문장의 핵심 명사/내용을 받는다",
+      "질문의 고유명사·숫자·동사를 표시한다",
+      "근거 문장과 선택지를 1:1로 대조한다",
+      "부분만 맞는 선택지를 오답으로 처리한다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The policy failed. This disappointed many residents.",
+      "ko": "그 정책은 실패했다. 이것(실패)이 많은 주민을 실망시켰다.",
+      "structure": "This → the policy's failure"
+    },
+    {
+      "en": "Mina bought two tickets. She kept them in her bag.",
+      "ko": "미나는 표 두 장을 샀다. 그녀는 그것들을 가방에 두었다.",
+      "structure": "them → two tickets"
+    },
+    {
+      "en": "The museum opens at 10 a.m. on weekdays.",
+      "ko": "그 박물관은 평일 오전 10시에 연다.",
+      "structure": "세부정보: 시간·요일"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-020-Q01",
+      "skill": "reference",
+      "question": "The city built a new bike lane last spring. It has already reduced traffic near schools.\n\nIt가 가리키는 것은?",
+      "choices": ["the city", "last spring", "a new bike lane", "schools"],
+      "answer": 2,
+      "explanation": "앞 문장의 핵심 대상인 a new bike lane을 It이 받습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-020-Q02",
+      "skill": "detail",
+      "question": "The workshop starts at 2 p.m. in Room B. Participants should bring a laptop. Registration closes on Monday.\n\n참가자가 가져와야 하는 것은?",
+      "choices": ["등록증", "노트북", "월요일 일정표", "Room A 열쇠"],
+      "answer": 1,
+      "explanation": "bring a laptop이 명시되어 있습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-020-Q03",
+      "skill": "reference",
+      "question": "Tom suggested a shorter agenda. Most teammates supported the idea, and they adopted it immediately.\n\nthey가 가리키는 것은?",
+      "choices": ["agenda", "Most teammates", "idea", "Tom only"],
+      "answer": 1,
+      "explanation": "복수 주어 Most teammates가 they의 선행사입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-020-Q04",
+      "skill": "scanning",
+      "question": "Flight 208 to Busan departs at 7:40 a.m. from Gate 12. Passengers must arrive 60 minutes early.\n\n출발 게이트는?",
+      "choices": ["208", "7:40", "Gate 12", "60 minutes"],
+      "answer": 2,
+      "explanation": "from Gate 12가 출발 게이트 정보입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-020-Q05",
+      "skill": "reference",
+      "question": "Online courses can be flexible. However, this requires strong self-discipline from learners.\n\nthis가 가리키는 내용에 가까운 것은?",
+      "choices": [
+        "온라인 강의가 유연하다는 점/그 유연함을 활용하는 것",
+        "자기관리가 필요 없다는 점",
+        "학습자가 강의실에 있어야 한다는 점",
+        "유연함이 항상 해롭다는 점"
+      ],
+      "answer": 0,
+      "explanation": "앞 문장의 유연한 온라인 학습(을 잘 해내는 것)이 this의 내용입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-020-Q06",
+      "skill": "detail",
+      "question": "The café offers free Wi-Fi after 3 p.m. Before that, customers must make a purchase to use the network.\n\n오후 3시 이전 Wi-Fi 이용 조건은?",
+      "choices": [
+        "무료로 누구나 사용",
+        "구매 후에 사용",
+        "회원만 사용",
+        "직원만 사용"
+      ],
+      "answer": 1,
+      "explanation": "3시 전에는 구매가 필요하다고 명시되어 있습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-020-Q07",
+      "skill": "reference",
+      "question": "Two proposals were reviewed. The second one was clearer, so the board chose it.\n\nit이 가리키는 것은?",
+      "choices": ["Two proposals", "The second one", "the board", "clearer style alone"],
+      "answer": 1,
+      "explanation": "선택한 대상은 The second one입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-020-Q08",
+      "skill": "detail",
+      "question": "According to the notice, the elevator will be out of service from Tuesday to Thursday for repairs. The stairs remain open.\n\n엘리베이터 점검 기간은?",
+      "choices": ["월요일만", "화요일부터 목요일까지", "주말 전체", "금요일만"],
+      "answer": 1,
+      "explanation": "from Tuesday to Thursday가 기간입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-020-Q09",
+      "skill": "scanning",
+      "question": "Hana ordered salad and soup. Joon ordered pasta. They shared a dessert after the meal.\n\n두 사람이 함께 먹은 것은?",
+      "choices": ["salad", "soup", "pasta", "dessert"],
+      "answer": 3,
+      "explanation": "shared a dessert가 공동으로 먹은 항목입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-020-Q10",
+      "skill": "reference",
+      "question": "The instructions were printed on the box. Please read them before assembly.\n\nthem이 가리키는 것은?",
+      "choices": ["the box", "The instructions", "assembly", "Please"],
+      "answer": 1,
+      "explanation": "읽어야 할 대상은 The instructions입니다.",
+      "transcript": ""
+    }
+  ]
+}

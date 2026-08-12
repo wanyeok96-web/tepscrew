@@ -1,0 +1,166 @@
+{
+  "id": "F-024",
+  "order": 24,
+  "title": "짧은 대화 상황",
+  "category": "listening",
+  "estimatedMinutes": 15,
+  "skills": ["dialogue", "situation", "next-action"],
+  "objectives": [
+    "짧은 대화의 장소·관계를 파악한다",
+    "화자의 목적과 다음 행동을 추론한다",
+    "세부 한 단어에만 매몰되지 않고 상황을 읽는다"
+  ],
+  "concept": {
+    "summary": "상황 파악 문제는 단어 하나가 아니라 ‘누가, 어디서, 무엇을 하려는지’를 종합합니다. 직업·장소 단서(menu, boarding pass, prescription)와 행동 동사(reserve, cancel, check in)를 연결하면 장면이 보입니다. 마지막 발화가 다음 행동을 알려 주는 경우가 많습니다.",
+    "points": [
+      "장소 단서 어휘를 먼저 표시한다",
+      "화자 관계(동료/점원/승객)를 추정한다",
+      "문제·해결 구조를 듣는다",
+      "다음 행동은 대화 끝부분을 우선한다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "A: I'd like to return this shirt. B: Do you have the receipt?",
+      "ko": "A: 이 셔츠를 반품하고 싶어요. B: 영수증 있으세요?",
+      "structure": "상황: 매장 반품"
+    },
+    {
+      "en": "A: Gate 22 has changed to Gate 25. B: Thanks for the update.",
+      "ko": "A: 22번 게이트가 25번으로 변경됐어요. B: 알려 주셔서 감사해요.",
+      "structure": "상황: 공항 탑승"
+    },
+    {
+      "en": "A: The system is down. B: I'll reboot the router.",
+      "ko": "A: 시스템이 다운됐어요. B: 공유기를 재부팅할게요.",
+      "structure": "다음 행동: 재부팅"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-024-Q01",
+      "skill": "situation",
+      "question": "대화는 어디에서 이루어질 가능성이 큽니까?",
+      "choices": ["식당", "병원", "서점", "은행"],
+      "answer": 0,
+      "explanation": "table for two, menu 단서로 식당 상황입니다.",
+      "transcript": "A: A table for two, please. B: Right this way. Here are your menus."
+    },
+    {
+      "id": "F-024-Q02",
+      "skill": "dialogue",
+      "question": "두 사람의 관계로 가장 알맞은 것은?",
+      "choices": ["점원과 손님", "의사와 환자", "교사와 학생", "운전사와 승객"],
+      "answer": 0,
+      "explanation": "사이즈 교환·피팅룸 단서로 매장 점원-손님 관계입니다.",
+      "transcript": "A: Can I exchange this for a larger size? B: Of course. The fitting room is over there."
+    },
+    {
+      "id": "F-024-Q03",
+      "skill": "next-action",
+      "question": "남자가 다음에 할 일로 알맞은 것은?",
+      "choices": [
+        "다른 열차로 갈아탄다",
+        "표를 환불한다",
+        "역무원에게 항의한다",
+        "택시를 즉시 탄다"
+      ],
+      "answer": 0,
+      "explanation": "다음 열차를 타라는 안내를 받아들입니다.",
+      "transcript": "A: The 8:10 train is delayed. B: You can take the next one at 8:25. A: Okay, I'll do that."
+    },
+    {
+      "id": "F-024-Q04",
+      "skill": "situation",
+      "question": "대화의 주요 목적은 무엇입니까?",
+      "choices": [
+        "회의실 예약하기",
+        "복사기 수리 요청하기",
+        "출장 일정 잡기",
+        "점심 메뉴 고르기"
+      ],
+      "answer": 0,
+      "explanation": "room availability와 book it으로 회의실 예약이 목적입니다.",
+      "transcript": "A: Is Room 3 available at 3 p.m.? B: Yes. Should I book it for one hour? A: Please do."
+    },
+    {
+      "id": "F-024-Q05",
+      "skill": "dialogue",
+      "question": "여자가 불편해하는 이유는 무엇입니까?",
+      "choices": [
+        "에어컨이 너무 강하다",
+        "창문이 열리지 않는다",
+        "자리가 없다",
+        "조명이 너무 어둡다"
+      ],
+      "answer": 0,
+      "explanation": "freezing, turn down the air conditioner가 근거입니다.",
+      "transcript": "A: It's freezing in here. B: I'll turn down the air conditioner."
+    },
+    {
+      "id": "F-024-Q06",
+      "skill": "next-action",
+      "question": "직원이 다음에 할 일은 무엇입니까?",
+      "choices": [
+        "새 열쇠를 발급한다",
+        "방을 업그레이드한다",
+        "체크아웃을 진행한다",
+        "조식을 취소한다"
+      ],
+      "answer": 0,
+      "explanation": "열쇠 분실 후 새 키를 만들어 주겠다고 했습니다.",
+      "transcript": "A: I lost my room key. B: No problem. I'll issue a new one at the front desk."
+    },
+    {
+      "id": "F-024-Q07",
+      "skill": "situation",
+      "question": "대화가 이루어지는 장소로 알맞은 것은?",
+      "choices": ["약국", "우체국", "미술관", "체육관"],
+      "answer": 0,
+      "explanation": "prescription, pharmacist 단서로 약국입니다.",
+      "transcript": "A: I'd like to fill this prescription. B: It'll be ready in twenty minutes."
+    },
+    {
+      "id": "F-024-Q08",
+      "skill": "dialogue",
+      "question": "남자가 전화한 이유는 무엇입니까?",
+      "choices": [
+        "배송 지연을 확인하려고",
+        "새 제품을 주문하려고",
+        "주소를 바꾸려고",
+        "환불을 거절하려고"
+      ],
+      "answer": 0,
+      "explanation": "order hasn't arrived로 배송 상태를 확인하는 통화입니다.",
+      "transcript": "A: Hi, my order hasn't arrived yet. B: Let me check the tracking number for you."
+    },
+    {
+      "id": "F-024-Q09",
+      "skill": "next-action",
+      "question": "두 사람이 다음에 하기로 한 것은?",
+      "choices": [
+        "자료를 먼저 읽고 내일 다시 이야기한다",
+        "지금 바로 결정한다",
+        "프로젝트를 취소한다",
+        "다른 팀에 넘긴다"
+      ],
+      "answer": 0,
+      "explanation": "read the proposal tonight, talk tomorrow morning이 다음 계획입니다.",
+      "transcript": "A: Should we decide now? B: Let's read the proposal tonight and talk tomorrow morning."
+    },
+    {
+      "id": "F-024-Q10",
+      "skill": "situation",
+      "question": "대화의 상황으로 가장 알맞은 것은?",
+      "choices": [
+        "공항에서 탑승 게이트를 확인하고 있다",
+        "호텔에서 조식을 주문하고 있다",
+        "학교에서 시험을 보고 있다",
+        "은행에서 계좌를 만들고 있다"
+      ],
+      "answer": 0,
+      "explanation": "boarding pass, gate number는 공항 탑승 상황 단서입니다.",
+      "transcript": "A: Could you check my boarding pass? Which gate is it? B: Gate 17. Boarding begins in ten minutes."
+    }
+  ]
+}

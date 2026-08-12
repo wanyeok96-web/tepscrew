@@ -1,0 +1,175 @@
+{
+  "id": "F-001",
+  "order": 1,
+  "title": "영어 문장의 뼈대",
+  "category": "sentence",
+  "estimatedMinutes": 15,
+  "skills": [
+    "sentence-patterns",
+    "svo-analysis",
+    "complement-vs-object"
+  ],
+  "objectives": [
+    "영어 문장의 기본 5형식 구조를 파악한다",
+    "주어·동사·목적어·보어의 역할을 구분한다",
+    "실전 문장을 구조적으로 빠르게 분석한다"
+  ],
+  "concept": {
+    "summary": "영어 문장은 주어(S)와 동사(V)를 뼈대로 합니다. 여기에 목적어(O)나 보어(C)가 붙으며 의미가 완성되고, TEPS에서도 이 뼈대를 먼저 잡으면 긴 문장이 단순해집니다.",
+    "points": [
+      "S + V : 주어가 무엇을 한다 (He arrived.)",
+      "S + V + O : 주어가 목적어에 행위한다 (She read the report.)",
+      "S + V + C : 보어가 주어의 상태·신분을 설명한다 (He became CEO.)",
+      "S + V + IO + DO / S + V + O + C : 간접·직접목적어 또는 목적보어로 확장된다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "She studies.",
+      "ko": "그녀는 공부한다.",
+      "structure": "S + V"
+    },
+    {
+      "en": "He reads a book.",
+      "ko": "그는 책을 읽는다.",
+      "structure": "S + V + O"
+    },
+    {
+      "en": "The soup tastes delicious.",
+      "ko": "그 수프는 맛있다.",
+      "structure": "S + V + C"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-001-Q01",
+      "skill": "pattern-id",
+      "question": "\"Tom opened the door.\"의 문장 구조는?",
+      "choices": [
+        "S + V",
+        "S + V + O",
+        "S + V + C",
+        "S + V + IO + DO"
+      ],
+      "answer": 1,
+      "explanation": "Tom(주어)이 opened(동사)로 the door(목적어)를 열었습니다. S + V + O 구조입니다."
+    },
+    {
+      "id": "F-001-Q02",
+      "skill": "complement-spot",
+      "question": "다음 중 보어(Complement)가 있는 문장은?",
+      "choices": [
+        "I bought a ticket.",
+        "She became a teacher.",
+        "They watched a movie.",
+        "We closed the window."
+      ],
+      "answer": 1,
+      "explanation": "became 다음의 a teacher는 주어 She의 상태를 설명하는 주격보어입니다."
+    },
+    {
+      "id": "F-001-Q03",
+      "skill": "core-elements",
+      "question": "영어 문장에서 가장 중심이 되는 두 요소는?",
+      "choices": [
+        "형용사와 부사",
+        "전치사와 접속사",
+        "주어와 동사",
+        "목적어와 보어"
+      ],
+      "answer": 2,
+      "explanation": "주어와 동사는 영어 문장의 뼈대입니다. 나머지 요소는 이 위에 확장됩니다."
+    },
+    {
+      "id": "F-001-Q04",
+      "skill": "pattern-id",
+      "question": "\"Please send me the file.\"에서 me의 문장 성분은?",
+      "choices": [
+        "주어",
+        "직접목적어",
+        "간접목적어",
+        "보어"
+      ],
+      "answer": 2,
+      "explanation": "send me the file는 S+V+IO+DO 구조로, me는 간접목적어입니다."
+    },
+    {
+      "id": "F-001-Q05",
+      "skill": "trap-linking",
+      "question": "linking verb(연결동사) 뒤에 주로 오는 것은?",
+      "choices": [
+        "목적어",
+        "보어",
+        "부사만",
+        "전치사구만"
+      ],
+      "answer": 1,
+      "explanation": "be, become, seem, look 등 연결동사 뒤에는 주어를 설명하는 보어가 옵니다."
+    },
+    {
+      "id": "F-001-Q06",
+      "skill": "pattern-id",
+      "question": "\"They elected him chairperson.\"의 구조는?",
+      "choices": [
+        "S + V + O",
+        "S + V + C",
+        "S + V + O + C",
+        "S + V + IO + DO"
+      ],
+      "answer": 2,
+      "explanation": "him은 목적어, chairperson은 목적보어이므로 S + V + O + C입니다."
+    },
+    {
+      "id": "F-001-Q07",
+      "skill": "object-spot",
+      "question": "다음 중 목적어가 없는 문장은?",
+      "choices": [
+        "I finished the draft.",
+        "She remains calm.",
+        "We need more data.",
+        "He called a taxi."
+      ],
+      "answer": 1,
+      "explanation": "remains는 연결동사이고 calm은 보어입니다. 목적어가 없습니다."
+    },
+    {
+      "id": "F-001-Q08",
+      "skill": "application",
+      "question": "빈칸에 알맞은 구조 설명은? \"My colleague gave ___ ___ .\"",
+      "choices": [
+        "IO + DO (me the key)",
+        "O + C만 가능",
+        "C만 가능",
+        "전치사 없이 DO만"
+      ],
+      "answer": 0,
+      "explanation": "give는 간접목적어+직접목적어 패턴이 흔합니다. gave me the key."
+    },
+    {
+      "id": "F-001-Q09",
+      "skill": "trap-sense",
+      "question": "\"The plan sounds reasonable.\"에서 reasonable의 역할은?",
+      "choices": [
+        "목적어",
+        "부사",
+        "주격보어",
+        "간접목적어"
+      ],
+      "answer": 2,
+      "explanation": "sound는 연결동사로, reasonable이 주어 the plan을 설명하는 주격보어입니다."
+    },
+    {
+      "id": "F-001-Q10",
+      "skill": "application",
+      "question": "긴 문장을 읽을 때 가장 먼저 찾아야 할 것은?",
+      "choices": [
+        "가장 긴 형용사",
+        "주어와 본동사",
+        "모든 전치사",
+        "접속사만"
+      ],
+      "answer": 1,
+      "explanation": "수식어를 잠시 제쳐 두고 주어·본동사부터 잡으면 뼈대가 보입니다."
+    }
+  ]
+}

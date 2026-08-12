@@ -1,0 +1,146 @@
+{
+  "id": "F-013",
+  "order": 13,
+  "title": "고빈도 핵심 어휘",
+  "category": "vocabulary",
+  "estimatedMinutes": 14,
+  "skills": ["high-frequency", "context-meaning", "paraphrase"],
+  "objectives": [
+    "TEPS에 자주 나오는 핵심 어휘의 기본 뜻을 파악한다",
+    "문맥에 맞는 유의·반의 표현을 고른다",
+    "짧은 문장에서 어휘의 기능을 확인한다"
+  ],
+  "concept": {
+    "summary": "TEPS 어휘는 어려운 단어보다 ‘자주 쓰이는 핵심 어휘’를 문맥에서 정확히 읽는 능력이 중요합니다. 단순 암기보다 유의어·반의어·연어 패턴을 함께 익히면 독해·청해에서도 바로 활용됩니다. 고빈도 어휘는 짧고 반복적인 문제로 먼저 고정하세요.",
+    "points": [
+      "뜻 + 예문 + 유의어를 세트로 기억한다",
+      "문장 속 역할(동사/형용사/명사)을 먼저 본다",
+      "비슷한 뜻이라도 연어(collocation)가 다를 수 있다",
+      "반의어로 의미를 선명하게 구분한다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The company aims to enhance customer satisfaction.",
+      "ko": "그 회사는 고객 만족도를 높이려 한다.",
+      "structure": "enhance = improve / strengthen"
+    },
+    {
+      "en": "She was reluctant to accept the offer.",
+      "ko": "그녀는 그 제안을 받아들이기를 꺼렸다.",
+      "structure": "reluctant to + V = unwilling to"
+    },
+    {
+      "en": "They need to allocate more time to research.",
+      "ko": "그들은 연구에 더 많은 시간을 배정해야 한다.",
+      "structure": "allocate A to B = assign A to B"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-013-Q01",
+      "skill": "word-meaning",
+      "question": "\"retain\"의 뜻으로 가장 알맞은 것은?",
+      "choices": ["포기하다", "유지하다", "연기하다", "거부하다"],
+      "answer": 1,
+      "explanation": "retain은 ‘유지하다, 보유하다’입니다. 정보·권리·통제를 계속 가진다는 맥락에서 자주 쓰입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-013-Q02",
+      "skill": "context-meaning",
+      "question": "빈칸에 알맞은 것은? \"A ___ increase in sales surprised the board.\"",
+      "choices": ["reluctant", "substantial", "ambiguous", "preceding"],
+      "answer": 1,
+      "explanation": "substantial은 ‘상당한’이라는 뜻으로 increase와 자주 함께 쓰입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-013-Q03",
+      "skill": "paraphrase",
+      "question": "\"enhance performance\"와 의미가 가장 가까운 것은?",
+      "choices": ["delay performance", "ignore performance", "improve performance", "measure performance"],
+      "answer": 2,
+      "explanation": "enhance는 improve, strengthen와 가까운 뜻입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-013-Q04",
+      "skill": "word-meaning",
+      "question": "\"comprise\"의 용법으로 올바른 문장은?",
+      "choices": [
+        "The team is comprised five members.",
+        "The team comprises five members.",
+        "The team comprises of five members.",
+        "Five members comprise of the team."
+      ],
+      "answer": 1,
+      "explanation": "comprise는 ‘~로 구성되다/포함하다’로, The whole comprises the parts 형태가 표준입니다. of를 붙이지 않습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-013-Q05",
+      "skill": "context-meaning",
+      "question": "\"She gave an ambiguous answer.\"에서 ambiguous의 의미는?",
+      "choices": ["명확한", "모호한", "자세한", "긍정적인"],
+      "answer": 1,
+      "explanation": "ambiguous는 ‘모호한, 애매한’입니다. 둘 이상으로 해석될 수 있는 표현에 쓰입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-013-Q06",
+      "skill": "collocation",
+      "question": "빈칸에 알맞은 것은? \"Please ___ resources carefully before the launch.\"",
+      "choices": ["allocate", "precede", "retain", "hesitate"],
+      "answer": 0,
+      "explanation": "allocate resources는 ‘자원을 배분하다’라는 고빈도 연어입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-013-Q07",
+      "skill": "word-meaning",
+      "question": "\"Events that precede the conference\"에서 precede의 뜻은?",
+      "choices": ["~보다 앞서다", "~를 취소하다", "~를 요약하다", "~를 따라가다"],
+      "answer": 0,
+      "explanation": "precede는 ‘~보다 앞서다, 선행하다’입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-013-Q08",
+      "skill": "paraphrase",
+      "question": "\"reluctant to admit\"와 가장 가까운 의미는?",
+      "choices": ["eager to admit", "unwilling to admit", "forced to admit", "unable to admit"],
+      "answer": 1,
+      "explanation": "reluctant는 unwilling, hesitant와 가깝습니다. ‘마지못해 하는’ 뉘앙스입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-013-Q09",
+      "skill": "context-meaning",
+      "question": "다음 중 retain이 자연스럽게 쓰인 문장은?",
+      "choices": [
+        "They retain the meeting until next week.",
+        "She retained calm during the crisis.",
+        "He retained to leave early.",
+        "We retained the problem carefully."
+      ],
+      "answer": 1,
+      "explanation": "retain calm/control/information처럼 ‘상태를 유지하다’ 용법이 자연스럽습니다. 연기는 postpone, 분석은 examine이 맞습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-013-Q10",
+      "skill": "word-meaning",
+      "question": "\"a substantial amount of evidence\"의 의미로 알맞은 것은?",
+      "choices": [
+        "아주 적은 양의 증거",
+        "상당한 양의 증거",
+        "모호한 양의 증거",
+        "앞선 양의 증거"
+      ],
+      "answer": 1,
+      "explanation": "substantial amount는 ‘상당한 양’을 뜻합니다. 학술·업무 지문에서 자주 등장합니다.",
+      "transcript": ""
+    }
+  ]
+}

@@ -5,6 +5,7 @@
 import { SECTION_WEIGHTS, TEPS_CONFIG } from './config.js';
 import { isDue, weaknessRatio, skillsFromQuestion, normalizeSkill } from './mastery.js';
 import { SECTIONS } from './scoring.js';
+import { getNextFoundationLesson } from './content/foundation-loader.js';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -245,6 +246,12 @@ export function buildTodayPlan(state) {
   });
   const newVocab = words.filter((w) => !vocabMastery[w.id]);
   const weakSkills = getWeakSkills(knowledgeMap, 3);
+  const foundationLessons = state.content?.foundation?.lessons || [];
+  const foundationProgress = state.foundationProgress || {};
+  const nextFoundation = getNextFoundationLesson(foundationLessons, foundationProgress);
+  const foundationDone = foundationLessons.length
+    ? foundationLessons.every((l) => foundationProgress[l.id]?.status === 'completed')
+    : false;
 
   const items = [];
   let remaining = minutes;
@@ -260,11 +267,11 @@ export function buildTodayPlan(state) {
     push({
       id: 'foundation',
       title: '기초학습',
-      detail: '영어 문장의 뼈대',
+      detail: nextFoundation?.title || '영어 기초',
       reason: '첫 사용자에게 Foundation부터 추천',
-      minutes: Math.min(12, minutes),
+      minutes: Math.min(nextFoundation?.estimatedMinutes || 12, minutes),
       route: 'lesson',
-      params: { id: 'F-001' },
+      params: { id: nextFoundation?.id || 'F-001' },
     });
     push({
       id: 'vocab-new',
@@ -295,6 +302,18 @@ export function buildTodayPlan(state) {
       });
     }
     return { totalMinutes: minutes, items, source: 'rule-new', isNew: true };
+  }
+
+  if (!foundationDone && nextFoundation) {
+    push({
+      id: 'foundation-next',
+      title: '기초학습',
+      detail: nextFoundation.title,
+      reason: '아직 끝나지 않은 Foundation Lesson 우선',
+      minutes: Math.min(nextFoundation.estimatedMinutes || 12, 15),
+      route: 'lesson',
+      params: { id: nextFoundation.id },
+    });
   }
 
   if (dueVocab.length) {

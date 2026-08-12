@@ -1,0 +1,131 @@
+{
+  "id": "F-023",
+  "order": 23,
+  "title": "숫자·장소·시간",
+  "category": "listening",
+  "estimatedMinutes": 14,
+  "skills": ["listening-for-numbers", "place", "time"],
+  "objectives": [
+    "대화에서 숫자·가격·수량을 정확히 잡는다",
+    "장소·방향 정보를 구분한다",
+    "시간·요일·기간 표현을 듣고 고른다"
+  ],
+  "concept": {
+    "summary": "숫자·장소·시간 문제는 ‘핵심 정보 한 방’을 놓치지 않는 훈련입니다. 비슷한 숫자(13/30), 변경된 시간, 출발지/도착지 혼동에 주의하세요. 대화 중간에 정보가 수정되면 마지막 확정 정보를 기준으로 답합니다.",
+    "points": [
+      "숫자 앞뒤 단위(원, 분, 층)를 함께 듣는다",
+      "정정 표현(actually / I mean) 뒤를 우선한다",
+      "장소는 from/to/at/in 신호를 표시한다",
+      "시간은 o'clock, half, quarter를 구분한다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "A: The train leaves at 9:15. B: Got it. Platform 4.",
+      "ko": "A: 기차는 9시 15분에 출발해요. B: 알겠어요. 4번 승강장이에요.",
+      "structure": "시간 + 장소"
+    },
+    {
+      "en": "A: How much is this? B: It's $12.50.",
+      "ko": "A: 이거 얼마예요? B: 12달러 50센트예요.",
+      "structure": "가격 숫자"
+    },
+    {
+      "en": "A: Meet me at the main entrance. B: Okay, see you there.",
+      "ko": "A: 정문에서 만나요. B: 네, 거기서 봐요.",
+      "structure": "장소 확정"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-023-Q01",
+      "skill": "time",
+      "question": "회의는 몇 시에 시작합니까?",
+      "choices": ["1:00", "1:30", "2:00", "2:30"],
+      "answer": 1,
+      "explanation": "처음 2시를 말했지만 actually로 1:30으로 정정했습니다.",
+      "transcript": "A: Does the meeting start at 2? B: Actually, it starts at 1:30."
+    },
+    {
+      "id": "F-023-Q02",
+      "skill": "listening-for-numbers",
+      "question": "티켓 가격은 얼마입니까?",
+      "choices": ["$15", "$16", "$50", "$60"],
+      "answer": 0,
+      "explanation": "adult ticket이 fifteen dollars라고 했습니다. fifty와 혼동하지 마세요.",
+      "transcript": "A: How much is an adult ticket? B: Fifteen dollars."
+    },
+    {
+      "id": "F-023-Q03",
+      "skill": "place",
+      "question": "자료를 어디에 두었습니까?",
+      "choices": ["책상 위", "서랍 안", "복사기 옆", "회의실"],
+      "answer": 2,
+      "explanation": "next to the copier가 장소입니다.",
+      "transcript": "A: Where did you leave the handouts? B: Next to the copier."
+    },
+    {
+      "id": "F-023-Q04",
+      "skill": "time",
+      "question": "버스는 몇 시에 도착합니까?",
+      "choices": ["10:10", "10:20", "10:30", "11:10"],
+      "answer": 0,
+      "explanation": "ten ten, Gate C라고 했습니다.",
+      "transcript": "A: What time does the bus arrive? B: At ten ten, Gate C."
+    },
+    {
+      "id": "F-023-Q05",
+      "skill": "listening-for-numbers",
+      "question": "예약 인원은 몇 명입니까?",
+      "choices": ["3명", "4명", "5명", "6명"],
+      "answer": 2,
+      "explanation": "for five라고 확정했습니다. table for four는 제안이었다가 수정됩니다.",
+      "transcript": "A: A table for four? B: No, for five, please."
+    },
+    {
+      "id": "F-023-Q06",
+      "skill": "place",
+      "question": "새 카페는 어디에 있습니까?",
+      "choices": ["은행 맞은편", "은행 안", "도서관 옆", "주차장 아래"],
+      "answer": 0,
+      "explanation": "across from the bank가 ‘은행 맞은편’입니다.",
+      "transcript": "A: Where is the new café? B: It's across from the bank."
+    },
+    {
+      "id": "F-023-Q07",
+      "skill": "time",
+      "question": "도서관은 몇 시에 닫습니까?",
+      "choices": ["7 p.m.", "8 p.m.", "9 p.m.", "10 p.m."],
+      "answer": 2,
+      "explanation": "평일 9시에 닫는다고 했습니다.",
+      "transcript": "A: What time does the library close on weekdays? B: At 9 p.m."
+    },
+    {
+      "id": "F-023-Q08",
+      "skill": "listening-for-numbers",
+      "question": "사무실은 몇 층입니까?",
+      "choices": ["2층", "3층", "12층", "13층"],
+      "answer": 1,
+      "explanation": "third floor입니다. thirteenth와 혼동하지 마세요.",
+      "transcript": "A: Which floor is the marketing office on? B: The third floor."
+    },
+    {
+      "id": "F-023-Q09",
+      "skill": "place",
+      "question": "택시를 어디서 탑니까?",
+      "choices": ["공항 안", "도착 홀", "출구 3번 밖", "주차장 입구"],
+      "answer": 2,
+      "explanation": "outside Exit 3라고 했습니다.",
+      "transcript": "A: Where can I catch a taxi? B: Outside Exit 3."
+    },
+    {
+      "id": "F-023-Q10",
+      "skill": "time",
+      "question": "약속은 무슨 요일입니까?",
+      "choices": ["월요일", "화요일", "수요일", "금요일"],
+      "answer": 3,
+      "explanation": "화요일에서 금요일로 변경되었습니다. 최종 정보는 Friday입니다.",
+      "transcript": "A: Is your appointment on Tuesday? B: It was, but I moved it to Friday."
+    }
+  ]
+}

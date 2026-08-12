@@ -1,0 +1,175 @@
+{
+  "id": "F-007",
+  "order": 7,
+  "title": "수동태",
+  "category": "grammar",
+  "estimatedMinutes": 12,
+  "skills": [
+    "passive-voice",
+    "be-pp",
+    "agent-by"
+  ],
+  "objectives": [
+    "능동↔수동 전환의 기본 원리를 이해한다",
+    "시제에 맞는 be + 과거분사 형태를 고른다",
+    "행위자(by…)를 생략하는 실용적 판단을 익힌다"
+  ],
+  "concept": {
+    "summary": "수동태는 행위의 대상이 주어가 될 때 씁니다. 형태는 be + 과거분사(p.p.)이며, 시제·조동사에 따라 be의 형태가 바뀝니다. 보고서·뉴스처럼 행위자보다 결과가 중요할 때 자주 등장합니다.",
+    "points": [
+      "능동: They reviewed the plan. → 수동: The plan was reviewed.",
+      "현재: is/are + p.p. / 과거: was/were + p.p.",
+      "현재완료: has/have been + p.p.",
+      "조동사: must be completed / can be fixed"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The email was sent yesterday.",
+      "ko": "그 이메일은 어제 보내졌다.",
+      "structure": "was + sent"
+    },
+    {
+      "en": "The issue has been resolved.",
+      "ko": "그 문제는 해결되었다.",
+      "structure": "has been + resolved"
+    },
+    {
+      "en": "This form must be signed.",
+      "ko": "이 양식은 서명되어야 한다.",
+      "structure": "must be + signed"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-007-Q01",
+      "skill": "form",
+      "question": "빈칸: \"The report ___ yesterday.\"",
+      "choices": [
+        "is submitting",
+        "was submitted",
+        "submitted was",
+        "has submit"
+      ],
+      "answer": 1,
+      "explanation": "과거 수동은 was/were + p.p. → was submitted."
+    },
+    {
+      "id": "F-007-Q02",
+      "skill": "transform",
+      "question": "\"Someone locked the door.\"의 수동태는?",
+      "choices": [
+        "The door locked someone.",
+        "The door was locked.",
+        "The door is locking.",
+        "Someone was locked the door."
+      ],
+      "answer": 1,
+      "explanation": "목적어 the door가 주어가 되고 was locked가 됩니다."
+    },
+    {
+      "id": "F-007-Q03",
+      "skill": "perfect-passive",
+      "question": "\"The files ___ already.\"",
+      "choices": [
+        "have uploaded",
+        "have been uploaded",
+        "are upload",
+        "were uploading by"
+      ],
+      "answer": 1,
+      "explanation": "현재완료 수동은 have/has been + p.p.입니다."
+    },
+    {
+      "id": "F-007-Q04",
+      "skill": "modal-passive",
+      "question": "\"The bug ___ immediately.\"",
+      "choices": [
+        "must fix",
+        "must be fixed",
+        "must fixed",
+        "must been fix"
+      ],
+      "answer": 1,
+      "explanation": "조동사 수동은 modal + be + p.p.입니다."
+    },
+    {
+      "id": "F-007-Q05",
+      "skill": "agent",
+      "question": "행위자를 나타낼 때 쓰는 전치사는?",
+      "choices": [
+        "to",
+        "for",
+        "by",
+        "at"
+      ],
+      "answer": 2,
+      "explanation": "행위자는 by + agent로 나타냅니다."
+    },
+    {
+      "id": "F-007-Q06",
+      "skill": "trap-intransitive",
+      "question": "수동태로 만들기 어려운 문장은?",
+      "choices": [
+        "They built a bridge.",
+        "She wrote a memo.",
+        "He arrived at noon.",
+        "We published the paper."
+      ],
+      "answer": 2,
+      "explanation": "arrive는 목적어가 없는 자동사라 일반 수동 전환이 어렵습니다."
+    },
+    {
+      "id": "F-007-Q07",
+      "skill": "continuous-passive",
+      "question": "\"The system ___ right now.\"",
+      "choices": [
+        "is updating",
+        "is being updated",
+        "has update",
+        "was update"
+      ],
+      "answer": 1,
+      "explanation": "진행 수동은 be being + p.p. → is being updated."
+    },
+    {
+      "id": "F-007-Q08",
+      "skill": "application",
+      "question": "수동이 더 자연스러운 상황은?",
+      "choices": [
+        "내가 커피를 마신 사실을 강조할 때",
+        "누가 했는지보다 결과·대상이 중요할 때",
+        "항상 능동만 가능",
+        "조동사가 없을 때만"
+      ],
+      "answer": 1,
+      "explanation": "행위자보다 대상·결과가 중요하면 수동이 흔합니다."
+    },
+    {
+      "id": "F-007-Q09",
+      "skill": "get-passive",
+      "question": "구어체에서 be 대신 자주 쓰이는 수동 표현은?",
+      "choices": [
+        "do + p.p.",
+        "get + p.p.",
+        "make + 원형만",
+        "have + 원형만"
+      ],
+      "answer": 1,
+      "explanation": "get paid, get damaged처럼 get + p.p. 수동이 있습니다."
+    },
+    {
+      "id": "F-007-Q10",
+      "skill": "error",
+      "question": "틀린 문장은?",
+      "choices": [
+        "The policy was revised.",
+        "The policy has been revised.",
+        "The policy was revise.",
+        "The policy is being revised."
+      ],
+      "answer": 2,
+      "explanation": "수동에는 과거분사가 필요합니다. revise가 아니라 revised입니다."
+    }
+  ]
+}

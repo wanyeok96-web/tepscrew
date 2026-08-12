@@ -1,0 +1,175 @@
+{
+  "id": "F-004",
+  "order": 4,
+  "title": "목적어와 보어",
+  "category": "sentence",
+  "estimatedMinutes": 12,
+  "skills": [
+    "object-vs-complement",
+    "direct-indirect-object",
+    "object-complement"
+  ],
+  "objectives": [
+    "목적어와 보어의 차이를 명확히 구분한다",
+    "간접목적어·직접목적어 패턴을 익힌다",
+    "목적보어가 필요한 동사를 문맥에서 찾는다"
+  ],
+  "concept": {
+    "summary": "목적어는 동작의 대상이고, 보어는 주어나 목적어의 상태·신분을 보완합니다. make/keep/find/consider 뒤에는 목적보어가 자주 오며, 이 구분을 놓치면 빈칸이 꼬입니다.",
+    "points": [
+      "목적어: 행위의 대상 (I wrote a memo.)",
+      "주격보어: 주어 설명 (She is capable.)",
+      "목적보어: 목적어 설명 (They made him leader.)",
+      "IO+DO: give/send/show/tell me the result"
+    ]
+  },
+  "examples": [
+    {
+      "en": "I finished the proposal.",
+      "ko": "나는 제안서를 끝냈다.",
+      "structure": "O = the proposal"
+    },
+    {
+      "en": "The result seems fair.",
+      "ko": "결과가 공정해 보인다.",
+      "structure": "C = fair"
+    },
+    {
+      "en": "They appointed her manager.",
+      "ko": "그들은 그녀를 매니저로 임명했다.",
+      "structure": "O + C"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-004-Q01",
+      "skill": "object-id",
+      "question": "\"We discussed the budget.\"에서 the budget의 성분은?",
+      "choices": [
+        "주어",
+        "보어",
+        "목적어",
+        "부사"
+      ],
+      "answer": 2,
+      "explanation": "discuss의 행위 대상이므로 목적어입니다."
+    },
+    {
+      "id": "F-004-Q02",
+      "skill": "complement-id",
+      "question": "\"The meeting remained productive.\"에서 productive의 성분은?",
+      "choices": [
+        "목적어",
+        "주격보어",
+        "간접목적어",
+        "전치사"
+      ],
+      "answer": 1,
+      "explanation": "remain은 연결동사이고 productive가 주어를 설명하는 주격보어입니다."
+    },
+    {
+      "id": "F-004-Q03",
+      "skill": "io-do",
+      "question": "\"Please show the client the prototype.\"에서 the client는?",
+      "choices": [
+        "직접목적어",
+        "간접목적어",
+        "주격보어",
+        "목적보어"
+      ],
+      "answer": 1,
+      "explanation": "show IO DO 패턴에서 the client는 간접목적어입니다."
+    },
+    {
+      "id": "F-004-Q04",
+      "skill": "object-complement",
+      "question": "다음 중 목적보어가 있는 문장은?",
+      "choices": [
+        "I bought a laptop.",
+        "She became quiet.",
+        "We found the report useful.",
+        "They arrived late."
+      ],
+      "answer": 2,
+      "explanation": "found + 목적어(the report) + 목적보어(useful) 구조입니다."
+    },
+    {
+      "id": "F-004-Q05",
+      "skill": "trap-linking",
+      "question": "목적어가 필요 없는 동사는?",
+      "choices": [
+        "need",
+        "build",
+        "seem",
+        "prefer"
+      ],
+      "answer": 2,
+      "explanation": "seem은 연결동사라 보어를 취하고, 목적어를 요구하지 않습니다."
+    },
+    {
+      "id": "F-004-Q06",
+      "skill": "rewrite",
+      "question": "\"Give the keys to me.\"와 같은 뜻의 말순서는?",
+      "choices": [
+        "Give to me the keys.",
+        "Give me the keys.",
+        "Give the me keys.",
+        "Give keys me the."
+      ],
+      "answer": 1,
+      "explanation": "Give me the keys = Give the keys to me."
+    },
+    {
+      "id": "F-004-Q07",
+      "skill": "application",
+      "question": "빈칸: \"The board considers the plan ___ .\"",
+      "choices": [
+        "feasibly",
+        "feasible",
+        "feasibility",
+        "to feasible"
+      ],
+      "answer": 1,
+      "explanation": "consider + O + 형용사(목적보어). feasible이 맞습니다."
+    },
+    {
+      "id": "F-004-Q08",
+      "skill": "object-spot",
+      "question": "목적어를 고르세요: \"After lunch, the committee approved the amendment.\"",
+      "choices": [
+        "After lunch",
+        "the committee",
+        "approved",
+        "the amendment"
+      ],
+      "answer": 3,
+      "explanation": "approved의 대상인 the amendment가 목적어입니다."
+    },
+    {
+      "id": "F-004-Q09",
+      "skill": "trap-call",
+      "question": "\"They called the project a success.\"에서 a success는?",
+      "choices": [
+        "직접목적어",
+        "간접목적어",
+        "목적보어",
+        "주어"
+      ],
+      "answer": 2,
+      "explanation": "call O C 패턴에서 a success는 목적보어입니다."
+    },
+    {
+      "id": "F-004-Q10",
+      "skill": "concept",
+      "question": "보어와 목적어의 핵심 차이는?",
+      "choices": [
+        "보어는 항상 부사다",
+        "목적어는 대상을, 보어는 상태·신분을 보완한다",
+        "둘은 항상 같다",
+        "보어는 전치사 뒤에만 온다"
+      ],
+      "answer": 1,
+      "explanation": "목적어는 행위 대상, 보어는 주어/목적어를 설명·보완합니다."
+    }
+  ]
+}

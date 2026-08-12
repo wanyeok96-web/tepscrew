@@ -1,0 +1,175 @@
+{
+  "id": "F-002",
+  "order": 2,
+  "title": "품사",
+  "category": "sentence",
+  "estimatedMinutes": 12,
+  "skills": [
+    "parts-of-speech",
+    "adj-vs-adv",
+    "word-function"
+  ],
+  "objectives": [
+    "주요 품사의 기본 역할을 정리한다",
+    "문장 속에서 같은 단어의 품사 전환을 구분한다",
+    "형용사와 부사 혼동 함정을 피한다"
+  ],
+  "concept": {
+    "summary": "품사는 단어가 문장에서 하는 역할입니다. 같은 철자라도 문맥에 따라 명사·동사·형용사로 바뀔 수 있으므로, 사전 암기보다 ‘무엇을 꾸미는지’를 보는 습관이 중요합니다.",
+    "points": [
+      "명사: 사람·사물·개념의 이름 (report, decision)",
+      "동사: 동작이나 상태 (decide, remain)",
+      "형용사: 명사를 수식 (a careful review)",
+      "부사: 동사·형용사·부사·절을 수식 (carefully, very, honestly)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "A careful student reads slowly.",
+      "ko": "신중한 학생은 천천히 읽는다.",
+      "structure": "형용사 careful / 부사 slowly"
+    },
+    {
+      "en": "Please update the schedule.",
+      "ko": "일정을 업데이트해 주세요.",
+      "structure": "동사 update"
+    },
+    {
+      "en": "We need an update on the schedule.",
+      "ko": "일정에 대한 업데이트가 필요합니다.",
+      "structure": "명사 update"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-002-Q01",
+      "skill": "adverb-id",
+      "question": "문장 \"She spoke clearly.\"에서 clearly의 품사는?",
+      "choices": [
+        "명사",
+        "형용사",
+        "부사",
+        "전치사"
+      ],
+      "answer": 2,
+      "explanation": "clearly는 동사 spoke를 수식하므로 부사입니다."
+    },
+    {
+      "id": "F-002-Q02",
+      "skill": "adjective-id",
+      "question": "다음 중 형용사가 쓰인 문장은?",
+      "choices": [
+        "He runs fast.",
+        "They arrived early.",
+        "It was a quiet night.",
+        "Please speak loudly."
+      ],
+      "answer": 2,
+      "explanation": "quiet는 명사 night를 수식하는 형용사입니다. 나머지는 부사 용법입니다."
+    },
+    {
+      "id": "F-002-Q03",
+      "skill": "noun-role",
+      "question": "명사의 역할로 가장 알맞은 것은?",
+      "choices": [
+        "동작이나 상태를 나타낸다",
+        "사람·사물·개념의 이름을 나타낸다",
+        "동사를 꾸며 정도를 나타낸다",
+        "문장과 문장을 연결한다"
+      ],
+      "answer": 1,
+      "explanation": "명사는 사람, 사물, 개념의 이름을 나타내는 품사입니다."
+    },
+    {
+      "id": "F-002-Q04",
+      "skill": "adj-vs-adv",
+      "question": "빈칸: \"She feels ___ about the result.\"",
+      "choices": [
+        "badly",
+        "bad",
+        "worsely",
+        "badness"
+      ],
+      "answer": 1,
+      "explanation": "feel은 연결동사라 상태를 나타내는 형용사 bad가 자연스럽습니다."
+    },
+    {
+      "id": "F-002-Q05",
+      "skill": "function-shift",
+      "question": "\"Light the candle.\"에서 light의 품사는?",
+      "choices": [
+        "명사",
+        "형용사",
+        "동사",
+        "부사"
+      ],
+      "answer": 2,
+      "explanation": "명령문의 술어로 쓰였으므로 동사입니다. (명사 the light와 구분)"
+    },
+    {
+      "id": "F-002-Q06",
+      "skill": "preposition-id",
+      "question": "다음 중 전치사가 포함된 구는?",
+      "choices": [
+        "very quickly",
+        "in the morning",
+        "and then",
+        "so carefully"
+      ],
+      "answer": 1,
+      "explanation": "in the morning에서 in이 전치사입니다."
+    },
+    {
+      "id": "F-002-Q07",
+      "skill": "trap-ly",
+      "question": "다음 중 -ly로 끝나지만 형용사인 것은?",
+      "choices": [
+        "slowly",
+        "carefully",
+        "friendly",
+        "quickly"
+      ],
+      "answer": 2,
+      "explanation": "friendly는 형용사입니다. He is friendly. (부사처럼 쓰이면 어색)"
+    },
+    {
+      "id": "F-002-Q08",
+      "skill": "conjunction-id",
+      "question": "접속사의 주된 역할은?",
+      "choices": [
+        "명사를 꾸민다",
+        "단어·구·절을 연결한다",
+        "시제를 바꾼다",
+        "수동태를 만든다"
+      ],
+      "answer": 1,
+      "explanation": "접속사는 and, but, because처럼 요소를 연결합니다."
+    },
+    {
+      "id": "F-002-Q09",
+      "skill": "application",
+      "question": "\"The weekly report arrived late.\"에서 weekly의 품사는?",
+      "choices": [
+        "부사",
+        "명사",
+        "형용사",
+        "접속사"
+      ],
+      "answer": 2,
+      "explanation": "weekly가 명사 report를 수식하므로 형용사입니다."
+    },
+    {
+      "id": "F-002-Q10",
+      "skill": "trap-hard",
+      "question": "\"Work hard.\"와 \"a hard decision\"에서 hard의 품사는 각각?",
+      "choices": [
+        "형용사 / 부사",
+        "부사 / 형용사",
+        "둘 다 명사",
+        "둘 다 접속사"
+      ],
+      "answer": 1,
+      "explanation": "Work hard의 hard는 부사, a hard decision의 hard는 형용사입니다."
+    }
+  ]
+}

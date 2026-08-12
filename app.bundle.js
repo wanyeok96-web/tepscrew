@@ -458,240 +458,6 @@
     return map;
   }
 
-  // data/foundation.json
-  var foundation_default = {
-    version: 1,
-    demo: true,
-    lessons: [
-      {
-        id: "F-001",
-        order: 1,
-        title: "\uC601\uC5B4 \uBB38\uC7A5\uC758 \uBF08\uB300",
-        category: "sentence",
-        estimatedMinutes: 12,
-        status: "recommended",
-        objectives: [
-          "\uC601\uC5B4 \uBB38\uC7A5\uC758 \uAE30\uBCF8 \uAD6C\uC870\uB97C \uC774\uD574\uD55C\uB2E4",
-          "\uC8FC\uC5B4\xB7\uB3D9\uC0AC\xB7\uBAA9\uC801\uC5B4\xB7\uBCF4\uC5B4\uC758 \uC5ED\uD560\uC744 \uAD6C\uBD84\uD55C\uB2E4",
-          "\uAC04\uB2E8\uD55C \uBB38\uC7A5\uC744 \uAD6C\uC870\uC801\uC73C\uB85C \uBD84\uC11D\uD55C\uB2E4"
-        ],
-        concept: {
-          summary: "\uC601\uC5B4 \uBB38\uC7A5\uC740 \uC8FC\uC5B4(Subject)\uC640 \uB3D9\uC0AC(Verb)\uB97C \uC911\uC2EC\uC73C\uB85C \uAD6C\uC131\uB429\uB2C8\uB2E4. \uC5EC\uAE30\uC5D0 \uBAA9\uC801\uC5B4(Object)\uB098 \uBCF4\uC5B4(Complement)\uAC00 \uB354\uD574\uC9C0\uBA70 \uC758\uBBF8\uAC00 \uC644\uC131\uB429\uB2C8\uB2E4.",
-          points: [
-            "S + V : \uC8FC\uC5B4\uAC00 \uBB34\uC5C7\uC744 \uD55C\uB2E4",
-            "S + V + O : \uC8FC\uC5B4\uAC00 \uBAA9\uC801\uC5B4\uC5D0\uAC8C \uD589\uC704\uD55C\uB2E4",
-            "S + V + C : \uC8FC\uC5B4\uC758 \uC0C1\uD0DC\uB97C \uBCF4\uC5B4\uB85C \uC124\uBA85\uD55C\uB2E4",
-            "S + V + O + C / S + V + IO + DO : \uBB38\uC7A5\uC774 \uD655\uC7A5\uB41C\uB2E4"
-          ]
-        },
-        examples: [
-          {
-            en: "She studies.",
-            ko: "\uADF8\uB140\uB294 \uACF5\uBD80\uD55C\uB2E4.",
-            structure: "S + V"
-          },
-          {
-            en: "He reads a book.",
-            ko: "\uADF8\uB294 \uCC45\uC744 \uC77D\uB294\uB2E4.",
-            structure: "S + V + O"
-          },
-          {
-            en: "The soup tastes delicious.",
-            ko: "\uADF8 \uC218\uD504\uB294 \uB9DB\uC788\uB2E4.",
-            structure: "S + V + C"
-          }
-        ],
-        checks: [
-          {
-            id: "F-001-Q1",
-            question: '"Tom opened the door."\uC758 \uBB38\uC7A5 \uAD6C\uC870\uB294?',
-            choices: ["S + V", "S + V + O", "S + V + C", "S + V + IO + DO"],
-            answer: 1,
-            explanation: "Tom(\uC8FC\uC5B4)\uC774 opened(\uB3D9\uC0AC)\uB85C the door(\uBAA9\uC801\uC5B4)\uB97C \uC5F4\uC5C8\uC2B5\uB2C8\uB2E4. S + V + O \uAD6C\uC870\uC785\uB2C8\uB2E4."
-          },
-          {
-            id: "F-001-Q2",
-            question: "\uB2E4\uC74C \uC911 \uBCF4\uC5B4(Complement)\uAC00 \uC788\uB294 \uBB38\uC7A5\uC740?",
-            choices: [
-              "I bought a ticket.",
-              "She became a teacher.",
-              "They watched a movie.",
-              "We closed the window."
-            ],
-            answer: 1,
-            explanation: "became \uB2E4\uC74C\uC5D0 \uC624\uB294 a teacher\uB294 \uC8FC\uC5B4 She\uC758 \uC0C1\uD0DC\uB97C \uC124\uBA85\uD558\uB294 \uBCF4\uC5B4\uC785\uB2C8\uB2E4."
-          },
-          {
-            id: "F-001-Q3",
-            question: "\uC601\uC5B4 \uBB38\uC7A5\uC5D0\uC11C \uAC00\uC7A5 \uC911\uC2EC\uC774 \uB418\uB294 \uB450 \uC694\uC18C\uB294?",
-            choices: ["\uD615\uC6A9\uC0AC\uC640 \uBD80\uC0AC", "\uC804\uCE58\uC0AC\uC640 \uC811\uC18D\uC0AC", "\uC8FC\uC5B4\uC640 \uB3D9\uC0AC", "\uBAA9\uC801\uC5B4\uC640 \uBCF4\uC5B4"],
-            answer: 2,
-            explanation: "\uC8FC\uC5B4\uC640 \uB3D9\uC0AC\uB294 \uC601\uC5B4 \uBB38\uC7A5\uC758 \uBF08\uB300\uC785\uB2C8\uB2E4. \uB098\uBA38\uC9C0 \uC694\uC18C\uB294 \uC774 \uC704\uC5D0 \uD655\uC7A5\uB429\uB2C8\uB2E4."
-          }
-        ]
-      },
-      {
-        id: "F-002",
-        order: 2,
-        title: "\uD488\uC0AC",
-        category: "sentence",
-        estimatedMinutes: 10,
-        status: "not_started",
-        objectives: [
-          "\uC8FC\uC694 \uD488\uC0AC\uC758 \uC5ED\uD560\uC744 \uC774\uD574\uD55C\uB2E4",
-          "\uBB38\uC7A5 \uC18D\uC5D0\uC11C \uD488\uC0AC\uB97C \uC2DD\uBCC4\uD55C\uB2E4"
-        ],
-        concept: {
-          summary: "\uD488\uC0AC\uB294 \uB2E8\uC5B4\uAC00 \uBB38\uC7A5\uC5D0\uC11C \uD558\uB294 \uC5ED\uD560\uC785\uB2C8\uB2E4. \uBA85\uC0AC, \uB3D9\uC0AC, \uD615\uC6A9\uC0AC, \uBD80\uC0AC, \uC804\uCE58\uC0AC, \uC811\uC18D\uC0AC \uB4F1\uC744 \uAD6C\uBD84\uD560 \uC218 \uC788\uC5B4\uC57C \uD569\uB2C8\uB2E4.",
-          points: [
-            "\uBA85\uC0AC: \uC0AC\uB78C\xB7\uC0AC\uBB3C\xB7\uAC1C\uB150\uC758 \uC774\uB984",
-            "\uB3D9\uC0AC: \uB3D9\uC791\uC774\uB098 \uC0C1\uD0DC",
-            "\uD615\uC6A9\uC0AC: \uBA85\uC0AC\uB97C \uC218\uC2DD",
-            "\uBD80\uC0AC: \uB3D9\uC0AC\xB7\uD615\uC6A9\uC0AC\xB7\uB2E4\uB978 \uBD80\uC0AC\uB97C \uC218\uC2DD"
-          ]
-        },
-        examples: [
-          {
-            en: "A careful student reads slowly.",
-            ko: "\uC2E0\uC911\uD55C \uD559\uC0DD\uC740 \uCC9C\uCC9C\uD788 \uC77D\uB294\uB2E4.",
-            structure: "\uD615\uC6A9\uC0AC careful / \uBD80\uC0AC slowly"
-          }
-        ],
-        checks: []
-      },
-      {
-        id: "F-003",
-        order: 3,
-        title: "\uC8FC\uC5B4\uC640 \uB3D9\uC0AC",
-        category: "sentence",
-        estimatedMinutes: 10,
-        status: "not_started",
-        objectives: ["\uC8FC\uC5B4\uC640 \uB3D9\uC0AC\uC758 \uC77C\uCE58\uB97C \uC774\uD574\uD55C\uB2E4"],
-        concept: {
-          summary: "\uC8FC\uC5B4\uC758 \uC218(\uB2E8\uC218/\uBCF5\uC218)\uC5D0 \uB530\uB77C \uB3D9\uC0AC \uD615\uD0DC\uAC00 \uB2EC\uB77C\uC9D1\uB2C8\uB2E4. \uC218\uC77C\uCE58(Subject-Verb Agreement)\uB294 TEPS \uBB38\uBC95\uC758 \uAE30\uBCF8\uC785\uB2C8\uB2E4.",
-          points: ["\uB2E8\uC218 \uC8FC\uC5B4 \u2192 \uB2E8\uC218 \uB3D9\uC0AC", "\uBCF5\uC218 \uC8FC\uC5B4 \u2192 \uBCF5\uC218 \uB3D9\uC0AC", "\uC9D1\uD569\uBA85\uC0AC\xB7\uBD80\uC815\uB300\uBA85\uC0AC\uC5D0 \uC8FC\uC758"]
-        },
-        examples: [],
-        checks: []
-      },
-      {
-        id: "F-004",
-        order: 4,
-        title: "\uBAA9\uC801\uC5B4\uC640 \uBCF4\uC5B4",
-        category: "sentence",
-        estimatedMinutes: 10,
-        status: "not_started",
-        objectives: [],
-        concept: { summary: "", points: [] },
-        examples: [],
-        checks: []
-      },
-      {
-        id: "F-005",
-        order: 5,
-        title: "\uC2DC\uC81C",
-        category: "grammar",
-        estimatedMinutes: 15,
-        status: "not_started",
-        objectives: [],
-        concept: { summary: "", points: [] },
-        examples: [],
-        checks: []
-      },
-      {
-        id: "F-006",
-        order: 6,
-        title: "\uC870\uB3D9\uC0AC",
-        category: "grammar",
-        estimatedMinutes: 12,
-        status: "not_started",
-        objectives: [],
-        concept: { summary: "", points: [] },
-        examples: [],
-        checks: []
-      },
-      {
-        id: "F-007",
-        order: 7,
-        title: "\uC218\uB3D9\uD0DC",
-        category: "grammar",
-        estimatedMinutes: 12,
-        status: "not_started",
-        objectives: [],
-        concept: { summary: "", points: [] },
-        examples: [],
-        checks: []
-      },
-      {
-        id: "F-008",
-        order: 8,
-        title: "to\uBD80\uC815\uC0AC",
-        category: "grammar",
-        estimatedMinutes: 12,
-        status: "not_started",
-        objectives: [],
-        concept: { summary: "", points: [] },
-        examples: [],
-        checks: []
-      },
-      {
-        id: "F-009",
-        order: 9,
-        title: "\uB3D9\uBA85\uC0AC",
-        category: "grammar",
-        estimatedMinutes: 12,
-        status: "not_started",
-        objectives: [],
-        concept: { summary: "", points: [] },
-        examples: [],
-        checks: []
-      },
-      {
-        id: "F-010",
-        order: 10,
-        title: "\uBD84\uC0AC",
-        category: "grammar",
-        estimatedMinutes: 12,
-        status: "not_started",
-        objectives: [],
-        concept: { summary: "", points: [] },
-        examples: [],
-        checks: []
-      },
-      {
-        id: "F-011",
-        order: 11,
-        title: "\uC811\uC18D\uC0AC",
-        category: "grammar",
-        estimatedMinutes: 12,
-        status: "not_started",
-        objectives: [],
-        concept: { summary: "", points: [] },
-        examples: [],
-        checks: []
-      },
-      {
-        id: "F-012",
-        order: 12,
-        title: "\uAD00\uACC4\uC0AC",
-        category: "grammar",
-        estimatedMinutes: 15,
-        status: "not_started",
-        objectives: [],
-        concept: { summary: "", points: [] },
-        examples: [],
-        checks: []
-      }
-    ],
-    categories: [
-      { id: "sentence", title: "\uBB38\uC7A5 \uAE30\uCD08", description: "\uC601\uC5B4 \uBB38\uC7A5\uC758 \uAE30\uBCF8 \uAD6C\uC870\uB97C \uB2E4\uC2DC \uC138\uC6C1\uB2C8\uB2E4." },
-      { id: "grammar", title: "\uBB38\uBC95 \uAE30\uCD08", description: "\uD575\uC2EC \uBB38\uBC95 \uAC1C\uB150\uC744 \uC815\uB9AC\uD569\uB2C8\uB2E4." },
-      { id: "expand", title: "\uBB38\uC7A5 \uD655\uC7A5", description: "\uB354 \uAE34 \uBB38\uC7A5\uC744 \uC77D\uACE0 \uC4F0\uB294 \uD798\uC744 \uD0A4\uC6C1\uB2C8\uB2E4." },
-      { id: "reading", title: "\uB3C5\uD574 \uAE30\uCD08", description: "\uC9E7\uC740 \uC9C0\uBB38\uBD80\uD130 \uB3C5\uD574 \uAC10\uAC01\uC744 \uD68C\uBCF5\uD569\uB2C8\uB2E4." },
-      { id: "listening", title: "\uCCAD\uD574 \uAE30\uCD08", description: "\uAE30\uBCF8 \uCCAD\uCDE8 \uD328\uD134\uC5D0 \uC775\uC219\uD574\uC9D1\uB2C8\uB2E4." }
-    ]
-  };
-
   // data/vocabulary.json
   var vocabulary_default = {
     version: 1,
@@ -3272,9 +3038,4045 @@
     }
   ];
 
+  // data/foundation/manifest.json
+  var manifest_default2 = {
+    version: 2,
+    demo: false,
+    categories: [
+      { id: "sentence", title: "\uBB38\uC7A5 \uAE30\uCD08", description: "\uC601\uC5B4 \uBB38\uC7A5\uC758 \uAE30\uBCF8 \uAD6C\uC870\uB97C \uB2E4\uC2DC \uC138\uC6C1\uB2C8\uB2E4." },
+      { id: "grammar", title: "\uBB38\uBC95 \uAE30\uCD08", description: "\uD575\uC2EC \uBB38\uBC95 \uAC1C\uB150\uC744 \uC815\uB9AC\uD569\uB2C8\uB2E4." },
+      { id: "vocabulary", title: "\uC5B4\uD718 \uAE30\uCD08", description: "\uACE0\uBE48\uB3C4 \uC5B4\uD718\xB7\uC5F0\uC5B4\xB7\uD63C\uB3D9\uC5B4\uB97C \uC775\uD799\uB2C8\uB2E4." },
+      { id: "expand", title: "\uBB38\uC7A5 \uD655\uC7A5", description: "\uB354 \uAE34 \uBB38\uC7A5\uC744 \uC77D\uACE0 \uC4F0\uB294 \uD798\uC744 \uD0A4\uC6C1\uB2C8\uB2E4." },
+      { id: "reading", title: "\uB3C5\uD574 \uAE30\uCD08", description: "\uC9E7\uC740 \uC9C0\uBB38\uBD80\uD130 \uB3C5\uD574 \uAC10\uAC01\uC744 \uD68C\uBCF5\uD569\uB2C8\uB2E4." },
+      { id: "listening", title: "\uCCAD\uD574 \uAE30\uCD08", description: "\uC9E7\uC740 \uB300\uD654\xB7\uC0C1\uD669 \uD30C\uC545\uC5D0 \uC775\uC219\uD574\uC9D1\uB2C8\uB2E4." }
+    ],
+    lessons: [
+      { id: "F-001", order: 1, title: "\uC601\uC5B4 \uBB38\uC7A5\uC758 \uBF08\uB300", category: "sentence", estimatedMinutes: 15, file: "./data/foundation/lessons/F-001.json" },
+      { id: "F-002", order: 2, title: "\uD488\uC0AC", category: "sentence", estimatedMinutes: 12, file: "./data/foundation/lessons/F-002.json" },
+      { id: "F-003", order: 3, title: "\uC8FC\uC5B4\uC640 \uB3D9\uC0AC", category: "sentence", estimatedMinutes: 12, file: "./data/foundation/lessons/F-003.json" },
+      { id: "F-004", order: 4, title: "\uBAA9\uC801\uC5B4\uC640 \uBCF4\uC5B4", category: "sentence", estimatedMinutes: 12, file: "./data/foundation/lessons/F-004.json" },
+      { id: "F-005", order: 5, title: "\uC2DC\uC81C", category: "grammar", estimatedMinutes: 15, file: "./data/foundation/lessons/F-005.json" },
+      { id: "F-006", order: 6, title: "\uC870\uB3D9\uC0AC", category: "grammar", estimatedMinutes: 12, file: "./data/foundation/lessons/F-006.json" },
+      { id: "F-007", order: 7, title: "\uC218\uB3D9\uD0DC", category: "grammar", estimatedMinutes: 12, file: "./data/foundation/lessons/F-007.json" },
+      { id: "F-008", order: 8, title: "to\uBD80\uC815\uC0AC", category: "grammar", estimatedMinutes: 12, file: "./data/foundation/lessons/F-008.json" },
+      { id: "F-009", order: 9, title: "\uB3D9\uBA85\uC0AC", category: "grammar", estimatedMinutes: 12, file: "./data/foundation/lessons/F-009.json" },
+      { id: "F-010", order: 10, title: "\uBD84\uC0AC", category: "grammar", estimatedMinutes: 12, file: "./data/foundation/lessons/F-010.json" },
+      { id: "F-011", order: 11, title: "\uC811\uC18D\uC0AC", category: "grammar", estimatedMinutes: 12, file: "./data/foundation/lessons/F-011.json" },
+      { id: "F-012", order: 12, title: "\uAD00\uACC4\uC0AC", category: "grammar", estimatedMinutes: 15, file: "./data/foundation/lessons/F-012.json" },
+      { id: "F-013", order: 13, title: "\uACE0\uBE48\uB3C4 \uD575\uC2EC \uC5B4\uD718", category: "vocabulary", estimatedMinutes: 14, file: "./data/foundation/lessons/F-013.json" },
+      { id: "F-014", order: 14, title: "\uC5F0\uC5B4\uC640 \uAD6C\uB3D9\uC0AC", category: "vocabulary", estimatedMinutes: 14, file: "./data/foundation/lessons/F-014.json" },
+      { id: "F-015", order: 15, title: "\uD63C\uB3D9\uD558\uAE30 \uC26C\uC6B4 \uC5B4\uD718", category: "vocabulary", estimatedMinutes: 14, file: "./data/foundation/lessons/F-015.json" },
+      { id: "F-016", order: 16, title: "\uC808\uC744 \uC5F0\uACB0\uD558\uAE30", category: "expand", estimatedMinutes: 14, file: "./data/foundation/lessons/F-016.json" },
+      { id: "F-017", order: 17, title: "\uC218\uC2DD\uC5B4 \uBD99\uC774\uAE30", category: "expand", estimatedMinutes: 14, file: "./data/foundation/lessons/F-017.json" },
+      { id: "F-018", order: 18, title: "\uAE34 \uBB38\uC7A5 \uC77D\uAE30", category: "expand", estimatedMinutes: 15, file: "./data/foundation/lessons/F-018.json" },
+      { id: "F-019", order: 19, title: "\uC9E7\uC740 \uC9C0\uBB38 \uC694\uC9C0", category: "reading", estimatedMinutes: 15, file: "./data/foundation/lessons/F-019.json" },
+      { id: "F-020", order: 20, title: "\uC9C0\uC2DC\uC5B4\uC640 \uC138\uBD80\uC815\uBCF4", category: "reading", estimatedMinutes: 15, file: "./data/foundation/lessons/F-020.json" },
+      { id: "F-021", order: 21, title: "\uC9E7\uC740 \uCD94\uB860", category: "reading", estimatedMinutes: 15, file: "./data/foundation/lessons/F-021.json" },
+      { id: "F-022", order: 22, title: "\uC9E7\uC740 \uC751\uB2F5 \uD30C\uC545", category: "listening", estimatedMinutes: 14, file: "./data/foundation/lessons/F-022.json" },
+      { id: "F-023", order: 23, title: "\uC22B\uC790\xB7\uC7A5\uC18C\xB7\uC2DC\uAC04", category: "listening", estimatedMinutes: 14, file: "./data/foundation/lessons/F-023.json" },
+      { id: "F-024", order: 24, title: "\uC9E7\uC740 \uB300\uD654 \uC0C1\uD669", category: "listening", estimatedMinutes: 15, file: "./data/foundation/lessons/F-024.json" }
+    ]
+  };
+
+  // data/foundation/lessons/F-001.json
+  var F_001_default = {
+    id: "F-001",
+    order: 1,
+    title: "\uC601\uC5B4 \uBB38\uC7A5\uC758 \uBF08\uB300",
+    category: "sentence",
+    estimatedMinutes: 15,
+    skills: [
+      "sentence-patterns",
+      "svo-analysis",
+      "complement-vs-object"
+    ],
+    objectives: [
+      "\uC601\uC5B4 \uBB38\uC7A5\uC758 \uAE30\uBCF8 5\uD615\uC2DD \uAD6C\uC870\uB97C \uD30C\uC545\uD55C\uB2E4",
+      "\uC8FC\uC5B4\xB7\uB3D9\uC0AC\xB7\uBAA9\uC801\uC5B4\xB7\uBCF4\uC5B4\uC758 \uC5ED\uD560\uC744 \uAD6C\uBD84\uD55C\uB2E4",
+      "\uC2E4\uC804 \uBB38\uC7A5\uC744 \uAD6C\uC870\uC801\uC73C\uB85C \uBE60\uB974\uAC8C \uBD84\uC11D\uD55C\uB2E4"
+    ],
+    concept: {
+      summary: "\uC601\uC5B4 \uBB38\uC7A5\uC740 \uC8FC\uC5B4(S)\uC640 \uB3D9\uC0AC(V)\uB97C \uBF08\uB300\uB85C \uD569\uB2C8\uB2E4. \uC5EC\uAE30\uC5D0 \uBAA9\uC801\uC5B4(O)\uB098 \uBCF4\uC5B4(C)\uAC00 \uBD99\uC73C\uBA70 \uC758\uBBF8\uAC00 \uC644\uC131\uB418\uACE0, TEPS\uC5D0\uC11C\uB3C4 \uC774 \uBF08\uB300\uB97C \uBA3C\uC800 \uC7A1\uC73C\uBA74 \uAE34 \uBB38\uC7A5\uC774 \uB2E8\uC21C\uD574\uC9D1\uB2C8\uB2E4.",
+      points: [
+        "S + V : \uC8FC\uC5B4\uAC00 \uBB34\uC5C7\uC744 \uD55C\uB2E4 (He arrived.)",
+        "S + V + O : \uC8FC\uC5B4\uAC00 \uBAA9\uC801\uC5B4\uC5D0 \uD589\uC704\uD55C\uB2E4 (She read the report.)",
+        "S + V + C : \uBCF4\uC5B4\uAC00 \uC8FC\uC5B4\uC758 \uC0C1\uD0DC\xB7\uC2E0\uBD84\uC744 \uC124\uBA85\uD55C\uB2E4 (He became CEO.)",
+        "S + V + IO + DO / S + V + O + C : \uAC04\uC811\xB7\uC9C1\uC811\uBAA9\uC801\uC5B4 \uB610\uB294 \uBAA9\uC801\uBCF4\uC5B4\uB85C \uD655\uC7A5\uB41C\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "She studies.",
+        ko: "\uADF8\uB140\uB294 \uACF5\uBD80\uD55C\uB2E4.",
+        structure: "S + V"
+      },
+      {
+        en: "He reads a book.",
+        ko: "\uADF8\uB294 \uCC45\uC744 \uC77D\uB294\uB2E4.",
+        structure: "S + V + O"
+      },
+      {
+        en: "The soup tastes delicious.",
+        ko: "\uADF8 \uC218\uD504\uB294 \uB9DB\uC788\uB2E4.",
+        structure: "S + V + C"
+      }
+    ],
+    checks: [
+      {
+        id: "F-001-Q01",
+        skill: "pattern-id",
+        question: '"Tom opened the door."\uC758 \uBB38\uC7A5 \uAD6C\uC870\uB294?',
+        choices: [
+          "S + V",
+          "S + V + O",
+          "S + V + C",
+          "S + V + IO + DO"
+        ],
+        answer: 1,
+        explanation: "Tom(\uC8FC\uC5B4)\uC774 opened(\uB3D9\uC0AC)\uB85C the door(\uBAA9\uC801\uC5B4)\uB97C \uC5F4\uC5C8\uC2B5\uB2C8\uB2E4. S + V + O \uAD6C\uC870\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-001-Q02",
+        skill: "complement-spot",
+        question: "\uB2E4\uC74C \uC911 \uBCF4\uC5B4(Complement)\uAC00 \uC788\uB294 \uBB38\uC7A5\uC740?",
+        choices: [
+          "I bought a ticket.",
+          "She became a teacher.",
+          "They watched a movie.",
+          "We closed the window."
+        ],
+        answer: 1,
+        explanation: "became \uB2E4\uC74C\uC758 a teacher\uB294 \uC8FC\uC5B4 She\uC758 \uC0C1\uD0DC\uB97C \uC124\uBA85\uD558\uB294 \uC8FC\uACA9\uBCF4\uC5B4\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-001-Q03",
+        skill: "core-elements",
+        question: "\uC601\uC5B4 \uBB38\uC7A5\uC5D0\uC11C \uAC00\uC7A5 \uC911\uC2EC\uC774 \uB418\uB294 \uB450 \uC694\uC18C\uB294?",
+        choices: [
+          "\uD615\uC6A9\uC0AC\uC640 \uBD80\uC0AC",
+          "\uC804\uCE58\uC0AC\uC640 \uC811\uC18D\uC0AC",
+          "\uC8FC\uC5B4\uC640 \uB3D9\uC0AC",
+          "\uBAA9\uC801\uC5B4\uC640 \uBCF4\uC5B4"
+        ],
+        answer: 2,
+        explanation: "\uC8FC\uC5B4\uC640 \uB3D9\uC0AC\uB294 \uC601\uC5B4 \uBB38\uC7A5\uC758 \uBF08\uB300\uC785\uB2C8\uB2E4. \uB098\uBA38\uC9C0 \uC694\uC18C\uB294 \uC774 \uC704\uC5D0 \uD655\uC7A5\uB429\uB2C8\uB2E4."
+      },
+      {
+        id: "F-001-Q04",
+        skill: "pattern-id",
+        question: '"Please send me the file."\uC5D0\uC11C me\uC758 \uBB38\uC7A5 \uC131\uBD84\uC740?',
+        choices: [
+          "\uC8FC\uC5B4",
+          "\uC9C1\uC811\uBAA9\uC801\uC5B4",
+          "\uAC04\uC811\uBAA9\uC801\uC5B4",
+          "\uBCF4\uC5B4"
+        ],
+        answer: 2,
+        explanation: "send me the file\uB294 S+V+IO+DO \uAD6C\uC870\uB85C, me\uB294 \uAC04\uC811\uBAA9\uC801\uC5B4\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-001-Q05",
+        skill: "trap-linking",
+        question: "linking verb(\uC5F0\uACB0\uB3D9\uC0AC) \uB4A4\uC5D0 \uC8FC\uB85C \uC624\uB294 \uAC83\uC740?",
+        choices: [
+          "\uBAA9\uC801\uC5B4",
+          "\uBCF4\uC5B4",
+          "\uBD80\uC0AC\uB9CC",
+          "\uC804\uCE58\uC0AC\uAD6C\uB9CC"
+        ],
+        answer: 1,
+        explanation: "be, become, seem, look \uB4F1 \uC5F0\uACB0\uB3D9\uC0AC \uB4A4\uC5D0\uB294 \uC8FC\uC5B4\uB97C \uC124\uBA85\uD558\uB294 \uBCF4\uC5B4\uAC00 \uC635\uB2C8\uB2E4."
+      },
+      {
+        id: "F-001-Q06",
+        skill: "pattern-id",
+        question: '"They elected him chairperson."\uC758 \uAD6C\uC870\uB294?',
+        choices: [
+          "S + V + O",
+          "S + V + C",
+          "S + V + O + C",
+          "S + V + IO + DO"
+        ],
+        answer: 2,
+        explanation: "him\uC740 \uBAA9\uC801\uC5B4, chairperson\uC740 \uBAA9\uC801\uBCF4\uC5B4\uC774\uBBC0\uB85C S + V + O + C\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-001-Q07",
+        skill: "object-spot",
+        question: "\uB2E4\uC74C \uC911 \uBAA9\uC801\uC5B4\uAC00 \uC5C6\uB294 \uBB38\uC7A5\uC740?",
+        choices: [
+          "I finished the draft.",
+          "She remains calm.",
+          "We need more data.",
+          "He called a taxi."
+        ],
+        answer: 1,
+        explanation: "remains\uB294 \uC5F0\uACB0\uB3D9\uC0AC\uC774\uACE0 calm\uC740 \uBCF4\uC5B4\uC785\uB2C8\uB2E4. \uBAA9\uC801\uC5B4\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-001-Q08",
+        skill: "application",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAD6C\uC870 \uC124\uBA85\uC740? "My colleague gave ___ ___ ."',
+        choices: [
+          "IO + DO (me the key)",
+          "O + C\uB9CC \uAC00\uB2A5",
+          "C\uB9CC \uAC00\uB2A5",
+          "\uC804\uCE58\uC0AC \uC5C6\uC774 DO\uB9CC"
+        ],
+        answer: 0,
+        explanation: "give\uB294 \uAC04\uC811\uBAA9\uC801\uC5B4+\uC9C1\uC811\uBAA9\uC801\uC5B4 \uD328\uD134\uC774 \uD754\uD569\uB2C8\uB2E4. gave me the key."
+      },
+      {
+        id: "F-001-Q09",
+        skill: "trap-sense",
+        question: '"The plan sounds reasonable."\uC5D0\uC11C reasonable\uC758 \uC5ED\uD560\uC740?',
+        choices: [
+          "\uBAA9\uC801\uC5B4",
+          "\uBD80\uC0AC",
+          "\uC8FC\uACA9\uBCF4\uC5B4",
+          "\uAC04\uC811\uBAA9\uC801\uC5B4"
+        ],
+        answer: 2,
+        explanation: "sound\uB294 \uC5F0\uACB0\uB3D9\uC0AC\uB85C, reasonable\uC774 \uC8FC\uC5B4 the plan\uC744 \uC124\uBA85\uD558\uB294 \uC8FC\uACA9\uBCF4\uC5B4\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-001-Q10",
+        skill: "application",
+        question: "\uAE34 \uBB38\uC7A5\uC744 \uC77D\uC744 \uB54C \uAC00\uC7A5 \uBA3C\uC800 \uCC3E\uC544\uC57C \uD560 \uAC83\uC740?",
+        choices: [
+          "\uAC00\uC7A5 \uAE34 \uD615\uC6A9\uC0AC",
+          "\uC8FC\uC5B4\uC640 \uBCF8\uB3D9\uC0AC",
+          "\uBAA8\uB4E0 \uC804\uCE58\uC0AC",
+          "\uC811\uC18D\uC0AC\uB9CC"
+        ],
+        answer: 1,
+        explanation: "\uC218\uC2DD\uC5B4\uB97C \uC7A0\uC2DC \uC81C\uCCD0 \uB450\uACE0 \uC8FC\uC5B4\xB7\uBCF8\uB3D9\uC0AC\uBD80\uD130 \uC7A1\uC73C\uBA74 \uBF08\uB300\uAC00 \uBCF4\uC785\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-002.json
+  var F_002_default = {
+    id: "F-002",
+    order: 2,
+    title: "\uD488\uC0AC",
+    category: "sentence",
+    estimatedMinutes: 12,
+    skills: [
+      "parts-of-speech",
+      "adj-vs-adv",
+      "word-function"
+    ],
+    objectives: [
+      "\uC8FC\uC694 \uD488\uC0AC\uC758 \uAE30\uBCF8 \uC5ED\uD560\uC744 \uC815\uB9AC\uD55C\uB2E4",
+      "\uBB38\uC7A5 \uC18D\uC5D0\uC11C \uAC19\uC740 \uB2E8\uC5B4\uC758 \uD488\uC0AC \uC804\uD658\uC744 \uAD6C\uBD84\uD55C\uB2E4",
+      "\uD615\uC6A9\uC0AC\uC640 \uBD80\uC0AC \uD63C\uB3D9 \uD568\uC815\uC744 \uD53C\uD55C\uB2E4"
+    ],
+    concept: {
+      summary: "\uD488\uC0AC\uB294 \uB2E8\uC5B4\uAC00 \uBB38\uC7A5\uC5D0\uC11C \uD558\uB294 \uC5ED\uD560\uC785\uB2C8\uB2E4. \uAC19\uC740 \uCCA0\uC790\uB77C\uB3C4 \uBB38\uB9E5\uC5D0 \uB530\uB77C \uBA85\uC0AC\xB7\uB3D9\uC0AC\xB7\uD615\uC6A9\uC0AC\uB85C \uBC14\uB014 \uC218 \uC788\uC73C\uBBC0\uB85C, \uC0AC\uC804 \uC554\uAE30\uBCF4\uB2E4 \u2018\uBB34\uC5C7\uC744 \uAFB8\uBBF8\uB294\uC9C0\u2019\uB97C \uBCF4\uB294 \uC2B5\uAD00\uC774 \uC911\uC694\uD569\uB2C8\uB2E4.",
+      points: [
+        "\uBA85\uC0AC: \uC0AC\uB78C\xB7\uC0AC\uBB3C\xB7\uAC1C\uB150\uC758 \uC774\uB984 (report, decision)",
+        "\uB3D9\uC0AC: \uB3D9\uC791\uC774\uB098 \uC0C1\uD0DC (decide, remain)",
+        "\uD615\uC6A9\uC0AC: \uBA85\uC0AC\uB97C \uC218\uC2DD (a careful review)",
+        "\uBD80\uC0AC: \uB3D9\uC0AC\xB7\uD615\uC6A9\uC0AC\xB7\uBD80\uC0AC\xB7\uC808\uC744 \uC218\uC2DD (carefully, very, honestly)"
+      ]
+    },
+    examples: [
+      {
+        en: "A careful student reads slowly.",
+        ko: "\uC2E0\uC911\uD55C \uD559\uC0DD\uC740 \uCC9C\uCC9C\uD788 \uC77D\uB294\uB2E4.",
+        structure: "\uD615\uC6A9\uC0AC careful / \uBD80\uC0AC slowly"
+      },
+      {
+        en: "Please update the schedule.",
+        ko: "\uC77C\uC815\uC744 \uC5C5\uB370\uC774\uD2B8\uD574 \uC8FC\uC138\uC694.",
+        structure: "\uB3D9\uC0AC update"
+      },
+      {
+        en: "We need an update on the schedule.",
+        ko: "\uC77C\uC815\uC5D0 \uB300\uD55C \uC5C5\uB370\uC774\uD2B8\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4.",
+        structure: "\uBA85\uC0AC update"
+      }
+    ],
+    checks: [
+      {
+        id: "F-002-Q01",
+        skill: "adverb-id",
+        question: '\uBB38\uC7A5 "She spoke clearly."\uC5D0\uC11C clearly\uC758 \uD488\uC0AC\uB294?',
+        choices: [
+          "\uBA85\uC0AC",
+          "\uD615\uC6A9\uC0AC",
+          "\uBD80\uC0AC",
+          "\uC804\uCE58\uC0AC"
+        ],
+        answer: 2,
+        explanation: "clearly\uB294 \uB3D9\uC0AC spoke\uB97C \uC218\uC2DD\uD558\uBBC0\uB85C \uBD80\uC0AC\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-002-Q02",
+        skill: "adjective-id",
+        question: "\uB2E4\uC74C \uC911 \uD615\uC6A9\uC0AC\uAC00 \uC4F0\uC778 \uBB38\uC7A5\uC740?",
+        choices: [
+          "He runs fast.",
+          "They arrived early.",
+          "It was a quiet night.",
+          "Please speak loudly."
+        ],
+        answer: 2,
+        explanation: "quiet\uB294 \uBA85\uC0AC night\uB97C \uC218\uC2DD\uD558\uB294 \uD615\uC6A9\uC0AC\uC785\uB2C8\uB2E4. \uB098\uBA38\uC9C0\uB294 \uBD80\uC0AC \uC6A9\uBC95\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-002-Q03",
+        skill: "noun-role",
+        question: "\uBA85\uC0AC\uC758 \uC5ED\uD560\uB85C \uAC00\uC7A5 \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uB3D9\uC791\uC774\uB098 \uC0C1\uD0DC\uB97C \uB098\uD0C0\uB0B8\uB2E4",
+          "\uC0AC\uB78C\xB7\uC0AC\uBB3C\xB7\uAC1C\uB150\uC758 \uC774\uB984\uC744 \uB098\uD0C0\uB0B8\uB2E4",
+          "\uB3D9\uC0AC\uB97C \uAFB8\uBA70 \uC815\uB3C4\uB97C \uB098\uD0C0\uB0B8\uB2E4",
+          "\uBB38\uC7A5\uACFC \uBB38\uC7A5\uC744 \uC5F0\uACB0\uD55C\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uBA85\uC0AC\uB294 \uC0AC\uB78C, \uC0AC\uBB3C, \uAC1C\uB150\uC758 \uC774\uB984\uC744 \uB098\uD0C0\uB0B4\uB294 \uD488\uC0AC\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-002-Q04",
+        skill: "adj-vs-adv",
+        question: '\uBE48\uCE78: "She feels ___ about the result."',
+        choices: [
+          "badly",
+          "bad",
+          "worsely",
+          "badness"
+        ],
+        answer: 1,
+        explanation: "feel\uC740 \uC5F0\uACB0\uB3D9\uC0AC\uB77C \uC0C1\uD0DC\uB97C \uB098\uD0C0\uB0B4\uB294 \uD615\uC6A9\uC0AC bad\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-002-Q05",
+        skill: "function-shift",
+        question: '"Light the candle."\uC5D0\uC11C light\uC758 \uD488\uC0AC\uB294?',
+        choices: [
+          "\uBA85\uC0AC",
+          "\uD615\uC6A9\uC0AC",
+          "\uB3D9\uC0AC",
+          "\uBD80\uC0AC"
+        ],
+        answer: 2,
+        explanation: "\uBA85\uB839\uBB38\uC758 \uC220\uC5B4\uB85C \uC4F0\uC600\uC73C\uBBC0\uB85C \uB3D9\uC0AC\uC785\uB2C8\uB2E4. (\uBA85\uC0AC the light\uC640 \uAD6C\uBD84)"
+      },
+      {
+        id: "F-002-Q06",
+        skill: "preposition-id",
+        question: "\uB2E4\uC74C \uC911 \uC804\uCE58\uC0AC\uAC00 \uD3EC\uD568\uB41C \uAD6C\uB294?",
+        choices: [
+          "very quickly",
+          "in the morning",
+          "and then",
+          "so carefully"
+        ],
+        answer: 1,
+        explanation: "in the morning\uC5D0\uC11C in\uC774 \uC804\uCE58\uC0AC\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-002-Q07",
+        skill: "trap-ly",
+        question: "\uB2E4\uC74C \uC911 -ly\uB85C \uB05D\uB098\uC9C0\uB9CC \uD615\uC6A9\uC0AC\uC778 \uAC83\uC740?",
+        choices: [
+          "slowly",
+          "carefully",
+          "friendly",
+          "quickly"
+        ],
+        answer: 2,
+        explanation: "friendly\uB294 \uD615\uC6A9\uC0AC\uC785\uB2C8\uB2E4. He is friendly. (\uBD80\uC0AC\uCC98\uB7FC \uC4F0\uC774\uBA74 \uC5B4\uC0C9)"
+      },
+      {
+        id: "F-002-Q08",
+        skill: "conjunction-id",
+        question: "\uC811\uC18D\uC0AC\uC758 \uC8FC\uB41C \uC5ED\uD560\uC740?",
+        choices: [
+          "\uBA85\uC0AC\uB97C \uAFB8\uBBFC\uB2E4",
+          "\uB2E8\uC5B4\xB7\uAD6C\xB7\uC808\uC744 \uC5F0\uACB0\uD55C\uB2E4",
+          "\uC2DC\uC81C\uB97C \uBC14\uAFBC\uB2E4",
+          "\uC218\uB3D9\uD0DC\uB97C \uB9CC\uB4E0\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uC811\uC18D\uC0AC\uB294 and, but, because\uCC98\uB7FC \uC694\uC18C\uB97C \uC5F0\uACB0\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-002-Q09",
+        skill: "application",
+        question: '"The weekly report arrived late."\uC5D0\uC11C weekly\uC758 \uD488\uC0AC\uB294?',
+        choices: [
+          "\uBD80\uC0AC",
+          "\uBA85\uC0AC",
+          "\uD615\uC6A9\uC0AC",
+          "\uC811\uC18D\uC0AC"
+        ],
+        answer: 2,
+        explanation: "weekly\uAC00 \uBA85\uC0AC report\uB97C \uC218\uC2DD\uD558\uBBC0\uB85C \uD615\uC6A9\uC0AC\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-002-Q10",
+        skill: "trap-hard",
+        question: '"Work hard."\uC640 "a hard decision"\uC5D0\uC11C hard\uC758 \uD488\uC0AC\uB294 \uAC01\uAC01?',
+        choices: [
+          "\uD615\uC6A9\uC0AC / \uBD80\uC0AC",
+          "\uBD80\uC0AC / \uD615\uC6A9\uC0AC",
+          "\uB458 \uB2E4 \uBA85\uC0AC",
+          "\uB458 \uB2E4 \uC811\uC18D\uC0AC"
+        ],
+        answer: 1,
+        explanation: "Work hard\uC758 hard\uB294 \uBD80\uC0AC, a hard decision\uC758 hard\uB294 \uD615\uC6A9\uC0AC\uC785\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-003.json
+  var F_003_default = {
+    id: "F-003",
+    order: 3,
+    title: "\uC8FC\uC5B4\uC640 \uB3D9\uC0AC",
+    category: "sentence",
+    estimatedMinutes: 12,
+    skills: [
+      "subject-verb-agreement",
+      "head-noun",
+      "tricky-subjects"
+    ],
+    objectives: [
+      "\uC8FC\uC5B4\uC758 \uD575(head)\uC744 \uCC3E\uC544 \uB3D9\uC0AC \uC218\uB97C \uB9DE\uCD98\uB2E4",
+      "\uBD80\uC815\uB300\uBA85\uC0AC\xB7\uC9D1\uD569\uBA85\uC0AC\xB7there \uAD6C\uBB38\uC758 \uC218\uC77C\uCE58\uB97C \uC775\uD78C\uB2E4",
+      "of \uC804\uCE58\uC0AC\uAD6C\uC5D0 \uC18D\uC9C0 \uC54A\uB294 \uBD84\uC11D \uC2B5\uAD00\uC744 \uAE30\uB978\uB2E4"
+    ],
+    concept: {
+      summary: "\uB3D9\uC0AC\uC758 \uB2E8\uC218\xB7\uBCF5\uC218\uB294 \uC8FC\uC5B4\uC758 \uD575\uC5D0 \uB9DE\uCDA5\uB2C8\uB2E4. of \uB4A4\uC758 \uBA85\uC0AC, \uAD00\uACC4\uC808, \uC0BD\uC785\uAD6C\uB294 \uC218\uC2DD\uC77C \uBFD0 \uC8FC\uC5B4\uAC00 \uC544\uB2D9\uB2C8\uB2E4. TEPS \uBB38\uBC95\uC5D0\uC11C\uB3C4 \uC774 \u2018\uD575 \uCC3E\uAE30\u2019\uAC00 \uBC18\uBCF5\uB429\uB2C8\uB2E4.",
+      points: [
+        "\uB2E8\uC218 \uC8FC\uC5B4 \u2192 \uB2E8\uC218 \uB3D9\uC0AC / \uBCF5\uC218 \uC8FC\uC5B4 \u2192 \uBCF5\uC218 \uB3D9\uC0AC",
+        "The list of items is\u2026 \u2192 \uD575\uC740 list",
+        "everyone, each, nobody \uB4F1\uC740 \uBCF4\uD1B5 \uB2E8\uC218",
+        "a number of + \uBCF5\uC218 = \uBCF5\uC218 / the number of + \uBCF5\uC218 = \uB2E8\uC218"
+      ]
+    },
+    examples: [
+      {
+        en: "The list of items is on the desk.",
+        ko: "\uD56D\uBAA9 \uBAA9\uB85D\uC774 \uCC45\uC0C1 \uC704\uC5D0 \uC788\uB2E4.",
+        structure: "\uD575 list(\uB2E8\uC218) \u2192 is"
+      },
+      {
+        en: "Everyone wants a clear answer.",
+        ko: "\uB204\uAD6C\uB098 \uBD84\uBA85\uD55C \uB2F5\uC744 \uC6D0\uD55C\uB2E4.",
+        structure: "everyone \u2192 \uB2E8\uC218 \uB3D9\uC0AC"
+      },
+      {
+        en: "A number of staff are attending.",
+        ko: "\uB2E4\uC218\uC758 \uC9C1\uC6D0\uC774 \uCC38\uC11D\uD55C\uB2E4.",
+        structure: "a number of + \uBCF5\uC218 \u2192 are"
+      }
+    ],
+    checks: [
+      {
+        id: "F-003-Q01",
+        skill: "agreement",
+        question: '\uBE48\uCE78: "The news ___ surprising."',
+        choices: [
+          "are",
+          "were",
+          "is",
+          "have been"
+        ],
+        answer: 2,
+        explanation: "news\uB294 \uD615\uD0DC\uB294 \uBCF5\uC218\uCC98\uB7FC \uBCF4\uC5EC\uB3C4 \uB2E8\uC218 \uCDE8\uAE09\uC774\uBBC0\uB85C is\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-003-Q02",
+        skill: "agreement",
+        question: "\uB2E4\uC74C \uC911 \uC218\uC77C\uCE58\uAC00 \uC62C\uBC14\uB978 \uBB38\uC7A5\uC740?",
+        choices: [
+          "The results of the test is ready.",
+          "Each of the students have a book.",
+          "There are two options left.",
+          "Nobody know the answer."
+        ],
+        answer: 2,
+        explanation: "there are + \uBCF5\uC218(options)\uAC00 \uC62C\uBC14\uB985\uB2C8\uB2E4. \uB098\uBA38\uC9C0\uB294 \uC8FC\uC5B4 \uD575\xB7\uBD80\uC815\uB300\uBA85\uC0AC \uC218\uC77C\uCE58 \uC624\uB958\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-003-Q03",
+        skill: "a-number-of",
+        question: '"A number of people ___ waiting."\uC5D0 \uC54C\uB9DE\uC740 \uB3D9\uC0AC\uB294?',
+        choices: [
+          "is",
+          "was",
+          "has been",
+          "are"
+        ],
+        answer: 3,
+        explanation: "a number of + \uBCF5\uC218\uBA85\uC0AC\uB294 \u2018\uB2E4\uC218\uC758 ~\u2019\uB85C \uBCF5\uC218 \uCDE8\uAE09\uD558\uC5EC are\uB97C \uC501\uB2C8\uB2E4."
+      },
+      {
+        id: "F-003-Q04",
+        skill: "the-number-of",
+        question: '"The number of applicants ___ increased."',
+        choices: [
+          "have",
+          "are",
+          "has",
+          "were"
+        ],
+        answer: 2,
+        explanation: "the number of\uB294 \u2018~\uC758 \uC218\u2019\uB85C \uB2E8\uC218 \uCDE8\uAE09\uD558\uBBC0\uB85C has\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-003-Q05",
+        skill: "head-noun",
+        question: '"One of the managers ___ overseas."',
+        choices: [
+          "work",
+          "are working",
+          "works",
+          "have worked"
+        ],
+        answer: 2,
+        explanation: "\uC8FC\uC5B4\uC758 \uD575\uC740 One(\uB2E8\uC218)\uC774\uBBC0\uB85C works\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-003-Q06",
+        skill: "collective",
+        question: '\uD300\uC774 \uAD6C\uC131\uC6D0 \uAC1C\uAC1C\uC778\uC744 \uAC15\uC870\uD560 \uB54C: "The team ___ arguing among themselves."',
+        choices: [
+          "is",
+          "was",
+          "are",
+          "has"
+        ],
+        answer: 2,
+        explanation: "\uAD6C\uC131\uC6D0\uC758 \uAC1C\uBCC4 \uD589\uB3D9\uC744 \uB9D0\uD560 \uB54C\uB294 \uBCF5\uC218\uAC00 \uD754\uD569\uB2C8\uB2E4. among themselves\uC640 \uD638\uC751\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-003-Q07",
+        skill: "neither",
+        question: '"Neither of the proposals ___ acceptable."',
+        choices: [
+          "are",
+          "were",
+          "have been",
+          "is"
+        ],
+        answer: 3,
+        explanation: "neither of + \uBCF5\uC218\uBA85\uC0AC\uB3C4 \uBCF4\uD1B5 \uB2E8\uC218 \uB3D9\uC0AC\uB97C \uC501\uB2C8\uB2E4."
+      },
+      {
+        id: "F-003-Q08",
+        skill: "there-be",
+        question: '"There ___ several issues to discuss."',
+        choices: [
+          "is",
+          "was",
+          "has",
+          "are"
+        ],
+        answer: 3,
+        explanation: "there \uAD6C\uBB38\uC740 \uB4A4\uB530\uB974\uB294 \uBA85\uC0AC\uC758 \uC218\uC5D0 \uB9DE\uCDA5\uB2C8\uB2E4. several issues \u2192 are."
+      },
+      {
+        id: "F-003-Q09",
+        skill: "trap-along-with",
+        question: '"The CEO, along with the directors, ___ arrived."',
+        choices: [
+          "have",
+          "are",
+          "has",
+          "were"
+        ],
+        answer: 2,
+        explanation: "along with \uAD6C\uB294 \uC0BD\uC785 \uC218\uC2DD\uC785\uB2C8\uB2E4. \uC8FC\uC5B4 \uD575\uC740 The CEO(\uB2E8\uC218) \u2192 has."
+      },
+      {
+        id: "F-003-Q10",
+        skill: "application",
+        question: "\uC218\uC77C\uCE58 \uC624\uB958\uB97C \uACE0\uB974\uC138\uC694.",
+        choices: [
+          "Each employee has a badge.",
+          "The data are incomplete. (\uD559\uC220 \uB9E5\uB77D)",
+          "Everybody know the deadline.",
+          "Many of the files are missing."
+        ],
+        answer: 2,
+        explanation: "everybody\uB294 \uB2E8\uC218\uC774\uBBC0\uB85C knows\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4. Everybody know\uB294 \uC624\uB958\uC785\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-004.json
+  var F_004_default = {
+    id: "F-004",
+    order: 4,
+    title: "\uBAA9\uC801\uC5B4\uC640 \uBCF4\uC5B4",
+    category: "sentence",
+    estimatedMinutes: 12,
+    skills: [
+      "object-vs-complement",
+      "direct-indirect-object",
+      "object-complement"
+    ],
+    objectives: [
+      "\uBAA9\uC801\uC5B4\uC640 \uBCF4\uC5B4\uC758 \uCC28\uC774\uB97C \uBA85\uD655\uD788 \uAD6C\uBD84\uD55C\uB2E4",
+      "\uAC04\uC811\uBAA9\uC801\uC5B4\xB7\uC9C1\uC811\uBAA9\uC801\uC5B4 \uD328\uD134\uC744 \uC775\uD78C\uB2E4",
+      "\uBAA9\uC801\uBCF4\uC5B4\uAC00 \uD544\uC694\uD55C \uB3D9\uC0AC\uB97C \uBB38\uB9E5\uC5D0\uC11C \uCC3E\uB294\uB2E4"
+    ],
+    concept: {
+      summary: "\uBAA9\uC801\uC5B4\uB294 \uB3D9\uC791\uC758 \uB300\uC0C1\uC774\uACE0, \uBCF4\uC5B4\uB294 \uC8FC\uC5B4\uB098 \uBAA9\uC801\uC5B4\uC758 \uC0C1\uD0DC\xB7\uC2E0\uBD84\uC744 \uBCF4\uC644\uD569\uB2C8\uB2E4. make/keep/find/consider \uB4A4\uC5D0\uB294 \uBAA9\uC801\uBCF4\uC5B4\uAC00 \uC790\uC8FC \uC624\uBA70, \uC774 \uAD6C\uBD84\uC744 \uB193\uCE58\uBA74 \uBE48\uCE78\uC774 \uAF2C\uC785\uB2C8\uB2E4.",
+      points: [
+        "\uBAA9\uC801\uC5B4: \uD589\uC704\uC758 \uB300\uC0C1 (I wrote a memo.)",
+        "\uC8FC\uACA9\uBCF4\uC5B4: \uC8FC\uC5B4 \uC124\uBA85 (She is capable.)",
+        "\uBAA9\uC801\uBCF4\uC5B4: \uBAA9\uC801\uC5B4 \uC124\uBA85 (They made him leader.)",
+        "IO+DO: give/send/show/tell me the result"
+      ]
+    },
+    examples: [
+      {
+        en: "I finished the proposal.",
+        ko: "\uB098\uB294 \uC81C\uC548\uC11C\uB97C \uB05D\uB0C8\uB2E4.",
+        structure: "O = the proposal"
+      },
+      {
+        en: "The result seems fair.",
+        ko: "\uACB0\uACFC\uAC00 \uACF5\uC815\uD574 \uBCF4\uC778\uB2E4.",
+        structure: "C = fair"
+      },
+      {
+        en: "They appointed her manager.",
+        ko: "\uADF8\uB4E4\uC740 \uADF8\uB140\uB97C \uB9E4\uB2C8\uC800\uB85C \uC784\uBA85\uD588\uB2E4.",
+        structure: "O + C"
+      }
+    ],
+    checks: [
+      {
+        id: "F-004-Q01",
+        skill: "object-id",
+        question: '"We discussed the budget."\uC5D0\uC11C the budget\uC758 \uC131\uBD84\uC740?',
+        choices: [
+          "\uC8FC\uC5B4",
+          "\uBCF4\uC5B4",
+          "\uBAA9\uC801\uC5B4",
+          "\uBD80\uC0AC"
+        ],
+        answer: 2,
+        explanation: "discuss\uC758 \uD589\uC704 \uB300\uC0C1\uC774\uBBC0\uB85C \uBAA9\uC801\uC5B4\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-004-Q02",
+        skill: "complement-id",
+        question: '"The meeting remained productive."\uC5D0\uC11C productive\uC758 \uC131\uBD84\uC740?',
+        choices: [
+          "\uBAA9\uC801\uC5B4",
+          "\uC8FC\uACA9\uBCF4\uC5B4",
+          "\uAC04\uC811\uBAA9\uC801\uC5B4",
+          "\uC804\uCE58\uC0AC"
+        ],
+        answer: 1,
+        explanation: "remain\uC740 \uC5F0\uACB0\uB3D9\uC0AC\uC774\uACE0 productive\uAC00 \uC8FC\uC5B4\uB97C \uC124\uBA85\uD558\uB294 \uC8FC\uACA9\uBCF4\uC5B4\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-004-Q03",
+        skill: "io-do",
+        question: '"Please show the client the prototype."\uC5D0\uC11C the client\uB294?',
+        choices: [
+          "\uC9C1\uC811\uBAA9\uC801\uC5B4",
+          "\uAC04\uC811\uBAA9\uC801\uC5B4",
+          "\uC8FC\uACA9\uBCF4\uC5B4",
+          "\uBAA9\uC801\uBCF4\uC5B4"
+        ],
+        answer: 1,
+        explanation: "show IO DO \uD328\uD134\uC5D0\uC11C the client\uB294 \uAC04\uC811\uBAA9\uC801\uC5B4\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-004-Q04",
+        skill: "object-complement",
+        question: "\uB2E4\uC74C \uC911 \uBAA9\uC801\uBCF4\uC5B4\uAC00 \uC788\uB294 \uBB38\uC7A5\uC740?",
+        choices: [
+          "I bought a laptop.",
+          "She became quiet.",
+          "We found the report useful.",
+          "They arrived late."
+        ],
+        answer: 2,
+        explanation: "found + \uBAA9\uC801\uC5B4(the report) + \uBAA9\uC801\uBCF4\uC5B4(useful) \uAD6C\uC870\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-004-Q05",
+        skill: "trap-linking",
+        question: "\uBAA9\uC801\uC5B4\uAC00 \uD544\uC694 \uC5C6\uB294 \uB3D9\uC0AC\uB294?",
+        choices: [
+          "need",
+          "build",
+          "seem",
+          "prefer"
+        ],
+        answer: 2,
+        explanation: "seem\uC740 \uC5F0\uACB0\uB3D9\uC0AC\uB77C \uBCF4\uC5B4\uB97C \uCDE8\uD558\uACE0, \uBAA9\uC801\uC5B4\uB97C \uC694\uAD6C\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-004-Q06",
+        skill: "rewrite",
+        question: '"Give the keys to me."\uC640 \uAC19\uC740 \uB73B\uC758 \uB9D0\uC21C\uC11C\uB294?',
+        choices: [
+          "Give to me the keys.",
+          "Give me the keys.",
+          "Give the me keys.",
+          "Give keys me the."
+        ],
+        answer: 1,
+        explanation: "Give me the keys = Give the keys to me."
+      },
+      {
+        id: "F-004-Q07",
+        skill: "application",
+        question: '\uBE48\uCE78: "The board considers the plan ___ ."',
+        choices: [
+          "feasibly",
+          "feasible",
+          "feasibility",
+          "to feasible"
+        ],
+        answer: 1,
+        explanation: "consider + O + \uD615\uC6A9\uC0AC(\uBAA9\uC801\uBCF4\uC5B4). feasible\uC774 \uB9DE\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-004-Q08",
+        skill: "object-spot",
+        question: '\uBAA9\uC801\uC5B4\uB97C \uACE0\uB974\uC138\uC694: "After lunch, the committee approved the amendment."',
+        choices: [
+          "After lunch",
+          "the committee",
+          "approved",
+          "the amendment"
+        ],
+        answer: 3,
+        explanation: "approved\uC758 \uB300\uC0C1\uC778 the amendment\uAC00 \uBAA9\uC801\uC5B4\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-004-Q09",
+        skill: "trap-call",
+        question: '"They called the project a success."\uC5D0\uC11C a success\uB294?',
+        choices: [
+          "\uC9C1\uC811\uBAA9\uC801\uC5B4",
+          "\uAC04\uC811\uBAA9\uC801\uC5B4",
+          "\uBAA9\uC801\uBCF4\uC5B4",
+          "\uC8FC\uC5B4"
+        ],
+        answer: 2,
+        explanation: "call O C \uD328\uD134\uC5D0\uC11C a success\uB294 \uBAA9\uC801\uBCF4\uC5B4\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-004-Q10",
+        skill: "concept",
+        question: "\uBCF4\uC5B4\uC640 \uBAA9\uC801\uC5B4\uC758 \uD575\uC2EC \uCC28\uC774\uB294?",
+        choices: [
+          "\uBCF4\uC5B4\uB294 \uD56D\uC0C1 \uBD80\uC0AC\uB2E4",
+          "\uBAA9\uC801\uC5B4\uB294 \uB300\uC0C1\uC744, \uBCF4\uC5B4\uB294 \uC0C1\uD0DC\xB7\uC2E0\uBD84\uC744 \uBCF4\uC644\uD55C\uB2E4",
+          "\uB458\uC740 \uD56D\uC0C1 \uAC19\uB2E4",
+          "\uBCF4\uC5B4\uB294 \uC804\uCE58\uC0AC \uB4A4\uC5D0\uB9CC \uC628\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uBAA9\uC801\uC5B4\uB294 \uD589\uC704 \uB300\uC0C1, \uBCF4\uC5B4\uB294 \uC8FC\uC5B4/\uBAA9\uC801\uC5B4\uB97C \uC124\uBA85\xB7\uBCF4\uC644\uD569\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-005.json
+  var F_005_default = {
+    id: "F-005",
+    order: 5,
+    title: "\uC2DC\uC81C",
+    category: "grammar",
+    estimatedMinutes: 15,
+    skills: [
+      "tense-choice",
+      "present-perfect",
+      "past-vs-perfect"
+    ],
+    objectives: [
+      "\uD604\uC7AC\xB7\uACFC\uAC70\xB7\uD604\uC7AC\uC644\uB8CC\uC758 \uC4F0\uC784 \uCC28\uC774\uB97C \uC815\uB9AC\uD55C\uB2E4",
+      "\uC2DC\uAC04 \uD45C\uD604\uACFC \uC5B4\uC6B8\uB9AC\uB294 \uC2DC\uC81C\uB97C \uACE0\uB978\uB2E4",
+      "\uC644\uB8CC\uC2DC\uC81C\uC640 \uB2E8\uC21C\uC2DC\uC81C \uD568\uC815\uC744 \uAD6C\uBD84\uD55C\uB2E4"
+    ],
+    concept: {
+      summary: "\uC2DC\uC81C\uB294 \u2018\uC5B8\uC81C\u2019\uBFD0 \uC544\uB2C8\uB77C \u2018\uD604\uC7AC\uC640\uC758 \uC5F0\uACB0\u2019\uC744 \uB098\uD0C0\uB0C5\uB2C8\uB2E4. \uB2E8\uC21C\uACFC\uAC70\uB294 \uB05D\uB09C \uC2DC\uC810, \uD604\uC7AC\uC644\uB8CC\uB294 \uACBD\uD5D8\xB7\uACB0\uACFC\xB7\uACC4\uC18D\uCC98\uB7FC \uD604\uC7AC\uC640 \uC774\uC5B4\uC9C4 \uC0C1\uD669\uC5D0 \uC4F0\uC785\uB2C8\uB2E4. \uC2DC\uAC04 \uBD80\uC0AC(ago, since, yet)\uC640 \uD568\uAED8 \uBCF4\uBA74 \uC120\uD0DD\uC774 \uC26C\uC6CC\uC9D1\uB2C8\uB2E4.",
+      points: [
+        "\uB2E8\uC21C\uD604\uC7AC: \uC2B5\uAD00\xB7\uC0AC\uC2E4 / \uD604\uC7AC\uC9C4\uD589: \uC9C0\uAE08 \uC9C4\uD589",
+        "\uB2E8\uC21C\uACFC\uAC70: \uACFC\uAC70 \uD2B9\uC815 \uC2DC\uC810\uC758 \uC644\uB8CC (yesterday, in 2019)",
+        "\uD604\uC7AC\uC644\uB8CC: \uACBD\uD5D8\xB7\uACB0\uACFC\xB7\uACC4\uC18D (already, yet, since, for)",
+        "\uACFC\uAC70\uC644\uB8CC: \uACFC\uAC70\uBCF4\uB2E4 \uB354 \uC774\uC804\uC758 \uC0AC\uAC74 (by then, before\u2026)"
+      ]
+    },
+    examples: [
+      {
+        en: "She submits reports every Friday.",
+        ko: "\uADF8\uB140\uB294 \uB9E4\uC8FC \uAE08\uC694\uC77C\uC5D0 \uBCF4\uACE0\uC11C\uB97C \uC81C\uCD9C\uD55C\uB2E4.",
+        structure: "\uB2E8\uC21C\uD604\uC7AC(\uC2B5\uAD00)"
+      },
+      {
+        en: "They launched the app last month.",
+        ko: "\uADF8\uB4E4\uC740 \uC9C0\uB09C\uB2EC\uC5D0 \uC571\uC744 \uCD9C\uC2DC\uD588\uB2E4.",
+        structure: "\uB2E8\uC21C\uACFC\uAC70"
+      },
+      {
+        en: "I have already sent the invoice.",
+        ko: "\uB098\uB294 \uC774\uBBF8 \uCCAD\uAD6C\uC11C\uB97C \uBCF4\uB0C8\uB2E4.",
+        structure: "\uD604\uC7AC\uC644\uB8CC(\uACB0\uACFC)"
+      }
+    ],
+    checks: [
+      {
+        id: "F-005-Q01",
+        skill: "simple-past",
+        question: '\uBE48\uCE78: "We ___ the contract yesterday."',
+        choices: [
+          "have signed",
+          "signed",
+          "had been signing",
+          "sign"
+        ],
+        answer: 1,
+        explanation: "yesterday\uB294 \uD2B9\uC815 \uACFC\uAC70 \uC2DC\uC810\uC774\uBBC0\uB85C \uB2E8\uC21C\uACFC\uAC70 signed\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-005-Q02",
+        skill: "present-perfect",
+        question: '\uBE48\uCE78: "She ___ here since 2020."',
+        choices: [
+          "works",
+          "worked",
+          "has worked",
+          "had work"
+        ],
+        answer: 2,
+        explanation: "since + \uC2DC\uC810\uACFC \uD568\uAED8 \uD604\uC7AC\uAE4C\uC9C0\uC758 \uACC4\uC18D\uC740 \uD604\uC7AC\uC644\uB8CC\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-005-Q03",
+        skill: "trap-ago",
+        question: "ago\uC640 \uD568\uAED8 \uC4F0\uAE30 \uC801\uC808\uD55C \uC2DC\uC81C\uB294?",
+        choices: [
+          "\uD604\uC7AC\uC644\uB8CC",
+          "\uB2E8\uC21C\uACFC\uAC70",
+          "\uD604\uC7AC\uC9C4\uD589",
+          "\uBBF8\uB798\uC644\uB8CC\uB9CC"
+        ],
+        answer: 1,
+        explanation: "ago\uB294 \uB2E8\uC21C\uACFC\uAC70\uC640 \uD568\uAED8 \uC501\uB2C8\uB2E4. (three days ago \u2192 left)"
+      },
+      {
+        id: "F-005-Q04",
+        skill: "present-simple",
+        question: '"Water ___ at 100\xB0C."',
+        choices: [
+          "is boiling",
+          "boiled",
+          "boils",
+          "has boiled"
+        ],
+        answer: 2,
+        explanation: "\uACFC\uD559\uC801 \uC0AC\uC2E4\uC740 \uB2E8\uC21C\uD604\uC7AC\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-005-Q05",
+        skill: "past-perfect",
+        question: '"By the time we arrived, the meeting ___ ."',
+        choices: [
+          "starts",
+          "has started",
+          "had started",
+          "is starting"
+        ],
+        answer: 2,
+        explanation: "\uB3C4\uCC29(\uACFC\uAC70)\uBCF4\uB2E4 \uC774\uC804 \uC644\uB8CC\uC774\uBBC0\uB85C \uACFC\uAC70\uC644\uB8CC had started\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-005-Q06",
+        skill: "yet-already",
+        question: '"Have you finished the draft ___ ?"',
+        choices: [
+          "ago",
+          "yesterday",
+          "yet",
+          "last week"
+        ],
+        answer: 2,
+        explanation: "\uC758\uBB38\xB7\uBD80\uC815\uC758 \uD604\uC7AC\uC644\uB8CC\uC5D0\uC11C yet\uC774 \uD754\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-005-Q07",
+        skill: "application",
+        question: "\uB2E4\uC74C \uC911 \uC2DC\uC81C \uC120\uD0DD\uC774 \uC5B4\uC0C9\uD55C \uBB38\uC7A5\uC740?",
+        choices: [
+          "I saw him two hours ago.",
+          "I have seen him two hours ago.",
+          "I have seen him twice.",
+          "I saw him yesterday."
+        ],
+        answer: 1,
+        explanation: "ago\uC640 \uD604\uC7AC\uC644\uB8CC\uB294 \uD568\uAED8 \uC4F0\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-005-Q08",
+        skill: "progressive",
+        question: '"Please be quiet. The baby ___ ."',
+        choices: [
+          "sleeps",
+          "slept",
+          "is sleeping",
+          "has sleep"
+        ],
+        answer: 2,
+        explanation: "\uC9C0\uAE08 \uC9C4\uD589 \uC911\uC778 \uC0C1\uD669\uC740 \uD604\uC7AC\uC9C4\uD589 is sleeping\uC774 \uC801\uD569\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-005-Q09",
+        skill: "for-since",
+        question: '"They have lived abroad ___ five years."',
+        choices: [
+          "since",
+          "for",
+          "ago",
+          "during"
+        ],
+        answer: 1,
+        explanation: "\uAE30\uAC04(five years)\uC5D0\uB294 for\uB97C \uC501\uB2C8\uB2E4. since\uB294 \uC2DC\uC791\uC810\uACFC \uD568\uAED8\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-005-Q10",
+        skill: "concept",
+        question: "\uD604\uC7AC\uC644\uB8CC\uC758 \uD575\uC2EC \uAC10\uAC01\uC73C\uB85C \uAC00\uC7A5 \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uACFC\uAC70 \uD2B9\uC815 \uB0A0\uC9DC\uB9CC \uAC15\uC870",
+          "\uD604\uC7AC\uC640 \uC5F0\uACB0\uB41C \uACBD\uD5D8\xB7\uACB0\uACFC\xB7\uACC4\uC18D",
+          "\uD56D\uC0C1 \uBBF8\uB798 \uC758\uBBF8",
+          "\uC218\uB3D9\uD0DC\uC640 \uB3D9\uC758\uC5B4"
+        ],
+        answer: 1,
+        explanation: "\uD604\uC7AC\uC644\uB8CC\uB294 \uACFC\uAC70 \uC0AC\uAC74\uC774 \uD604\uC7AC\uC5D0 \uBBF8\uCE58\uB294 \uC5F0\uACB0\uC744 \uB098\uD0C0\uB0C5\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-006.json
+  var F_006_default = {
+    id: "F-006",
+    order: 6,
+    title: "\uC870\uB3D9\uC0AC",
+    category: "grammar",
+    estimatedMinutes: 12,
+    skills: [
+      "modals",
+      "ability-permission",
+      "deduction-obligation"
+    ],
+    objectives: [
+      "\uAC00\uB2A5\xB7\uD5C8\uAC00\xB7\uC758\uBB34\xB7\uCD94\uCE21 \uC870\uB3D9\uC0AC\uC758 \uAE30\uBCF8 \uC758\uBBF8\uB97C \uAD6C\uBD84\uD55C\uB2E4",
+      "must / have to / should\uC758 \uB258\uC559\uC2A4 \uCC28\uC774\uB97C \uC775\uD78C\uB2E4",
+      "\uC870\uB3D9\uC0AC + \uC6D0\uD615\uB3D9\uC0AC \uD615\uD0DC\uB97C \uC815\uD655\uD788 \uACE0\uB978\uB2E4"
+    ],
+    concept: {
+      summary: "\uC870\uB3D9\uC0AC\uB294 \uBCF8\uB3D9\uC0AC \uC55E\uC5D0 \uBD99\uC5B4 \uAC00\uB2A5\xB7\uC758\uBB34\xB7\uD5C8\uAC00\xB7\uCD94\uCE21 \uB4F1\uC758 \uD0DC\uB3C4\uB97C \uB354\uD569\uB2C8\uB2E4. \uD615\uD0DC\uB294 \uC870\uB3D9\uC0AC + \uB3D9\uC0AC\uC6D0\uD615\uC774 \uAE30\uBCF8\uC774\uBA70, \uC758\uBBF8 \uCC28\uC774\uB97C \uBAA8\uB974\uBA74 \uBE44\uC2B7\uD55C \uC120\uD0DD\uC9C0\uAC00 \uC804\uBD80 \uB9DE\uC544 \uBCF4\uC785\uB2C8\uB2E4.",
+      points: [
+        "can/could: \uB2A5\uB825\xB7\uAC00\uB2A5\xB7\uD5C8\uAC00 / may/might: \uD5C8\uAC00\xB7\uC57D\uD55C \uCD94\uCE21",
+        "must: \uAC15\uD55C \uC758\uBB34\xB7\uAC15\uD55C \uCD94\uCE21 / have to: \uC678\uBD80 \uC758\uBB34",
+        "should/ought to: \uAD8C\uACE0\xB7\uB2F9\uC5F0",
+        "will/would: \uBBF8\uB798\xB7\uC758\uC9C0\xB7\uC815\uC911\uD55C \uC694\uCCAD"
+      ]
+    },
+    examples: [
+      {
+        en: "You must wear a badge in the lab.",
+        ko: "\uC2E4\uD5D8\uC2E4\uC5D0\uC11C\uB294 \uBC30\uC9C0\uB97C \uBC18\uB4DC\uC2DC \uCC29\uC6A9\uD574\uC57C \uD55C\uB2E4.",
+        structure: "must + \uC6D0\uD615"
+      },
+      {
+        en: "She can handle complex data.",
+        ko: "\uADF8\uB140\uB294 \uBCF5\uC7A1\uD55C \uB370\uC774\uD130\uB97C \uB2E4\uB8F0 \uC218 \uC788\uB2E4.",
+        structure: "can = \uB2A5\uB825"
+      },
+      {
+        en: "He might be in a meeting.",
+        ko: "\uADF8\uB294 \uD68C\uC758 \uC911\uC77C\uC9C0\uB3C4 \uBAA8\uB978\uB2E4.",
+        structure: "might = \uCD94\uCE21"
+      }
+    ],
+    checks: [
+      {
+        id: "F-006-Q01",
+        skill: "form",
+        question: '\uBE48\uCE78: "Employees ___ arrive by 9." (\uAC15\uD55C \uC0AC\uB0B4 \uADDC\uC815)',
+        choices: [
+          "must to",
+          "must",
+          "musts",
+          "musting"
+        ],
+        answer: 1,
+        explanation: "\uC870\uB3D9\uC0AC must \uB4A4\uC5D0\uB294 \uB3D9\uC0AC\uC6D0\uD615\uC785\uB2C8\uB2E4. must arrive."
+      },
+      {
+        id: "F-006-Q02",
+        skill: "ability",
+        question: "\uB2A5\uB825\xB7\uAC00\uB2A5\uC744 \uB098\uD0C0\uB0B4\uB294 \uC870\uB3D9\uC0AC\uB294?",
+        choices: [
+          "must",
+          "should",
+          "can",
+          "ought"
+        ],
+        answer: 2,
+        explanation: "can\uC740 \uB2A5\uB825\xB7\uAC00\uB2A5\uC131\uC744 \uB098\uD0C0\uB0C5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-006-Q03",
+        skill: "advice",
+        question: '"You ___ check the numbers again." (\uAD8C\uACE0)',
+        choices: [
+          "must to",
+          "should",
+          "can to",
+          "may to"
+        ],
+        answer: 1,
+        explanation: "\uAD8C\uACE0\uC5D0\uB294 should\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-006-Q04",
+        skill: "deduction",
+        question: '"The lights are on. Someone ___ be inside." (\uAC15\uD55C \uCD94\uCE21)',
+        choices: [
+          "can",
+          "must",
+          "should",
+          "might not"
+        ],
+        answer: 1,
+        explanation: "\uAC15\uD55C \uB17C\uB9AC\uC801 \uCD94\uCE21\uC5D0\uB294 must be\uAC00 \uD754\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-006-Q05",
+        skill: "permission",
+        question: "\uC815\uC911\uD788 \uD5C8\uAC00\uB97C \uBB3C\uC744 \uB54C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "Must I borrow your pen?",
+          "May I borrow your pen?",
+          "Should I borrow must?",
+          "Will must I borrow?"
+        ],
+        answer: 1,
+        explanation: "May I\u2026?\uB294 \uC815\uC911\uD55C \uD5C8\uAC00 \uC694\uCCAD\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-006-Q06",
+        skill: "trap-form",
+        question: "\uBB38\uBC95\uC801\uC73C\uB85C \uD2C0\uB9B0 \uAC83\uC740?",
+        choices: [
+          "She can finish early.",
+          "He must leave now.",
+          "They should to call.",
+          "We might delay."
+        ],
+        answer: 2,
+        explanation: "should \uB4A4\uC5D0\uB294 to \uC5C6\uC774 \uC6D0\uD615\uC785\uB2C8\uB2E4. should call\uC774 \uB9DE\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-006-Q07",
+        skill: "have-to",
+        question: `"I ___ leave early today\u2014there's a train to catch." (\uC0C1\uD669\uC0C1 \uC758\uBB34)`,
+        choices: [
+          "can",
+          "might",
+          "have to",
+          "shall maybe"
+        ],
+        answer: 2,
+        explanation: "\uC678\uBD80 \uC0C1\uD669\xB7\uC77C\uC815\uC5D0 \uB530\uB978 \uC758\uBB34\uB294 have to\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-006-Q08",
+        skill: "negative-deduction",
+        question: '"He ___ be the manager; he looks too young." (\uAC15\uD55C \uBD80\uC815 \uCD94\uCE21)',
+        choices: [
+          "must",
+          "can't",
+          "should",
+          "will"
+        ],
+        answer: 1,
+        explanation: "\uAC15\uD55C \u2018~\uC77C \uB9AC\uAC00 \uC5C6\uB2E4\u2019\uB294 can't be\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-006-Q09",
+        skill: "past-ability",
+        question: '"When I was intern, I ___ stay late without overtime."',
+        choices: [
+          "can",
+          "could",
+          "must",
+          "should to"
+        ],
+        answer: 1,
+        explanation: "\uACFC\uAC70\uC758 \uB2A5\uB825\xB7\uAC00\uB2A5\uC740 could\uB85C \uB098\uD0C0\uB0C5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-006-Q10",
+        skill: "application",
+        question: "\uC758\uBB34\uAC00 \uAC00\uC7A5 \uAC15\uD55C \uD45C\uD604\uC740?",
+        choices: [
+          "You might submit it.",
+          "You could submit it.",
+          "You must submit it.",
+          "You may submit it."
+        ],
+        answer: 2,
+        explanation: "must\uB294 \uAC15\uD55C \uC758\uBB34\uB97C \uB098\uD0C0\uB0C5\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-007.json
+  var F_007_default = {
+    id: "F-007",
+    order: 7,
+    title: "\uC218\uB3D9\uD0DC",
+    category: "grammar",
+    estimatedMinutes: 12,
+    skills: [
+      "passive-voice",
+      "be-pp",
+      "agent-by"
+    ],
+    objectives: [
+      "\uB2A5\uB3D9\u2194\uC218\uB3D9 \uC804\uD658\uC758 \uAE30\uBCF8 \uC6D0\uB9AC\uB97C \uC774\uD574\uD55C\uB2E4",
+      "\uC2DC\uC81C\uC5D0 \uB9DE\uB294 be + \uACFC\uAC70\uBD84\uC0AC \uD615\uD0DC\uB97C \uACE0\uB978\uB2E4",
+      "\uD589\uC704\uC790(by\u2026)\uB97C \uC0DD\uB7B5\uD558\uB294 \uC2E4\uC6A9\uC801 \uD310\uB2E8\uC744 \uC775\uD78C\uB2E4"
+    ],
+    concept: {
+      summary: "\uC218\uB3D9\uD0DC\uB294 \uD589\uC704\uC758 \uB300\uC0C1\uC774 \uC8FC\uC5B4\uAC00 \uB420 \uB54C \uC501\uB2C8\uB2E4. \uD615\uD0DC\uB294 be + \uACFC\uAC70\uBD84\uC0AC(p.p.)\uC774\uBA70, \uC2DC\uC81C\xB7\uC870\uB3D9\uC0AC\uC5D0 \uB530\uB77C be\uC758 \uD615\uD0DC\uAC00 \uBC14\uB01D\uB2C8\uB2E4. \uBCF4\uACE0\uC11C\xB7\uB274\uC2A4\uCC98\uB7FC \uD589\uC704\uC790\uBCF4\uB2E4 \uACB0\uACFC\uAC00 \uC911\uC694\uD560 \uB54C \uC790\uC8FC \uB4F1\uC7A5\uD569\uB2C8\uB2E4.",
+      points: [
+        "\uB2A5\uB3D9: They reviewed the plan. \u2192 \uC218\uB3D9: The plan was reviewed.",
+        "\uD604\uC7AC: is/are + p.p. / \uACFC\uAC70: was/were + p.p.",
+        "\uD604\uC7AC\uC644\uB8CC: has/have been + p.p.",
+        "\uC870\uB3D9\uC0AC: must be completed / can be fixed"
+      ]
+    },
+    examples: [
+      {
+        en: "The email was sent yesterday.",
+        ko: "\uADF8 \uC774\uBA54\uC77C\uC740 \uC5B4\uC81C \uBCF4\uB0B4\uC84C\uB2E4.",
+        structure: "was + sent"
+      },
+      {
+        en: "The issue has been resolved.",
+        ko: "\uADF8 \uBB38\uC81C\uB294 \uD574\uACB0\uB418\uC5C8\uB2E4.",
+        structure: "has been + resolved"
+      },
+      {
+        en: "This form must be signed.",
+        ko: "\uC774 \uC591\uC2DD\uC740 \uC11C\uBA85\uB418\uC5B4\uC57C \uD55C\uB2E4.",
+        structure: "must be + signed"
+      }
+    ],
+    checks: [
+      {
+        id: "F-007-Q01",
+        skill: "form",
+        question: '\uBE48\uCE78: "The report ___ yesterday."',
+        choices: [
+          "is submitting",
+          "was submitted",
+          "submitted was",
+          "has submit"
+        ],
+        answer: 1,
+        explanation: "\uACFC\uAC70 \uC218\uB3D9\uC740 was/were + p.p. \u2192 was submitted."
+      },
+      {
+        id: "F-007-Q02",
+        skill: "transform",
+        question: '"Someone locked the door."\uC758 \uC218\uB3D9\uD0DC\uB294?',
+        choices: [
+          "The door locked someone.",
+          "The door was locked.",
+          "The door is locking.",
+          "Someone was locked the door."
+        ],
+        answer: 1,
+        explanation: "\uBAA9\uC801\uC5B4 the door\uAC00 \uC8FC\uC5B4\uAC00 \uB418\uACE0 was locked\uAC00 \uB429\uB2C8\uB2E4."
+      },
+      {
+        id: "F-007-Q03",
+        skill: "perfect-passive",
+        question: '"The files ___ already."',
+        choices: [
+          "have uploaded",
+          "have been uploaded",
+          "are upload",
+          "were uploading by"
+        ],
+        answer: 1,
+        explanation: "\uD604\uC7AC\uC644\uB8CC \uC218\uB3D9\uC740 have/has been + p.p.\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-007-Q04",
+        skill: "modal-passive",
+        question: '"The bug ___ immediately."',
+        choices: [
+          "must fix",
+          "must be fixed",
+          "must fixed",
+          "must been fix"
+        ],
+        answer: 1,
+        explanation: "\uC870\uB3D9\uC0AC \uC218\uB3D9\uC740 modal + be + p.p.\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-007-Q05",
+        skill: "agent",
+        question: "\uD589\uC704\uC790\uB97C \uB098\uD0C0\uB0BC \uB54C \uC4F0\uB294 \uC804\uCE58\uC0AC\uB294?",
+        choices: [
+          "to",
+          "for",
+          "by",
+          "at"
+        ],
+        answer: 2,
+        explanation: "\uD589\uC704\uC790\uB294 by + agent\uB85C \uB098\uD0C0\uB0C5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-007-Q06",
+        skill: "trap-intransitive",
+        question: "\uC218\uB3D9\uD0DC\uB85C \uB9CC\uB4E4\uAE30 \uC5B4\uB824\uC6B4 \uBB38\uC7A5\uC740?",
+        choices: [
+          "They built a bridge.",
+          "She wrote a memo.",
+          "He arrived at noon.",
+          "We published the paper."
+        ],
+        answer: 2,
+        explanation: "arrive\uB294 \uBAA9\uC801\uC5B4\uAC00 \uC5C6\uB294 \uC790\uB3D9\uC0AC\uB77C \uC77C\uBC18 \uC218\uB3D9 \uC804\uD658\uC774 \uC5B4\uB835\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-007-Q07",
+        skill: "continuous-passive",
+        question: '"The system ___ right now."',
+        choices: [
+          "is updating",
+          "is being updated",
+          "has update",
+          "was update"
+        ],
+        answer: 1,
+        explanation: "\uC9C4\uD589 \uC218\uB3D9\uC740 be being + p.p. \u2192 is being updated."
+      },
+      {
+        id: "F-007-Q08",
+        skill: "application",
+        question: "\uC218\uB3D9\uC774 \uB354 \uC790\uC5F0\uC2A4\uB7EC\uC6B4 \uC0C1\uD669\uC740?",
+        choices: [
+          "\uB0B4\uAC00 \uCEE4\uD53C\uB97C \uB9C8\uC2E0 \uC0AC\uC2E4\uC744 \uAC15\uC870\uD560 \uB54C",
+          "\uB204\uAC00 \uD588\uB294\uC9C0\uBCF4\uB2E4 \uACB0\uACFC\xB7\uB300\uC0C1\uC774 \uC911\uC694\uD560 \uB54C",
+          "\uD56D\uC0C1 \uB2A5\uB3D9\uB9CC \uAC00\uB2A5",
+          "\uC870\uB3D9\uC0AC\uAC00 \uC5C6\uC744 \uB54C\uB9CC"
+        ],
+        answer: 1,
+        explanation: "\uD589\uC704\uC790\uBCF4\uB2E4 \uB300\uC0C1\xB7\uACB0\uACFC\uAC00 \uC911\uC694\uD558\uBA74 \uC218\uB3D9\uC774 \uD754\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-007-Q09",
+        skill: "get-passive",
+        question: "\uAD6C\uC5B4\uCCB4\uC5D0\uC11C be \uB300\uC2E0 \uC790\uC8FC \uC4F0\uC774\uB294 \uC218\uB3D9 \uD45C\uD604\uC740?",
+        choices: [
+          "do + p.p.",
+          "get + p.p.",
+          "make + \uC6D0\uD615\uB9CC",
+          "have + \uC6D0\uD615\uB9CC"
+        ],
+        answer: 1,
+        explanation: "get paid, get damaged\uCC98\uB7FC get + p.p. \uC218\uB3D9\uC774 \uC788\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-007-Q10",
+        skill: "error",
+        question: "\uD2C0\uB9B0 \uBB38\uC7A5\uC740?",
+        choices: [
+          "The policy was revised.",
+          "The policy has been revised.",
+          "The policy was revise.",
+          "The policy is being revised."
+        ],
+        answer: 2,
+        explanation: "\uC218\uB3D9\uC5D0\uB294 \uACFC\uAC70\uBD84\uC0AC\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4. revise\uAC00 \uC544\uB2C8\uB77C revised\uC785\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-008.json
+  var F_008_default = {
+    id: "F-008",
+    order: 8,
+    title: "to\uBD80\uC815\uC0AC",
+    category: "grammar",
+    estimatedMinutes: 12,
+    skills: [
+      "infinitive",
+      "to-infinitive-uses",
+      "verb-patterns"
+    ],
+    objectives: [
+      "to\uBD80\uC815\uC0AC\uC758 \uBA85\uC0AC\xB7\uD615\uC6A9\uC0AC\xB7\uBD80\uC0AC \uC6A9\uBC95\uC744 \uAD6C\uBD84\uD55C\uB2E4",
+      "\uB3D9\uC0AC \uB4A4 to\uBD80\uC815\uC0AC \uD328\uD134\uC744 \uC775\uD78C\uB2E4",
+      "\uBAA9\uC801\xB7\uC758\uB3C4 \uD45C\uD604\uC5D0\uC11C to\uBD80\uC815\uC0AC\uB97C \uC815\uD655\uD788 \uC4F4\uB2E4"
+    ],
+    concept: {
+      summary: "to\uBD80\uC815\uC0AC(to + \uB3D9\uC0AC\uC6D0\uD615)\uB294 \uBA85\uC0AC\uCC98\uB7FC \uC8FC\uC5B4\xB7\uBAA9\uC801\uC5B4\uAC00 \uB418\uAC70\uB098, \uBA85\uC0AC\uB97C \uC218\uC2DD\uD558\uAC70\uB098, \uBAA9\uC801\xB7\uACB0\uACFC\uB97C \uB098\uD0C0\uB0B4\uB294 \uBD80\uC0AC \uC5ED\uD560\uB3C4 \uD569\uB2C8\uB2E4. decide/plan/hope/need \uB4F1\uC740 to\uBD80\uC815\uC0AC\uB97C \uBAA9\uC801\uC5B4\uB85C \uC790\uC8FC \uCDE8\uD569\uB2C8\uB2E4.",
+      points: [
+        "\uBA85\uC0AC\uC801: To err is human. / I want to leave.",
+        "\uD615\uC6A9\uC0AC\uC801: a report to submit (\uC81C\uCD9C\uD560 \uBCF4\uACE0\uC11C)",
+        "\uBD80\uC0AC\uC801: She called to confirm. (\uBAA9\uC801)",
+        "\uB3D9\uC0AC \uD328\uD134: decide/agree/promise/refuse + to-V"
+      ]
+    },
+    examples: [
+      {
+        en: "We need to revise the draft.",
+        ko: "\uC6B0\uB9AC\uB294 \uCD08\uC548\uC744 \uC218\uC815\uD574\uC57C \uD55C\uB2E4.",
+        structure: "need + to-V"
+      },
+      {
+        en: "He stayed late to finish the slides.",
+        ko: "\uADF8\uB294 \uC2AC\uB77C\uC774\uB4DC\uB97C \uB05D\uB0B4\uB824\uACE0 \uB2A6\uAC8C\uAE4C\uC9C0 \uB0A8\uC558\uB2E4.",
+        structure: "\uBD80\uC0AC\uC801(\uBAA9\uC801)"
+      },
+      {
+        en: "There is nothing to worry about.",
+        ko: "\uAC71\uC815\uD560 \uAC83\uC740 \uC5C6\uB2E4.",
+        structure: "\uD615\uC6A9\uC0AC\uC801 \uC218\uC2DD"
+      }
+    ],
+    checks: [
+      {
+        id: "F-008-Q01",
+        skill: "form",
+        question: "to\uBD80\uC815\uC0AC\uC758 \uAE30\uBCF8 \uD615\uD0DC\uB294?",
+        choices: [
+          "to + -ing",
+          "to + \uACFC\uAC70\uD615",
+          "to + \uB3D9\uC0AC\uC6D0\uD615",
+          "to + p.p."
+        ],
+        answer: 2,
+        explanation: "to + \uB3D9\uC0AC\uC6D0\uD615\uC774 \uAE30\uBCF8\uC785\uB2C8\uB2E4. to go, to finish."
+      },
+      {
+        id: "F-008-Q02",
+        skill: "noun-use",
+        question: '"I hope ___ soon."',
+        choices: [
+          "hearing",
+          "to hear",
+          "heard",
+          "hear to"
+        ],
+        answer: 1,
+        explanation: "hope\uB294 to\uBD80\uC815\uC0AC\uB97C \uBAA9\uC801\uC5B4\uB85C \uCDE8\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-008-Q03",
+        skill: "purpose",
+        question: "\uBAA9\uC801\uC744 \uB098\uD0C0\uB0B4\uB294 \uD45C\uD604\uC73C\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "She left early for to catch the train.",
+          "She left early to catch the train.",
+          "She left early catch to the train.",
+          "She left early catching for."
+        ],
+        answer: 1,
+        explanation: "\uBAA9\uC801\uC758 to\uBD80\uC815\uC0AC: left early to catch\u2026"
+      },
+      {
+        id: "F-008-Q04",
+        skill: "adjective-use",
+        question: '"I have a call ___ ."',
+        choices: [
+          "to make",
+          "making to",
+          "made to",
+          "make"
+        ],
+        answer: 0,
+        explanation: "\uBA85\uC0AC call\uC744 \uC218\uC2DD\uD558\uB294 \uD615\uC6A9\uC0AC\uC801 to\uBD80\uC815\uC0AC to make\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-008-Q05",
+        skill: "verb-pattern",
+        question: "\uB2E4\uC74C \uC911 to\uBD80\uC815\uC0AC\uB97C \uBAA9\uC801\uC5B4\uB85C \uCDE8\uD558\uB294 \uB3D9\uC0AC\uB294?",
+        choices: [
+          "enjoy",
+          "avoid",
+          "decide",
+          "finish"
+        ],
+        answer: 2,
+        explanation: "decide to V. enjoy/avoid/finish\uB294 \uC8FC\uB85C \uB3D9\uBA85\uC0AC\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-008-Q06",
+        skill: "trap-bare",
+        question: "\uC6D0\uD615\uBD80\uC815\uC0AC(to \uC5C6\uC74C)\uAC00 \uC624\uB294 \uC790\uB9AC\uC758 \uC608\uB294?",
+        choices: [
+          "want ___ go",
+          "make someone ___ go",
+          "hope ___ go",
+          "plan ___ go"
+        ],
+        answer: 1,
+        explanation: "\uC0AC\uC5ED\uB3D9\uC0AC make + O + \uC6D0\uD615(go). to\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-008-Q07",
+        skill: "not-to",
+        question: "to\uBD80\uC815\uC0AC\uC758 \uBD80\uC815\uD615\uC73C\uB85C \uAC00\uC7A5 \uD45C\uC900\uC801\uC778 \uAC83\uC740?",
+        choices: [
+          "to not go",
+          "not to go",
+          "to go not",
+          "notting to go"
+        ],
+        answer: 1,
+        explanation: "\uD45C\uC900 \uBB38\uC5B4\uC5D0\uC11C\uB294 not to go\uAC00 \uC77C\uBC18\uC801\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-008-Q08",
+        skill: "application",
+        question: '"The goal is ___ costs without cutting quality."',
+        choices: [
+          "reduce",
+          "reducing to",
+          "to reduce",
+          "reduced"
+        ],
+        answer: 2,
+        explanation: "be + to-V\uB85C \uBAA9\uD45C\xB7\uC608\uC815\xB7\uC5ED\uD560\uC744 \uB098\uD0C0\uB0BC \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-008-Q09",
+        skill: "too-enough",
+        question: '"The file is too large ___ by email."',
+        choices: [
+          "sending",
+          "to send",
+          "sent",
+          "send"
+        ],
+        answer: 1,
+        explanation: "too\u2026to V \uAD6C\uBB38\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-008-Q10",
+        skill: "error",
+        question: "\uC5B4\uC0C9\uD55C \uBB38\uC7A5\uC740?",
+        choices: [
+          "She promised to help.",
+          "He agreed to wait.",
+          "They enjoy to wait.",
+          "We need to talk."
+        ],
+        answer: 2,
+        explanation: "enjoy\uB294 \uB3D9\uBA85\uC0AC\uB97C \uCDE8\uD569\uB2C8\uB2E4. enjoy waiting\uC774 \uB9DE\uC2B5\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-009.json
+  var F_009_default = {
+    id: "F-009",
+    order: 9,
+    title: "\uB3D9\uBA85\uC0AC",
+    category: "grammar",
+    estimatedMinutes: 12,
+    skills: [
+      "gerund",
+      "gerund-vs-infinitive",
+      "preposition-gerund"
+    ],
+    objectives: [
+      "\uB3D9\uBA85\uC0AC\uC758 \uBA85\uC0AC\uC801 \uC4F0\uC784\uC744 \uC774\uD574\uD55C\uB2E4",
+      "\uB3D9\uBA85\uC0AC\uB9CC \uBAA9\uC801\uC5B4\uB85C \uCDE8\uD558\uB294 \uB3D9\uC0AC\uB97C \uC775\uD78C\uB2E4",
+      "\uC804\uCE58\uC0AC \uB4A4 -ing \uADDC\uCE59\uC744 \uC801\uC6A9\uD55C\uB2E4"
+    ],
+    concept: {
+      summary: "\uB3D9\uBA85\uC0AC(V-ing)\uB294 \uB3D9\uC0AC\uC5D0\uC11C \uC654\uC9C0\uB9CC \uBB38\uC7A5\uC5D0\uC11C\uB294 \uBA85\uC0AC\uCC98\uB7FC \uC4F0\uC785\uB2C8\uB2E4. enjoy, avoid, consider, finish, suggest \uB4F1\uC740 \uBAA9\uC801\uC5B4\uB85C \uB3D9\uBA85\uC0AC\uB97C \uC120\uD638\uD558\uACE0, \uC804\uCE58\uC0AC \uB4A4\uC5D0\uB294 \uC6D0\uCE59\uC801\uC73C\uB85C \uB3D9\uBA85\uC0AC\uAC00 \uC635\uB2C8\uB2E4.",
+      points: [
+        "\uC8FC\uC5B4\xB7\uBAA9\uC801\uC5B4\xB7\uBCF4\uC5B4\uB85C \uC0AC\uC6A9: Swimming helps. / I like reading.",
+        "\uB3D9\uBA85\uC0AC \uBAA9\uC801\uC5B4 \uB3D9\uC0AC: enjoy, avoid, mind, finish, keep",
+        "\uC804\uCE58\uC0AC + -ing: before leaving, by improving",
+        "\uC758\uBBF8 \uCC28\uC774: stop smoking(\uB04A\uB2E4) vs stop to smoke(\uC26C\uB824\uACE0 \uD53C\uC6B0\uB2E4)"
+      ]
+    },
+    examples: [
+      {
+        en: "She enjoys mentoring junior staff.",
+        ko: "\uADF8\uB140\uB294 \uD6C4\uBC30 \uBA58\uD1A0\uB9C1\uC744 \uC990\uAE34\uB2E4.",
+        structure: "enjoy + V-ing"
+      },
+      {
+        en: "Thank you for waiting.",
+        ko: "\uAE30\uB2E4\uB824 \uC8FC\uC154\uC11C \uAC10\uC0AC\uD569\uB2C8\uB2E4.",
+        structure: "\uC804\uCE58\uC0AC for + V-ing"
+      },
+      {
+        en: "His job is managing schedules.",
+        ko: "\uADF8\uC758 \uC77C\uC740 \uC77C\uC815\uC744 \uAD00\uB9AC\uD558\uB294 \uAC83\uC774\uB2E4.",
+        structure: "\uBCF4\uC5B4\uB85C \uC4F0\uC778 \uB3D9\uBA85\uC0AC"
+      }
+    ],
+    checks: [
+      {
+        id: "F-009-Q01",
+        skill: "form",
+        question: "\uB3D9\uBA85\uC0AC\uC758 \uD615\uD0DC\uB294?",
+        choices: [
+          "to + \uC6D0\uD615",
+          "V-ing (\uBA85\uC0AC \uC5ED\uD560)",
+          "have + p.p.\uB9CC",
+          "be + \uD615\uC6A9\uC0AC\uB9CC"
+        ],
+        answer: 1,
+        explanation: "\uB3D9\uBA85\uC0AC\uB294 V-ing \uD615\uD0DC\uB85C \uBA85\uC0AC \uC5ED\uD560\uC744 \uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-009-Q02",
+        skill: "verb-pattern",
+        question: '"Would you mind ___ the window?"',
+        choices: [
+          "to open",
+          "opening",
+          "opened",
+          "open to"
+        ],
+        answer: 1,
+        explanation: "mind\uB294 \uB3D9\uBA85\uC0AC\uB97C \uCDE8\uD569\uB2C8\uB2E4. mind opening."
+      },
+      {
+        id: "F-009-Q03",
+        skill: "preposition",
+        question: '"She left without ___ goodbye."',
+        choices: [
+          "to say",
+          "saying",
+          "said",
+          "say"
+        ],
+        answer: 1,
+        explanation: "\uC804\uCE58\uC0AC without \uB4A4\uC5D0\uB294 \uB3D9\uBA85\uC0AC saying\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-009-Q04",
+        skill: "subject",
+        question: "\uB3D9\uBA85\uC0AC\uAC00 \uC8FC\uC5B4\uC778 \uBB38\uC7A5\uC740?",
+        choices: [
+          "To early is better.",
+          "Jogging clears my head.",
+          "She jogging clears.",
+          "Jogged clears my head."
+        ],
+        answer: 1,
+        explanation: "Jogging\uC774 \uC8FC\uC5B4\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-009-Q05",
+        skill: "avoid",
+        question: '"We should avoid ___ the same mistake."',
+        choices: [
+          "to make",
+          "making",
+          "made",
+          "make to"
+        ],
+        answer: 1,
+        explanation: "avoid + V-ing \uD328\uD134\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-009-Q06",
+        skill: "trap-stop",
+        question: '"He stopped ___ a coffee." (\uC7A0\uC2DC \uC26C\uB824\uACE0 \uCEE4\uD53C\uB97C \uB9C8\uC168\uB2E4)',
+        choices: [
+          "drinking",
+          "to drink",
+          "drunk",
+          "drink"
+        ],
+        answer: 1,
+        explanation: "stop to V\uB294 \u2018\uD558\uB824\uACE0 \uBA48\uCD94\uB2E4\u2019. stop V-ing\uB294 \u2018\uD558\uB358 \uAC83\uC744 \uADF8\uB9CC\uB450\uB2E4\u2019."
+      },
+      {
+        id: "F-009-Q07",
+        skill: "suggest",
+        question: '"I suggest ___ the agenda."',
+        choices: [
+          "to revise",
+          "revising",
+          "revised",
+          "revise to"
+        ],
+        answer: 1,
+        explanation: "suggest\uB294 \uB3D9\uBA85\uC0AC(\uB610\uB294 that\uC808)\uB97C \uCDE8\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-009-Q08",
+        skill: "application",
+        question: "\uC804\uCE58\uC0AC \uB4A4 \uD615\uD0DC\uAC00 \uC62C\uBC14\uB978 \uAC83\uC740?",
+        choices: [
+          "interested in to learn",
+          "interested in learning",
+          "interested in learned",
+          "interested learning in"
+        ],
+        answer: 1,
+        explanation: "interested in + V-ing\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-009-Q09",
+        skill: "go-ing",
+        question: `"Let's go ___ this weekend."`,
+        choices: [
+          "to hike",
+          "hiking",
+          "hiked",
+          "hike to"
+        ],
+        answer: 1,
+        explanation: "go shopping/hiking\uCC98\uB7FC go + V-ing\uAC00 \uAD00\uC6A9\uC801\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-009-Q10",
+        skill: "error",
+        question: "\uD2C0\uB9B0 \uBB38\uC7A5\uC740?",
+        choices: [
+          "She finished writing the email.",
+          "He keeps interrupting.",
+          "They enjoy to travel.",
+          "I avoided mentioning it."
+        ],
+        answer: 2,
+        explanation: "enjoy\uB294 \uB3D9\uBA85\uC0AC\uB97C \uC501\uB2C8\uB2E4. enjoy traveling\uC774 \uB9DE\uC2B5\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-010.json
+  var F_010_default = {
+    id: "F-010",
+    order: 10,
+    title: "\uBD84\uC0AC",
+    category: "grammar",
+    estimatedMinutes: 12,
+    skills: [
+      "participles",
+      "present-past-participle",
+      "reduced-relative"
+    ],
+    objectives: [
+      "\uD604\uC7AC\uBD84\uC0AC\uC640 \uACFC\uAC70\uBD84\uC0AC\uC758 \uC758\uBBF8 \uCC28\uC774\uB97C \uC774\uD574\uD55C\uB2E4",
+      "\uBD84\uC0AC\uAC00 \uBA85\uC0AC\uB97C \uC218\uC2DD\uD558\uB294 \uAD6C\uC870\uB97C \uC77D\uB294\uB2E4",
+      "\uBD84\uC0AC\uAD6C\uBB38\uC73C\uB85C \uC808\uC744 \uC555\uCD95\uD558\uB294 \uAC10\uAC01\uC744 \uC775\uD78C\uB2E4"
+    ],
+    concept: {
+      summary: "\uBD84\uC0AC\uB294 \uD615\uC6A9\uC0AC\uCC98\uB7FC \uBA85\uC0AC\uB97C \uC218\uC2DD\uD558\uAC70\uB098, \uBD84\uC0AC\uAD6C\uBB38\uC73C\uB85C \uBD80\uC0AC\uC808\uC744 \uC555\uCD95\uD569\uB2C8\uB2E4. \uD604\uC7AC\uBD84\uC0AC(V-ing)\uB294 \uB2A5\uB3D9\xB7\uC9C4\uD589, \uACFC\uAC70\uBD84\uC0AC(p.p.)\uB294 \uC218\uB3D9\xB7\uC644\uB8CC \uB290\uB08C\uC774 \uAC15\uD569\uB2C8\uB2E4. boring(\uC9C0\uB8E8\uD558\uAC8C \uB9CC\uB4DC\uB294) vs bored(\uC9C0\uB8E8\uD55C) \uAC19\uC740 \uAC10\uC815 \uBD84\uC0AC\uB97C \uD2B9\uD788 \uC8FC\uC758\uD558\uC138\uC694.",
+      points: [
+        "\uD604\uC7AC\uBD84\uC0AC: a growing market / people waiting outside",
+        "\uACFC\uAC70\uBD84\uC0AC: a written report / issues discussed yesterday",
+        "\uAC10\uC815: interesting(\uAD00\uC2EC \uB044\uB294) / interested(\uAD00\uC2EC \uAC00\uC9C4)",
+        "\uBD84\uC0AC\uAD6C\uBB38: Walking in, she noticed\u2026 (= When she walked in\u2026)"
+      ]
+    },
+    examples: [
+      {
+        en: "The rising costs worry investors.",
+        ko: "\uC0C1\uC2B9\uD558\uB294 \uBE44\uC6A9\uC774 \uD22C\uC790\uC790\uB4E4\uC744 \uAC71\uC815\uC2DC\uD0A8\uB2E4.",
+        structure: "\uD604\uC7AC\uBD84\uC0AC rising"
+      },
+      {
+        en: "Please review the attached file.",
+        ko: "\uCCA8\uBD80\uB41C \uD30C\uC77C\uC744 \uAC80\uD1A0\uD574 \uC8FC\uC138\uC694.",
+        structure: "\uACFC\uAC70\uBD84\uC0AC attached"
+      },
+      {
+        en: "Confused by the chart, he asked a question.",
+        ko: "\uCC28\uD2B8\uC5D0 \uD63C\uB780\uC2A4\uB7EC\uC6CC\uC11C \uADF8\uB294 \uC9C8\uBB38\uD588\uB2E4.",
+        structure: "\uACFC\uAC70\uBD84\uC0AC\uAD6C\uBB38"
+      }
+    ],
+    checks: [
+      {
+        id: "F-010-Q01",
+        skill: "present-participle",
+        question: '"a ___ opportunity" (\uC99D\uAC00\uD558\uB294)',
+        choices: [
+          "grew",
+          "growing",
+          "grownly",
+          "grow"
+        ],
+        answer: 1,
+        explanation: "\uBA85\uC218\uC2DD \uD604\uC7AC\uBD84\uC0AC\uB294 growing\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-010-Q02",
+        skill: "past-participle",
+        question: '"the ___ proposal" (\uAC70\uBD80\uB41C)',
+        choices: [
+          "rejecting",
+          "rejected",
+          "rejects",
+          "reject"
+        ],
+        answer: 1,
+        explanation: "\uC218\uB3D9 \uC758\uBBF8\uC758 \uACFC\uAC70\uBD84\uC0AC rejected\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-010-Q03",
+        skill: "emotion",
+        question: '"I am ___ in data privacy."',
+        choices: [
+          "interesting",
+          "interested",
+          "interest",
+          "interests"
+        ],
+        answer: 1,
+        explanation: "\uC0AC\uB78C\uC774 \u2018\uAD00\uC2EC \uC788\uB2E4\u2019\uB294 interested\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-010-Q04",
+        skill: "emotion-trap",
+        question: '"The lecture was ___ ."',
+        choices: [
+          "bored",
+          "boring",
+          "bore",
+          "bores"
+        ],
+        answer: 1,
+        explanation: "\uC0AC\uBB3C\uC774 \u2018\uC9C0\uB8E8\uD558\uAC8C \uB9CC\uB4DC\uB294\u2019 \uC131\uC9C8\uC740 boring\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-010-Q05",
+        skill: "reduced",
+        question: '"Customers ___ in line looked impatient."',
+        choices: [
+          "wait",
+          "waiting",
+          "waited for to",
+          "waits"
+        ],
+        answer: 1,
+        explanation: "who were waiting \u2192 waiting\uC73C\uB85C \uCD95\uC57D\uB41C \uD604\uC7AC\uBD84\uC0AC \uC218\uC2DD\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-010-Q06",
+        skill: "absolute-sense",
+        question: "\uBD84\uC0AC\uAD6C\uBB38\uC758 \uC8FC\uC5B4\uB294 \uBCF4\uD1B5?",
+        choices: [
+          "\uD56D\uC0C1 it",
+          "\uC8FC\uC808 \uC8FC\uC5B4\uC640 \uAC19\uC544\uC57C \uC790\uC5F0\uC2A4\uB7FD\uB2E4",
+          "\uBAA9\uC801\uC5B4\uB9CC",
+          "\uC804\uCE58\uC0AC\uB9CC"
+        ],
+        answer: 1,
+        explanation: "\uBD84\uC0AC\uAD6C\uBB38\uC758 \uC758\uBBF8\uC0C1 \uC8FC\uC5B4\uB294 \uC8FC\uC808 \uC8FC\uC5B4\uC640 \uC77C\uCE58\uD558\uB294 \uAC83\uC774 \uC6D0\uCE59\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-010-Q07",
+        skill: "application",
+        question: '"___ the deadline, we worked overnight."',
+        choices: [
+          "Approach",
+          "Approaching",
+          "Approached to",
+          "Approaches"
+        ],
+        answer: 1,
+        explanation: "Approaching the deadline\u2026 = As we approached\u2026"
+      },
+      {
+        id: "F-010-Q08",
+        skill: "passive-participle",
+        question: '"Documents ___ last week are ready."',
+        choices: [
+          "signing",
+          "signed",
+          "sign",
+          "to signing"
+        ],
+        answer: 1,
+        explanation: "signed last week = which were signed\u2026"
+      },
+      {
+        id: "F-010-Q09",
+        skill: "trap-dangling",
+        question: "\uC5B4\uC0C9\uD55C(\uB9E4\uB2EC\uB9B0 \uBD84\uC0AC) \uBB38\uC7A5\uC740?",
+        choices: [
+          "Entering the room, she turned on the light.",
+          "Entering the room, the light was turned on.",
+          "Tired, he took a break.",
+          "Written clearly, the note helped."
+        ],
+        answer: 1,
+        explanation: "\uB450 \uBC88\uC9F8 \uBB38\uC7A5\uC740 \uBD84\uC0AC \uC8FC\uC5B4\uAC00 light\uCC98\uB7FC \uC77D\uD600 \uC5B4\uC0C9\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-010-Q10",
+        skill: "concept",
+        question: "\uD604\uC7AC\uBD84\uC0AC\uC640 \uACFC\uAC70\uBD84\uC0AC\uC758 \uAE30\uBCF8 \uB300\uBE44\uB294?",
+        choices: [
+          "\uD604\uC7AC=\uC218\uB3D9 / \uACFC\uAC70=\uB2A5\uB3D9",
+          "\uD604\uC7AC=\uB2A5\uB3D9\xB7\uC9C4\uD589 / \uACFC\uAC70=\uC218\uB3D9\xB7\uC644\uB8CC \uAC10\uAC01",
+          "\uB458 \uB2E4 \uD56D\uC0C1 \uBD80\uC0AC",
+          "\uC2DC\uC81C\uC640 \uBB34\uAD00\uD558\uAC8C \uB3D9\uC77C"
+        ],
+        answer: 1,
+        explanation: "V-ing\uB294 \uB2A5\uB3D9\xB7\uC9C4\uD589, p.p.\uB294 \uC218\uB3D9\xB7\uC644\uB8CC \uB290\uB08C\uC774 \uAE30\uBCF8\uC785\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-011.json
+  var F_011_default = {
+    id: "F-011",
+    order: 11,
+    title: "\uC811\uC18D\uC0AC",
+    category: "grammar",
+    estimatedMinutes: 12,
+    skills: [
+      "conjunctions",
+      "coordinating",
+      "subordinating"
+    ],
+    objectives: [
+      "\uB4F1\uC704\uC811\uC18D\uC0AC\uC640 \uC885\uC18D\uC811\uC18D\uC0AC\uC758 \uC5ED\uD560\uC744 \uAD6C\uBD84\uD55C\uB2E4",
+      "\uC6D0\uC778\xB7\uB300\uC870\xB7\uC870\uAC74\xB7\uC2DC\uAC04\uC744 \uB098\uD0C0\uB0B4\uB294 \uC811\uC18D\uC0AC\uB97C \uACE0\uB978\uB2E4",
+      "\uC811\uC18D\uC0AC \uB4A4 \uC808 \uAD6C\uC870(S+V)\uB97C \uD655\uC778\uD558\uB294 \uC2B5\uAD00\uC744 \uAE30\uB978\uB2E4"
+    ],
+    concept: {
+      summary: "\uC811\uC18D\uC0AC\uB294 \uB2E8\uC5B4\xB7\uAD6C\xB7\uC808\uC744 \uB17C\uB9AC\uC801\uC73C\uB85C \uC5F0\uACB0\uD569\uB2C8\uB2E4. and/but/or/so\uB294 \uB4F1\uC704, because/if/when/although\uB294 \uC885\uC18D\uC808\uC744 \uC774\uB055\uB2C8\uB2E4. TEPS\uC5D0\uC11C\uB294 \uC811\uC18D\uC0AC \uC120\uD0DD\uACFC \uC808/\uAD6C \uD63C\uB3D9(despite vs although)\uC774 \uC790\uC8FC \uB098\uC635\uB2C8\uB2E4.",
+      points: [
+        "\uB4F1\uC704: and, but, or, so, yet",
+        "\uC2DC\uAC04: when, while, before, after, until",
+        "\uC6D0\uC778\xB7\uACB0\uACFC: because, since, so, therefore(\uBD80\uC0AC)",
+        "\uB300\uC870\xB7\uC591\uBCF4: but, although, even though / despite + \uBA85\uC0AC(\uAD6C)"
+      ]
+    },
+    examples: [
+      {
+        en: "I called, but no one answered.",
+        ko: "\uB098\uB294 \uC804\uD654\uD588\uC9C0\uB9CC \uC544\uBB34\uB3C4 \uBC1B\uC9C0 \uC54A\uC558\uB2E4.",
+        structure: "\uB4F1\uC704 but"
+      },
+      {
+        en: "We postponed the launch because the build failed.",
+        ko: "\uBE4C\uB4DC\uAC00 \uC2E4\uD328\uD574\uC11C \uCD9C\uC2DC\uB97C \uBBF8\uB918\uB2E4.",
+        structure: "\uC6D0\uC778 because"
+      },
+      {
+        en: "Although the budget is tight, we can proceed.",
+        ko: "\uC608\uC0B0\uC774 \uBE60\uB4EF\uD574\uB3C4 \uC9C4\uD589\uD560 \uC218 \uC788\uB2E4.",
+        structure: "\uC591\uBCF4 although"
+      }
+    ],
+    checks: [
+      {
+        id: "F-011-Q01",
+        skill: "coordinating",
+        question: "\uB4F1\uC704\uC811\uC18D\uC0AC\uAC00 \uC544\uB2CC \uAC83\uC740?",
+        choices: [
+          "and",
+          "but",
+          "because",
+          "or"
+        ],
+        answer: 2,
+        explanation: "because\uB294 \uC885\uC18D\uC811\uC18D\uC0AC\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-011-Q02",
+        skill: "contrast",
+        question: '\uBE48\uCE78: "The plan is solid, ___ funding is uncertain."',
+        choices: [
+          "and",
+          "but",
+          "because",
+          "so that"
+        ],
+        answer: 1,
+        explanation: "\uB300\uC870\uC5D0\uB294 but\uC774 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-011-Q03",
+        skill: "cause",
+        question: '"___ the server was down, we worked offline."',
+        choices: [
+          "Despite",
+          "Because",
+          "Although of",
+          "But"
+        ],
+        answer: 1,
+        explanation: "\uC6D0\uC778 \uC808\uC744 \uC774\uB04C \uB54C\uB294 Because + S+V\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-011-Q04",
+        skill: "trap-despite",
+        question: "\uC62C\uBC14\uB978 \uBB38\uC7A5\uC740?",
+        choices: [
+          "Despite he was tired, he continued.",
+          "Despite being tired, he continued.",
+          "Although being tired, he continued.",
+          "Because of he was tired, he continued."
+        ],
+        answer: 1,
+        explanation: "despite \uB4A4\uC5D0\uB294 \uBA85\uC0AC(\uAD6C)/V-ing. despite being tired."
+      },
+      {
+        id: "F-011-Q05",
+        skill: "condition",
+        question: '"___ you confirm today, we can ship tomorrow."',
+        choices: [
+          "If",
+          "Although",
+          "But",
+          "Or"
+        ],
+        answer: 0,
+        explanation: "\uC870\uAC74\uC740 If + \uC808\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-011-Q06",
+        skill: "time",
+        question: `"Don't submit it ___ you double-check the figures."`,
+        choices: [
+          "while",
+          "until",
+          "during",
+          "despite"
+        ],
+        answer: 1,
+        explanation: "until\uC740 \u2018~\uD560 \uB54C\uAE4C\uC9C0 (\uD558\uC9C0 \uB9C8\uB77C)\u2019\uC5D0 \uC801\uD569\uD569\uB2C8\uB2E4."
+      },
+      {
+        id: "F-011-Q07",
+        skill: "so-that",
+        question: "\uBAA9\uC801\xB7\uACB0\uACFC(\u2018~\uD558\uB3C4\uB85D\u2019)\uC5D0 \uAC00\uAE4C\uC6B4 \uC5F0\uACB0\uC740?",
+        choices: [
+          "so that",
+          "but",
+          "or else and",
+          "despite"
+        ],
+        answer: 0,
+        explanation: "so that\uC740 \uBAA9\uC801\xB7\uACB0\uACFC \uC808\uC744 \uC774\uB055\uB2C8\uB2E4."
+      },
+      {
+        id: "F-011-Q08",
+        skill: "application",
+        question: "\uC811\uC18D\uC0AC \uB4A4 \uAD6C\uC870\uAC00 \uC62C\uBC14\uB978 \uAC83\uC740?",
+        choices: [
+          "Although the delay.",
+          "Although the delay was short, we apologized.",
+          "Although of the delay, we apologized.",
+          "Although delayed was short."
+        ],
+        answer: 1,
+        explanation: "although \uB4A4\uC5D0\uB294 \uC808(S+V)\uC774 \uC635\uB2C8\uB2E4."
+      },
+      {
+        id: "F-011-Q09",
+        skill: "while",
+        question: '"___ I agree with the goal, I question the timeline."',
+        choices: [
+          "During",
+          "While",
+          "Despite",
+          "Or"
+        ],
+        answer: 1,
+        explanation: "While\uB294 \uC2DC\uAC04\uBFD0 \uC544\uB2C8\uB77C \uC57D\uD55C \uB300\uC870(\u2018~\uC774\uAE34 \uD558\uB098\u2019)\uC5D0\uB3C4 \uC501\uB2C8\uB2E4."
+      },
+      {
+        id: "F-011-Q10",
+        skill: "error",
+        question: "\uC5B4\uC0C9\uD55C \uC5F0\uACB0\uC740?",
+        choices: [
+          "She was late because traffic was heavy.",
+          "She was late, so she apologized.",
+          "She was late although the roads were clear.",
+          "She was late despite traffic was heavy."
+        ],
+        answer: 3,
+        explanation: "despite \uB4A4\uC5D0\uB294 \uC808\uC774 \uBC14\uB85C \uC624\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. despite heavy traffic\uC774 \uB9DE\uC2B5\uB2C8\uB2E4."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-012.json
+  var F_012_default = {
+    id: "F-012",
+    order: 12,
+    title: "\uAD00\uACC4\uC0AC",
+    category: "grammar",
+    estimatedMinutes: 15,
+    skills: [
+      "relatives",
+      "who-which-that",
+      "whose-where"
+    ],
+    objectives: [
+      "\uAD00\uACC4\uB300\uBA85\uC0AC who/which/that\uC758 \uAE30\uBCF8 \uC4F0\uC784\uC744 \uC775\uD78C\uB2E4",
+      "\uC18C\uC720\uACA9 whose\uC640 \uAD00\uACC4\uBD80\uC0AC where/when\uC744 \uAD6C\uBD84\uD55C\uB2E4",
+      "\uAD00\uACC4\uC808\uC774 \uC120\uD589\uC0AC\uB97C \uC218\uC2DD\uD558\uB294 \uAD6C\uC870\uB97C \uBE60\uB974\uAC8C \uC77D\uB294\uB2E4"
+    ],
+    concept: {
+      summary: "\uAD00\uACC4\uC0AC\uB294 \uC120\uD589\uC0AC\uB97C \uBC1B\uB294 \uC808\uC744 \uC774\uB04C\uC5B4 \uC815\uBCF4\uB97C \uB367\uBD99\uC785\uB2C8\uB2E4. \uC0AC\uB78C who, \uC0AC\uBB3C which, \uB458 \uB2E4 that\uC774 \uAE30\uBCF8\uC774\uBA70, whose\uB294 \uC18C\uC720, where/when\uC740 \uC7A5\uC18C\xB7\uC2DC\uAC04\uC744 \uC5F0\uACB0\uD569\uB2C8\uB2E4. \uCF64\uB9C8 \uC720\uBB34(\uC81C\uD55C/\uBE44\uC81C\uD55C)\uB3C4 \uC758\uBBF8\uC5D0 \uC601\uD5A5\uC744 \uC90D\uB2C8\uB2E4.",
+      points: [
+        "\uC0AC\uB78C: the manager who approved it",
+        "\uC0AC\uBB3C: the tool which/that we use",
+        "\uC18C\uC720: an employee whose idea won",
+        "\uC7A5\uC18C\xB7\uC2DC\uAC04: the office where\u2026 / the year when\u2026"
+      ]
+    },
+    examples: [
+      {
+        en: "The analyst who prepared the chart joined us.",
+        ko: "\uCC28\uD2B8\uB97C \uC900\uBE44\uD55C \uBD84\uC11D\uAC00\uAC00 \uD569\uB958\uD588\uB2E4.",
+        structure: "who + \uC0AC\uB78C"
+      },
+      {
+        en: "This is the dataset that we cleaned yesterday.",
+        ko: "\uC774\uAC83\uC774 \uC6B0\uB9AC\uAC00 \uC5B4\uC81C \uC815\uB9AC\uD55C \uB370\uC774\uD130\uC14B\uC774\uB2E4.",
+        structure: "that + \uC0AC\uBB3C"
+      },
+      {
+        en: "She works at a firm whose clients are global.",
+        ko: "\uADF8\uB140\uB294 \uACE0\uAC1D\uC774 \uAE00\uB85C\uBC8C\uC778 \uD68C\uC0AC\uC5D0\uC11C \uC77C\uD55C\uB2E4.",
+        structure: "whose + \uC18C\uC720"
+      }
+    ],
+    checks: [
+      {
+        id: "F-012-Q01",
+        skill: "who",
+        question: '\uBE48\uCE78: "The engineer ___ fixed the bug got credit."',
+        choices: [
+          "which",
+          "who",
+          "where",
+          "whose"
+        ],
+        answer: 1,
+        explanation: "\uC0AC\uB78C \uC120\uD589\uC0AC\uC5D0\uB294 who\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-012-Q02",
+        skill: "which",
+        question: '"Here is the report ___ you requested."',
+        choices: [
+          "who",
+          "whose",
+          "which",
+          "where"
+        ],
+        answer: 2,
+        explanation: "\uC0AC\uBB3C report\uC5D0\uB294 which/that\uC774 \uC635\uB2C8\uB2E4."
+      },
+      {
+        id: "F-012-Q03",
+        skill: "whose",
+        question: '"I met a designer ___ portfolio impressed me."',
+        choices: [
+          "who",
+          "which",
+          "whose",
+          "where"
+        ],
+        answer: 2,
+        explanation: "portfolio\uC758 \uC18C\uC720\uC8FC\uAC00 designer\uC774\uBBC0\uB85C whose\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-012-Q04",
+        skill: "where",
+        question: '"This is the lab ___ we test prototypes."',
+        choices: [
+          "who",
+          "which",
+          "where",
+          "whose"
+        ],
+        answer: 2,
+        explanation: "\uC7A5\uC18C lab + where \uAD00\uACC4\uBD80\uC0AC\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-012-Q05",
+        skill: "omission",
+        question: "\uBAA9\uC801\uACA9 \uAD00\uACC4\uB300\uBA85\uC0AC \uC0DD\uB7B5\uC774 \uC790\uC5F0\uC2A4\uB7EC\uC6B4 \uAC83\uC740?",
+        choices: [
+          "the person who called (\uC8FC\uC5B4 who \uC0DD\uB7B5)",
+          "the file that I sent \u2192 the file I sent",
+          "the woman whose car\u2026 (whose \uC0DD\uB7B5)",
+          "the office where\u2026 (where \uD56D\uC0C1 \uC0DD\uB7B5)"
+        ],
+        answer: 1,
+        explanation: "\uBAA9\uC801\uACA9 that/which\uB294 \uC790\uC8FC \uC0DD\uB7B5\uB429\uB2C8\uB2E4. the file I sent."
+      },
+      {
+        id: "F-012-Q06",
+        skill: "that-restrictive",
+        question: "\uC81C\uD55C\uC6A9\uBC95\uC5D0 \uD754\uD788 \uC4F0\uC774\uBA70 \uC0AC\uB78C\xB7\uC0AC\uBB3C \uBAA8\uB450 \uAC00\uB2A5\uD55C \uAC83\uC740?",
+        choices: [
+          "where\uB9CC",
+          "that",
+          "whose\uB9CC",
+          "whom\uB9CC"
+        ],
+        answer: 1,
+        explanation: "that\uC740 \uC81C\uD55C \uAD00\uACC4\uC808\uC5D0\uC11C \uC0AC\uB78C\xB7\uC0AC\uBB3C \uBAA8\uB450\uC5D0 \uC4F0\uC785\uB2C8\uB2E4."
+      },
+      {
+        id: "F-012-Q07",
+        skill: "nonrestrictive",
+        question: "\uBE44\uC81C\uD55C(\uCF64\uB9C8) \uAD00\uACC4\uC808\uC5D0 \uBCF4\uD1B5 that\uC744 \uC4F0\uC9C0 \uC54A\uB294 \uC774\uC720\uB85C \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uAC83\uC740?",
+        choices: [
+          "that\uC740 \uB3D9\uC0AC\uB2E4",
+          "\uBE44\uC81C\uD55C\uC5D0\uB294 which/who\uAC00 \uC77C\uBC18\uC801\uC774\uB2E4",
+          "that\uC740 \uC804\uCE58\uC0AC\uB2E4",
+          "that\uC740 \uD56D\uC0C1 \uC0DD\uB7B5 \uD544\uC218"
+        ],
+        answer: 1,
+        explanation: "\uCF64\uB9C8\uAC00 \uC788\uB294 \uBD80\uAC00 \uC124\uBA85\uC5D0\uB294 which/who\uAC00 \uC77C\uBC18\uC801\uC774\uACE0 that\uC740 \uC798 \uC548 \uC501\uB2C8\uB2E4."
+      },
+      {
+        id: "F-012-Q08",
+        skill: "application",
+        question: "\uC62C\uBC14\uB978 \uBB38\uC7A5\uC740?",
+        choices: [
+          "The client which called is waiting.",
+          "The client who called is waiting.",
+          "The client where called is waiting.",
+          "The client whose called is waiting."
+        ],
+        answer: 1,
+        explanation: "\uC0AC\uB78C client\uC5D0\uB294 who\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-012-Q09",
+        skill: "when",
+        question: '"I remember the week ___ we launched."',
+        choices: [
+          "who",
+          "whose",
+          "when",
+          "which who"
+        ],
+        answer: 2,
+        explanation: "\uC2DC\uAC04 \uC120\uD589\uC0AC\uC5D0\uB294 when\uC774 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4."
+      },
+      {
+        id: "F-012-Q10",
+        skill: "trap-preposition",
+        question: '"the project ___ we talked about"',
+        choices: [
+          "who",
+          "where",
+          "that/which",
+          "whose"
+        ],
+        answer: 2,
+        explanation: "talk about\uC758 \uBAA9\uC801\uC5B4\uAC00 project\uC774\uBBC0\uB85C that/which\uAC00 \uC635\uB2C8\uB2E4. (about\uC774 \uC808 \uB05D\uC5D0)"
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-013.json
+  var F_013_default = {
+    id: "F-013",
+    order: 13,
+    title: "\uACE0\uBE48\uB3C4 \uD575\uC2EC \uC5B4\uD718",
+    category: "vocabulary",
+    estimatedMinutes: 14,
+    skills: ["high-frequency", "context-meaning", "paraphrase"],
+    objectives: [
+      "TEPS\uC5D0 \uC790\uC8FC \uB098\uC624\uB294 \uD575\uC2EC \uC5B4\uD718\uC758 \uAE30\uBCF8 \uB73B\uC744 \uD30C\uC545\uD55C\uB2E4",
+      "\uBB38\uB9E5\uC5D0 \uB9DE\uB294 \uC720\uC758\xB7\uBC18\uC758 \uD45C\uD604\uC744 \uACE0\uB978\uB2E4",
+      "\uC9E7\uC740 \uBB38\uC7A5\uC5D0\uC11C \uC5B4\uD718\uC758 \uAE30\uB2A5\uC744 \uD655\uC778\uD55C\uB2E4"
+    ],
+    concept: {
+      summary: "TEPS \uC5B4\uD718\uB294 \uC5B4\uB824\uC6B4 \uB2E8\uC5B4\uBCF4\uB2E4 \u2018\uC790\uC8FC \uC4F0\uC774\uB294 \uD575\uC2EC \uC5B4\uD718\u2019\uB97C \uBB38\uB9E5\uC5D0\uC11C \uC815\uD655\uD788 \uC77D\uB294 \uB2A5\uB825\uC774 \uC911\uC694\uD569\uB2C8\uB2E4. \uB2E8\uC21C \uC554\uAE30\uBCF4\uB2E4 \uC720\uC758\uC5B4\xB7\uBC18\uC758\uC5B4\xB7\uC5F0\uC5B4 \uD328\uD134\uC744 \uD568\uAED8 \uC775\uD788\uBA74 \uB3C5\uD574\xB7\uCCAD\uD574\uC5D0\uC11C\uB3C4 \uBC14\uB85C \uD65C\uC6A9\uB429\uB2C8\uB2E4. \uACE0\uBE48\uB3C4 \uC5B4\uD718\uB294 \uC9E7\uACE0 \uBC18\uBCF5\uC801\uC778 \uBB38\uC81C\uB85C \uBA3C\uC800 \uACE0\uC815\uD558\uC138\uC694.",
+      points: [
+        "\uB73B + \uC608\uBB38 + \uC720\uC758\uC5B4\uB97C \uC138\uD2B8\uB85C \uAE30\uC5B5\uD55C\uB2E4",
+        "\uBB38\uC7A5 \uC18D \uC5ED\uD560(\uB3D9\uC0AC/\uD615\uC6A9\uC0AC/\uBA85\uC0AC)\uC744 \uBA3C\uC800 \uBCF8\uB2E4",
+        "\uBE44\uC2B7\uD55C \uB73B\uC774\uB77C\uB3C4 \uC5F0\uC5B4(collocation)\uAC00 \uB2E4\uB97C \uC218 \uC788\uB2E4",
+        "\uBC18\uC758\uC5B4\uB85C \uC758\uBBF8\uB97C \uC120\uBA85\uD558\uAC8C \uAD6C\uBD84\uD55C\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "The company aims to enhance customer satisfaction.",
+        ko: "\uADF8 \uD68C\uC0AC\uB294 \uACE0\uAC1D \uB9CC\uC871\uB3C4\uB97C \uB192\uC774\uB824 \uD55C\uB2E4.",
+        structure: "enhance = improve / strengthen"
+      },
+      {
+        en: "She was reluctant to accept the offer.",
+        ko: "\uADF8\uB140\uB294 \uADF8 \uC81C\uC548\uC744 \uBC1B\uC544\uB4E4\uC774\uAE30\uB97C \uAEBC\uB838\uB2E4.",
+        structure: "reluctant to + V = unwilling to"
+      },
+      {
+        en: "They need to allocate more time to research.",
+        ko: "\uADF8\uB4E4\uC740 \uC5F0\uAD6C\uC5D0 \uB354 \uB9CE\uC740 \uC2DC\uAC04\uC744 \uBC30\uC815\uD574\uC57C \uD55C\uB2E4.",
+        structure: "allocate A to B = assign A to B"
+      }
+    ],
+    checks: [
+      {
+        id: "F-013-Q01",
+        skill: "word-meaning",
+        question: '"retain"\uC758 \uB73B\uC73C\uB85C \uAC00\uC7A5 \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: ["\uD3EC\uAE30\uD558\uB2E4", "\uC720\uC9C0\uD558\uB2E4", "\uC5F0\uAE30\uD558\uB2E4", "\uAC70\uBD80\uD558\uB2E4"],
+        answer: 1,
+        explanation: "retain\uC740 \u2018\uC720\uC9C0\uD558\uB2E4, \uBCF4\uC720\uD558\uB2E4\u2019\uC785\uB2C8\uB2E4. \uC815\uBCF4\xB7\uAD8C\uB9AC\xB7\uD1B5\uC81C\uB97C \uACC4\uC18D \uAC00\uC9C4\uB2E4\uB294 \uB9E5\uB77D\uC5D0\uC11C \uC790\uC8FC \uC4F0\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-013-Q02",
+        skill: "context-meaning",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "A ___ increase in sales surprised the board."',
+        choices: ["reluctant", "substantial", "ambiguous", "preceding"],
+        answer: 1,
+        explanation: "substantial\uC740 \u2018\uC0C1\uB2F9\uD55C\u2019\uC774\uB77C\uB294 \uB73B\uC73C\uB85C increase\uC640 \uC790\uC8FC \uD568\uAED8 \uC4F0\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-013-Q03",
+        skill: "paraphrase",
+        question: '"enhance performance"\uC640 \uC758\uBBF8\uAC00 \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uAC83\uC740?',
+        choices: ["delay performance", "ignore performance", "improve performance", "measure performance"],
+        answer: 2,
+        explanation: "enhance\uB294 improve, strengthen\uC640 \uAC00\uAE4C\uC6B4 \uB73B\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-013-Q04",
+        skill: "word-meaning",
+        question: '"comprise"\uC758 \uC6A9\uBC95\uC73C\uB85C \uC62C\uBC14\uB978 \uBB38\uC7A5\uC740?',
+        choices: [
+          "The team is comprised five members.",
+          "The team comprises five members.",
+          "The team comprises of five members.",
+          "Five members comprise of the team."
+        ],
+        answer: 1,
+        explanation: "comprise\uB294 \u2018~\uB85C \uAD6C\uC131\uB418\uB2E4/\uD3EC\uD568\uD558\uB2E4\u2019\uB85C, The whole comprises the parts \uD615\uD0DC\uAC00 \uD45C\uC900\uC785\uB2C8\uB2E4. of\uB97C \uBD99\uC774\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-013-Q05",
+        skill: "context-meaning",
+        question: '"She gave an ambiguous answer."\uC5D0\uC11C ambiguous\uC758 \uC758\uBBF8\uB294?',
+        choices: ["\uBA85\uD655\uD55C", "\uBAA8\uD638\uD55C", "\uC790\uC138\uD55C", "\uAE0D\uC815\uC801\uC778"],
+        answer: 1,
+        explanation: "ambiguous\uB294 \u2018\uBAA8\uD638\uD55C, \uC560\uB9E4\uD55C\u2019\uC785\uB2C8\uB2E4. \uB458 \uC774\uC0C1\uC73C\uB85C \uD574\uC11D\uB420 \uC218 \uC788\uB294 \uD45C\uD604\uC5D0 \uC4F0\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-013-Q06",
+        skill: "collocation",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "Please ___ resources carefully before the launch."',
+        choices: ["allocate", "precede", "retain", "hesitate"],
+        answer: 0,
+        explanation: "allocate resources\uB294 \u2018\uC790\uC6D0\uC744 \uBC30\uBD84\uD558\uB2E4\u2019\uB77C\uB294 \uACE0\uBE48\uB3C4 \uC5F0\uC5B4\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-013-Q07",
+        skill: "word-meaning",
+        question: '"Events that precede the conference"\uC5D0\uC11C precede\uC758 \uB73B\uC740?',
+        choices: ["~\uBCF4\uB2E4 \uC55E\uC11C\uB2E4", "~\uB97C \uCDE8\uC18C\uD558\uB2E4", "~\uB97C \uC694\uC57D\uD558\uB2E4", "~\uB97C \uB530\uB77C\uAC00\uB2E4"],
+        answer: 0,
+        explanation: "precede\uB294 \u2018~\uBCF4\uB2E4 \uC55E\uC11C\uB2E4, \uC120\uD589\uD558\uB2E4\u2019\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-013-Q08",
+        skill: "paraphrase",
+        question: '"reluctant to admit"\uC640 \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uC758\uBBF8\uB294?',
+        choices: ["eager to admit", "unwilling to admit", "forced to admit", "unable to admit"],
+        answer: 1,
+        explanation: "reluctant\uB294 unwilling, hesitant\uC640 \uAC00\uAE5D\uC2B5\uB2C8\uB2E4. \u2018\uB9C8\uC9C0\uBABB\uD574 \uD558\uB294\u2019 \uB258\uC559\uC2A4\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-013-Q09",
+        skill: "context-meaning",
+        question: "\uB2E4\uC74C \uC911 retain\uC774 \uC790\uC5F0\uC2A4\uB7FD\uAC8C \uC4F0\uC778 \uBB38\uC7A5\uC740?",
+        choices: [
+          "They retain the meeting until next week.",
+          "She retained calm during the crisis.",
+          "He retained to leave early.",
+          "We retained the problem carefully."
+        ],
+        answer: 1,
+        explanation: "retain calm/control/information\uCC98\uB7FC \u2018\uC0C1\uD0DC\uB97C \uC720\uC9C0\uD558\uB2E4\u2019 \uC6A9\uBC95\uC774 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4. \uC5F0\uAE30\uB294 postpone, \uBD84\uC11D\uC740 examine\uC774 \uB9DE\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-013-Q10",
+        skill: "word-meaning",
+        question: '"a substantial amount of evidence"\uC758 \uC758\uBBF8\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: [
+          "\uC544\uC8FC \uC801\uC740 \uC591\uC758 \uC99D\uAC70",
+          "\uC0C1\uB2F9\uD55C \uC591\uC758 \uC99D\uAC70",
+          "\uBAA8\uD638\uD55C \uC591\uC758 \uC99D\uAC70",
+          "\uC55E\uC120 \uC591\uC758 \uC99D\uAC70"
+        ],
+        answer: 1,
+        explanation: "substantial amount\uB294 \u2018\uC0C1\uB2F9\uD55C \uC591\u2019\uC744 \uB73B\uD569\uB2C8\uB2E4. \uD559\uC220\xB7\uC5C5\uBB34 \uC9C0\uBB38\uC5D0\uC11C \uC790\uC8FC \uB4F1\uC7A5\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-014.json
+  var F_014_default = {
+    id: "F-014",
+    order: 14,
+    title: "\uC5F0\uC5B4\uC640 \uAD6C\uB3D9\uC0AC",
+    category: "vocabulary",
+    estimatedMinutes: 14,
+    skills: ["collocation", "phrasal-verb", "context"],
+    objectives: [
+      "\uACE0\uBE48\uB3C4 \uC5F0\uC5B4(collocation) \uD328\uD134\uC744 \uC775\uD78C\uB2E4",
+      "\uAD6C\uB3D9\uC0AC(phrasal verb)\uC758 \uAE30\uBCF8 \uC758\uBBF8\uB97C \uAD6C\uBD84\uD55C\uB2E4",
+      "\uBB38\uB9E5\uC5D0 \uB9DE\uB294 \uC804\uCE58\uC0AC\xB7\uBD80\uC0AC \uC785\uB825\uC744 \uACE0\uB978\uB2E4"
+    ],
+    concept: {
+      summary: "\uC601\uC5B4\uB294 \uB2E8\uC5B4 \uD558\uB098\uBCF4\uB2E4 \u2018\uD568\uAED8 \uC790\uC8FC \uC4F0\uC774\uB294 \uC870\uD569\u2019\uC774 \uC911\uC694\uD569\uB2C8\uB2E4. make a decision, take responsibility\uCC98\uB7FC \uB3D9\uC0AC+\uBA85\uC0AC \uC5F0\uC5B4\uC640 look into, put off \uAC19\uC740 \uAD6C\uB3D9\uC0AC\uB97C \uC138\uD2B8\uB85C \uC775\uD788\uBA74 \uC5B4\uD718\xB7\uB3C5\uD574\xB7\uCCAD\uD574\uAC00 \uD568\uAED8 \uC88B\uC544\uC9D1\uB2C8\uB2E4. \uB73B\uC744 \uC678\uC6B8 \uB54C \uC804\uCE58\uC0AC\uAE4C\uC9C0 \uBD99\uC5EC \uAE30\uC5B5\uD558\uC138\uC694.",
+      points: [
+        "\uB3D9\uC0AC+\uBA85\uC0AC \uC5F0\uC5B4\uB294 \uD1B5\uC9F8\uB85C \uC554\uAE30\uD55C\uB2E4",
+        "\uAD6C\uB3D9\uC0AC\uB294 \uB3D9\uC0AC+\uBD80\uC0AC/\uC804\uCE58\uC0AC\uB85C \uC0C8 \uC758\uBBF8\uB97C \uB9CC\uB4E0\uB2E4",
+        "\uBE44\uC2B7\uD574 \uBCF4\uC5EC\uB3C4 \uC804\uCE58\uC0AC\uAC00 \uBC14\uB00C\uBA74 \uB73B\uC774 \uB2EC\uB77C\uC9C4\uB2E4",
+        "\uBB38\uC7A5 \uC804\uCCB4 \uB9E5\uB77D\uC73C\uB85C \uC790\uC5F0\uC2A4\uB7EC\uC6B4 \uC870\uD569\uC744 \uACE0\uB978\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "We need to look into the complaint carefully.",
+        ko: "\uC6B0\uB9AC\uB294 \uADF8 \uBD88\uB9CC\uC744 \uC8FC\uC758 \uAE4A\uAC8C \uC870\uC0AC\uD574\uC57C \uD55C\uB2E4.",
+        structure: "look into = investigate"
+      },
+      {
+        en: "She put off the meeting until Friday.",
+        ko: "\uADF8\uB140\uB294 \uD68C\uC758\uB97C \uAE08\uC694\uC77C\uAE4C\uC9C0 \uC5F0\uAE30\uD588\uB2E4.",
+        structure: "put off = postpone"
+      },
+      {
+        en: "He took responsibility for the delay.",
+        ko: "\uADF8\uB294 \uC9C0\uC5F0\uC5D0 \uB300\uD55C \uCC45\uC784\uC744 \uC84C\uB2E4.",
+        structure: "take responsibility for"
+      }
+    ],
+    checks: [
+      {
+        id: "F-014-Q01",
+        skill: "phrasal-verb",
+        question: '"look into the matter"\uC758 \uC758\uBBF8\uB294?',
+        choices: ["\uBB38\uC81C\uB97C \uBB34\uC2DC\uD558\uB2E4", "\uBB38\uC81C\uB97C \uC870\uC0AC\uD558\uB2E4", "\uBB38\uC81C\uB97C \uACF5\uAC1C\uD558\uB2E4", "\uBB38\uC81C\uB97C \uC5F0\uAE30\uD558\uB2E4"],
+        answer: 1,
+        explanation: "look into\uB294 investigate, examine\uACFC \uAC19\uC544 \u2018\uC870\uC0AC\uD558\uB2E4\u2019\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-014-Q02",
+        skill: "collocation",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "They finally ___ a decision after a long debate."',
+        choices: ["did", "made", "took", "had"],
+        answer: 1,
+        explanation: "make a decision\uC774 \uD45C\uC900 \uC5F0\uC5B4\uC785\uB2C8\uB2E4. decision\uACFC \uD568\uAED8 do/take\uB97C \uC4F0\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-014-Q03",
+        skill: "phrasal-verb",
+        question: '"The flight was called off."\uC5D0\uC11C call off\uC758 \uB73B\uC740?',
+        choices: ["\uC5F0\uAE30\uD558\uB2E4", "\uCDE8\uC18C\uD558\uB2E4", "\uD655\uC778\uD558\uB2E4", "\uCD9C\uBC1C\uD558\uB2E4"],
+        answer: 1,
+        explanation: "call off\uB294 cancel, \uC989 \u2018\uCDE8\uC18C\uD558\uB2E4\u2019\uC785\uB2C8\uB2E4. put off(\uC5F0\uAE30)\uC640 \uAD6C\uBD84\uD558\uC138\uC694.",
+        transcript: ""
+      },
+      {
+        id: "F-014-Q04",
+        skill: "collocation",
+        question: "\uB2E4\uC74C \uC911 \uC5F0\uC5B4\uAC00 \uC790\uC5F0\uC2A4\uB7EC\uC6B4 \uAC83\uC740?",
+        choices: [
+          "do a mistake",
+          "make an effort",
+          "take a research",
+          "give an attention"
+        ],
+        answer: 1,
+        explanation: "make an effort\uAC00 \uC62C\uBC14\uB978 \uC5F0\uC5B4\uC785\uB2C8\uB2E4. mistake\uB294 make, research\uB294 conduct/do, attention\uC740 pay\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-014-Q05",
+        skill: "phrasal-verb",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "Please ___ the form and submit it today."',
+        choices: ["fill out", "fill up", "fill in on", "fill off"],
+        answer: 0,
+        explanation: "fill out (a form)\uC740 \u2018\uC591\uC2DD\uC744 \uC791\uC131\uD558\uB2E4\u2019\uC785\uB2C8\uB2E4. fill up\uC740 \u2018\uAC00\uB4DD \uCC44\uC6B0\uB2E4\u2019\uC5D0 \uAC00\uAE5D\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-014-Q06",
+        skill: "context",
+        question: '"She came across an old photo."\uC758 \uC758\uBBF8\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: [
+          "\uC77C\uBD80\uB7EC \uC0AC\uC9C4\uC744 \uCC3E\uC558\uB2E4",
+          "\uC6B0\uC5F0\uD788 \uC0AC\uC9C4\uC744 \uBC1C\uACAC\uD588\uB2E4",
+          "\uC0AC\uC9C4\uC744 \uD3D0\uAE30\uD588\uB2E4",
+          "\uC0AC\uC9C4\uC744 \uBCF5\uC0AC\uD588\uB2E4"
+        ],
+        answer: 1,
+        explanation: "come across\uB294 \u2018\uC6B0\uC5F0\uD788 \uB9C8\uC8FC\uCE58\uB2E4/\uBC1C\uACAC\uD558\uB2E4\u2019\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-014-Q07",
+        skill: "collocation",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "He ___ attention to the warning signs."',
+        choices: ["made", "did", "paid", "gave"],
+        answer: 2,
+        explanation: "pay attention to\uAC00 \uACE0\uBE48\uB3C4 \uC5F0\uC5B4\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-014-Q08",
+        skill: "phrasal-verb",
+        question: '"put up with the noise"\uC640 \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uB73B\uC740?',
+        choices: ["\uC18C\uC74C\uC744 \uC990\uAE30\uB2E4", "\uC18C\uC74C\uC744 \uCC38\uB2E4", "\uC18C\uC74C\uC744 \uCE21\uC815\uD558\uB2E4", "\uC18C\uC74C\uC744 \uC904\uC774\uB2E4"],
+        answer: 1,
+        explanation: "put up with\uB294 tolerate, endure\uB85C \u2018\uCC38\uB2E4, \uACAC\uB514\uB2E4\u2019\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-014-Q09",
+        skill: "context",
+        question: "\uB2E4\uC74C \uC911 put off\uAC00 \uC62C\uBC14\uB974\uAC8C \uC4F0\uC778 \uBB38\uC7A5\uC740?",
+        choices: [
+          "They put off the lights before leaving.",
+          "She put off her coat on the chair.",
+          "We put off discussing the budget.",
+          "He put off to the station early."
+        ],
+        answer: 2,
+        explanation: "put off + V-ing/\uBA85\uC0AC\uB294 \u2018\uC5F0\uAE30\uD558\uB2E4\u2019\uC785\uB2C8\uB2E4. \uBD88\uC744 \uB044\uB294 \uAC83\uC740 turn off, \uC637\uC744 \uBC97\uB294 \uAC83\uC740 take off\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-014-Q10",
+        skill: "collocation",
+        question: '"take part in the workshop"\uC758 \uC758\uBBF8\uB294?',
+        choices: ["\uC6CC\uD06C\uC20D\uC744 \uCDE8\uC18C\uD558\uB2E4", "\uC6CC\uD06C\uC20D\uC5D0 \uCC38\uC5EC\uD558\uB2E4", "\uC6CC\uD06C\uC20D\uC744 \uC900\uBE44\uD558\uB2E4", "\uC6CC\uD06C\uC20D\uC744 \uD3C9\uAC00\uD558\uB2E4"],
+        answer: 1,
+        explanation: "take part in\uC740 participate in\uACFC \uAC19\uC544 \u2018\uCC38\uC5EC\uD558\uB2E4\u2019\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-015.json
+  var F_015_default = {
+    id: "F-015",
+    order: 15,
+    title: "\uD63C\uB3D9\uD558\uAE30 \uC26C\uC6B4 \uC5B4\uD718",
+    category: "vocabulary",
+    estimatedMinutes: 14,
+    skills: ["confusable-words", "precise-usage", "context"],
+    objectives: [
+      "\uD615\uD0DC\xB7\uC758\uBBF8\uAC00 \uBE44\uC2B7\uD55C \uD63C\uB3D9 \uC5B4\uD718\uB97C \uAD6C\uBD84\uD55C\uB2E4",
+      "\uBB38\uB9E5\uC5D0 \uB9DE\uB294 \uC815\uD655\uD55C \uB2E8\uC5B4\uB97C \uACE0\uB978\uB2E4",
+      "\uD488\uC0AC\xB7\uB258\uC559\uC2A4 \uCC28\uC774\uB97C \uC124\uBA85\uC73C\uB85C \uC815\uB9AC\uD55C\uB2E4"
+    ],
+    concept: {
+      summary: "affect/effect, raise/rise, borrow/lend\uCC98\uB7FC \uBE44\uC2B7\uD574 \uBCF4\uC774\uB294 \uB2E8\uC5B4\uB294 TEPS\uC5D0\uC11C \uC790\uC8FC \uCD9C\uC81C\uB429\uB2C8\uB2E4. \uB73B\uB9CC \uC678\uC6B0\uC9C0 \uB9D0\uACE0 \u2018\uC8FC\uC5B4\uAC00 \uBB34\uC5C7\uC744 \uD558\uB294\uC9C0\u2019, \u2018\uBAA9\uC801\uC5B4\uAC00 \uD544\uC694\uD55C\uC9C0\u2019\uB97C \uD568\uAED8 \uBCF4\uBA74 \uC624\uB2F5\uC774 \uC904\uC5B4\uB4ED\uB2C8\uB2E4. \uD63C\uB3D9\uC30D\uC740 \uB300\uBE44\uD45C\uB85C \uC815\uB9AC\uD558\uB294 \uAC83\uC774 \uAC00\uC7A5 \uD6A8\uC728\uC801\uC785\uB2C8\uB2E4.",
+      points: [
+        "\uB3D9\uC0AC/\uBA85\uC0AC \uD488\uC0AC\uBD80\uD130 \uD655\uC778\uD55C\uB2E4",
+        "\uD0C0\uB3D9\uC0AC\uC778\uC9C0 \uC790\uB3D9\uC0AC\uC778\uC9C0 \uBCF8\uB2E4",
+        "\uC8FC\uC5B4\xB7\uBAA9\uC801\uC5B4 \uAD00\uACC4\uB97C \uBA3C\uC800 \uADF8\uB9B0\uB2E4",
+        "\uC608\uBB38\uC744 \uD55C \uC30D\uC529 \uBE44\uAD50\uD574 \uACE0\uC815\uD55C\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "The policy will affect housing prices.",
+        ko: "\uADF8 \uC815\uCC45\uC740 \uC8FC\uD0DD \uAC00\uACA9\uC5D0 \uC601\uD5A5\uC744 \uBBF8\uCE60 \uAC83\uC774\uB2E4.",
+        structure: "affect(V) vs effect(N)"
+      },
+      {
+        en: "Prices continue to rise.",
+        ko: "\uBB3C\uAC00\uAC00 \uACC4\uC18D \uC624\uB978\uB2E4.",
+        structure: "rise(\uC790\uB3D9\uC0AC) / raise(\uD0C0\uB3D9\uC0AC)"
+      },
+      {
+        en: "Can you lend me your notes?",
+        ko: "\uB178\uD2B8\uB97C \uC880 \uBE4C\uB824\uC904 \uC218 \uC788\uB098\uC694?",
+        structure: "lend = give temporarily / borrow = take temporarily"
+      }
+    ],
+    checks: [
+      {
+        id: "F-015-Q01",
+        skill: "confusable-words",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "Stress can ___ your sleep quality."',
+        choices: ["effect", "affect", "affection", "effective"],
+        answer: 1,
+        explanation: "\uC5EC\uAE30\uC11C\uB294 \uB3D9\uC0AC\uAC00 \uD544\uC694\uD558\uBBC0\uB85C affect\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4. effect\uB294 \uC8FC\uB85C \uBA85\uC0AC \u2018\uACB0\uACFC/\uC601\uD5A5\u2019\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-015-Q02",
+        skill: "precise-usage",
+        question: "\uB2E4\uC74C \uC911 \uC62C\uBC14\uB978 \uBB38\uC7A5\uC740?",
+        choices: [
+          "They raised early this morning.",
+          "The sun raised at 6 a.m.",
+          "She raised her hand to ask a question.",
+          "Costs are raising quickly."
+        ],
+        answer: 2,
+        explanation: "raise\uB294 \uD0C0\uB3D9\uC0AC\uB77C \uBAA9\uC801\uC5B4\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4. \uD574\uAC00 \uB728\uB2E4/\uBE44\uC6A9\uC774 \uC624\uB974\uB2E4\uB294 rise\uB97C \uC501\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-015-Q03",
+        skill: "confusable-words",
+        question: '"I need to ___ a book from the library."\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: ["lend", "borrow", "loan to", "owe"],
+        answer: 1,
+        explanation: "\uBE4C\uB9AC\uB294 \uCABD\uC740 borrow, \uBE4C\uB824\uC8FC\uB294 \uCABD\uC740 lend\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-015-Q04",
+        skill: "context",
+        question: '"He is currently ___ in Seoul."\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: ["living", "leaving", "lefting", "leaved"],
+        answer: 0,
+        explanation: "live(\uAC70\uC8FC\uD558\uB2E4)\uC640 leave(\uB5A0\uB098\uB2E4)\uB97C \uD63C\uB3D9\uD558\uC9C0 \uB9C8\uC138\uC694. \uD604\uC7AC \uAC70\uC8FC\uB294 living\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-015-Q05",
+        skill: "confusable-words",
+        question: '"The ___ of the new rule was immediate."\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: ["affect", "effect", "affective", "affected"],
+        answer: 1,
+        explanation: "\uAD00\uC0AC the \uB4A4\uC774\uBBC0\uB85C \uBA85\uC0AC effect(\uACB0\uACFC/\uC601\uD5A5)\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-015-Q06",
+        skill: "precise-usage",
+        question: "\uB2E4\uC74C \uC911 economic\uACFC economical\uC758 \uC4F0\uC784\uC774 \uC62C\uBC14\uB978 \uAC83\uC740?",
+        choices: [
+          "an economical crisis",
+          "economic growth this year",
+          "an economic car",
+          "economical policy debate"
+        ],
+        answer: 1,
+        explanation: "economic\uC740 \u2018\uACBD\uC81C\uC758\u2019, economical\uC740 \u2018\uC808\uC57D\uD558\uB294/\uACBD\uC81C\uC801\uC778\u2019\uC785\uB2C8\uB2E4. economic growth\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uACE0, \uCC28\uB294 economical car\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-015-Q07",
+        skill: "confusable-words",
+        question: '"Please ___ me know when you arrive."\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: ["let", "make", "allow", "permit"],
+        answer: 0,
+        explanation: "let someone know\uAC00 \uACE0\uC815 \uD45C\uD604\uC785\uB2C8\uB2E4. make me know\uB294 \uC4F0\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-015-Q08",
+        skill: "precise-usage",
+        question: '"She is ___ for the delay."\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: ["responsible", "responsive", "response", "responding"],
+        answer: 0,
+        explanation: "be responsible for\uB294 \u2018~\uC5D0 \uCC45\uC784\uC774 \uC788\uB2E4\u2019\uC785\uB2C8\uB2E4. responsive\uB294 \u2018\uBC18\uC751\uC774 \uBE60\uB978\u2019\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-015-Q09",
+        skill: "context",
+        question: '"The weather ___ our outdoor plans."\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: ["effected", "affected", "affection", "effective"],
+        answer: 1,
+        explanation: "\uACFC\uAC70\uD615 \uB3D9\uC0AC\uB85C \u2018\uC601\uD5A5\uC744 \uBBF8\uCCE4\uB2E4\u2019\uB294 affected\uC785\uB2C8\uB2E4. effect\uC758 \uACFC\uAC70\uD615 effected\uB294 \u2018\uC131\uCDE8\uD558\uB2E4\u2019 \uB73B\uC73C\uB85C \uB4DC\uBB45\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-015-Q10",
+        skill: "confusable-words",
+        question: '"Could you ___ me some money until Friday?"\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: ["borrow", "lend", "rent", "owe"],
+        answer: 1,
+        explanation: "\uC0C1\uB300\uAC00 \u2018\uB098\uC5D0\uAC8C \uBE4C\uB824\uC8FC\uB294\u2019 \uC0C1\uD669\uC774\uBBC0\uB85C lend me\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-016.json
+  var F_016_default = {
+    id: "F-016",
+    order: 16,
+    title: "\uC808\uC744 \uC5F0\uACB0\uD558\uAE30",
+    category: "expand",
+    estimatedMinutes: 14,
+    skills: ["clause-linking", "conjunctions", "sentence-expansion"],
+    objectives: [
+      "\uB4F1\uC704\xB7\uC885\uC18D \uC811\uC18D\uC0AC\uB85C \uC808\uC744 \uC5F0\uACB0\uD558\uB294 \uBC29\uBC95\uC744 \uC775\uD78C\uB2E4",
+      "\uC6D0\uC778\xB7\uB300\uC870\xB7\uC870\uAC74\xB7\uC2DC\uAC04\uC758 \uAD00\uACC4\uB97C \uBB38\uC7A5\uC73C\uB85C \uD45C\uD604\uD55C\uB2E4",
+      "\uC9E7\uC740 \uBB38\uC7A5 \uB450 \uAC1C\uB97C \uB17C\uB9AC\uC801\uC73C\uB85C \uD569\uCE5C\uB2E4"
+    ],
+    concept: {
+      summary: "\uAE34 \uBB38\uC7A5\uC740 \uC808\uACFC \uC808\uC744 \uC5F0\uACB0\uD558\uB294 \uB2A5\uB825\uC5D0\uC11C \uC2DC\uC791\uB429\uB2C8\uB2E4. and/but/so \uAC19\uC740 \uB4F1\uC704\uC811\uC18D\uC0AC\uC640 because/although/if/when \uAC19\uC740 \uC885\uC18D\uC811\uC18D\uC0AC\uB97C \uAD6C\uBD84\uD558\uBA74 \uBB38\uC7A5 \uD655\uC7A5\uC774 \uC26C\uC6CC\uC9D1\uB2C8\uB2E4. TEPS \uB3C5\uD574\uC5D0\uC11C\uB3C4 \uC5F0\uACB0\uC5B4\uAC00 \uB17C\uB9AC \uD750\uB984\uC758 \uC2E0\uD638\uC785\uB2C8\uB2E4.",
+      points: [
+        "\uB4F1\uC704\uC811\uC18D\uC0AC: \uB300\uB4F1\uD55C \uC808\uC744 \uC5F0\uACB0\uD55C\uB2E4",
+        "\uC885\uC18D\uC811\uC18D\uC0AC: \uC8FC\uC808\uC5D0 \uC885\uC18D\uC808\uC744 \uBD99\uC778\uB2E4",
+        "\uC5F0\uACB0\uC5B4\uB294 \uC758\uBBF8 \uAD00\uACC4(\uC6D0\uC778\xB7\uB300\uC870\xB7\uC870\uAC74)\uB97C \uB4DC\uB7EC\uB0B8\uB2E4",
+        "\uCF64\uB9C8 \uC0AC\uC6A9\uC740 \uC808\uC758 \uAE38\uC774\uC640 \uC704\uCE58\uC5D0 \uB530\uB77C \uB2EC\uB77C\uC9C4\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "She stayed home because she felt sick.",
+        ko: "\uADF8\uB140\uB294 \uC544\uD30C\uC11C \uC9D1\uC5D0 \uC788\uC5C8\uB2E4.",
+        structure: "\uC8FC\uC808 + because + \uC885\uC18D\uC808"
+      },
+      {
+        en: "Although the test was hard, he finished on time.",
+        ko: "\uC2DC\uD5D8\uC774 \uC5B4\uB824\uC6E0\uC9C0\uB9CC \uADF8\uB294 \uC81C\uC2DC\uAC04\uC5D0 \uB05D\uB0C8\uB2E4.",
+        structure: "Although + \uC885\uC18D\uC808, \uC8FC\uC808"
+      },
+      {
+        en: "If it rains, the event will be postponed.",
+        ko: "\uBE44\uAC00 \uC624\uBA74 \uD589\uC0AC\uB294 \uC5F0\uAE30\uB420 \uAC83\uC774\uB2E4.",
+        structure: "If + \uC870\uAC74\uC808, \uC8FC\uC808"
+      }
+    ],
+    checks: [
+      {
+        id: "F-016-Q01",
+        skill: "conjunctions",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "He left early ___ he had another appointment."',
+        choices: ["although", "because", "unless", "while"],
+        answer: 1,
+        explanation: "\uC774\uC720\uB97C \uB098\uD0C0\uB0B4\uBBC0\uB85C because\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-016-Q02",
+        skill: "clause-linking",
+        question: '\uB450 \uBB38\uC7A5\uC744 \uAC00\uC7A5 \uC790\uC5F0\uC2A4\uB7FD\uAC8C \uC5F0\uACB0\uD55C \uAC83\uC740? "It was late. She kept working."',
+        choices: [
+          "It was late, so she kept working.",
+          "It was late, but she kept working.",
+          "It was late, because she kept working.",
+          "It was late, if she kept working."
+        ],
+        answer: 1,
+        explanation: "\uB2A6\uC740 \uC2DC\uAC04\uACFC \uACC4\uC18D \uC77C\uD55C \uAC83\uC740 \uB300\uC870 \uAD00\uACC4\uC774\uBBC0\uB85C but\uC774 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-016-Q03",
+        skill: "conjunctions",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "___ you finish the report, we can leave."',
+        choices: ["Unless", "Although", "Once", "Yet"],
+        answer: 2,
+        explanation: "Once\uB294 \u2018~\uD558\uC790\uB9C8\uC790/~\uD558\uBA74\u2019\uC758 \uC2DC\uAC04\xB7\uC870\uAC74 \uC5F0\uACB0\uC5D0 \uC4F0\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-016-Q04",
+        skill: "sentence-expansion",
+        question: "\uB2E4\uC74C \uC911 \uBB38\uBC95\uC801\uC73C\uB85C \uC62C\uBC14\uB978 \uBB38\uC7A5\uC740?",
+        choices: [
+          "Because he was tired. He went to bed.",
+          "He went to bed because he was tired.",
+          "He went to bed, because of he was tired.",
+          "Because of he was tired, he went to bed."
+        ],
+        answer: 1,
+        explanation: "because \uB4A4\uC5D0\uB294 \uC808(S+V)\uC774 \uC635\uB2C8\uB2E4. Because\uB9CC\uC73C\uB85C \uBB38\uC7A5\uC744 \uB04A\uC73C\uBA74 \uBD88\uC644\uC804\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-016-Q05",
+        skill: "conjunctions",
+        question: '"She will join us ___ she is free."\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740?',
+        choices: ["if", "although", "so", "but"],
+        answer: 0,
+        explanation: "\uC870\uAC74\uC744 \uB098\uD0C0\uB0B4\uBBC0\uB85C if\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-016-Q06",
+        skill: "clause-linking",
+        question: "\uB300\uC870\uB97C \uB098\uD0C0\uB0B4\uB294 \uC5F0\uACB0\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "I studied hard, so I passed.",
+          "I studied hard, and I passed.",
+          "I studied hard, but I failed.",
+          "I studied hard, because I failed."
+        ],
+        answer: 2,
+        explanation: "but\uC740 \uAE30\uB300\uC640 \uB2E4\uB978 \uACB0\uACFC\uB97C \uC787\uB294 \uB300\uC870 \uC811\uC18D\uC0AC\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-016-Q07",
+        skill: "conjunctions",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "___ the delay, the project was completed."',
+        choices: ["Although", "Despite", "Because", "If"],
+        answer: 1,
+        explanation: "Despite \uB4A4\uC5D0\uB294 \uBA85\uC0AC\uAD6C\uAC00 \uC635\uB2C8\uB2E4. Although \uB4A4\uC5D0\uB294 \uC808\uC774 \uD544\uC694\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-016-Q08",
+        skill: "sentence-expansion",
+        question: '"I will call you when I arrive."\uC5D0\uC11C when\uC808\uC758 \uC5ED\uD560\uC740?',
+        choices: ["\uC8FC\uC5B4", "\uBAA9\uC801\uC5B4", "\uC2DC\uAC04 \uC885\uC18D\uC808", "\uBCF4\uC5B4"],
+        answer: 2,
+        explanation: "when I arrive\uB294 \uC8FC\uC808\uC758 \uC2DC\uAC04\uC744 \uB098\uD0C0\uB0B4\uB294 \uC885\uC18D\uC808\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-016-Q09",
+        skill: "clause-linking",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "Take a map, ___ you may get lost."',
+        choices: ["or", "but", "so", "although"],
+        answer: 0,
+        explanation: "\uADF8\uB807\uC9C0 \uC54A\uC73C\uBA74(~\uD558\uC9C0 \uC54A\uC73C\uBA74)\uC758 \uACBD\uACE0\xB7\uC120\uD0DD \uAD00\uACC4\uC5D0\uC11C\uB294 or\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-016-Q10",
+        skill: "conjunctions",
+        question: "\uB2E4\uC74C \uC911 unless\uC758 \uC758\uBBF8\uAC00 \uC62C\uBC14\uB978 \uBB38\uC7A5\uC740?",
+        choices: [
+          "Unless you hurry, you will be late.",
+          "Unless you hurry, you will not be late.",
+          "Unless it is cheap, I will buy it.",
+          "Unless she studied, she passed."
+        ],
+        answer: 0,
+        explanation: "unless\uB294 if not(~\uD558\uC9C0 \uC54A\uC73C\uBA74)\uC785\uB2C8\uB2E4. \uC11C\uB450\uB974\uC9C0 \uC54A\uC73C\uBA74 \uB2A6\uB294\uB2E4\uB294 \uB73B\uC774 \uB429\uB2C8\uB2E4.",
+        transcript: ""
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-017.json
+  var F_017_default = {
+    id: "F-017",
+    order: 17,
+    title: "\uC218\uC2DD\uC5B4 \uBD99\uC774\uAE30",
+    category: "expand",
+    estimatedMinutes: 14,
+    skills: ["modifiers", "adjective-adverb", "relative-modifier"],
+    objectives: [
+      "\uD615\uC6A9\uC0AC\xB7\uBD80\uC0AC\xB7\uC804\uCE58\uC0AC\uAD6C\uB85C \uBB38\uC7A5\uC744 \uD655\uC7A5\uD55C\uB2E4",
+      "\uC218\uC2DD \uB300\uC0C1\uC774 \uBB34\uC5C7\uC778\uC9C0 \uC815\uD655\uD788 \uD30C\uC545\uD55C\uB2E4",
+      "\uAD00\uACC4\uC808\xB7\uBD84\uC0AC\uAD6C\uB85C \uC815\uBCF4\uB97C \uB367\uBD99\uC774\uB294 \uAC10\uAC01\uC744 \uC775\uD78C\uB2E4"
+    ],
+    concept: {
+      summary: "\uAE30\uBCF8 \uBB38\uC7A5\uC5D0 \uC218\uC2DD\uC5B4\uB97C \uBD99\uC774\uBA74 \uC815\uBCF4\uAC00 \uD48D\uBD80\uD55C \uBB38\uC7A5\uC774 \uB429\uB2C8\uB2E4. \uD615\uC6A9\uC0AC\uB294 \uBA85\uC0AC\uB97C, \uBD80\uC0AC\uB294 \uB3D9\uC0AC\xB7\uD615\uC6A9\uC0AC\xB7\uBB38\uC7A5\uC744 \uAFB8\uBC09\uB2C8\uB2E4. \uC804\uCE58\uC0AC\uAD6C\uC640 \uAD00\uACC4\uC808\uB3C4 \uAC19\uC740 \u2018\uAFB8\uBBF8\uAE30\u2019 \uAE30\uB2A5\uC744 \uD558\uBBC0\uB85C, \uBB34\uC5C7\uC774 \uBB34\uC5C7\uC744 \uC218\uC2DD\uD558\uB294\uC9C0 \uD45C\uC2DC\uD558\uBA70 \uC77D\uB294 \uC5F0\uC2B5\uC774 \uD544\uC694\uD569\uB2C8\uB2E4.",
+      points: [
+        "\uD615\uC6A9\uC0AC: \uBA85\uC0AC \uC55E/\uB4A4(\uBCF4\uC5B4)\uC5D0\uC11C \uBA85\uC0AC\uB97C \uAFB8\uBBFC\uB2E4",
+        "\uBD80\uC0AC: how/when/where/\uC815\uB3C4\uB97C \uB354\uD55C\uB2E4",
+        "\uC804\uCE58\uC0AC\uAD6C\uB294 \uC704\uCE58\xB7\uC2DC\uAC04\xB7\uBC29\uBC95 \uC815\uBCF4\uB97C \uBD99\uC778\uB2E4",
+        "\uAD00\uACC4\uC808\xB7\uBD84\uC0AC\uB294 \uBA85\uC0AC\uB97C \uAE38\uAC8C \uC218\uC2DD\uD55C\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "The careful manager reviewed the report thoroughly.",
+        ko: "\uC2E0\uC911\uD55C \uAD00\uB9AC\uC790\uAC00 \uBCF4\uACE0\uC11C\uB97C \uCCA0\uC800\uD788 \uAC80\uD1A0\uD588\uB2E4.",
+        structure: "\uD615\uC6A9\uC0AC careful / \uBD80\uC0AC thoroughly"
+      },
+      {
+        en: "The book on the desk belongs to Mina.",
+        ko: "\uCC45\uC0C1 \uC704\uC758 \uCC45\uC740 \uBBF8\uB098\uC758 \uAC83\uC774\uB2E4.",
+        structure: "\uC804\uCE58\uC0AC\uAD6C on the desk \u2192 book \uC218\uC2DD"
+      },
+      {
+        en: "Employees who arrive early get better seats.",
+        ko: "\uC77C\uCC0D \uB3C4\uCC29\uD558\uB294 \uC9C1\uC6D0\uB4E4\uC774 \uB354 \uC88B\uC740 \uC88C\uC11D\uC744 \uBC1B\uB294\uB2E4.",
+        structure: "\uAD00\uACC4\uC808 who arrive early \u2192 Employees \uC218\uC2DD"
+      }
+    ],
+    checks: [
+      {
+        id: "F-017-Q01",
+        skill: "adjective-adverb",
+        question: '"She answered the question correctly."\uC5D0\uC11C correctly\uAC00 \uC218\uC2DD\uD558\uB294 \uAC83\uC740?',
+        choices: ["She", "question", "answered", "the"],
+        answer: 2,
+        explanation: "\uBD80\uC0AC correctly\uB294 \uB3D9\uC0AC answered\uC758 \uBC29\uC2DD\uC744 \uC218\uC2DD\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-017-Q02",
+        skill: "modifiers",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "It was a ___ decision."',
+        choices: ["careful", "carefully", "care", "caringness"],
+        answer: 0,
+        explanation: "\uBA85\uC0AC decision \uC55E\uC5D0\uB294 \uD615\uC6A9\uC0AC careful\uC774 \uC635\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-017-Q03",
+        skill: "relative-modifier",
+        question: '"The laptop that I bought yesterday is light."\uC5D0\uC11C that\uC808\uC774 \uC218\uC2DD\uD558\uB294 \uAC83\uC740?',
+        choices: ["yesterday", "is", "The laptop", "light"],
+        answer: 2,
+        explanation: "\uAD00\uACC4\uC808 that I bought yesterday\uB294 The laptop\uC744 \uC218\uC2DD\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-017-Q04",
+        skill: "modifiers",
+        question: "\uB2E4\uC74C \uC911 \uC218\uC2DD \uAD00\uACC4\uAC00 \uC5B4\uC0C9\uD55C \uBB38\uC7A5\uC740?",
+        choices: [
+          "He spoke in a clear voice.",
+          "He spoke clearly.",
+          "He gave a clearly explanation.",
+          "His explanation was clear."
+        ],
+        answer: 2,
+        explanation: "\uBA85\uC0AC explanation \uC55E\uC5D0\uB294 \uD615\uC6A9\uC0AC clear\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4. clearly\uB294 \uBD80\uC0AC\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-017-Q05",
+        skill: "modifiers",
+        question: '"People in the front row could hear better."\uC5D0\uC11C in the front row\uAC00 \uC218\uC2DD\uD558\uB294 \uAC83\uC740?',
+        choices: ["hear", "better", "People", "could"],
+        answer: 2,
+        explanation: "\uC804\uCE58\uC0AC\uAD6C in the front row\uB294 People\uC744 \uC218\uC2DD\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-017-Q06",
+        skill: "adjective-adverb",
+        question: '\uBE48\uCE78\uC5D0 \uC54C\uB9DE\uC740 \uAC83\uC740? "The team performed ___ in the final."',
+        choices: ["impressive", "impressively", "impression", "impressed"],
+        answer: 1,
+        explanation: "\uB3D9\uC0AC performed\uB97C \uC218\uC2DD\uD558\uB824\uBA74 \uBD80\uC0AC impressively\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-017-Q07",
+        skill: "relative-modifier",
+        question: "\uBB38\uC7A5\uC744 \uD655\uC7A5\uD560 \uB54C \uAC00\uC7A5 \uC790\uC5F0\uC2A4\uB7EC\uC6B4 \uAC83\uC740?",
+        choices: [
+          "I met a woman works at the bank.",
+          "I met a woman who works at the bank.",
+          "I met a woman which works at the bank.",
+          "I met a woman working she at the bank."
+        ],
+        answer: 1,
+        explanation: "\uC0AC\uB78C\uC744 \uC218\uC2DD\uD558\uB294 \uAD00\uACC4\uB300\uBA85\uC0AC\uB294 who\uAC00 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-017-Q08",
+        skill: "modifiers",
+        question: '"Almost every applicant submitted a resume."\uC5D0\uC11C Almost\uAC00 \uC218\uC2DD\uD558\uB294 \uAC83\uC740?',
+        choices: ["submitted", "every", "resume", "applicant"],
+        answer: 1,
+        explanation: "Almost\uB294 every\uB97C \uC218\uC2DD\uD558\uC5EC \u2018\uAC70\uC758 \uBAA8\uB4E0\u2019\uC758 \uC758\uBBF8\uB97C \uB9CC\uB4ED\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-017-Q09",
+        skill: "adjective-adverb",
+        question: "\uB2E4\uC74C \uC911 \uC62C\uBC14\uB978 \uBB38\uC7A5\uC740?",
+        choices: [
+          "She feels happily today.",
+          "She feels happy today.",
+          "She feels more happily today.",
+          "She feels happinessly today."
+        ],
+        answer: 1,
+        explanation: "feel \uAC19\uC740 \uAC10\uAC01\uB3D9\uC0AC \uB4A4\uC5D0\uB294 \uC8FC\uC5B4 \uC0C1\uD0DC\uB97C \uC124\uBA85\uD558\uB294 \uD615\uC6A9\uC0AC\uAC00 \uC635\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-017-Q10",
+        skill: "relative-modifier",
+        question: '"Students interested in design joined the club."\uC5D0\uC11C interested in design\uC758 \uC5ED\uD560\uC740?',
+        choices: ["\uC8FC\uC5B4", "\uBCF8\uB3D9\uC0AC", "Students\uB97C \uC218\uC2DD\uD558\uB294 \uBD84\uC0AC\uAD6C", "\uBAA9\uC801\uC5B4"],
+        answer: 2,
+        explanation: "\uACFC\uAC70\uBD84\uC0AC\uAD6C interested in design\uC740 Students\uB97C \uB4A4\uC5D0\uC11C \uC218\uC2DD\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-018.json
+  var F_018_default = {
+    id: "F-018",
+    order: 18,
+    title: "\uAE34 \uBB38\uC7A5 \uC77D\uAE30",
+    category: "expand",
+    estimatedMinutes: 15,
+    skills: ["long-sentence", "core-structure", "modifier-parsing"],
+    objectives: [
+      "\uAE34 \uBB38\uC7A5\uC5D0\uC11C \uC8FC\uC5B4\xB7\uB3D9\uC0AC \uBF08\uB300\uB97C \uBA3C\uC800 \uCC3E\uB294\uB2E4",
+      "\uC0BD\uC785\xB7\uC218\uC2DD \uC694\uC18C\uB97C \uAD04\uD638\uCC98\uB7FC \uBB36\uC5B4 \uC77D\uB294\uB2E4",
+      "\uD575\uC2EC \uC758\uBBF8\uB97C \uD55C \uBB38\uC7A5\uC73C\uB85C \uC694\uC57D\uD55C\uB2E4"
+    ],
+    concept: {
+      summary: "\uAE34 \uBB38\uC7A5\uC740 \uC815\uBCF4\uAC00 \uB9CE\uC544\uC11C \uC5B4\uB835\uC9C0, \uAD6C\uC870\uAC00 \uC644\uC804\uD788 \uB2E4\uB978 \uAC83\uC740 \uC544\uB2D9\uB2C8\uB2E4. \uBA3C\uC800 \uC8FC\uC5B4\uC640 \uBCF8\uB3D9\uC0AC\uB97C \uCC3E\uACE0, \uAD00\uACC4\uC808\xB7\uC804\uCE58\uC0AC\uAD6C\xB7\uC0BD\uC785\uAD6C\uB294 \uC7A0\uC2DC \uC606\uC5D0 \uB450\uB294 \uC804\uB7B5\uC774 \uD6A8\uACFC\uC801\uC785\uB2C8\uB2E4. TEPS \uB3C5\uD574 \uBB38\uC7A5\uB3C4 \uAC19\uC740 \uBC29\uC2DD\uC73C\uB85C \u2018\uBF08\uB300 \u2192 \uC218\uC2DD\u2019 \uC21C\uC73C\uB85C \uC77D\uC73C\uBA74 \uC18D\uB3C4\uAC00 \uBD99\uC2B5\uB2C8\uB2E4.",
+      points: [
+        "S\uC640 V\uB97C \uBA3C\uC800 \uD45C\uC2DC\uD55C\uB2E4",
+        "who/which/that\uC808\uC740 \uBA85\uC0AC\uC5D0 \uBD99\uB294 \uC124\uBA85\uC774\uB2E4",
+        "\uCF64\uB9C8\uB85C \uBB36\uC778 \uC0BD\uC785\uAD6C\uB294 \uD575\uC2EC\uC774 \uC544\uB2D0 \uC218 \uC788\uB2E4",
+        "\uBF08\uB300\uB97C \uD55C \uC904\uB85C \uC694\uC57D\uD55C \uB4A4 \uC138\uBD80\uC815\uBCF4\uB97C \uB354\uD55C\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "The report that the committee submitted last week includes several recommendations.",
+        ko: "\uC704\uC6D0\uD68C\uAC00 \uC9C0\uB09C\uC8FC\uC5D0 \uC81C\uCD9C\uD55C \uBCF4\uACE0\uC11C\uB294 \uBA87 \uAC00\uC9C0 \uAD8C\uACE0\uC548\uC744 \uD3EC\uD568\uD55C\uB2E4.",
+        structure: "The report ... includes ..."
+      },
+      {
+        en: "Many workers, tired after the long shift, went home immediately.",
+        ko: "\uAE34 \uADFC\uBB34 \uD6C4 \uC9C0\uCE5C \uB9CE\uC740 \uC9C1\uC6D0\uB4E4\uC774 \uACE7\uBC14\uB85C \uC9D1\uC5D0 \uAC14\uB2E4.",
+        structure: "Many workers ... went home"
+      },
+      {
+        en: "The policy announced in March aims to reduce traffic in the downtown area.",
+        ko: "3\uC6D4\uC5D0 \uBC1C\uD45C\uB41C \uC815\uCC45\uC740 \uB3C4\uC2EC \uAD50\uD1B5\uC744 \uC904\uC774\uB294 \uAC83\uC744 \uBAA9\uD45C\uB85C \uD55C\uB2E4.",
+        structure: "The policy ... aims to reduce ..."
+      }
+    ],
+    checks: [
+      {
+        id: "F-018-Q01",
+        skill: "core-structure",
+        question: '\uBB38\uC7A5 "The manager who joined last month revised the schedule."\uC758 \uBCF8\uB3D9\uC0AC\uB294?',
+        choices: ["who", "joined", "revised", "schedule"],
+        answer: 2,
+        explanation: "\uC8FC\uC5B4 The manager\uC758 \uBCF8\uB3D9\uC0AC\uB294 revised\uC785\uB2C8\uB2E4. who joined last month\uB294 \uC218\uC2DD\uC808\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-018-Q02",
+        skill: "long-sentence",
+        question: '"Books written in simple English help adult learners rebuild confidence."\uC758 \uC8FC\uC5B4 \uD575\uC740?',
+        choices: ["English", "Books", "learners", "confidence"],
+        answer: 1,
+        explanation: "\uC8FC\uC5B4\uC758 \uD575\uC740 Books\uC774\uACE0, written in simple English\uAC00 \uC218\uC2DD\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-018-Q03",
+        skill: "modifier-parsing",
+        question: '\uB2E4\uC74C \uBB38\uC7A5\uC5D0\uC11C \uC0BD\uC785\uB41C \uC124\uBA85 \uBD80\uBD84\uC740? "The proposal, despite strong opposition, was approved."',
+        choices: ["The proposal", "despite strong opposition", "was approved", "proposal was"],
+        answer: 1,
+        explanation: "\uCF64\uB9C8 \uC0AC\uC774\uC758 despite strong opposition\uC740 \uBD80\uAC00 \uC815\uBCF4\uC785\uB2C8\uB2E4. \uBF08\uB300\uB294 The proposal was approved\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-018-Q04",
+        skill: "core-structure",
+        question: '\uBB38\uC7A5\uC758 \uD575\uC2EC \uC758\uBBF8\uB85C \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uAC83\uC740? "Customers who waited more than an hour received a discount."',
+        choices: [
+          "\uBAA8\uB4E0 \uACE0\uAC1D\uC774 \uD560\uC778\uC744 \uBC1B\uC558\uB2E4",
+          "\uD55C \uC2DC\uAC04 \uC774\uC0C1 \uAE30\uB2E4\uB9B0 \uACE0\uAC1D\uC774 \uD560\uC778\uC744 \uBC1B\uC558\uB2E4",
+          "\uACE0\uAC1D\uC774 \uD55C \uC2DC\uAC04\uC744 \uD560\uC778\uBC1B\uC558\uB2E4",
+          "\uD560\uC778\uC774 \uD55C \uC2DC\uAC04 \uC774\uC0C1 \uC9C0\uC5F0\uB418\uC5C8\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uAD00\uACC4\uC808 who waited more than an hour\uAC00 \uC5B4\uB5A4 \uACE0\uAC1D\uC778\uC9C0 \uD55C\uC815\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-018-Q05",
+        skill: "long-sentence",
+        question: '"The results collected during the survey suggest a clear trend."\uC5D0\uC11C \uC8FC\uC5B4\uC758 \uD575\uC740?',
+        choices: ["survey", "trend", "The results", "collected"],
+        answer: 2,
+        explanation: "\uC8FC\uC5B4\uC758 \uD575\uC740 The results\uC774\uACE0, collected during the survey\uB294 \uC218\uC2DD\uC5B4\uC785\uB2C8\uB2E4. \uB3D9\uC0AC suggest\uC640 \uC218\uC77C\uCE58\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-018-Q06",
+        skill: "modifier-parsing",
+        question: '"A plan to improve public transport was discussed at the meeting."\uC5D0\uC11C to improve public transport\uAC00 \uC218\uC2DD\uD558\uB294 \uAC83\uC740?',
+        choices: ["was", "meeting", "A plan", "discussed"],
+        answer: 2,
+        explanation: "to\uBD80\uC815\uC0AC\uAD6C\uB294 A plan\uC758 \uB0B4\uC6A9\uC744 \uC124\uBA85\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-018-Q07",
+        skill: "core-structure",
+        question: "\uAE34 \uBB38\uC7A5 \uC77D\uAE30\uC5D0\uC11C \uAC00\uC7A5 \uBA3C\uC800 \uD560 \uC77C\uC740?",
+        choices: [
+          "\uBAA8\uB974\uB294 \uB2E8\uC5B4\uB97C \uBAA8\uB450 \uCC3E\uB294\uB2E4",
+          "\uC8FC\uC5B4\uC640 \uBCF8\uB3D9\uC0AC\uB97C \uCC3E\uB294\uB2E4",
+          "\uC811\uC18D\uC0AC\uB97C \uBAA8\uB450 \uBC88\uC5ED\uD55C\uB2E4",
+          "\uBD80\uC0AC\uB9CC \uD45C\uC2DC\uD55C\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uBF08\uB300(S+V)\uB97C \uBA3C\uC800 \uC7A1\uC73C\uBA74 \uC218\uC2DD \uC694\uC18C\uB97C \uC548\uC804\uD558\uAC8C \uCC98\uB9AC\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-018-Q08",
+        skill: "long-sentence",
+        question: '\uBB38\uC7A5 \uC694\uC57D\uC73C\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740? "Researchers at the institute published a paper on sleep and memory last year."',
+        choices: [
+          "\uC5F0\uAD6C\uC18C \uC5F0\uAD6C\uC790\uB4E4\uC774 \uC218\uBA74\uACFC \uAE30\uC5B5\uC5D0 \uAD00\uD55C \uB17C\uBB38\uC744 \uB0C8\uB2E4",
+          "\uC218\uBA74\uC774 \uC5F0\uAD6C\uC18C\uB97C \uCD9C\uD310\uD588\uB2E4",
+          "\uAE30\uC5B5\uC774 \uC791\uB144\uC5D0 \uB17C\uBB38\uC744 \uC77D\uC5C8\uB2E4",
+          "\uC5F0\uAD6C\uC18C\uAC00 \uC218\uBA74\uC744 \uAE30\uC5B5\uD588\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uBF08\uB300\uB294 Researchers published a paper\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-018-Q09",
+        skill: "modifier-parsing",
+        question: '"The files on the shared drive need updating."\uC5D0\uC11C on the shared drive\uB294?',
+        choices: ["\uB3D9\uC0AC need\uC758 \uBAA9\uC801\uC5B4", "The files\uB97C \uC218\uC2DD\uD558\uB294 \uC804\uCE58\uC0AC\uAD6C", "\uBB38\uC7A5 \uBD80\uC0AC", "\uBCF4\uC5B4"],
+        answer: 1,
+        explanation: "\uC704\uCE58 \uC804\uCE58\uC0AC\uAD6C\uAC00 The files\uB97C \uC218\uC2DD\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-018-Q10",
+        skill: "core-structure",
+        question: '"What the committee decided surprised everyone."\uC758 \uC8FC\uC5B4\uC5D0 \uD574\uB2F9\uD558\uB294 \uBD80\uBD84\uC740?',
+        choices: ["the committee", "What the committee decided", "surprised", "everyone"],
+        answer: 1,
+        explanation: "What the committee decided\uB294 \uBA85\uC0AC\uC808 \uC8FC\uC5B4\uC785\uB2C8\uB2E4. \uBCF8\uB3D9\uC0AC\uB294 surprised\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-019.json
+  var F_019_default = {
+    id: "F-019",
+    order: 19,
+    title: "\uC9E7\uC740 \uC9C0\uBB38 \uC694\uC9C0",
+    category: "reading",
+    estimatedMinutes: 15,
+    skills: ["main-idea", "summarize", "topic"],
+    objectives: [
+      "\uC9E7\uC740 \uC9C0\uBB38\uC758 \uC8FC\uC81C\uC640 \uC694\uC9C0\uB97C \uAD6C\uBD84\uD55C\uB2E4",
+      "\uC138\uBD80\uC815\uBCF4\uC5D0 \uB04C\uB824\uAC00\uC9C0 \uC54A\uACE0 \uC911\uC2EC \uC0DD\uAC01\uC744 \uACE0\uB978\uB2E4",
+      "\uC120\uD0DD\uC9C0\uC758 \uBD80\uBD84 \uC9C4\uC2E4\xB7\uACFC\uC7A5 \uD568\uC815\uC744 \uAC78\uB7EC\uB0B8\uB2E4"
+    ],
+    concept: {
+      summary: "\uC694\uC9C0 \uBB38\uC81C\uB294 \u2018\uC9C0\uBB38\uC774 \uB9D0\uD558\uB824\uB294 \uD55C \uAC00\uC9C0\u2019\uB97C \uCC3E\uB294 \uD6C8\uB828\uC785\uB2C8\uB2E4. \uC138\uBD80\uC0AC\uC2E4\xB7\uC608\uC2DC\xB7\uC22B\uC790\uB294 \uC694\uC9C0\uB97C \uB4B7\uBC1B\uCE68\uD560 \uBFD0, \uC694\uC9C0 \uC790\uCCB4\uAC00 \uC544\uB2D9\uB2C8\uB2E4. \uCCAB \uBB38\uC7A5\uACFC \uB9C8\uC9C0\uB9C9 \uBB38\uC7A5, \uADF8\uB9AC\uACE0 \uBC18\uBCF5\uB418\uB294 \uD575\uC2EC\uC5B4\uB97C \uBCF4\uBA74 \uC8FC\uC81C\uAC00 \uBE60\uB974\uAC8C \uBCF4\uC785\uB2C8\uB2E4.",
+      points: [
+        "\uC8FC\uC81C(topic): \uBB34\uC5C7\uC5D0 \uAD00\uD55C \uAE00\uC778\uAC00",
+        "\uC694\uC9C0(main idea): \uADF8 \uC8FC\uC81C\uC5D0 \uB300\uD574 \uBB34\uC5C7\uC744 \uB9D0\uD558\uB294\uAC00",
+        "\uC608\uC2DC\uB294 \uC694\uC9C0\uB97C \uC9C0\uC9C0\uD558\uB294 \uC7AC\uB8CC\uB2E4",
+        "\uB108\uBB34 \uC881\uAC70\uB098 \uB108\uBB34 \uB113\uC740 \uC120\uD0DD\uC9C0\uB97C \uACBD\uACC4\uD55C\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "Remote work can raise productivity when goals are clear.",
+        ko: "\uBAA9\uD45C\uAC00 \uBD84\uBA85\uD558\uBA74 \uC6D0\uACA9\uADFC\uBB34\uB294 \uC0DD\uC0B0\uC131\uC744 \uB192\uC77C \uC218 \uC788\uB2E4.",
+        structure: "\uC694\uC9C0 = \uC870\uAC74 \uD558\uC758 \uC6D0\uACA9\uADFC\uBB34 \uD6A8\uACFC"
+      },
+      {
+        en: "Many adults restart English by rebuilding basic sentence sense.",
+        ko: "\uB9CE\uC740 \uC131\uC778\uC740 \uBB38\uC7A5 \uAC10\uAC01\uC744 \uB2E4\uC2DC \uC313\uC73C\uBA70 \uC601\uC5B4\uB97C \uC7AC\uC2DC\uC791\uD55C\uB2E4.",
+        structure: "\uC694\uC9C0 = \uAE30\uCD08 \uD68C\uBCF5\uC758 \uC911\uC694\uC131"
+      },
+      {
+        en: "Short daily practice beats rare long study sessions.",
+        ko: "\uAC00\uB054 \uC624\uB798 \uACF5\uBD80\uD558\uB294 \uAC83\uBCF4\uB2E4 \uB9E4\uC77C \uC9E7\uAC8C \uD558\uB294 \uD3B8\uC774 \uB0AB\uB2E4.",
+        structure: "\uC694\uC9C0 = \uAFB8\uC900\uD55C \uC9E7\uC740 \uD559\uC2B5"
+      }
+    ],
+    checks: [
+      {
+        id: "F-019-Q01",
+        skill: "main-idea",
+        question: "Many offices now allow flexible hours. Employees can start earlier or later if they finish required tasks. Managers report that clear goals matter more than fixed schedules.\n\n\uC774 \uAE00\uC758 \uC694\uC9C0\uB85C \uAC00\uC7A5 \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uBAA8\uB4E0 \uD68C\uC0AC\uAC00 \uC7AC\uD0DD\uADFC\uBB34\uB97C \uB3C4\uC785\uD588\uB2E4",
+          "\uC720\uC5F0\uADFC\uBB34\uB294 \uBA85\uD655\uD55C \uBAA9\uD45C\uC640 \uD568\uAED8\uC77C \uB54C \uD6A8\uACFC\uC801\uC77C \uC218 \uC788\uB2E4",
+          "\uAD00\uB9AC\uC790\uB294 \uACE0\uC815 \uADFC\uBB34\uB9CC \uC120\uD638\uD55C\uB2E4",
+          "\uC9C1\uC6D0\uC740 \uC5C5\uBB34\uB97C \uB05D\uB0B4\uC9C0 \uC54A\uC544\uB3C4 \uB41C\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uC720\uC5F0\uADFC\uBB34 \uAC00\uB2A5\uC131\uACFC \uD568\uAED8 \u2018\uBA85\uD655\uD55C \uBAA9\uD45C\uAC00 \uB354 \uC911\uC694\uD558\uB2E4\u2019\uB294 \uC810\uC774 \uC911\uC2EC\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-019-Q02",
+        skill: "topic",
+        question: "Drinking water regularly helps concentration. Even mild dehydration can slow thinking. Simple habits, such as keeping a bottle nearby, make a difference.\n\n\uC774 \uAE00\uC758 \uC8FC\uC81C\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: ["\uC6B4\uB3D9\uACFC \uC218\uBA74", "\uC218\uBD84 \uC12D\uCDE8\uC640 \uC9D1\uC911\uB825", "\uBCD1 \uB514\uC790\uC778\uC758 \uC5ED\uC0AC", "\uC0AC\uACE0\uB825 \uD14C\uC2A4\uD2B8 \uBC29\uBC95"],
+        answer: 1,
+        explanation: "\uC804\uBC18\uC801\uC73C\uB85C \uBB3C \uC12D\uCDE8\uC640 \uC9D1\uC911\uB825\uC758 \uAD00\uACC4\uB97C \uB2E4\uB8F9\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-019-Q03",
+        skill: "summarize",
+        question: "Public libraries are changing. Beyond lending books, they offer quiet study rooms, job workshops, and digital training. Communities increasingly treat them as learning hubs.\n\n\uC694\uC57D\uC73C\uB85C \uAC00\uC7A5 \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uB3C4\uC11C\uAD00\uC740 \uCC45\uB9CC \uBE4C\uB824\uC8FC\uB294 \uACF3\uC774\uB2E4",
+          "\uB3C4\uC11C\uAD00\uC774 \uD559\uC2B5\xB7\uC9C0\uC6D0 \uACF5\uAC04\uC73C\uB85C \uC5ED\uD560\uC774 \uB113\uC5B4\uC9C0\uACE0 \uC788\uB2E4",
+          "\uBAA8\uB4E0 \uB3C4\uC11C\uAD00\uC774 \uC720\uB8CC\uB2E4",
+          "\uB514\uC9C0\uD138 \uAD50\uC721\uC740 \uD6A8\uACFC\uAC00 \uC5C6\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uB300\uCD9C\uC744 \uB118\uC5B4 \uD559\uC2B5 \uD5C8\uBE0C\uB85C \uD655\uC7A5\uB41C\uB2E4\uB294 \uB0B4\uC6A9\uC774 \uC694\uC9C0\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-019-Q04",
+        skill: "main-idea",
+        question: "People often wait for perfect conditions to start studying. Waiting usually delays progress. Starting small and adjusting later is more practical.\n\n\uD544\uC790\uC758 \uC8FC\uC7A5\uC5D0 \uAC00\uAE4C\uC6B4 \uAC83\uC740?",
+        choices: [
+          "\uC644\uBCBD\uD55C \uACC4\uD68D\uC774 \uC0DD\uAE38 \uB54C\uAE4C\uC9C0 \uAE30\uB2E4\uB824\uB77C",
+          "\uC791\uAC8C\uB77C\uB3C4 \uBA3C\uC800 \uC2DC\uC791\uD558\uB294 \uD3B8\uC774 \uB0AB\uB2E4",
+          "\uACF5\uBD80\uB294 \uB098\uC911\uC5D0 \uBAB0\uC544\uC11C \uD558\uB77C",
+          "\uC870\uAC74\uC774 \uB098\uBE60\uB3C4 \uACC4\uD68D\uC744 \uBC14\uAFB8\uC9C0 \uB9C8\uB77C"
+        ],
+        answer: 1,
+        explanation: "\uC644\uBCBD\uD55C \uC870\uAC74\uC744 \uAE30\uB2E4\uB9AC\uC9C0 \uB9D0\uACE0 \uC791\uAC8C \uC2DC\uC791\uD558\uB77C\uB294 \uBA54\uC2DC\uC9C0\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-019-Q05",
+        skill: "main-idea",
+        question: "City parks do more than decorate neighborhoods. They lower stress, encourage walking, and give residents a place to meet. Urban planners now treat parks as basic infrastructure.\n\n\uC694\uC9C0\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uACF5\uC6D0\uC740 \uC7A5\uC2DD\uC6A9\uC5D0 \uBD88\uACFC\uD558\uB2E4",
+          "\uB3C4\uC2DC \uACF5\uC6D0\uC740 \uAC74\uAC15\xB7\uAD50\uB958\uB97C \uC704\uD55C \uD544\uC218 \uC778\uD504\uB77C\uB2E4",
+          "\uBAA8\uB4E0 \uC8FC\uBBFC\uC774 \uB9E4\uC77C \uAC77\uB294\uB2E4",
+          "\uB3C4\uC2DC \uACC4\uD68D\uC740 \uB354 \uC774\uC0C1 \uD544\uC694 \uC5C6\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uACF5\uC6D0\uC758 \uC2E4\uC9C8\uC801 \uAE30\uB2A5\uACFC \uC778\uD504\uB77C\uB85C\uC11C\uC758 \uC911\uC694\uC131\uC774 \uC911\uC2EC\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-019-Q06",
+        skill: "topic",
+        question: "When adults return to English after a long break, grammar lists alone rarely help. They need sentence patterns they can reuse at work and in daily talk.\n\n\uC8FC\uC81C\uB294?",
+        choices: ["\uC5EC\uD589 \uC601\uC5B4", "\uC131\uC778\uC758 \uC2E4\uC6A9\uC801 \uC601\uC5B4 \uD68C\uBCF5", "\uC5B4\uB9B0\uC774 \uBC1C\uC74C \uAD50\uC721", "\uBB38\uD559 \uBC88\uC5ED \uAE30\uBC95"],
+        answer: 1,
+        explanation: "\uACF5\uBC31 \uD6C4 \uC131\uC778\uC774 \uB2E4\uC2DC \uC601\uC5B4\uB97C \uC313\uB294 \uC2E4\uC6A9\uC801 \uC811\uADFC\uC774 \uC8FC\uC81C\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-019-Q07",
+        skill: "summarize",
+        question: "Online reviews influence buyers, but extreme opinions can mislead. Checking several reviews and looking for specific details leads to better decisions.\n\n\uC694\uC57D\uC73C\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uB9AC\uBDF0\uB294 \uD56D\uC0C1 \uC815\uD655\uD558\uB2E4",
+          "\uADF9\uB2E8\uC801 \uB9AC\uBDF0\uB9CC \uBBFF\uC5B4\uC57C \uD55C\uB2E4",
+          "\uC5EC\uB7EC \uB9AC\uBDF0\uC640 \uAD6C\uCCB4\uC801 \uADFC\uAC70\uB97C \uD655\uC778\uD558\uB294 \uAC83\uC774 \uB0AB\uB2E4",
+          "\uC628\uB77C\uC778 \uC1FC\uD551\uC740 \uD53C\uD574\uC57C \uD55C\uB2E4"
+        ],
+        answer: 2,
+        explanation: "\uB9AC\uBDF0 \uC601\uD5A5\uB825\uACFC \uD568\uAED8, \uAD50\uCC28\uD655\uC778\xB7\uAD6C\uCCB4\uC131 \uD655\uC778\uC774 \uC694\uC9C0\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-019-Q08",
+        skill: "main-idea",
+        question: "Sleep is not wasted time. During sleep, the brain sorts memories and restores energy. Cutting sleep to gain study hours often reduces learning quality.\n\n\uC694\uC9C0\uB294?",
+        choices: [
+          "\uC218\uBA74\uC740 \uC2DC\uAC04 \uB0AD\uBE44\uB2E4",
+          "\uC218\uBA74\uC744 \uC904\uC774\uBA74 \uD559\uC2B5\uC774 \uD56D\uC0C1 \uB298\uB294\uB2E4",
+          "\uCDA9\uBD84\uD55C \uC218\uBA74\uC774 \uD559\uC2B5 \uC9C8\uC744 \uC9C0\uD0A4\uB294 \uB370 \uC911\uC694\uD558\uB2E4",
+          "\uAE30\uC5B5\uC740 \uAE68\uC5B4 \uC788\uC744 \uB54C\uB9CC \uC815\uB9AC\uB41C\uB2E4"
+        ],
+        answer: 2,
+        explanation: "\uC218\uBA74\uC758 \uC5ED\uD560\uACFC, \uC218\uBA74 \uCD95\uC18C\uAC00 \uD559\uC2B5\uC5D0 \uD574\uB85C\uC6B8 \uC218 \uC788\uB2E4\uB294 \uC810\uC774 \uC911\uC2EC\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-019-Q09",
+        skill: "main-idea",
+        question: "A company replaced long weekly meetings with short written updates. Staff saved hours and still shared key information. Communication improved because updates were clearer.\n\n\uC694\uC9C0\uB85C \uAC00\uC7A5 \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uD68C\uC758\uB294 \uBB34\uC870\uAC74 \uC5C6\uC560\uC57C \uD55C\uB2E4",
+          "\uC9E7\uC740 \uC11C\uBA74 \uC5C5\uB370\uC774\uD2B8\uAC00 \uAE34 \uD68C\uC758\uBCF4\uB2E4 \uD6A8\uC728\uC801\uC77C \uC218 \uC788\uB2E4",
+          "\uC9C1\uC6D0\uC740 \uC815\uBCF4\uB97C \uACF5\uC720\uD558\uC9C0 \uC54A\uC558\uB2E4",
+          "\uC11C\uBA74 \uC5C5\uB370\uC774\uD2B8\uB294 \uD56D\uC0C1 \uC2E4\uD328\uD55C\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uAE34 \uD68C\uC758\uB97C \uC9E7\uC740 \uC11C\uBA74 \uC5C5\uB370\uC774\uD2B8\uB85C \uBC14\uAFD4 \uD6A8\uC728\uC774 \uC62C\uB790\uB2E4\uB294 \uC0AC\uB840\uAC00 \uC694\uC9C0\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-019-Q10",
+        skill: "summarize",
+        question: "Learning vocabulary in word families\u2014such as decide, decision, decisive\u2014helps learners recognize related forms in reading passages more quickly.\n\n\uC774 \uBB38\uC7A5\uC758 \uC694\uC9C0\uB294?",
+        choices: [
+          "\uB2E8\uC5B4\uC871\uC73C\uB85C \uBC30\uC6B0\uBA74 \uAD00\uB828 \uD615\uD0DC\uB97C \uB354 \uBE68\uB9AC \uC54C\uC544\uBCF8\uB2E4",
+          "\uB2E8\uC5B4\uB294 \uD558\uB098\uC529\uB9CC \uC678\uC6CC\uC57C \uD55C\uB2E4",
+          "\uB3C5\uD574\uC5D0\uC11C\uB294 \uC5B4\uD718\uAC00 \uD544\uC694 \uC5C6\uB2E4",
+          "decisive\uB9CC \uC54C\uBA74 \uCDA9\uBD84\uD558\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uB2E8\uC5B4\uC871 \uD559\uC2B5\uC774 \uB3C5\uD574\uC5D0\uC11C \uAD00\uB828 \uD615\uD0DC \uC778\uC2DD\uC5D0 \uB3C4\uC6C0\uC774 \uB41C\uB2E4\uB294 \uB0B4\uC6A9\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-020.json
+  var F_020_default = {
+    id: "F-020",
+    order: 20,
+    title: "\uC9C0\uC2DC\uC5B4\uC640 \uC138\uBD80\uC815\uBCF4",
+    category: "reading",
+    estimatedMinutes: 15,
+    skills: ["reference", "detail", "scanning"],
+    objectives: [
+      "this/that/these/it/they \uB4F1 \uC9C0\uC2DC\uC5B4\uAC00 \uAC00\uB9AC\uD0A4\uB294 \uB300\uC0C1\uC744 \uCC3E\uB294\uB2E4",
+      "\uC138\uBD80\uC815\uBCF4 \uBB38\uC81C\uC5D0\uC11C \uADFC\uAC70 \uBB38\uC7A5\uC744 \uBE60\uB974\uAC8C \uCC3E\uB294\uB2E4",
+      "\uBE44\uC2B7\uD55C \uC22B\uC790\xB7\uACE0\uC720\uBA85\uC0AC \uD568\uC815\uC744 \uAD6C\uBD84\uD55C\uB2E4"
+    ],
+    concept: {
+      summary: "\uC138\uBD80\uC815\uBCF4 \uBB38\uC81C\uB294 \uC9C0\uBB38 \uC804\uCCB4\uB97C \uB2E4\uC2DC \uC77D\uB294 \uAC83\uC774 \uC544\uB2C8\uB77C, \uC9C8\uBB38\uC758 \uD0A4\uC6CC\uB4DC\uB85C \uD574\uB2F9 \uBB38\uC7A5\uC744 \uCC3E\uB294 \uD6C8\uB828\uC785\uB2C8\uB2E4. \uC9C0\uC2DC\uC5B4 \uBB38\uC81C\uB294 \uB300\uBA85\uC0AC \uC55E\uC5D0\uC11C \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uBA85\uC0AC\xB7\uB0B4\uC6A9\uC744 \uD655\uC778\uD558\uBA74 \uB429\uB2C8\uB2E4. \u2018\uBE44\uC2B7\uD558\uC9C0\uB9CC \uB2E4\uB978\u2019 \uC120\uD0DD\uC9C0\uB97C \uACE8\uB77C\uB0B4\uB294 \uC2B5\uAD00\uC774 \uC810\uC218\uB97C \uB9CC\uB4ED\uB2C8\uB2E4.",
+      points: [
+        "\uC9C0\uC2DC\uC5B4\uB294 \uC55E \uBB38\uC7A5\uC758 \uD575\uC2EC \uBA85\uC0AC/\uB0B4\uC6A9\uC744 \uBC1B\uB294\uB2E4",
+        "\uC9C8\uBB38\uC758 \uACE0\uC720\uBA85\uC0AC\xB7\uC22B\uC790\xB7\uB3D9\uC0AC\uB97C \uD45C\uC2DC\uD55C\uB2E4",
+        "\uADFC\uAC70 \uBB38\uC7A5\uACFC \uC120\uD0DD\uC9C0\uB97C 1:1\uB85C \uB300\uC870\uD55C\uB2E4",
+        "\uBD80\uBD84\uB9CC \uB9DE\uB294 \uC120\uD0DD\uC9C0\uB97C \uC624\uB2F5\uC73C\uB85C \uCC98\uB9AC\uD55C\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "The policy failed. This disappointed many residents.",
+        ko: "\uADF8 \uC815\uCC45\uC740 \uC2E4\uD328\uD588\uB2E4. \uC774\uAC83(\uC2E4\uD328)\uC774 \uB9CE\uC740 \uC8FC\uBBFC\uC744 \uC2E4\uB9DD\uC2DC\uCF30\uB2E4.",
+        structure: "This \u2192 the policy's failure"
+      },
+      {
+        en: "Mina bought two tickets. She kept them in her bag.",
+        ko: "\uBBF8\uB098\uB294 \uD45C \uB450 \uC7A5\uC744 \uC0C0\uB2E4. \uADF8\uB140\uB294 \uADF8\uAC83\uB4E4\uC744 \uAC00\uBC29\uC5D0 \uB450\uC5C8\uB2E4.",
+        structure: "them \u2192 two tickets"
+      },
+      {
+        en: "The museum opens at 10 a.m. on weekdays.",
+        ko: "\uADF8 \uBC15\uBB3C\uAD00\uC740 \uD3C9\uC77C \uC624\uC804 10\uC2DC\uC5D0 \uC5F0\uB2E4.",
+        structure: "\uC138\uBD80\uC815\uBCF4: \uC2DC\uAC04\xB7\uC694\uC77C"
+      }
+    ],
+    checks: [
+      {
+        id: "F-020-Q01",
+        skill: "reference",
+        question: "The city built a new bike lane last spring. It has already reduced traffic near schools.\n\nIt\uAC00 \uAC00\uB9AC\uD0A4\uB294 \uAC83\uC740?",
+        choices: ["the city", "last spring", "a new bike lane", "schools"],
+        answer: 2,
+        explanation: "\uC55E \uBB38\uC7A5\uC758 \uD575\uC2EC \uB300\uC0C1\uC778 a new bike lane\uC744 It\uC774 \uBC1B\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-020-Q02",
+        skill: "detail",
+        question: "The workshop starts at 2 p.m. in Room B. Participants should bring a laptop. Registration closes on Monday.\n\n\uCC38\uAC00\uC790\uAC00 \uAC00\uC838\uC640\uC57C \uD558\uB294 \uAC83\uC740?",
+        choices: ["\uB4F1\uB85D\uC99D", "\uB178\uD2B8\uBD81", "\uC6D4\uC694\uC77C \uC77C\uC815\uD45C", "Room A \uC5F4\uC1E0"],
+        answer: 1,
+        explanation: "bring a laptop\uC774 \uBA85\uC2DC\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-020-Q03",
+        skill: "reference",
+        question: "Tom suggested a shorter agenda. Most teammates supported the idea, and they adopted it immediately.\n\nthey\uAC00 \uAC00\uB9AC\uD0A4\uB294 \uAC83\uC740?",
+        choices: ["agenda", "Most teammates", "idea", "Tom only"],
+        answer: 1,
+        explanation: "\uBCF5\uC218 \uC8FC\uC5B4 Most teammates\uAC00 they\uC758 \uC120\uD589\uC0AC\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-020-Q04",
+        skill: "scanning",
+        question: "Flight 208 to Busan departs at 7:40 a.m. from Gate 12. Passengers must arrive 60 minutes early.\n\n\uCD9C\uBC1C \uAC8C\uC774\uD2B8\uB294?",
+        choices: ["208", "7:40", "Gate 12", "60 minutes"],
+        answer: 2,
+        explanation: "from Gate 12\uAC00 \uCD9C\uBC1C \uAC8C\uC774\uD2B8 \uC815\uBCF4\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-020-Q05",
+        skill: "reference",
+        question: "Online courses can be flexible. However, this requires strong self-discipline from learners.\n\nthis\uAC00 \uAC00\uB9AC\uD0A4\uB294 \uB0B4\uC6A9\uC5D0 \uAC00\uAE4C\uC6B4 \uAC83\uC740?",
+        choices: [
+          "\uC628\uB77C\uC778 \uAC15\uC758\uAC00 \uC720\uC5F0\uD558\uB2E4\uB294 \uC810/\uADF8 \uC720\uC5F0\uD568\uC744 \uD65C\uC6A9\uD558\uB294 \uAC83",
+          "\uC790\uAE30\uAD00\uB9AC\uAC00 \uD544\uC694 \uC5C6\uB2E4\uB294 \uC810",
+          "\uD559\uC2B5\uC790\uAC00 \uAC15\uC758\uC2E4\uC5D0 \uC788\uC5B4\uC57C \uD55C\uB2E4\uB294 \uC810",
+          "\uC720\uC5F0\uD568\uC774 \uD56D\uC0C1 \uD574\uB86D\uB2E4\uB294 \uC810"
+        ],
+        answer: 0,
+        explanation: "\uC55E \uBB38\uC7A5\uC758 \uC720\uC5F0\uD55C \uC628\uB77C\uC778 \uD559\uC2B5(\uC744 \uC798 \uD574\uB0B4\uB294 \uAC83)\uC774 this\uC758 \uB0B4\uC6A9\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-020-Q06",
+        skill: "detail",
+        question: "The caf\xE9 offers free Wi-Fi after 3 p.m. Before that, customers must make a purchase to use the network.\n\n\uC624\uD6C4 3\uC2DC \uC774\uC804 Wi-Fi \uC774\uC6A9 \uC870\uAC74\uC740?",
+        choices: [
+          "\uBB34\uB8CC\uB85C \uB204\uAD6C\uB098 \uC0AC\uC6A9",
+          "\uAD6C\uB9E4 \uD6C4\uC5D0 \uC0AC\uC6A9",
+          "\uD68C\uC6D0\uB9CC \uC0AC\uC6A9",
+          "\uC9C1\uC6D0\uB9CC \uC0AC\uC6A9"
+        ],
+        answer: 1,
+        explanation: "3\uC2DC \uC804\uC5D0\uB294 \uAD6C\uB9E4\uAC00 \uD544\uC694\uD558\uB2E4\uACE0 \uBA85\uC2DC\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-020-Q07",
+        skill: "reference",
+        question: "Two proposals were reviewed. The second one was clearer, so the board chose it.\n\nit\uC774 \uAC00\uB9AC\uD0A4\uB294 \uAC83\uC740?",
+        choices: ["Two proposals", "The second one", "the board", "clearer style alone"],
+        answer: 1,
+        explanation: "\uC120\uD0DD\uD55C \uB300\uC0C1\uC740 The second one\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-020-Q08",
+        skill: "detail",
+        question: "According to the notice, the elevator will be out of service from Tuesday to Thursday for repairs. The stairs remain open.\n\n\uC5D8\uB9AC\uBCA0\uC774\uD130 \uC810\uAC80 \uAE30\uAC04\uC740?",
+        choices: ["\uC6D4\uC694\uC77C\uB9CC", "\uD654\uC694\uC77C\uBD80\uD130 \uBAA9\uC694\uC77C\uAE4C\uC9C0", "\uC8FC\uB9D0 \uC804\uCCB4", "\uAE08\uC694\uC77C\uB9CC"],
+        answer: 1,
+        explanation: "from Tuesday to Thursday\uAC00 \uAE30\uAC04\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-020-Q09",
+        skill: "scanning",
+        question: "Hana ordered salad and soup. Joon ordered pasta. They shared a dessert after the meal.\n\n\uB450 \uC0AC\uB78C\uC774 \uD568\uAED8 \uBA39\uC740 \uAC83\uC740?",
+        choices: ["salad", "soup", "pasta", "dessert"],
+        answer: 3,
+        explanation: "shared a dessert\uAC00 \uACF5\uB3D9\uC73C\uB85C \uBA39\uC740 \uD56D\uBAA9\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-020-Q10",
+        skill: "reference",
+        question: "The instructions were printed on the box. Please read them before assembly.\n\nthem\uC774 \uAC00\uB9AC\uD0A4\uB294 \uAC83\uC740?",
+        choices: ["the box", "The instructions", "assembly", "Please"],
+        answer: 1,
+        explanation: "\uC77D\uC5B4\uC57C \uD560 \uB300\uC0C1\uC740 The instructions\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-021.json
+  var F_021_default = {
+    id: "F-021",
+    order: 21,
+    title: "\uC9E7\uC740 \uCD94\uB860",
+    category: "reading",
+    estimatedMinutes: 15,
+    skills: ["inference", "implication", "attitude"],
+    objectives: [
+      "\uC9C0\uBB38\uC5D0 \uC9C1\uC811 \uC4F0\uC774\uC9C0 \uC54A\uC740 \uB0B4\uC6A9\uC744 \uB17C\uB9AC\uC801\uC73C\uB85C \uCD94\uB860\uD55C\uB2E4",
+      "\uADFC\uAC70\uAC00 \uC788\uB294 \uCD94\uB860\uACFC \uACFC\uB3C4\uD55C \uBE44\uC57D\uC744 \uAD6C\uBD84\uD55C\uB2E4",
+      "\uD544\uC790\xB7\uC778\uBB3C\uC758 \uD0DC\uB3C4\xB7\uC758\uB3C4\uB97C \uC9E7\uAC8C \uD30C\uC545\uD55C\uB2E4"
+    ],
+    concept: {
+      summary: "\uCD94\uB860\uC740 \u2018\uC4F0\uC5EC \uC788\uC9C0 \uC54A\uC9C0\uB9CC, \uC4F0\uC778 \uB0B4\uC6A9\uC744 \uBC14\uD0D5\uC73C\uB85C \uD569\uB9AC\uC801\uC73C\uB85C \uC54C \uC218 \uC788\uB294 \uAC83\u2019\uC744 \uACE0\uB974\uB294 \uB2A5\uB825\uC785\uB2C8\uB2E4. \uC9C0\uBB38\uC5D0 \uC5C6\uB294 \uAC10\uC815\xB7\uC0AC\uC2E4\uC744 \uB9C8\uC74C\uB300\uB85C \uCD94\uAC00\uD558\uBA74 \uC624\uB2F5\uC774 \uB429\uB2C8\uB2E4. \uD56D\uC0C1 \u2018\uC5B4\uB290 \uBB38\uC7A5 \uB54C\uBB38\uC5D0 \uADF8\uB807\uAC8C \uB9D0\uD560 \uC218 \uC788\uB294\uAC00\u2019\uB97C \uD655\uC778\uD558\uC138\uC694.",
+      points: [
+        "\uC9C1\uC811 \uBA85\uC2DC\uB41C \uC0AC\uC2E4 \u2260 \uCD94\uB860",
+        "\uADFC\uAC70 \uBB38\uC7A5\uC5D0\uC11C \uD55C \uAC78\uC74C\uB9CC \uB098\uC544\uAC04\uB2E4",
+        "\uC808\uB300\uD45C\uD604(always/never)\uC774 \uC788\uB294 \uC120\uD0DD\uC9C0\uB97C \uACBD\uACC4\uD55C\uB2E4",
+        "\uD0DC\uB3C4 \uBB38\uC81C\uB294 \uAE0D\uC815\xB7\uBD80\uC815\xB7\uC720\uBCF4 \uC2E0\uD638\uB97C \uBCF8\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "Only three seats remain for the seminar.",
+        ko: "\uC138\uBBF8\uB098 \uC88C\uC11D\uC774 \uC138 \uC790\uB9AC\uB9CC \uB0A8\uC558\uB2E4.",
+        structure: "\uCD94\uB860: \uAC70\uC758 \uB9C8\uAC10\uC5D0 \uAC00\uAE5D\uB2E4"
+      },
+      {
+        en: "She checked the clock and packed faster.",
+        ko: "\uADF8\uB140\uB294 \uC2DC\uACC4\uB97C \uD655\uC778\uD558\uACE0 \uB354 \uBE68\uB9AC \uC9D0\uC744 \uC30C\uB2E4.",
+        structure: "\uCD94\uB860: \uC2DC\uAC04\uC774 \uCD09\uBC15\uD558\uB2E4"
+      },
+      {
+        en: "The review praised the plot but criticized the ending.",
+        ko: "\uB9AC\uBDF0\uB294 \uC904\uAC70\uB9AC\uB294 \uCE6D\uCC2C\uD588\uC9C0\uB9CC \uACB0\uB9D0\uC740 \uBE44\uD310\uD588\uB2E4.",
+        structure: "\uD0DC\uB3C4: \uBD80\uBD84\uC801\uC73C\uB85C \uAE0D\uC815\xB7\uBD80\uC815"
+      }
+    ],
+    checks: [
+      {
+        id: "F-021-Q01",
+        skill: "inference",
+        question: "The bakery closes when the last loaf is sold. Today the shelves were empty by noon.\n\n\uCD94\uB860\uC73C\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uC624\uB298\uC740 \uC815\uC624 \uC804\uC5D0 \uBE75\uC774 \uB2E4 \uD314\uB838\uC744 \uAC00\uB2A5\uC131\uC774 \uD06C\uB2E4",
+          "\uBE75\uC9D1\uC774 \uC624\uC804\uC5D0 \uBB38\uC744 \uB2EB\uC9C0 \uC54A\uC558\uB2E4",
+          "\uBE75\uC744 \uC544\uBB34\uB3C4 \uC0AC\uC9C0 \uC54A\uC558\uB2E4",
+          "\uB0B4\uC77C\uC740 \uBB34\uC870\uAC74 \uB2A6\uAC8C \uB2EB\uB294\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uB9C8\uC9C0\uB9C9 \uBE75\uC774 \uD314\uB9AC\uBA74 \uB2EB\uACE0, \uC815\uC624\uC5D0 \uC120\uBC18\uC774 \uBE44\uC5C8\uB2E4\uB294 \uC810\uC5D0\uC11C \uC624\uC804\uC5D0 \uB9E4\uC9C4\uB418\uC5C8\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-021-Q02",
+        skill: "implication",
+        question: '"I would join if the fee were lower," Mark said.\n\n\uB9C8\uD06C\uC5D0 \uB300\uD574 \uC54C \uC218 \uC788\uB294 \uAC83\uC740?',
+        choices: [
+          "\uADF8\uB294 \uC774\uBBF8 \uCC38\uAC00\uBE44\uB97C \uB0C8\uB2E4",
+          "\uD604\uC7AC \uCC38\uAC00\uBE44\uAC00 \uBD80\uB2F4\uC2A4\uB7FD\uB2E4\uACE0 \uB290\uB080\uB2E4",
+          "\uADF8\uB294 \uD589\uC0AC\uC5D0 \uAD00\uC2EC\uC774 \uC804\uD600 \uC5C6\uB2E4",
+          "\uADF8\uB294 \uD589\uC0AC \uC8FC\uCD5C\uC790\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uC694\uAE08\uC774 \uB354 \uB0AE\uB2E4\uBA74 \uCC38\uAC00\uD558\uACA0\uB2E4\uB294 \uC870\uAC74\uBD80 \uBC1C\uD654\uC774\uBBC0\uB85C, \uD604\uC7AC \uC694\uAE08\uC774 \uBD80\uB2F4\uC774\uB77C\uB294 \uD568\uC758\uAC00 \uC788\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-021-Q03",
+        skill: "inference",
+        question: "After reading the email, Sora canceled her weekend trip and booked a train ticket to the office city.\n\n\uAC00\uC7A5 \uD0C0\uB2F9\uD55C \uCD94\uB860\uC740?",
+        choices: [
+          "\uC8FC\uB9D0 \uC5EC\uD589\uC774 \uB354 \uC911\uC694\uD574\uC84C\uB2E4",
+          "\uC0AC\uBB34\uC2E4 \uB3C4\uC2DC\uB85C \uAC00\uC57C \uD560 \uC77C\uC774 \uC0DD\uACBC\uB2E4",
+          "\uC774\uBA54\uC77C\uC740 \uAD11\uACE0\uC600\uB2E4",
+          "\uAE30\uCC28\uAC00 \uCDE8\uC18C\uB418\uC5C8\uB2E4"
+        ],
+        answer: 1,
+        explanation: "\uC5EC\uD589\uC744 \uCDE8\uC18C\uD558\uACE0 \uC0AC\uBB34\uC2E4 \uB3C4\uC2DC\uD589 \uAE30\uCC28\uB97C \uC608\uC57D\uD55C \uD589\uB3D9\uC73C\uB85C \uC5C5\uBB34\xB7\uC6A9\uBB34 \uAC00\uB2A5\uC131\uC744 \uCD94\uB860\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-021-Q04",
+        skill: "attitude",
+        question: 'The editor called the draft "promising but incomplete."\n\n\uD3B8\uC9D1\uC790\uC758 \uD0DC\uB3C4\uB294?',
+        choices: [
+          "\uC804\uC801\uC73C\uB85C \uBD80\uC815\uC801",
+          "\uC804\uC801\uC73C\uB85C \uAE0D\uC815\uC801",
+          "\uBD80\uBD84\uC801\uC73C\uB85C \uAE0D\uC815\uD558\uB418 \uBCF4\uC644\uC774 \uD544\uC694\uD558\uB2E4\uACE0 \uBD04",
+          "\uBB34\uAD00\uC2EC"
+        ],
+        answer: 2,
+        explanation: "promising\uC740 \uAE0D\uC815, incomplete\uB294 \uBCF4\uC644 \uD544\uC694\uB97C \uB098\uD0C0\uB0C5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-021-Q05",
+        skill: "inference",
+        question: "No one answered when the fire alarm rang during lunch. Later, staff learned it had been a drill announced on the intranet that morning.\n\n\uCD94\uB860\uC73C\uB85C \uC801\uC808\uD55C \uAC83\uC740?",
+        choices: [
+          "\uC9C1\uC6D0 \uC911 \uC77C\uBD80\uAC00 \uACF5\uC9C0\uB97C \uD655\uC778\uD558\uC9C0 \uBABB\uD588\uC744 \uC218 \uC788\uB2E4",
+          "\uC2E4\uC81C \uD654\uC7AC\uAC00 \uBC1C\uC0DD\uD588\uB2E4",
+          "\uC54C\uB78C\uC740 \uC6B8\uB9AC\uC9C0 \uC54A\uC558\uB2E4",
+          "\uC810\uC2EC\uC2DC\uAC04\uC5D0 \uC804\uC6D0 \uCD9C\uADFC\uD558\uC9C0 \uC54A\uC558\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uC624\uC804\uC5D0 \uACF5\uC9C0\uB41C \uD6C8\uB828\uC774\uC5C8\uB294\uB370 \uBC18\uC751\uD558\uC9C0 \uC54A\uC740 \uC810\uC73C\uB85C, \uACF5\uC9C0 \uBBF8\uD655\uC778 \uAC00\uB2A5\uC131\uC744 \uCD94\uB860\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-021-Q06",
+        skill: "implication",
+        question: `"Let's discuss this offline," the manager said during the large group call.
+
+\uD568\uC758\uB85C \uAC00\uAE4C\uC6B4 \uAC83\uC740?`,
+        choices: [
+          "\uC9C0\uAE08 \uD070 \uD68C\uC758\uC5D0\uC11C \uC790\uC138\uD788 \uB2E4\uB8E8\uACE0 \uC2F6\uC9C0 \uC54A\uB2E4",
+          "\uD68C\uC758\uB97C \uC989\uC2DC \uC885\uB8CC\uD55C\uB2E4",
+          "\uC624\uD504\uB77C\uC778 \uB9E4\uC7A5\uC73C\uB85C \uAC00\uC790\uB294 \uB73B\uC774\uB2E4",
+          "\uC548\uAC74\uC774 \uC774\uBBF8 \uACB0\uC815\uB418\uC5C8\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uB300\uADDC\uBAA8 \uD1B5\uD654\uC5D0\uC11C offline\uC73C\uB85C \uBBF8\uB8E8\uC790\uB294 \uB9D0\uC740 \uBCC4\uB3C4\xB7\uC18C\uADDC\uBAA8 \uB17C\uC758 \uC758\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-021-Q07",
+        skill: "inference",
+        question: "The restaurant usually requires reservations. Tonight several empty tables remained after 8 p.m.\n\n\uD0C0\uB2F9\uD55C \uCD94\uB860\uC740?",
+        choices: [
+          "\uC624\uB298 \uC800\uB141\uC740 \uD3C9\uC18C\uBCF4\uB2E4 \uC190\uB2D8\uC774 \uC801\uC744 \uC218 \uC788\uB2E4",
+          "\uC608\uC57D\uC81C\uAC00 \uC5C6\uC5B4\uC84C\uB2E4",
+          "\uC2DD\uB2F9\uC774 \uD3D0\uC5C5\uD588\uB2E4",
+          "8\uC2DC \uC774\uD6C4\uC5D0\uB294 \uD56D\uC0C1 \uB9CC\uC11D\uC774\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uD3C9\uC18C \uC608\uC57D\uC774 \uD544\uC694\uD55C\uB370 \uBE48\uC790\uB9AC\uAC00 \uB0A8\uC558\uB2E4\uBA74 \uD55C\uC0B0\uD588\uC744 \uAC00\uB2A5\uC131\uC774 \uD07D\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-021-Q08",
+        skill: "attitude",
+        question: '"We appreciate the feedback, yet we will keep the current design," the company replied.\n\n\uD68C\uC0AC\uC758 \uC785\uC7A5\uC740?',
+        choices: [
+          "\uD53C\uB4DC\uBC31\uC744 \uBC18\uC601\uD574 \uB514\uC790\uC778\uC744 \uBC14\uAFBC\uB2E4",
+          "\uD53C\uB4DC\uBC31\uC740 \uBC1B\uB418 \uD604 \uB514\uC790\uC778\uC744 \uC720\uC9C0\uD55C\uB2E4",
+          "\uD53C\uB4DC\uBC31\uC744 \uAC70\uBD80\uD558\uACE0 \uB300\uD654\uB97C \uB04A\uB294\uB2E4",
+          "\uB514\uC790\uC778 \uB17C\uC758\uB97C \uC2DC\uC791\uD55C\uB2E4"
+        ],
+        answer: 1,
+        explanation: "appreciate... yet keep\uC5D0\uC11C \uC608\uC758\uB294 \uC9C0\uD0A4\uB418 \uC720\uC9C0 \uACB0\uC815\uC784\uC744 \uC54C \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-021-Q09",
+        skill: "inference",
+        question: "Jun turned down the overtime offer because his certification exam is tomorrow morning.\n\n\uCD94\uB860\uC73C\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uADF8\uB294 \uB0B4\uC77C \uC2DC\uD5D8\uC744 \uC704\uD574 \uC624\uB298 \uBB34\uB9AC\uD558\uC9C0 \uC54A\uC73C\uB824 \uD55C\uB2E4",
+          "\uADF8\uB294 \uC57C\uADFC \uC218\uB2F9\uC744 \uC2EB\uC5B4\uD55C\uB2E4",
+          "\uC2DC\uD5D8\uC774 \uCDE8\uC18C\uB418\uC5C8\uB2E4",
+          "\uADF8\uB294 \uC774\uBBF8 \uC790\uACA9\uC99D\uC744 \uBC1B\uC558\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uB0B4\uC77C \uC544\uCE68 \uC2DC\uD5D8\uC744 \uC774\uC720\uB85C \uC57C\uADFC\uC744 \uAC70\uC808\uD588\uC73C\uBBC0\uB85C \uC900\uBE44\xB7\uCEE8\uB514\uC158 \uAD00\uB9AC \uC758\uB3C4\uC785\uB2C8\uB2E4.",
+        transcript: ""
+      },
+      {
+        id: "F-021-Q10",
+        skill: "implication",
+        question: 'The guide said, "If you leave now, you can still catch the last bus."\n\n\uD568\uC758\uB294?',
+        choices: [
+          "\uC9C0\uAE08 \uCD9C\uBC1C\uD558\uC9C0 \uC54A\uC73C\uBA74 \uB9C9\uCC28\uB97C \uB193\uCE60 \uC218 \uC788\uB2E4",
+          "\uB9C9\uCC28\uB294 \uC774\uBBF8 \uCD9C\uBC1C\uD588\uB2E4",
+          "\uBC84\uC2A4\uAC00 \uD558\uB8E8 \uC885\uC77C \uC788\uB2E4",
+          "\uAC00\uC774\uB4DC\uAC00 \uBC84\uC2A4\uB97C \uC6B4\uC804\uD55C\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uC870\uAC74\uBD80 \uC870\uC5B8\uC740 \uC9C0\uCCB4 \uC2DC \uB9C9\uCC28 \uB193\uCE68 \uAC00\uB2A5\uC131\uC744 \uC554\uC2DC\uD569\uB2C8\uB2E4.",
+        transcript: ""
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-022.json
+  var F_022_default = {
+    id: "F-022",
+    order: 22,
+    title: "\uC9E7\uC740 \uC751\uB2F5 \uD30C\uC545",
+    category: "listening",
+    estimatedMinutes: 14,
+    skills: ["response", "conversation-flow", "function"],
+    objectives: [
+      "\uC9E7\uC740 \uC9C8\uBB38\uC5D0 \uB300\uD55C \uC790\uC5F0\uC2A4\uB7EC\uC6B4 \uC751\uB2F5\uC744 \uACE0\uB978\uB2E4",
+      "\uC81C\uC548\xB7\uC694\uCCAD\xB7\uD655\uC778\uC5D0 \uB9DE\uB294 \uB300\uB2F5 \uAE30\uB2A5\uC744 \uD30C\uC545\uD55C\uB2E4",
+      "\uBB38\uBC95\uB9CC \uB9DE\uACE0 \uC0C1\uD669\uC5D0 \uC5B4\uAE0B\uB09C \uC120\uD0DD\uC9C0\uB97C \uAC78\uB7EC\uB0B8\uB2E4"
+    ],
+    concept: {
+      summary: "\uC9E7\uC740 \uC751\uB2F5 \uBB38\uC81C\uB294 \u2018\uC9C8\uBB38\uC758 \uC758\uB3C4\u2019\uB97C \uBA3C\uC800 \uB4E3\uB294 \uD6C8\uB828\uC785\uB2C8\uB2E4. Yes/No \uC9C8\uBB38, \uC815\uBCF4 \uC9C8\uBB38, \uC81C\uC548\xB7\uC694\uCCAD\uC740 \uB2F5\uD558\uB294 \uBC29\uC2DD\uC774 \uB2E4\uB985\uB2C8\uB2E4. \uBB38\uBC95\uC801\uC73C\uB85C \uAC00\uB2A5\uD55C \uBB38\uC7A5\uC774\uB77C\uB3C4 \uB300\uD654 \uD750\uB984\uC5D0 \uB9DE\uC9C0 \uC54A\uC73C\uBA74 \uC624\uB2F5\uC785\uB2C8\uB2E4. \uB300\uBCF8\uC744 \uB4E4\uC73C\uBA70 \uC9C8\uBB38 \uC720\uD615\uC744 \uD45C\uC2DC\uD558\uC138\uC694.",
+      points: [
+        "\uC9C8\uBB38 \uC720\uD615(\uC815\uBCF4/\uC81C\uC548/\uC694\uCCAD/\uD655\uC778)\uC744 \uBA3C\uC800 \uBD84\uB958\uD55C\uB2E4",
+        "\uC9C1\uC811 \uB2F5 + \uAC04\uB2E8 \uC774\uC720\uAC00 \uC790\uC8FC \uB098\uC628\uB2E4",
+        "\uC9C8\uBB38\uACFC \uB3D9\uB5A8\uC5B4\uC9C4 \uD654\uC81C \uC804\uD658\uC740 \uC624\uB2F5 \uD6C4\uBCF4",
+        "\uACF5\uC190\uD55C \uAC70\uC808\uB3C4 \uC62C\uBC14\uB978 \uC751\uB2F5\uC774 \uB420 \uC218 \uC788\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "A: Could you open the window? B: Sure, no problem.",
+        ko: "A: \uCC3D\uBB38 \uC880 \uC5F4\uC5B4 \uC8FC\uC2DC\uACA0\uC5B4\uC694? B: \uB124, \uBB3C\uB860\uC774\uC8E0.",
+        structure: "\uC694\uCCAD \u2192 \uC218\uB77D"
+      },
+      {
+        en: "A: How about lunch at noon? B: Sounds good.",
+        ko: "A: \uC815\uC624\uC5D0 \uC810\uC2EC \uC5B4\uB54C\uC694? B: \uC88B\uB124\uC694.",
+        structure: "\uC81C\uC548 \u2192 \uB3D9\uC758"
+      },
+      {
+        en: "A: Is this seat taken? B: No, go ahead.",
+        ko: "A: \uC774 \uC790\uB9AC \uC788\uC5B4\uC694? B: \uC544\uB2C8\uC694, \uC549\uC73C\uC138\uC694.",
+        structure: "\uD655\uC778 \u2192 \uD5C8\uAC00"
+      }
+    ],
+    checks: [
+      {
+        id: "F-022-Q01",
+        skill: "response",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "Yes, at 3 p.m.",
+          "I took the bus.",
+          "It's on the second floor.",
+          "Nice to meet you."
+        ],
+        answer: 0,
+        explanation: "\uD68C\uC758 \uC2DC\uC791 \uC2DC\uAC04\uC744 \uBB3C\uC5C8\uC73C\uBBC0\uB85C \uC2DC\uAC04\uC73C\uB85C \uB2F5\uD558\uB294 A\uAC00 \uB9DE\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: Do you know when the meeting starts?"
+      },
+      {
+        id: "F-022-Q02",
+        skill: "function",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "I already ate, thanks.",
+          "The restaurant is closed tomorrow.",
+          "Coffee has caffeine.",
+          "Please pass the salt."
+        ],
+        answer: 0,
+        explanation: "\uCEE4\uD53C \uC81C\uC548\uC774\uBBC0\uB85C \uC218\uB77D\xB7\uAC70\uC808 \uC751\uB2F5\uC774 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: Would you like some coffee?"
+      },
+      {
+        id: "F-022-Q03",
+        skill: "conversation-flow",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "Sorry, I'm using it right now.",
+          "The printer is white.",
+          "I like documents.",
+          "See you next week."
+        ],
+        answer: 0,
+        explanation: "\uD504\uB9B0\uD130 \uC0AC\uC6A9 \uAC00\uB2A5 \uC5EC\uBD80 \uC9C8\uBB38\uC774\uBBC0\uB85C \uC0AC\uC6A9 \uC911\uC774\uB77C\uACE0 \uB2F5\uD558\uB294 \uAC83\uC774 \uB9DE\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: Is the printer free?"
+      },
+      {
+        id: "F-022-Q04",
+        skill: "response",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "About fifteen minutes by subway.",
+          "I bought a map yesterday.",
+          "Stations are crowded.",
+          "Let's cancel the trip."
+        ],
+        answer: 0,
+        explanation: "\uC18C\uC694 \uC2DC\uAC04\uC744 \uBB3C\uC5C8\uC73C\uBBC0\uB85C \uC2DC\uAC04\uC73C\uB85C \uB2F5\uD569\uB2C8\uB2E4.",
+        transcript: "A: How long does it take to get to the station?"
+      },
+      {
+        id: "F-022-Q05",
+        skill: "function",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "I'd love to, but I have another call.",
+          "Meetings are important.",
+          "The room number is 204.",
+          "Please write an agenda."
+        ],
+        answer: 0,
+        explanation: "\uD568\uAED8 \uB4E4\uC5B4\uAC00\uC790\uB294 \uC81C\uC548\uC5D0 \uB300\uD55C \uACF5\uC190\uD55C \uAC70\uC808\uC774 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: Why don't we join the meeting together?"
+      },
+      {
+        id: "F-022-Q06",
+        skill: "response",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "Yes, here it is.",
+          "Pens are cheap.",
+          "I lost my keys.",
+          "Blue looks nice."
+        ],
+        answer: 0,
+        explanation: "\uD39C\uC744 \uBE4C\uB824\uB2EC\uB77C\uB294 \uC694\uCCAD\uC5D0 \uAC74\uB124\uB294 \uC751\uB2F5\uC774 \uB9DE\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: Can I borrow your pen for a second?"
+      },
+      {
+        id: "F-022-Q07",
+        skill: "conversation-flow",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "No, this is my first visit.",
+          "The hotel has a gym.",
+          "I reserved online.",
+          "Check-out is at noon."
+        ],
+        answer: 0,
+        explanation: "\uBC29\uBB38 \uACBD\uD5D8 \uC5EC\uBD80 Yes/No \uC9C8\uBB38\uC774\uBBC0\uB85C \uBC29\uBB38 \uC5EC\uBD80\uB97C \uB2F5\uD569\uB2C8\uB2E4.",
+        transcript: "A: Have you been to this hotel before?"
+      },
+      {
+        id: "F-022-Q08",
+        skill: "response",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "It's next to the elevator.",
+          "Restrooms are clean.",
+          "I need water.",
+          "I don't drink coffee."
+        ],
+        answer: 0,
+        explanation: "\uC704\uCE58 \uC9C8\uBB38\uC5D0\uB294 \uC7A5\uC18C\uB85C \uB2F5\uD574\uC57C \uD569\uB2C8\uB2E4. \uB098\uBA38\uC9C0 \uC120\uD0DD\uC9C0\uB294 \uC9C8\uBB38\uACFC \uBB34\uAD00\uD569\uB2C8\uB2E4.",
+        transcript: "A: Excuse me, where is the restroom?"
+      },
+      {
+        id: "F-022-Q09",
+        skill: "function",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "Congratulations! That's great news.",
+          "Promotion means higher pay.",
+          "I work in marketing.",
+          "When is the interview?"
+        ],
+        answer: 0,
+        explanation: "\uC2B9\uC9C4 \uC18C\uC2DD\uC5D0\uB294 \uCD95\uD558 \uC751\uB2F5\uC774 \uC790\uC5F0\uC2A4\uB7FD\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: I got promoted today."
+      },
+      {
+        id: "F-022-Q10",
+        skill: "conversation-flow",
+        question: "\uB4E4\uC740 \uB9D0\uC5D0 \uB300\uD55C \uC54C\uB9DE\uC740 \uC751\uB2F5\uC740?",
+        choices: [
+          "Sure. How about Thursday afternoon?",
+          "Schedules are complicated.",
+          "I hate meetings.",
+          "The calendar is digital."
+        ],
+        answer: 0,
+        explanation: "\uC77C\uC815 \uC870\uC728 \uC81C\uC548\uC5D0 \uAD6C\uCCB4\uC801 \uC2DC\uAC04\uC744 \uC81C\uC548\uD558\uB294 \uC751\uB2F5\uC774 \uB9DE\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: Can we reschedule our appointment?"
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-023.json
+  var F_023_default = {
+    id: "F-023",
+    order: 23,
+    title: "\uC22B\uC790\xB7\uC7A5\uC18C\xB7\uC2DC\uAC04",
+    category: "listening",
+    estimatedMinutes: 14,
+    skills: ["listening-for-numbers", "place", "time"],
+    objectives: [
+      "\uB300\uD654\uC5D0\uC11C \uC22B\uC790\xB7\uAC00\uACA9\xB7\uC218\uB7C9\uC744 \uC815\uD655\uD788 \uC7A1\uB294\uB2E4",
+      "\uC7A5\uC18C\xB7\uBC29\uD5A5 \uC815\uBCF4\uB97C \uAD6C\uBD84\uD55C\uB2E4",
+      "\uC2DC\uAC04\xB7\uC694\uC77C\xB7\uAE30\uAC04 \uD45C\uD604\uC744 \uB4E3\uACE0 \uACE0\uB978\uB2E4"
+    ],
+    concept: {
+      summary: "\uC22B\uC790\xB7\uC7A5\uC18C\xB7\uC2DC\uAC04 \uBB38\uC81C\uB294 \u2018\uD575\uC2EC \uC815\uBCF4 \uD55C \uBC29\u2019\uC744 \uB193\uCE58\uC9C0 \uC54A\uB294 \uD6C8\uB828\uC785\uB2C8\uB2E4. \uBE44\uC2B7\uD55C \uC22B\uC790(13/30), \uBCC0\uACBD\uB41C \uC2DC\uAC04, \uCD9C\uBC1C\uC9C0/\uB3C4\uCC29\uC9C0 \uD63C\uB3D9\uC5D0 \uC8FC\uC758\uD558\uC138\uC694. \uB300\uD654 \uC911\uAC04\uC5D0 \uC815\uBCF4\uAC00 \uC218\uC815\uB418\uBA74 \uB9C8\uC9C0\uB9C9 \uD655\uC815 \uC815\uBCF4\uB97C \uAE30\uC900\uC73C\uB85C \uB2F5\uD569\uB2C8\uB2E4.",
+      points: [
+        "\uC22B\uC790 \uC55E\uB4A4 \uB2E8\uC704(\uC6D0, \uBD84, \uCE35)\uB97C \uD568\uAED8 \uB4E3\uB294\uB2E4",
+        "\uC815\uC815 \uD45C\uD604(actually / I mean) \uB4A4\uB97C \uC6B0\uC120\uD55C\uB2E4",
+        "\uC7A5\uC18C\uB294 from/to/at/in \uC2E0\uD638\uB97C \uD45C\uC2DC\uD55C\uB2E4",
+        "\uC2DC\uAC04\uC740 o'clock, half, quarter\uB97C \uAD6C\uBD84\uD55C\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "A: The train leaves at 9:15. B: Got it. Platform 4.",
+        ko: "A: \uAE30\uCC28\uB294 9\uC2DC 15\uBD84\uC5D0 \uCD9C\uBC1C\uD574\uC694. B: \uC54C\uACA0\uC5B4\uC694. 4\uBC88 \uC2B9\uAC15\uC7A5\uC774\uC5D0\uC694.",
+        structure: "\uC2DC\uAC04 + \uC7A5\uC18C"
+      },
+      {
+        en: "A: How much is this? B: It's $12.50.",
+        ko: "A: \uC774\uAC70 \uC5BC\uB9C8\uC608\uC694? B: 12\uB2EC\uB7EC 50\uC13C\uD2B8\uC608\uC694.",
+        structure: "\uAC00\uACA9 \uC22B\uC790"
+      },
+      {
+        en: "A: Meet me at the main entrance. B: Okay, see you there.",
+        ko: "A: \uC815\uBB38\uC5D0\uC11C \uB9CC\uB098\uC694. B: \uB124, \uAC70\uAE30\uC11C \uBD10\uC694.",
+        structure: "\uC7A5\uC18C \uD655\uC815"
+      }
+    ],
+    checks: [
+      {
+        id: "F-023-Q01",
+        skill: "time",
+        question: "\uD68C\uC758\uB294 \uBA87 \uC2DC\uC5D0 \uC2DC\uC791\uD569\uB2C8\uAE4C?",
+        choices: ["1:00", "1:30", "2:00", "2:30"],
+        answer: 1,
+        explanation: "\uCC98\uC74C 2\uC2DC\uB97C \uB9D0\uD588\uC9C0\uB9CC actually\uB85C 1:30\uC73C\uB85C \uC815\uC815\uD588\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: Does the meeting start at 2? B: Actually, it starts at 1:30."
+      },
+      {
+        id: "F-023-Q02",
+        skill: "listening-for-numbers",
+        question: "\uD2F0\uCF13 \uAC00\uACA9\uC740 \uC5BC\uB9C8\uC785\uB2C8\uAE4C?",
+        choices: ["$15", "$16", "$50", "$60"],
+        answer: 0,
+        explanation: "adult ticket\uC774 fifteen dollars\uB77C\uACE0 \uD588\uC2B5\uB2C8\uB2E4. fifty\uC640 \uD63C\uB3D9\uD558\uC9C0 \uB9C8\uC138\uC694.",
+        transcript: "A: How much is an adult ticket? B: Fifteen dollars."
+      },
+      {
+        id: "F-023-Q03",
+        skill: "place",
+        question: "\uC790\uB8CC\uB97C \uC5B4\uB514\uC5D0 \uB450\uC5C8\uC2B5\uB2C8\uAE4C?",
+        choices: ["\uCC45\uC0C1 \uC704", "\uC11C\uB78D \uC548", "\uBCF5\uC0AC\uAE30 \uC606", "\uD68C\uC758\uC2E4"],
+        answer: 2,
+        explanation: "next to the copier\uAC00 \uC7A5\uC18C\uC785\uB2C8\uB2E4.",
+        transcript: "A: Where did you leave the handouts? B: Next to the copier."
+      },
+      {
+        id: "F-023-Q04",
+        skill: "time",
+        question: "\uBC84\uC2A4\uB294 \uBA87 \uC2DC\uC5D0 \uB3C4\uCC29\uD569\uB2C8\uAE4C?",
+        choices: ["10:10", "10:20", "10:30", "11:10"],
+        answer: 0,
+        explanation: "ten ten, Gate C\uB77C\uACE0 \uD588\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: What time does the bus arrive? B: At ten ten, Gate C."
+      },
+      {
+        id: "F-023-Q05",
+        skill: "listening-for-numbers",
+        question: "\uC608\uC57D \uC778\uC6D0\uC740 \uBA87 \uBA85\uC785\uB2C8\uAE4C?",
+        choices: ["3\uBA85", "4\uBA85", "5\uBA85", "6\uBA85"],
+        answer: 2,
+        explanation: "for five\uB77C\uACE0 \uD655\uC815\uD588\uC2B5\uB2C8\uB2E4. table for four\uB294 \uC81C\uC548\uC774\uC5C8\uB2E4\uAC00 \uC218\uC815\uB429\uB2C8\uB2E4.",
+        transcript: "A: A table for four? B: No, for five, please."
+      },
+      {
+        id: "F-023-Q06",
+        skill: "place",
+        question: "\uC0C8 \uCE74\uD398\uB294 \uC5B4\uB514\uC5D0 \uC788\uC2B5\uB2C8\uAE4C?",
+        choices: ["\uC740\uD589 \uB9DE\uC740\uD3B8", "\uC740\uD589 \uC548", "\uB3C4\uC11C\uAD00 \uC606", "\uC8FC\uCC28\uC7A5 \uC544\uB798"],
+        answer: 0,
+        explanation: "across from the bank\uAC00 \u2018\uC740\uD589 \uB9DE\uC740\uD3B8\u2019\uC785\uB2C8\uB2E4.",
+        transcript: "A: Where is the new caf\xE9? B: It's across from the bank."
+      },
+      {
+        id: "F-023-Q07",
+        skill: "time",
+        question: "\uB3C4\uC11C\uAD00\uC740 \uBA87 \uC2DC\uC5D0 \uB2EB\uC2B5\uB2C8\uAE4C?",
+        choices: ["7 p.m.", "8 p.m.", "9 p.m.", "10 p.m."],
+        answer: 2,
+        explanation: "\uD3C9\uC77C 9\uC2DC\uC5D0 \uB2EB\uB294\uB2E4\uACE0 \uD588\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: What time does the library close on weekdays? B: At 9 p.m."
+      },
+      {
+        id: "F-023-Q08",
+        skill: "listening-for-numbers",
+        question: "\uC0AC\uBB34\uC2E4\uC740 \uBA87 \uCE35\uC785\uB2C8\uAE4C?",
+        choices: ["2\uCE35", "3\uCE35", "12\uCE35", "13\uCE35"],
+        answer: 1,
+        explanation: "third floor\uC785\uB2C8\uB2E4. thirteenth\uC640 \uD63C\uB3D9\uD558\uC9C0 \uB9C8\uC138\uC694.",
+        transcript: "A: Which floor is the marketing office on? B: The third floor."
+      },
+      {
+        id: "F-023-Q09",
+        skill: "place",
+        question: "\uD0DD\uC2DC\uB97C \uC5B4\uB514\uC11C \uD0D1\uB2C8\uAE4C?",
+        choices: ["\uACF5\uD56D \uC548", "\uB3C4\uCC29 \uD640", "\uCD9C\uAD6C 3\uBC88 \uBC16", "\uC8FC\uCC28\uC7A5 \uC785\uAD6C"],
+        answer: 2,
+        explanation: "outside Exit 3\uB77C\uACE0 \uD588\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: Where can I catch a taxi? B: Outside Exit 3."
+      },
+      {
+        id: "F-023-Q10",
+        skill: "time",
+        question: "\uC57D\uC18D\uC740 \uBB34\uC2A8 \uC694\uC77C\uC785\uB2C8\uAE4C?",
+        choices: ["\uC6D4\uC694\uC77C", "\uD654\uC694\uC77C", "\uC218\uC694\uC77C", "\uAE08\uC694\uC77C"],
+        answer: 3,
+        explanation: "\uD654\uC694\uC77C\uC5D0\uC11C \uAE08\uC694\uC77C\uB85C \uBCC0\uACBD\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uCD5C\uC885 \uC815\uBCF4\uB294 Friday\uC785\uB2C8\uB2E4.",
+        transcript: "A: Is your appointment on Tuesday? B: It was, but I moved it to Friday."
+      }
+    ]
+  };
+
+  // data/foundation/lessons/F-024.json
+  var F_024_default = {
+    id: "F-024",
+    order: 24,
+    title: "\uC9E7\uC740 \uB300\uD654 \uC0C1\uD669",
+    category: "listening",
+    estimatedMinutes: 15,
+    skills: ["dialogue", "situation", "next-action"],
+    objectives: [
+      "\uC9E7\uC740 \uB300\uD654\uC758 \uC7A5\uC18C\xB7\uAD00\uACC4\uB97C \uD30C\uC545\uD55C\uB2E4",
+      "\uD654\uC790\uC758 \uBAA9\uC801\uACFC \uB2E4\uC74C \uD589\uB3D9\uC744 \uCD94\uB860\uD55C\uB2E4",
+      "\uC138\uBD80 \uD55C \uB2E8\uC5B4\uC5D0\uB9CC \uB9E4\uBAB0\uB418\uC9C0 \uC54A\uACE0 \uC0C1\uD669\uC744 \uC77D\uB294\uB2E4"
+    ],
+    concept: {
+      summary: "\uC0C1\uD669 \uD30C\uC545 \uBB38\uC81C\uB294 \uB2E8\uC5B4 \uD558\uB098\uAC00 \uC544\uB2C8\uB77C \u2018\uB204\uAC00, \uC5B4\uB514\uC11C, \uBB34\uC5C7\uC744 \uD558\uB824\uB294\uC9C0\u2019\uB97C \uC885\uD569\uD569\uB2C8\uB2E4. \uC9C1\uC5C5\xB7\uC7A5\uC18C \uB2E8\uC11C(menu, boarding pass, prescription)\uC640 \uD589\uB3D9 \uB3D9\uC0AC(reserve, cancel, check in)\uB97C \uC5F0\uACB0\uD558\uBA74 \uC7A5\uBA74\uC774 \uBCF4\uC785\uB2C8\uB2E4. \uB9C8\uC9C0\uB9C9 \uBC1C\uD654\uAC00 \uB2E4\uC74C \uD589\uB3D9\uC744 \uC54C\uB824 \uC8FC\uB294 \uACBD\uC6B0\uAC00 \uB9CE\uC2B5\uB2C8\uB2E4.",
+      points: [
+        "\uC7A5\uC18C \uB2E8\uC11C \uC5B4\uD718\uB97C \uBA3C\uC800 \uD45C\uC2DC\uD55C\uB2E4",
+        "\uD654\uC790 \uAD00\uACC4(\uB3D9\uB8CC/\uC810\uC6D0/\uC2B9\uAC1D)\uB97C \uCD94\uC815\uD55C\uB2E4",
+        "\uBB38\uC81C\xB7\uD574\uACB0 \uAD6C\uC870\uB97C \uB4E3\uB294\uB2E4",
+        "\uB2E4\uC74C \uD589\uB3D9\uC740 \uB300\uD654 \uB05D\uBD80\uBD84\uC744 \uC6B0\uC120\uD55C\uB2E4"
+      ]
+    },
+    examples: [
+      {
+        en: "A: I'd like to return this shirt. B: Do you have the receipt?",
+        ko: "A: \uC774 \uC154\uCE20\uB97C \uBC18\uD488\uD558\uACE0 \uC2F6\uC5B4\uC694. B: \uC601\uC218\uC99D \uC788\uC73C\uC138\uC694?",
+        structure: "\uC0C1\uD669: \uB9E4\uC7A5 \uBC18\uD488"
+      },
+      {
+        en: "A: Gate 22 has changed to Gate 25. B: Thanks for the update.",
+        ko: "A: 22\uBC88 \uAC8C\uC774\uD2B8\uAC00 25\uBC88\uC73C\uB85C \uBCC0\uACBD\uB410\uC5B4\uC694. B: \uC54C\uB824 \uC8FC\uC154\uC11C \uAC10\uC0AC\uD574\uC694.",
+        structure: "\uC0C1\uD669: \uACF5\uD56D \uD0D1\uC2B9"
+      },
+      {
+        en: "A: The system is down. B: I'll reboot the router.",
+        ko: "A: \uC2DC\uC2A4\uD15C\uC774 \uB2E4\uC6B4\uB410\uC5B4\uC694. B: \uACF5\uC720\uAE30\uB97C \uC7AC\uBD80\uD305\uD560\uAC8C\uC694.",
+        structure: "\uB2E4\uC74C \uD589\uB3D9: \uC7AC\uBD80\uD305"
+      }
+    ],
+    checks: [
+      {
+        id: "F-024-Q01",
+        skill: "situation",
+        question: "\uB300\uD654\uB294 \uC5B4\uB514\uC5D0\uC11C \uC774\uB8E8\uC5B4\uC9C8 \uAC00\uB2A5\uC131\uC774 \uD07D\uB2C8\uAE4C?",
+        choices: ["\uC2DD\uB2F9", "\uBCD1\uC6D0", "\uC11C\uC810", "\uC740\uD589"],
+        answer: 0,
+        explanation: "table for two, menu \uB2E8\uC11C\uB85C \uC2DD\uB2F9 \uC0C1\uD669\uC785\uB2C8\uB2E4.",
+        transcript: "A: A table for two, please. B: Right this way. Here are your menus."
+      },
+      {
+        id: "F-024-Q02",
+        skill: "dialogue",
+        question: "\uB450 \uC0AC\uB78C\uC758 \uAD00\uACC4\uB85C \uAC00\uC7A5 \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: ["\uC810\uC6D0\uACFC \uC190\uB2D8", "\uC758\uC0AC\uC640 \uD658\uC790", "\uAD50\uC0AC\uC640 \uD559\uC0DD", "\uC6B4\uC804\uC0AC\uC640 \uC2B9\uAC1D"],
+        answer: 0,
+        explanation: "\uC0AC\uC774\uC988 \uAD50\uD658\xB7\uD53C\uD305\uB8F8 \uB2E8\uC11C\uB85C \uB9E4\uC7A5 \uC810\uC6D0-\uC190\uB2D8 \uAD00\uACC4\uC785\uB2C8\uB2E4.",
+        transcript: "A: Can I exchange this for a larger size? B: Of course. The fitting room is over there."
+      },
+      {
+        id: "F-024-Q03",
+        skill: "next-action",
+        question: "\uB0A8\uC790\uAC00 \uB2E4\uC74C\uC5D0 \uD560 \uC77C\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uB2E4\uB978 \uC5F4\uCC28\uB85C \uAC08\uC544\uD0C4\uB2E4",
+          "\uD45C\uB97C \uD658\uBD88\uD55C\uB2E4",
+          "\uC5ED\uBB34\uC6D0\uC5D0\uAC8C \uD56D\uC758\uD55C\uB2E4",
+          "\uD0DD\uC2DC\uB97C \uC989\uC2DC \uD0C4\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uB2E4\uC74C \uC5F4\uCC28\uB97C \uD0C0\uB77C\uB294 \uC548\uB0B4\uB97C \uBC1B\uC544\uB4E4\uC785\uB2C8\uB2E4.",
+        transcript: "A: The 8:10 train is delayed. B: You can take the next one at 8:25. A: Okay, I'll do that."
+      },
+      {
+        id: "F-024-Q04",
+        skill: "situation",
+        question: "\uB300\uD654\uC758 \uC8FC\uC694 \uBAA9\uC801\uC740 \uBB34\uC5C7\uC785\uB2C8\uAE4C?",
+        choices: [
+          "\uD68C\uC758\uC2E4 \uC608\uC57D\uD558\uAE30",
+          "\uBCF5\uC0AC\uAE30 \uC218\uB9AC \uC694\uCCAD\uD558\uAE30",
+          "\uCD9C\uC7A5 \uC77C\uC815 \uC7A1\uAE30",
+          "\uC810\uC2EC \uBA54\uB274 \uACE0\uB974\uAE30"
+        ],
+        answer: 0,
+        explanation: "room availability\uC640 book it\uC73C\uB85C \uD68C\uC758\uC2E4 \uC608\uC57D\uC774 \uBAA9\uC801\uC785\uB2C8\uB2E4.",
+        transcript: "A: Is Room 3 available at 3 p.m.? B: Yes. Should I book it for one hour? A: Please do."
+      },
+      {
+        id: "F-024-Q05",
+        skill: "dialogue",
+        question: "\uC5EC\uC790\uAC00 \uBD88\uD3B8\uD574\uD558\uB294 \uC774\uC720\uB294 \uBB34\uC5C7\uC785\uB2C8\uAE4C?",
+        choices: [
+          "\uC5D0\uC5B4\uCEE8\uC774 \uB108\uBB34 \uAC15\uD558\uB2E4",
+          "\uCC3D\uBB38\uC774 \uC5F4\uB9AC\uC9C0 \uC54A\uB294\uB2E4",
+          "\uC790\uB9AC\uAC00 \uC5C6\uB2E4",
+          "\uC870\uBA85\uC774 \uB108\uBB34 \uC5B4\uB461\uB2E4"
+        ],
+        answer: 0,
+        explanation: "freezing, turn down the air conditioner\uAC00 \uADFC\uAC70\uC785\uB2C8\uB2E4.",
+        transcript: "A: It's freezing in here. B: I'll turn down the air conditioner."
+      },
+      {
+        id: "F-024-Q06",
+        skill: "next-action",
+        question: "\uC9C1\uC6D0\uC774 \uB2E4\uC74C\uC5D0 \uD560 \uC77C\uC740 \uBB34\uC5C7\uC785\uB2C8\uAE4C?",
+        choices: [
+          "\uC0C8 \uC5F4\uC1E0\uB97C \uBC1C\uAE09\uD55C\uB2E4",
+          "\uBC29\uC744 \uC5C5\uADF8\uB808\uC774\uB4DC\uD55C\uB2E4",
+          "\uCCB4\uD06C\uC544\uC6C3\uC744 \uC9C4\uD589\uD55C\uB2E4",
+          "\uC870\uC2DD\uC744 \uCDE8\uC18C\uD55C\uB2E4"
+        ],
+        answer: 0,
+        explanation: "\uC5F4\uC1E0 \uBD84\uC2E4 \uD6C4 \uC0C8 \uD0A4\uB97C \uB9CC\uB4E4\uC5B4 \uC8FC\uACA0\uB2E4\uACE0 \uD588\uC2B5\uB2C8\uB2E4.",
+        transcript: "A: I lost my room key. B: No problem. I'll issue a new one at the front desk."
+      },
+      {
+        id: "F-024-Q07",
+        skill: "situation",
+        question: "\uB300\uD654\uAC00 \uC774\uB8E8\uC5B4\uC9C0\uB294 \uC7A5\uC18C\uB85C \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: ["\uC57D\uAD6D", "\uC6B0\uCCB4\uAD6D", "\uBBF8\uC220\uAD00", "\uCCB4\uC721\uAD00"],
+        answer: 0,
+        explanation: "prescription, pharmacist \uB2E8\uC11C\uB85C \uC57D\uAD6D\uC785\uB2C8\uB2E4.",
+        transcript: "A: I'd like to fill this prescription. B: It'll be ready in twenty minutes."
+      },
+      {
+        id: "F-024-Q08",
+        skill: "dialogue",
+        question: "\uB0A8\uC790\uAC00 \uC804\uD654\uD55C \uC774\uC720\uB294 \uBB34\uC5C7\uC785\uB2C8\uAE4C?",
+        choices: [
+          "\uBC30\uC1A1 \uC9C0\uC5F0\uC744 \uD655\uC778\uD558\uB824\uACE0",
+          "\uC0C8 \uC81C\uD488\uC744 \uC8FC\uBB38\uD558\uB824\uACE0",
+          "\uC8FC\uC18C\uB97C \uBC14\uAFB8\uB824\uACE0",
+          "\uD658\uBD88\uC744 \uAC70\uC808\uD558\uB824\uACE0"
+        ],
+        answer: 0,
+        explanation: "order hasn't arrived\uB85C \uBC30\uC1A1 \uC0C1\uD0DC\uB97C \uD655\uC778\uD558\uB294 \uD1B5\uD654\uC785\uB2C8\uB2E4.",
+        transcript: "A: Hi, my order hasn't arrived yet. B: Let me check the tracking number for you."
+      },
+      {
+        id: "F-024-Q09",
+        skill: "next-action",
+        question: "\uB450 \uC0AC\uB78C\uC774 \uB2E4\uC74C\uC5D0 \uD558\uAE30\uB85C \uD55C \uAC83\uC740?",
+        choices: [
+          "\uC790\uB8CC\uB97C \uBA3C\uC800 \uC77D\uACE0 \uB0B4\uC77C \uB2E4\uC2DC \uC774\uC57C\uAE30\uD55C\uB2E4",
+          "\uC9C0\uAE08 \uBC14\uB85C \uACB0\uC815\uD55C\uB2E4",
+          "\uD504\uB85C\uC81D\uD2B8\uB97C \uCDE8\uC18C\uD55C\uB2E4",
+          "\uB2E4\uB978 \uD300\uC5D0 \uB118\uAE34\uB2E4"
+        ],
+        answer: 0,
+        explanation: "read the proposal tonight, talk tomorrow morning\uC774 \uB2E4\uC74C \uACC4\uD68D\uC785\uB2C8\uB2E4.",
+        transcript: "A: Should we decide now? B: Let's read the proposal tonight and talk tomorrow morning."
+      },
+      {
+        id: "F-024-Q10",
+        skill: "situation",
+        question: "\uB300\uD654\uC758 \uC0C1\uD669\uC73C\uB85C \uAC00\uC7A5 \uC54C\uB9DE\uC740 \uAC83\uC740?",
+        choices: [
+          "\uACF5\uD56D\uC5D0\uC11C \uD0D1\uC2B9 \uAC8C\uC774\uD2B8\uB97C \uD655\uC778\uD558\uACE0 \uC788\uB2E4",
+          "\uD638\uD154\uC5D0\uC11C \uC870\uC2DD\uC744 \uC8FC\uBB38\uD558\uACE0 \uC788\uB2E4",
+          "\uD559\uAD50\uC5D0\uC11C \uC2DC\uD5D8\uC744 \uBCF4\uACE0 \uC788\uB2E4",
+          "\uC740\uD589\uC5D0\uC11C \uACC4\uC88C\uB97C \uB9CC\uB4E4\uACE0 \uC788\uB2E4"
+        ],
+        answer: 0,
+        explanation: "boarding pass, gate number\uB294 \uACF5\uD56D \uD0D1\uC2B9 \uC0C1\uD669 \uB2E8\uC11C\uC785\uB2C8\uB2E4.",
+        transcript: "A: Could you check my boarding pass? Which gate is it? B: Gate 17. Boarding begins in ten minutes."
+      }
+    ]
+  };
+
   // js/content/embedded.js
   var EMBEDDED = {
-    "./data/foundation.json": foundation_default,
     "./data/vocabulary.json": vocabulary_default,
     "./data/grammar.json": grammar_default,
     "./data/reading.json": reading_default,
@@ -3282,13 +7084,38 @@
     "./data/guide.json": guide_default,
     "./data/packs/manifest.json": manifest_default,
     "./data/packs/TEPS_Crew_Pack_001.json": TEPS_Crew_Pack_001_default,
-    "./data/packs/TEPS_Crew_Pack_002.json": TEPS_Crew_Pack_002_default
+    "./data/packs/TEPS_Crew_Pack_002.json": TEPS_Crew_Pack_002_default,
+    "./data/foundation/manifest.json": manifest_default2,
+    "./data/foundation/lessons/F-001.json": F_001_default,
+    "./data/foundation/lessons/F-002.json": F_002_default,
+    "./data/foundation/lessons/F-003.json": F_003_default,
+    "./data/foundation/lessons/F-004.json": F_004_default,
+    "./data/foundation/lessons/F-005.json": F_005_default,
+    "./data/foundation/lessons/F-006.json": F_006_default,
+    "./data/foundation/lessons/F-007.json": F_007_default,
+    "./data/foundation/lessons/F-008.json": F_008_default,
+    "./data/foundation/lessons/F-009.json": F_009_default,
+    "./data/foundation/lessons/F-010.json": F_010_default,
+    "./data/foundation/lessons/F-011.json": F_011_default,
+    "./data/foundation/lessons/F-012.json": F_012_default,
+    "./data/foundation/lessons/F-013.json": F_013_default,
+    "./data/foundation/lessons/F-014.json": F_014_default,
+    "./data/foundation/lessons/F-015.json": F_015_default,
+    "./data/foundation/lessons/F-016.json": F_016_default,
+    "./data/foundation/lessons/F-017.json": F_017_default,
+    "./data/foundation/lessons/F-018.json": F_018_default,
+    "./data/foundation/lessons/F-019.json": F_019_default,
+    "./data/foundation/lessons/F-020.json": F_020_default,
+    "./data/foundation/lessons/F-021.json": F_021_default,
+    "./data/foundation/lessons/F-022.json": F_022_default,
+    "./data/foundation/lessons/F-023.json": F_023_default,
+    "./data/foundation/lessons/F-024.json": F_024_default
   };
   function normalizePath(path) {
     if (!path) return "";
-    let p = String(path).replace(/\\/g, "/");
-    if (p.startsWith("/")) p = `.${p}`;
-    if (!p.startsWith("./")) p = `./${p.replace(/^\.\//, "")}`;
+    let p = String(path).split(String.fromCharCode(92)).join("/");
+    if (p.startsWith("/")) p = "." + p;
+    if (!p.startsWith("./")) p = "./" + p.replace(/^\.\//, "");
     return p;
   }
   function getEmbeddedJson(path) {
@@ -3874,6 +7701,59 @@
     return items.reduce((s, i) => s + (i.mastery || 0), 0) / items.length;
   }
 
+  // js/content/foundation-loader.js
+  var MANIFEST_PATH = "./data/foundation/manifest.json";
+  async function loadFoundationContent() {
+    const manifest = await fetchJson(MANIFEST_PATH);
+    const metas = manifest.lessons || [];
+    const lessons = [];
+    for (const meta of metas) {
+      const file = meta.file || `./data/foundation/lessons/${meta.id}.json`;
+      const body = await fetchJson(file);
+      lessons.push({
+        ...meta,
+        ...body,
+        id: body.id || meta.id,
+        order: body.order ?? meta.order,
+        title: body.title || meta.title,
+        category: body.category || meta.category,
+        estimatedMinutes: body.estimatedMinutes ?? meta.estimatedMinutes ?? 12,
+        checks: Array.isArray(body.checks) ? body.checks : []
+      });
+    }
+    lessons.sort((a, b) => (a.order || 0) - (b.order || 0));
+    return {
+      version: manifest.version || 1,
+      demo: false,
+      categories: manifest.categories || [],
+      lessons
+    };
+  }
+  function getNextFoundationLesson(lessons = [], foundationProgress = {}) {
+    const sorted = [...lessons].sort((a, b) => (a.order || 0) - (b.order || 0));
+    const incomplete = sorted.filter((l) => foundationProgress[l.id]?.status !== "completed");
+    if (!incomplete.length) return sorted[sorted.length - 1] || null;
+    const inProgress = incomplete.map((l) => ({ lesson: l, p: foundationProgress[l.id] })).filter((x) => x.p?.status === "in_progress");
+    if (inProgress.length) {
+      inProgress.sort(
+        (a, b) => (a.p.bestAccuracy ?? a.p.accuracy ?? 100) - (b.p.bestAccuracy ?? b.p.accuracy ?? 100)
+      );
+      return inProgress[0].lesson;
+    }
+    return incomplete[0];
+  }
+  function collectFoundationWrongChecks(lessons = [], foundationProgress = {}) {
+    const items = [];
+    lessons.forEach((lesson) => {
+      const wrongIds = foundationProgress[lesson.id]?.wrongCheckIds || [];
+      wrongIds.forEach((cid) => {
+        const check = (lesson.checks || []).find((c) => c.id === cid);
+        if (check) items.push({ lessonId: lesson.id, lessonTitle: lesson.title, check });
+      });
+    });
+    return items;
+  }
+
   // js/recommendation.js
   function shuffle(arr) {
     const a = [...arr];
@@ -4069,6 +7949,10 @@
     });
     const newVocab = words.filter((w) => !vocabMastery[w.id]);
     const weakSkills = getWeakSkills(knowledgeMap, 3);
+    const foundationLessons = state2.content?.foundation?.lessons || [];
+    const foundationProgress = state2.foundationProgress || {};
+    const nextFoundation = getNextFoundationLesson(foundationLessons, foundationProgress);
+    const foundationDone = foundationLessons.length ? foundationLessons.every((l) => foundationProgress[l.id]?.status === "completed") : false;
     const items = [];
     let remaining = minutes;
     const push = (item) => {
@@ -4081,11 +7965,11 @@
       push({
         id: "foundation",
         title: "\uAE30\uCD08\uD559\uC2B5",
-        detail: "\uC601\uC5B4 \uBB38\uC7A5\uC758 \uBF08\uB300",
+        detail: nextFoundation?.title || "\uC601\uC5B4 \uAE30\uCD08",
         reason: "\uCCAB \uC0AC\uC6A9\uC790\uC5D0\uAC8C Foundation\uBD80\uD130 \uCD94\uCC9C",
-        minutes: Math.min(12, minutes),
+        minutes: Math.min(nextFoundation?.estimatedMinutes || 12, minutes),
         route: "lesson",
-        params: { id: "F-001" }
+        params: { id: nextFoundation?.id || "F-001" }
       });
       push({
         id: "vocab-new",
@@ -4116,6 +8000,17 @@
         });
       }
       return { totalMinutes: minutes, items, source: "rule-new", isNew: true };
+    }
+    if (!foundationDone && nextFoundation) {
+      push({
+        id: "foundation-next",
+        title: "\uAE30\uCD08\uD559\uC2B5",
+        detail: nextFoundation.title,
+        reason: "\uC544\uC9C1 \uB05D\uB098\uC9C0 \uC54A\uC740 Foundation Lesson \uC6B0\uC120",
+        minutes: Math.min(nextFoundation.estimatedMinutes || 12, 15),
+        route: "lesson",
+        params: { id: nextFoundation.id }
+      });
     }
     if (dueVocab.length) {
       push({
@@ -4340,10 +8235,10 @@
   }
 
   // js/content/packs.js
-  var MANIFEST_PATH = "./data/packs/manifest.json";
+  var MANIFEST_PATH2 = "./data/packs/manifest.json";
   async function loadPackManifest() {
     try {
-      return await fetchJson(MANIFEST_PATH);
+      return await fetchJson(MANIFEST_PATH2);
     } catch {
       return { version: 1, packs: [] };
     }
@@ -4537,9 +8432,11 @@
     return item;
   }
   async function saveFoundationProgress(lessonId, progress) {
+    const prev = state.foundationProgress[lessonId] || {};
     const item = {
-      id: lessonId,
+      ...prev,
       ...progress,
+      id: lessonId,
       updatedAt: (/* @__PURE__ */ new Date()).toISOString()
     };
     await putItem("foundationProgress", item);
@@ -4850,7 +8747,7 @@
   }
   async function loadContent() {
     const [foundation, vocabulary, grammar, reading, listening, guide] = await Promise.all([
-      fetchJson("./data/foundation.json"),
+      loadFoundationContent(),
       fetchJson("./data/vocabulary.json"),
       fetchJson("./data/grammar.json"),
       fetchJson("./data/reading.json"),
@@ -5035,6 +8932,7 @@
     guide: { page: "guide", title: "TEPS \uAC00\uC774\uB4DC" },
     foundation: { page: "foundation", title: "\uAE30\uCD08\uD559\uC2B5" },
     lesson: { page: "lesson", title: "Lesson" },
+    "lesson-quiz": { page: "lesson-quiz", title: "\uAE30\uCD08 \uBBF8\uB2C8 \uD034\uC988" },
     teps: { page: "teps", title: "TEPS \uD559\uC2B5" },
     vocabulary: { page: "vocabulary", title: "Vocabulary" },
     practice: { page: "practice", title: "\uBB38\uC81C\uD6C8\uB828" },
@@ -8314,38 +12212,49 @@ ${JSON.stringify(
     return next;
   }
 
-  // js/pages.js
+  // js/foundation.js
   var STATUS_LABEL = {
     completed: "\uC644\uB8CC",
     in_progress: "\uD559\uC2B5 \uC911",
     recommended: "\uCD94\uCC9C",
     not_started: "\uBBF8\uD559\uC2B5"
   };
+  var PASS_SCORE = 70;
   function lessonStatus(lesson, progress) {
     if (progress?.status === "completed") return "completed";
     if (progress?.status === "in_progress") return "in_progress";
     if (lesson.status === "recommended") return "recommended";
     return progress?.status || lesson.status || "not_started";
   }
-  function renderFoundation() {
+  function getLesson(id) {
+    return (getState().content.foundation?.lessons || []).find((l) => l.id === id);
+  }
+  function categoryProgress(lessons, foundationProgress, categoryId) {
+    const subset = lessons.filter((l) => l.category === categoryId);
+    const done = subset.filter((l) => foundationProgress[l.id]?.status === "completed").length;
+    return { total: subset.length, done };
+  }
+  function renderFoundation(params = {}) {
     const { content, foundationProgress } = getState();
     const data = content.foundation;
     if (!data) {
       return `<section class="page"><div class="empty-state"><p>\uAE30\uCD08\uD559\uC2B5 \uB370\uC774\uD130\uB97C \uBD88\uB7EC\uC624\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4.</p></div></section>`;
     }
     const lessons = data.lessons || [];
-    const completed = lessons.filter(
-      (l) => foundationProgress[l.id]?.status === "completed"
-    ).length;
+    const filter = params.category || "all";
+    const completed = lessons.filter((l) => foundationProgress[l.id]?.status === "completed").length;
     const pct = lessons.length ? Math.round(completed / lessons.length * 100) : 0;
     const categories = data.categories || [];
+    const next = getNextFoundationLesson(lessons, foundationProgress);
+    const wrongItems = collectFoundationWrongChecks(lessons, foundationProgress);
+    const filtered = filter === "all" ? lessons : lessons.filter((l) => l.category === filter);
     return `
-    <section class="page">
+    <section class="page foundation-page">
       <header class="page-header">
         <div>
           <p class="eyebrow">Foundation</p>
           <h1>\u{1F9F1} \uAE30\uCD08\uD559\uC2B5</h1>
-          <p class="muted page-lead">\uC601\uC5B4 \uAE30\uBCF8\uAE30\uB97C \uB2E4\uC2DC \uC138\uC6B0\uACE0 TEPS\uB85C \uC5F0\uACB0\uD569\uB2C8\uB2E4.</p>
+          <p class="muted page-lead">\uBC30\uC6B0\uAE30 \u2192 \uBBF8\uB2C8 \uD034\uC988 \u2192 \uC624\uB2F5 \uBCF5\uC2B5\uC73C\uB85C \uC601\uC5B4 \uAE30\uBCF8\uAE30\uB97C \uC313\uC2B5\uB2C8\uB2E4.</p>
         </div>
       </header>
 
@@ -8355,36 +12264,59 @@ ${JSON.stringify(
           <span class="accent-text">${completed}/${lessons.length} \xB7 ${pct}%</span>
         </div>
         <div class="bar"><div class="bar-fill" style="width:${pct}%"></div></div>
-        ${data.demo ? '<p class="muted small">Demo \uCF58\uD150\uCE20\uC785\uB2C8\uB2E4.</p>' : ""}
+        <p class="muted small">\uD559\uC2B5\uC6A9 \uAE30\uCD08 \uCF54\uC2A4\uC785\uB2C8\uB2E4. \uACF5\uC2DD TEPS \uAE30\uCD9C\uC774 \uC544\uB2D9\uB2C8\uB2E4.</p>
       </section>
 
-      <section class="category-chips" aria-label="\uAE30\uCD08 \uC601\uC5ED">
-        ${categories.map(
-      (c) => `
-          <div class="chip-card">
-            <strong>${escapeHtml(c.title)}</strong>
-            <p>${escapeHtml(c.description)}</p>
-          </div>`
-    ).join("")}
+      ${next ? `<section class="card foundation-next">
+              <p class="eyebrow">\uB2E4\uC74C\uC5D0 \uD560 Lesson</p>
+              <h2>${escapeHtml(next.title)}</h2>
+              <p class="muted">\uC57D ${escapeHtml(next.estimatedMinutes || 12)}\uBD84 \xB7 Lesson ${String(
+      next.order
+    ).padStart(2, "0")}</p>
+              <div class="btn-row wrap">
+                <button type="button" class="btn btn-primary" data-nav="lesson" data-id="${escapeHtml(
+      next.id
+    )}">\uC774\uC5B4\uC11C \uD559\uC2B5</button>
+                <button type="button" class="btn btn-secondary" data-nav="lesson-quiz" data-id="${escapeHtml(
+      next.id
+    )}">\uBBF8\uB2C8 \uD034\uC988</button>
+              </div>
+            </section>` : ""}
+
+      <section class="foundation-filters" aria-label="\uAE30\uCD08 \uC601\uC5ED \uD544\uD130">
+        <button type="button" class="filter-chip ${filter === "all" ? "is-active" : ""}" data-filter="all">\uC804\uCCB4</button>
+        ${categories.map((c) => {
+      const cp = categoryProgress(lessons, foundationProgress, c.id);
+      return `<button type="button" class="filter-chip ${filter === c.id ? "is-active" : ""}" data-filter="${escapeHtml(c.id)}">${escapeHtml(c.title)}
+              <span class="muted">${cp.done}/${cp.total}</span></button>`;
+    }).join("")}
       </section>
+
+      ${wrongItems.length ? `<section class="card">
+              <h2>\u{1F501} \uAE30\uCD08 \uC624\uB2F5 \uBCF5\uC2B5</h2>
+              <p class="muted">\uD2C0\uB9B0 \uD655\uC778\uBB38\uC81C ${wrongItems.length}\uBB38\uD56D</p>
+              <button type="button" class="btn btn-secondary" id="foundation-review-start">\uC624\uB2F5 \uB2E4\uC2DC \uD480\uAE30</button>
+            </section>` : ""}
 
       <section class="card">
         <h2>\u{1F4DA} Lesson \uBAA9\uB85D</h2>
         <ul class="lesson-list">
-          ${lessons.map((lesson) => {
-      const status = lessonStatus(lesson, foundationProgress[lesson.id]);
+          ${filtered.length ? filtered.map((lesson) => {
+      const progress = foundationProgress[lesson.id];
+      const status = lessonStatus(lesson, progress);
+      const acc = progress?.bestAccuracy ?? progress?.accuracy ?? null;
       return `
               <li>
                 <button type="button" class="lesson-row" data-lesson="${escapeHtml(lesson.id)}">
                   <span class="lesson-num">${String(lesson.order).padStart(2, "0")}</span>
                   <span class="lesson-body">
                     <strong>${escapeHtml(lesson.title)}</strong>
-                    <span class="muted">\uC57D ${escapeHtml(lesson.estimatedMinutes || 10)}\uBD84</span>
+                    <span class="muted">\uC57D ${escapeHtml(lesson.estimatedMinutes || 10)}\uBD84${acc != null ? ` \xB7 \uCD5C\uACE0 ${escapeHtml(acc)}%` : ""}</span>
                   </span>
                   <span class="status-pill status-${status}">${STATUS_LABEL[status]}</span>
                 </button>
               </li>`;
-    }).join("")}
+    }).join("") : '<li class="muted">\uC774 \uC601\uC5ED\uC5D0 Lesson\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.</li>'}
         </ul>
       </section>
     </section>
@@ -8396,10 +12328,27 @@ ${JSON.stringify(
         navigate("lesson", { id: btn.getAttribute("data-lesson") });
       });
     });
+    root.querySelectorAll("[data-nav]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const page = btn.getAttribute("data-nav");
+        const params = {};
+        if (btn.dataset.id) params.id = btn.dataset.id;
+        navigate(page, params);
+      });
+    });
+    root.querySelectorAll("[data-filter]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const category = btn.getAttribute("data-filter");
+        navigate("foundation", category === "all" ? {} : { category });
+      });
+    });
+    root.querySelector("#foundation-review-start")?.addEventListener("click", () => {
+      navigate("lesson-quiz", { id: "review" });
+    });
   }
   function renderLesson(params) {
-    const { content, foundationProgress } = getState();
-    const lesson = (content.foundation?.lessons || []).find((l) => l.id === params.id);
+    const { foundationProgress } = getState();
+    const lesson = getLesson(params.id);
     if (!lesson) {
       return `
       <section class="page">
@@ -8410,7 +12359,7 @@ ${JSON.stringify(
       </section>`;
     }
     const progress = foundationProgress[lesson.id];
-    const hasContent = lesson.concept?.summary || (lesson.examples || []).length || (lesson.checks || []).length;
+    const checks = lesson.checks || [];
     return `
     <section class="page lesson-page" data-lesson-id="${escapeHtml(lesson.id)}">
       <header class="page-header">
@@ -8421,11 +12370,6 @@ ${JSON.stringify(
         </div>
       </header>
 
-      ${!hasContent ? `<div class="card empty-state">
-              <p class="empty-title">\uC774 Lesson\uC740 \uACE7 \uCC44\uC6CC\uC9C8 \uC608\uC815\uC785\uB2C8\uB2E4.</p>
-              <p class="muted">\uD604\uC7AC \uC0D8\uD50C\uB85C \uAD6C\uD604\uB41C Lesson\uC740 \u300C\uC601\uC5B4 \uBB38\uC7A5\uC758 \uBF08\uB300\u300D\uC785\uB2C8\uB2E4.</p>
-              <button type="button" class="btn btn-primary" data-nav="lesson" data-id="F-001">\uC0D8\uD50C Lesson \uC5F4\uAE30</button>
-            </div>` : `
       <section class="card">
         <h2>1. \uD559\uC2B5 \uBAA9\uD45C</h2>
         <ul class="bullet-list">
@@ -8449,13 +12393,13 @@ ${JSON.stringify(
             <article class="example-card">
               <p class="example-en">${escapeHtml(ex.en)}</p>
               <p class="muted">${escapeHtml(ex.ko)}</p>
-              <span class="structure-tag">${escapeHtml(ex.structure)}</span>
+              ${ex.structure ? `<span class="structure-tag">${escapeHtml(ex.structure)}</span>` : ""}
             </article>`
     ).join("")}
         </div>
       </section>
 
-      <section class="card">
+      ${lesson.category === "sentence" || lesson.category === "grammar" ? `<section class="card">
         <h2>4. \uBB38\uC7A5 \uAD6C\uC870 \uBCF4\uAE30</h2>
         <div class="structure-board" aria-label="\uBB38\uC7A5 \uAD6C\uC870">
           <div class="structure-block">S<span>\uC8FC\uC5B4</span></div>
@@ -8464,40 +12408,23 @@ ${JSON.stringify(
           <div class="structure-plus">+</div>
           <div class="structure-block">O / C<span>\uBAA9\uC801\uC5B4\xB7\uBCF4\uC5B4</span></div>
         </div>
-      </section>
-
-      <section class="card">
-        <h2>5. \uD655\uC778\uBB38\uC81C</h2>
-        <div id="lesson-checks" class="check-stack">
-          ${(lesson.checks || []).map(
-      (q, idx) => `
-            <article class="check-item" data-check-id="${escapeHtml(q.id)}" data-answer="${q.answer}">
-              <p class="check-q"><span class="q-num">Q${idx + 1}</span> ${escapeHtml(q.question)}</p>
-              <div class="choice-list" role="radiogroup" aria-label="\uBB38\uC81C ${idx + 1}">
-                ${q.choices.map(
-        (c, i) => `
-                  <button type="button" class="choice-btn" role="radio" aria-checked="false" data-choice="${i}">
-                    <span class="choice-key">${String.fromCharCode(65 + i)}</span>
-                    <span>${escapeHtml(c)}</span>
-                  </button>`
-      ).join("")}
-              </div>
-              <div class="check-feedback" hidden></div>
-            </article>`
-    ).join("")}
-        </div>
-      </section>
+      </section>` : ""}
 
       <section class="card complete-card">
-        <h2>6. Lesson \uC644\uB8CC</h2>
-        <p class="muted">${progress?.status === "completed" ? "\uC774\uBBF8 \uC644\uB8CC\uD55C Lesson\uC785\uB2C8\uB2E4. \uB2E4\uC2DC \uBCF5\uC2B5\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4." : "\uD655\uC778\uBB38\uC81C\uB97C \uD47C \uB4A4 Lesson\uC744 \uC644\uB8CC\uD558\uC138\uC694."}</p>
-        <button type="button" class="btn btn-primary" id="complete-lesson">Lesson \uC644\uB8CC</button>
-      </section>`}
+        <h2>\uBBF8\uB2C8 \uD034\uC988</h2>
+        <p class="muted">\uD655\uC778\uBB38\uC81C ${checks.length}\uBB38\uD56D \xB7 70% \uC774\uC0C1\uC774\uBA74 Lesson \uC644\uB8CC</p>
+        ${progress?.bestAccuracy != null ? `<p class="muted small">\uCD5C\uACE0 \uAE30\uB85D ${escapeHtml(progress.bestAccuracy)}%${progress.status === "completed" ? " \xB7 \uC644\uB8CC\uB428" : ""}</p>` : ""}
+        <div class="btn-row wrap">
+          <button type="button" class="btn btn-primary" data-nav="lesson-quiz" data-id="${escapeHtml(
+      lesson.id
+    )}">\uBBF8\uB2C8 \uD034\uC988 \uC2DC\uC791</button>
+          <button type="button" class="btn btn-secondary" data-nav="foundation">\uBAA9\uB85D\uC73C\uB85C</button>
+        </div>
+      </section>
     </section>
   `;
   }
   function bindLesson(root) {
-    const checkResults = {};
     root.querySelectorAll("[data-nav]").forEach((btn) => {
       btn.addEventListener("click", () => {
         const page = btn.getAttribute("data-nav");
@@ -8506,78 +12433,246 @@ ${JSON.stringify(
         navigate(page, params);
       });
     });
-    root.querySelectorAll(".check-item").forEach((item) => {
-      item.querySelectorAll(".choice-btn").forEach((btn) => {
+  }
+  function buildReviewQuiz() {
+    const { content, foundationProgress } = getState();
+    const items = collectFoundationWrongChecks(content.foundation?.lessons || [], foundationProgress);
+    return {
+      id: "review",
+      title: "\uAE30\uCD08 \uC624\uB2F5 \uBCF5\uC2B5",
+      order: 0,
+      checks: items.map((it) => ({
+        ...it.check,
+        _lessonId: it.lessonId
+      }))
+    };
+  }
+  function renderLessonQuiz(params) {
+    const isReview = params.id === "review";
+    const lesson = isReview ? buildReviewQuiz() : getLesson(params.id);
+    if (!lesson || !(lesson.checks || []).length) {
+      return `
+      <section class="page">
+        <div class="empty-state card">
+          <p class="empty-title">${isReview ? "\uBCF5\uC2B5\uD560 \uC624\uB2F5\uC774 \uC5C6\uC2B5\uB2C8\uB2E4." : "\uD034\uC988\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4."}</p>
+          <button type="button" class="btn btn-primary" data-nav="foundation">\uAE30\uCD08\uD559\uC2B5\uC73C\uB85C</button>
+        </div>
+      </section>`;
+    }
+    return `
+    <section class="page foundation-quiz-page" data-lesson-id="${escapeHtml(lesson.id)}" data-mode="${isReview ? "review" : "lesson"}" data-wrong-only="${params.wrongOnly === "1" ? "1" : "0"}">
+      <header class="page-header">
+        <button type="button" class="btn btn-ghost back-btn" data-nav="${isReview ? "foundation" : "lesson"}" ${isReview ? "" : `data-id="${escapeHtml(lesson.id)}"`}>\u2190 \uB4A4\uB85C</button>
+        <div>
+          <p class="eyebrow">Mini Quiz</p>
+          <h1>${escapeHtml(lesson.title)}</h1>
+        </div>
+      </header>
+      <div id="fq-root" class="card"></div>
+    </section>
+  `;
+  }
+  function bindLessonQuiz(root) {
+    const page = root.querySelector(".foundation-quiz-page");
+    if (!page) {
+      root.querySelectorAll("[data-nav]").forEach((btn) => {
         btn.addEventListener("click", () => {
-          const answer = Number(item.dataset.answer);
-          const choice = Number(btn.dataset.choice);
-          item.querySelectorAll(".choice-btn").forEach((b) => {
-            b.classList.remove("is-selected", "is-correct", "is-wrong");
-            b.setAttribute("aria-checked", "false");
-          });
-          btn.classList.add("is-selected");
-          btn.setAttribute("aria-checked", "true");
-          const feedback = item.querySelector(".check-feedback");
-          const lesson = getState().content.foundation.lessons.find(
-            (l) => l.id === root.querySelector(".lesson-page")?.dataset.lessonId
-          );
-          const q = lesson?.checks?.find((c) => c.id === item.dataset.checkId);
-          const correct = choice === answer;
-          checkResults[item.dataset.checkId] = correct;
-          if (correct) {
-            btn.classList.add("is-correct");
-            feedback.hidden = false;
-            feedback.className = "check-feedback is-correct";
-            feedback.textContent = `\uC815\uB2F5\uC785\uB2C8\uB2E4. ${q?.explanation || ""}`;
-          } else {
-            btn.classList.add("is-wrong");
-            item.querySelector(`[data-choice="${answer}"]`)?.classList.add("is-correct");
-            feedback.hidden = false;
-            feedback.className = "check-feedback is-wrong";
-            feedback.textContent = `\uB2E4\uC2DC \uC0DD\uAC01\uD574\uBCF4\uC138\uC694. ${q?.explanation || ""}`;
-          }
-          saveFoundationProgress(root.querySelector(".lesson-page").dataset.lessonId, {
-            status: "in_progress",
-            checkResults: { ...checkResults }
-          });
+          const p = btn.getAttribute("data-nav");
+          const params = {};
+          if (btn.dataset.id) params.id = btn.dataset.id;
+          navigate(p, params);
         });
       });
-    });
-    root.querySelector("#complete-lesson")?.addEventListener("click", async () => {
-      const id = root.querySelector(".lesson-page").dataset.lessonId;
-      const lesson = getState().content.foundation.lessons.find((l) => l.id === id);
-      const total = (lesson?.checks || []).length;
-      const correctCount = Object.values(checkResults).filter(Boolean).length;
-      const accuracy = total ? Math.round(correctCount / total * 100) : null;
-      await saveFoundationProgress(id, {
-        status: "completed",
-        completedAt: (/* @__PURE__ */ new Date()).toISOString(),
-        checkResults,
-        accuracy
+      return;
+    }
+    const lessonId = page.dataset.lessonId;
+    const mode = page.dataset.mode;
+    const lesson = mode === "review" ? buildReviewQuiz() : getLesson(lessonId);
+    let checks = [...lesson?.checks || []];
+    if (page.dataset.wrongOnly === "1" && mode !== "review") {
+      const wrongIds = getState().foundationProgress[lessonId]?.wrongCheckIds || [];
+      const filtered = checks.filter((c) => wrongIds.includes(c.id));
+      if (filtered.length) checks = filtered;
+    }
+    const fqRoot = root.querySelector("#fq-root");
+    let index = 0;
+    const results = {};
+    let answered = false;
+    const renderQ = () => {
+      answered = false;
+      if (index >= checks.length) {
+        renderResult();
+        return;
+      }
+      const q = checks[index];
+      const pct = Math.round(index / checks.length * 100);
+      fqRoot.innerHTML = `
+      <div class="fq-progress">
+        <div class="bar"><div class="bar-fill" style="width:${pct}%"></div></div>
+        <p class="muted small">${index + 1} / ${checks.length}</p>
+      </div>
+      ${q.transcript ? `<details class="fq-transcript"><summary>\uB300\uBCF8 \uBCF4\uAE30</summary><p>${escapeHtml(
+        q.transcript
+      )}</p></details>` : ""}
+      <p class="check-q"><span class="q-num">Q${index + 1}</span> ${escapeHtml(q.question)}</p>
+      <div class="choice-list" role="radiogroup">
+        ${q.choices.map(
+        (c, i) => `
+          <button type="button" class="choice-btn" data-choice="${i}">
+            <span class="choice-key">${String.fromCharCode(65 + i)}</span>
+            <span>${escapeHtml(c)}</span>
+          </button>`
+      ).join("")}
+      </div>
+      <div class="check-feedback" id="fq-feedback" hidden></div>
+      <div class="btn-row wrap" id="fq-actions" hidden>
+        <button type="button" class="btn btn-primary" id="fq-next">\uB2E4\uC74C</button>
+      </div>
+    `;
+      fqRoot.querySelectorAll(".choice-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          if (answered) return;
+          answered = true;
+          const choice = Number(btn.dataset.choice);
+          const correct = choice === q.answer;
+          results[q.id] = correct;
+          fqRoot.querySelectorAll(".choice-btn").forEach((b) => {
+            b.disabled = true;
+            b.classList.remove("is-selected", "is-correct", "is-wrong");
+          });
+          btn.classList.add("is-selected", correct ? "is-correct" : "is-wrong");
+          fqRoot.querySelector(`[data-choice="${q.answer}"]`)?.classList.add("is-correct");
+          const feedback = fqRoot.querySelector("#fq-feedback");
+          feedback.hidden = false;
+          feedback.className = `check-feedback ${correct ? "is-correct" : "is-wrong"}`;
+          feedback.textContent = `${correct ? "\uC815\uB2F5\uC785\uB2C8\uB2E4." : "\uB2E4\uC2DC \uD655\uC778\uD574 \uBCF4\uC138\uC694."} ${q.explanation || ""}`;
+          fqRoot.querySelector("#fq-actions").hidden = false;
+        });
       });
+      fqRoot.querySelector("#fq-next")?.addEventListener("click", () => {
+        index += 1;
+        renderQ();
+      });
+    };
+    async function persistLessonResult(accuracy, wrongCheckIds, completed) {
+      if (mode === "review") {
+        const byLesson = {};
+        checks.forEach((c) => {
+          const lid = c._lessonId;
+          if (!lid) return;
+          if (!byLesson[lid]) byLesson[lid] = [];
+          if (results[c.id] === false) byLesson[lid].push(c.id);
+        });
+        const lessons = getState().content.foundation?.lessons || [];
+        for (const lessonMeta of lessons) {
+          const prev2 = getState().foundationProgress[lessonMeta.id];
+          if (!prev2?.wrongCheckIds?.length) continue;
+          const stillWrong = (prev2.wrongCheckIds || []).filter((id) => {
+            const q = checks.find((c) => c.id === id);
+            if (!q) return true;
+            return results[id] === false;
+          });
+          const nextWrong = stillWrong.filter((id) => results[id] !== true);
+          await saveFoundationProgress(lessonMeta.id, {
+            ...prev2,
+            wrongCheckIds: nextWrong
+          });
+        }
+        return;
+      }
+      const prev = getState().foundationProgress[lessonId] || {};
+      const bestAccuracy = Math.max(prev.bestAccuracy ?? 0, accuracy);
+      const attempts = (prev.quizAttempts || 0) + 1;
+      await saveFoundationProgress(lessonId, {
+        ...prev,
+        status: completed ? "completed" : "in_progress",
+        completedAt: completed ? (/* @__PURE__ */ new Date()).toISOString() : prev.completedAt,
+        accuracy,
+        bestAccuracy,
+        quizAttempts: attempts,
+        wrongCheckIds,
+        checkResults: results
+      });
+    }
+    async function renderResult() {
+      const total = checks.length;
+      const correctCount = Object.values(results).filter(Boolean).length;
+      const accuracy = total ? Math.round(correctCount / total * 100) : 0;
+      const wrongCheckIds = checks.filter((c) => results[c.id] === false).map((c) => c.id);
+      const passed = accuracy >= PASS_SCORE;
+      const canComplete = mode !== "review" && passed;
+      if (mode === "review") {
+        await persistLessonResult(accuracy, wrongCheckIds, false);
+      } else {
+        await persistLessonResult(accuracy, wrongCheckIds, false);
+      }
       await addLearningRecord({
         type: "foundation",
         recordType: "session",
-        mode: "lesson",
-        title: lesson?.title || "\uAE30\uCD08 Lesson",
-        detail: accuracy != null ? `\uD655\uC778\uBB38\uC81C ${correctCount}/${total} (${accuracy}%)` : "Foundation Lesson \uC644\uB8CC",
+        mode: mode === "review" ? "foundation-review" : "lesson-quiz",
+        title: lesson.title,
+        detail: `\uBBF8\uB2C8 \uD034\uC988 ${correctCount}/${total} (${accuracy}%)`,
         totalQuestions: total,
         correctCount,
         accuracy
       });
-      try {
-        const map = getState().knowledgeMap;
-        if (map) {
-          const delta = accuracy == null ? 4 : accuracy >= 70 ? 6 : 2;
-          applyKnowledgeMapUpdate(map, "grammar", "agreement", Math.min(6, delta));
-          await putItem("knowledgeMap", map);
+      fqRoot.innerHTML = `
+      <div class="fq-result">
+        <p class="eyebrow">\uACB0\uACFC</p>
+        <p class="score-value display-num">${accuracy}%</p>
+        <p class="muted">${correctCount} / ${total} \uC815\uB2F5${passed ? " \xB7 \uC644\uB8CC \uAE30\uC900 \uCDA9\uC871" : ` \xB7 ${PASS_SCORE}% \uC774\uC0C1 \uD544\uC694`}</p>
+        ${wrongCheckIds.length ? `<ul class="bullet-list">${wrongCheckIds.map((id) => {
+        const q = checks.find((c) => c.id === id);
+        return `<li>${escapeHtml(q?.question || id)}</li>`;
+      }).join("")}</ul>` : '<p class="muted">\uD2C0\uB9B0 \uBB38\uD56D\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.</p>'}
+        <div class="btn-row wrap">
+          ${wrongCheckIds.length ? `<button type="button" class="btn btn-secondary" id="fq-retry-wrong">\uC624\uB2F5\uB9CC \uB2E4\uC2DC</button>` : ""}
+          ${canComplete ? `<button type="button" class="btn btn-primary" id="fq-complete">Lesson \uC644\uB8CC</button>` : mode !== "review" ? `<button type="button" class="btn btn-secondary" data-nav="lesson" data-id="${escapeHtml(
+        lessonId
+      )}">\uBCF8\uBB38 \uBCF5\uC2B5</button>` : ""}
+          <button type="button" class="btn btn-secondary" data-nav="foundation">\uAE30\uCD08\uD559\uC2B5 \uBAA9\uB85D</button>
+        </div>
+      </div>
+    `;
+      fqRoot.querySelector("#fq-retry-wrong")?.addEventListener("click", () => {
+        if (mode === "review") {
+          navigate("lesson-quiz", { id: "review" });
+          return;
         }
-      } catch {
-      }
-      showToast("Lesson\uC744 \uC644\uB8CC\uD588\uC2B5\uB2C8\uB2E4.", "success");
-      navigate("foundation");
+        navigate("lesson-quiz", { id: lessonId, wrongOnly: "1" });
+      });
+      fqRoot.querySelector("#fq-complete")?.addEventListener("click", async () => {
+        await persistLessonResult(accuracy, wrongCheckIds, true);
+        showToast("Lesson\uC744 \uC644\uB8CC\uD588\uC2B5\uB2C8\uB2E4.", "success");
+        const lessons = getState().content.foundation?.lessons || [];
+        const next = getNextFoundationLesson(lessons, getState().foundationProgress);
+        if (next && next.id !== lessonId) {
+          navigate("lesson", { id: next.id });
+        } else {
+          navigate("foundation");
+        }
+      });
+      fqRoot.querySelectorAll("[data-nav]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const pageName = btn.getAttribute("data-nav");
+          const navParams = {};
+          if (btn.dataset.id) navParams.id = btn.dataset.id;
+          navigate(pageName, navParams);
+        });
+      });
+    }
+    root.querySelectorAll(".page-header [data-nav]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const pageName = btn.getAttribute("data-nav");
+        const navParams = {};
+        if (btn.dataset.id) navParams.id = btn.dataset.id;
+        navigate(pageName, navParams);
+      });
     });
+    renderQ();
   }
+
+  // js/pages.js
   function renderTeps(params = {}) {
     const { profile, knowledgeMap, questionBank } = getState();
     const counts = {
@@ -8965,8 +13060,9 @@ ${JSON.stringify(
     const primaryBottom = /* @__PURE__ */ new Set(["home", "foundation", "practice", "review", "my-teps"]);
     const practicePages = /* @__PURE__ */ new Set(["practice", "practice-quiz", "practice-result", "target-preview"]);
     const mockPages = /* @__PURE__ */ new Set(["mock", "mock-guide", "mock-exam", "mock-result", "diagnosis"]);
+    const foundationPages = /* @__PURE__ */ new Set(["foundation", "lesson", "lesson-quiz"]);
     side.innerHTML = items.map((item) => {
-      const active = activePage === item.id || item.id === "foundation" && activePage === "lesson" || item.id === "teps" && activePage === "vocabulary" || item.id === "practice" && practicePages.has(activePage) || item.id === "mock" && mockPages.has(activePage);
+      const active = activePage === item.id || item.id === "foundation" && foundationPages.has(activePage) || item.id === "teps" && activePage === "vocabulary" || item.id === "practice" && practicePages.has(activePage) || item.id === "mock" && mockPages.has(activePage);
       return `
       <a class="nav-link ${active ? "is-active" : ""}" href="${item.href}" data-nav-id="${item.id}" ${active ? 'aria-current="page"' : ""}>
         <span class="nav-emoji" aria-hidden="true">${item.emoji || ""}</span>
@@ -9029,8 +13125,9 @@ ${JSON.stringify(
     const map = {
       home: [renderDashboard, bindDashboard],
       guide: [renderGuide, bindGuide],
-      foundation: [renderFoundation, bindFoundation],
+      foundation: [() => renderFoundation(route.params), bindFoundation],
       lesson: [() => renderLesson(route.params), bindLesson],
+      "lesson-quiz": [() => renderLessonQuiz(route.params), bindLessonQuiz],
       teps: [() => renderTeps(route.params), bindTeps],
       vocabulary: [
         () => renderVocabulary(route.params),

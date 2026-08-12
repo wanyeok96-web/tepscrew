@@ -110,8 +110,8 @@ tepscrew/
 ├── scripts.js
 ├── README.md
 ├── data/
-│   ├── foundation.json / vocabulary.json / …
-│   ├── guide.json
+│   ├── foundation/ (manifest + lessons F-001~F-024)
+│   ├── guide.json / vocabulary.json / …
 │   └── packs/
 │       ├── manifest.json
 │       ├── TEPS_Crew_Pack_001.json

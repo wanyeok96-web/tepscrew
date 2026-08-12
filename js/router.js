@@ -7,6 +7,7 @@ const ROUTES = {
   guide: { page: 'guide', title: 'TEPS 가이드' },
   foundation: { page: 'foundation', title: '기초학습' },
   lesson: { page: 'lesson', title: 'Lesson' },
+  'lesson-quiz': { page: 'lesson-quiz', title: '기초 미니 퀴즈' },
   teps: { page: 'teps', title: 'TEPS 학습' },
   vocabulary: { page: 'vocabulary', title: 'Vocabulary' },
   practice: { page: 'practice', title: '문제훈련' },

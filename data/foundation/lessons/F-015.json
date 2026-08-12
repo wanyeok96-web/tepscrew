@@ -1,0 +1,141 @@
+{
+  "id": "F-015",
+  "order": 15,
+  "title": "혼동하기 쉬운 어휘",
+  "category": "vocabulary",
+  "estimatedMinutes": 14,
+  "skills": ["confusable-words", "precise-usage", "context"],
+  "objectives": [
+    "형태·의미가 비슷한 혼동 어휘를 구분한다",
+    "문맥에 맞는 정확한 단어를 고른다",
+    "품사·뉘앙스 차이를 설명으로 정리한다"
+  ],
+  "concept": {
+    "summary": "affect/effect, raise/rise, borrow/lend처럼 비슷해 보이는 단어는 TEPS에서 자주 출제됩니다. 뜻만 외우지 말고 ‘주어가 무엇을 하는지’, ‘목적어가 필요한지’를 함께 보면 오답이 줄어듭니다. 혼동쌍은 대비표로 정리하는 것이 가장 효율적입니다.",
+    "points": [
+      "동사/명사 품사부터 확인한다",
+      "타동사인지 자동사인지 본다",
+      "주어·목적어 관계를 먼저 그린다",
+      "예문을 한 쌍씩 비교해 고정한다"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The policy will affect housing prices.",
+      "ko": "그 정책은 주택 가격에 영향을 미칠 것이다.",
+      "structure": "affect(V) vs effect(N)"
+    },
+    {
+      "en": "Prices continue to rise.",
+      "ko": "물가가 계속 오른다.",
+      "structure": "rise(자동사) / raise(타동사)"
+    },
+    {
+      "en": "Can you lend me your notes?",
+      "ko": "노트를 좀 빌려줄 수 있나요?",
+      "structure": "lend = give temporarily / borrow = take temporarily"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-015-Q01",
+      "skill": "confusable-words",
+      "question": "빈칸에 알맞은 것은? \"Stress can ___ your sleep quality.\"",
+      "choices": ["effect", "affect", "affection", "effective"],
+      "answer": 1,
+      "explanation": "여기서는 동사가 필요하므로 affect가 맞습니다. effect는 주로 명사 ‘결과/영향’입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-015-Q02",
+      "skill": "precise-usage",
+      "question": "다음 중 올바른 문장은?",
+      "choices": [
+        "They raised early this morning.",
+        "The sun raised at 6 a.m.",
+        "She raised her hand to ask a question.",
+        "Costs are raising quickly."
+      ],
+      "answer": 2,
+      "explanation": "raise는 타동사라 목적어가 필요합니다. 해가 뜨다/비용이 오르다는 rise를 씁니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-015-Q03",
+      "skill": "confusable-words",
+      "question": "\"I need to ___ a book from the library.\"에 알맞은 것은?",
+      "choices": ["lend", "borrow", "loan to", "owe"],
+      "answer": 1,
+      "explanation": "빌리는 쪽은 borrow, 빌려주는 쪽은 lend입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-015-Q04",
+      "skill": "context",
+      "question": "\"He is currently ___ in Seoul.\"에 알맞은 것은?",
+      "choices": ["living", "leaving", "lefting", "leaved"],
+      "answer": 0,
+      "explanation": "live(거주하다)와 leave(떠나다)를 혼동하지 마세요. 현재 거주는 living입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-015-Q05",
+      "skill": "confusable-words",
+      "question": "\"The ___ of the new rule was immediate.\"에 알맞은 것은?",
+      "choices": ["affect", "effect", "affective", "affected"],
+      "answer": 1,
+      "explanation": "관사 the 뒤이므로 명사 effect(결과/영향)가 필요합니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-015-Q06",
+      "skill": "precise-usage",
+      "question": "다음 중 economic과 economical의 쓰임이 올바른 것은?",
+      "choices": [
+        "an economical crisis",
+        "economic growth this year",
+        "an economic car",
+        "economical policy debate"
+      ],
+      "answer": 1,
+      "explanation": "economic은 ‘경제의’, economical은 ‘절약하는/경제적인’입니다. economic growth가 자연스럽고, 차는 economical car가 맞습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-015-Q07",
+      "skill": "confusable-words",
+      "question": "\"Please ___ me know when you arrive.\"에 알맞은 것은?",
+      "choices": ["let", "make", "allow", "permit"],
+      "answer": 0,
+      "explanation": "let someone know가 고정 표현입니다. make me know는 쓰지 않습니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-015-Q08",
+      "skill": "precise-usage",
+      "question": "\"She is ___ for the delay.\"에 알맞은 것은?",
+      "choices": ["responsible", "responsive", "response", "responding"],
+      "answer": 0,
+      "explanation": "be responsible for는 ‘~에 책임이 있다’입니다. responsive는 ‘반응이 빠른’입니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-015-Q09",
+      "skill": "context",
+      "question": "\"The weather ___ our outdoor plans.\"에 알맞은 것은?",
+      "choices": ["effected", "affected", "affection", "effective"],
+      "answer": 1,
+      "explanation": "과거형 동사로 ‘영향을 미쳤다’는 affected입니다. effect의 과거형 effected는 ‘성취하다’ 뜻으로 드뭅니다.",
+      "transcript": ""
+    },
+    {
+      "id": "F-015-Q10",
+      "skill": "confusable-words",
+      "question": "\"Could you ___ me some money until Friday?\"에 알맞은 것은?",
+      "choices": ["borrow", "lend", "rent", "owe"],
+      "answer": 1,
+      "explanation": "상대가 ‘나에게 빌려주는’ 상황이므로 lend me가 맞습니다.",
+      "transcript": ""
+    }
+  ]
+}

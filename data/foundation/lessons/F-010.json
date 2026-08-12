@@ -1,0 +1,175 @@
+{
+  "id": "F-010",
+  "order": 10,
+  "title": "분사",
+  "category": "grammar",
+  "estimatedMinutes": 12,
+  "skills": [
+    "participles",
+    "present-past-participle",
+    "reduced-relative"
+  ],
+  "objectives": [
+    "현재분사와 과거분사의 의미 차이를 이해한다",
+    "분사가 명사를 수식하는 구조를 읽는다",
+    "분사구문으로 절을 압축하는 감각을 익힌다"
+  ],
+  "concept": {
+    "summary": "분사는 형용사처럼 명사를 수식하거나, 분사구문으로 부사절을 압축합니다. 현재분사(V-ing)는 능동·진행, 과거분사(p.p.)는 수동·완료 느낌이 강합니다. boring(지루하게 만드는) vs bored(지루한) 같은 감정 분사를 특히 주의하세요.",
+    "points": [
+      "현재분사: a growing market / people waiting outside",
+      "과거분사: a written report / issues discussed yesterday",
+      "감정: interesting(관심 끄는) / interested(관심 가진)",
+      "분사구문: Walking in, she noticed… (= When she walked in…)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "The rising costs worry investors.",
+      "ko": "상승하는 비용이 투자자들을 걱정시킨다.",
+      "structure": "현재분사 rising"
+    },
+    {
+      "en": "Please review the attached file.",
+      "ko": "첨부된 파일을 검토해 주세요.",
+      "structure": "과거분사 attached"
+    },
+    {
+      "en": "Confused by the chart, he asked a question.",
+      "ko": "차트에 혼란스러워서 그는 질문했다.",
+      "structure": "과거분사구문"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-010-Q01",
+      "skill": "present-participle",
+      "question": "\"a ___ opportunity\" (증가하는)",
+      "choices": [
+        "grew",
+        "growing",
+        "grownly",
+        "grow"
+      ],
+      "answer": 1,
+      "explanation": "명수식 현재분사는 growing입니다."
+    },
+    {
+      "id": "F-010-Q02",
+      "skill": "past-participle",
+      "question": "\"the ___ proposal\" (거부된)",
+      "choices": [
+        "rejecting",
+        "rejected",
+        "rejects",
+        "reject"
+      ],
+      "answer": 1,
+      "explanation": "수동 의미의 과거분사 rejected가 맞습니다."
+    },
+    {
+      "id": "F-010-Q03",
+      "skill": "emotion",
+      "question": "\"I am ___ in data privacy.\"",
+      "choices": [
+        "interesting",
+        "interested",
+        "interest",
+        "interests"
+      ],
+      "answer": 1,
+      "explanation": "사람이 ‘관심 있다’는 interested입니다."
+    },
+    {
+      "id": "F-010-Q04",
+      "skill": "emotion-trap",
+      "question": "\"The lecture was ___ .\"",
+      "choices": [
+        "bored",
+        "boring",
+        "bore",
+        "bores"
+      ],
+      "answer": 1,
+      "explanation": "사물이 ‘지루하게 만드는’ 성질은 boring입니다."
+    },
+    {
+      "id": "F-010-Q05",
+      "skill": "reduced",
+      "question": "\"Customers ___ in line looked impatient.\"",
+      "choices": [
+        "wait",
+        "waiting",
+        "waited for to",
+        "waits"
+      ],
+      "answer": 1,
+      "explanation": "who were waiting → waiting으로 축약된 현재분사 수식입니다."
+    },
+    {
+      "id": "F-010-Q06",
+      "skill": "absolute-sense",
+      "question": "분사구문의 주어는 보통?",
+      "choices": [
+        "항상 it",
+        "주절 주어와 같아야 자연스럽다",
+        "목적어만",
+        "전치사만"
+      ],
+      "answer": 1,
+      "explanation": "분사구문의 의미상 주어는 주절 주어와 일치하는 것이 원칙입니다."
+    },
+    {
+      "id": "F-010-Q07",
+      "skill": "application",
+      "question": "\"___ the deadline, we worked overnight.\"",
+      "choices": [
+        "Approach",
+        "Approaching",
+        "Approached to",
+        "Approaches"
+      ],
+      "answer": 1,
+      "explanation": "Approaching the deadline… = As we approached…"
+    },
+    {
+      "id": "F-010-Q08",
+      "skill": "passive-participle",
+      "question": "\"Documents ___ last week are ready.\"",
+      "choices": [
+        "signing",
+        "signed",
+        "sign",
+        "to signing"
+      ],
+      "answer": 1,
+      "explanation": "signed last week = which were signed…"
+    },
+    {
+      "id": "F-010-Q09",
+      "skill": "trap-dangling",
+      "question": "어색한(매달린 분사) 문장은?",
+      "choices": [
+        "Entering the room, she turned on the light.",
+        "Entering the room, the light was turned on.",
+        "Tired, he took a break.",
+        "Written clearly, the note helped."
+      ],
+      "answer": 1,
+      "explanation": "두 번째 문장은 분사 주어가 light처럼 읽혀 어색합니다."
+    },
+    {
+      "id": "F-010-Q10",
+      "skill": "concept",
+      "question": "현재분사와 과거분사의 기본 대비는?",
+      "choices": [
+        "현재=수동 / 과거=능동",
+        "현재=능동·진행 / 과거=수동·완료 감각",
+        "둘 다 항상 부사",
+        "시제와 무관하게 동일"
+      ],
+      "answer": 1,
+      "explanation": "V-ing는 능동·진행, p.p.는 수동·완료 느낌이 기본입니다."
+    }
+  ]
+}

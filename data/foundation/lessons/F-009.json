@@ -1,0 +1,175 @@
+{
+  "id": "F-009",
+  "order": 9,
+  "title": "동명사",
+  "category": "grammar",
+  "estimatedMinutes": 12,
+  "skills": [
+    "gerund",
+    "gerund-vs-infinitive",
+    "preposition-gerund"
+  ],
+  "objectives": [
+    "동명사의 명사적 쓰임을 이해한다",
+    "동명사만 목적어로 취하는 동사를 익힌다",
+    "전치사 뒤 -ing 규칙을 적용한다"
+  ],
+  "concept": {
+    "summary": "동명사(V-ing)는 동사에서 왔지만 문장에서는 명사처럼 쓰입니다. enjoy, avoid, consider, finish, suggest 등은 목적어로 동명사를 선호하고, 전치사 뒤에는 원칙적으로 동명사가 옵니다.",
+    "points": [
+      "주어·목적어·보어로 사용: Swimming helps. / I like reading.",
+      "동명사 목적어 동사: enjoy, avoid, mind, finish, keep",
+      "전치사 + -ing: before leaving, by improving",
+      "의미 차이: stop smoking(끊다) vs stop to smoke(쉬려고 피우다)"
+    ]
+  },
+  "examples": [
+    {
+      "en": "She enjoys mentoring junior staff.",
+      "ko": "그녀는 후배 멘토링을 즐긴다.",
+      "structure": "enjoy + V-ing"
+    },
+    {
+      "en": "Thank you for waiting.",
+      "ko": "기다려 주셔서 감사합니다.",
+      "structure": "전치사 for + V-ing"
+    },
+    {
+      "en": "His job is managing schedules.",
+      "ko": "그의 일은 일정을 관리하는 것이다.",
+      "structure": "보어로 쓰인 동명사"
+    }
+  ],
+  "checks": [
+    {
+      "id": "F-009-Q01",
+      "skill": "form",
+      "question": "동명사의 형태는?",
+      "choices": [
+        "to + 원형",
+        "V-ing (명사 역할)",
+        "have + p.p.만",
+        "be + 형용사만"
+      ],
+      "answer": 1,
+      "explanation": "동명사는 V-ing 형태로 명사 역할을 합니다."
+    },
+    {
+      "id": "F-009-Q02",
+      "skill": "verb-pattern",
+      "question": "\"Would you mind ___ the window?\"",
+      "choices": [
+        "to open",
+        "opening",
+        "opened",
+        "open to"
+      ],
+      "answer": 1,
+      "explanation": "mind는 동명사를 취합니다. mind opening."
+    },
+    {
+      "id": "F-009-Q03",
+      "skill": "preposition",
+      "question": "\"She left without ___ goodbye.\"",
+      "choices": [
+        "to say",
+        "saying",
+        "said",
+        "say"
+      ],
+      "answer": 1,
+      "explanation": "전치사 without 뒤에는 동명사 saying입니다."
+    },
+    {
+      "id": "F-009-Q04",
+      "skill": "subject",
+      "question": "동명사가 주어인 문장은?",
+      "choices": [
+        "To early is better.",
+        "Jogging clears my head.",
+        "She jogging clears.",
+        "Jogged clears my head."
+      ],
+      "answer": 1,
+      "explanation": "Jogging이 주어입니다."
+    },
+    {
+      "id": "F-009-Q05",
+      "skill": "avoid",
+      "question": "\"We should avoid ___ the same mistake.\"",
+      "choices": [
+        "to make",
+        "making",
+        "made",
+        "make to"
+      ],
+      "answer": 1,
+      "explanation": "avoid + V-ing 패턴입니다."
+    },
+    {
+      "id": "F-009-Q06",
+      "skill": "trap-stop",
+      "question": "\"He stopped ___ a coffee.\" (잠시 쉬려고 커피를 마셨다)",
+      "choices": [
+        "drinking",
+        "to drink",
+        "drunk",
+        "drink"
+      ],
+      "answer": 1,
+      "explanation": "stop to V는 ‘하려고 멈추다’. stop V-ing는 ‘하던 것을 그만두다’."
+    },
+    {
+      "id": "F-009-Q07",
+      "skill": "suggest",
+      "question": "\"I suggest ___ the agenda.\"",
+      "choices": [
+        "to revise",
+        "revising",
+        "revised",
+        "revise to"
+      ],
+      "answer": 1,
+      "explanation": "suggest는 동명사(또는 that절)를 취합니다."
+    },
+    {
+      "id": "F-009-Q08",
+      "skill": "application",
+      "question": "전치사 뒤 형태가 올바른 것은?",
+      "choices": [
+        "interested in to learn",
+        "interested in learning",
+        "interested in learned",
+        "interested learning in"
+      ],
+      "answer": 1,
+      "explanation": "interested in + V-ing입니다."
+    },
+    {
+      "id": "F-009-Q09",
+      "skill": "go-ing",
+      "question": "\"Let's go ___ this weekend.\"",
+      "choices": [
+        "to hike",
+        "hiking",
+        "hiked",
+        "hike to"
+      ],
+      "answer": 1,
+      "explanation": "go shopping/hiking처럼 go + V-ing가 관용적입니다."
+    },
+    {
+      "id": "F-009-Q10",
+      "skill": "error",
+      "question": "틀린 문장은?",
+      "choices": [
+        "She finished writing the email.",
+        "He keeps interrupting.",
+        "They enjoy to travel.",
+        "I avoided mentioning it."
+      ],
+      "answer": 2,
+      "explanation": "enjoy는 동명사를 씁니다. enjoy traveling이 맞습니다."
+    }
+  ]
+}
