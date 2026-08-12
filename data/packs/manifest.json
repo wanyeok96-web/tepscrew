@@ -18,6 +18,15 @@
       "questionCount": 22,
       "file": "./data/packs/TEPS_Crew_Pack_002.json",
       "notes": "Reading 12 + Listening 10 · TEPS 327 Target 학습용 자체 제작 문항"
+    },
+    {
+      "id": "tepscrew-pack-kim-reading-0001",
+      "title": "TEPSCrew Pack kim reading 0001",
+      "version": 1,
+      "sections": ["reading"],
+      "questionCount": 12,
+      "file": "./data/packs/TEPSCrew_Pack_kim_reading_0001.json",
+      "notes": "선생님 제작(kim) · Reading 12 · 학습용 자체 제작"
     }
   ]
 }

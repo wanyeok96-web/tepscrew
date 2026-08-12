@@ -11,6 +11,7 @@ import guide from '../../data/guide.json';
 import packManifest from '../../data/packs/manifest.json';
 import pack001 from '../../data/packs/TEPS_Crew_Pack_001.json';
 import pack002 from '../../data/packs/TEPS_Crew_Pack_002.json';
+import packKimReading0001 from '../../data/packs/TEPSCrew_Pack_kim_reading_0001.json';
 import foundationManifest from '../../data/foundation/manifest.json';
 import fLesson001 from '../../data/foundation/lessons/F-001.json';
 import fLesson002 from '../../data/foundation/lessons/F-002.json';
@@ -46,6 +47,7 @@ const EMBEDDED = {
   './data/packs/manifest.json': packManifest,
   './data/packs/TEPS_Crew_Pack_001.json': pack001,
   './data/packs/TEPS_Crew_Pack_002.json': pack002,
+  './data/packs/TEPSCrew_Pack_kim_reading_0001.json': packKimReading0001,
   './data/foundation/manifest.json': foundationManifest,
   './data/foundation/lessons/F-001.json': fLesson001,
   './data/foundation/lessons/F-002.json': fLesson002,

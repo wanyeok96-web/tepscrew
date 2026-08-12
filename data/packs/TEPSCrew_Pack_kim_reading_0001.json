@@ -1,0 +1,623 @@
+{
+  "name": "TEPSCrew_Pack_kim_reading_0001",
+  "author": "kim",
+  "section": "reading",
+  "version": 1,
+  "questionCount": 12,
+  "createdAt": "2026-08-12",
+  "notes": "학습용 자체 제작 · 공식 TEPS 기출 아님",
+  "questions": [
+    {
+      "id": "R-BLK-kim-0001",
+      "section": "reading",
+      "part": 1,
+      "type": "blank",
+      "difficulty": 2,
+      "targetScoreBand": "250-320",
+      "tags": [
+        "blank",
+        "business",
+        "workplace"
+      ],
+      "question": "Which of the following best completes the blank?",
+      "passage": "To maintain productivity during the office renovation, management has decided to implement a temporary work-from-home policy. Employees are expected to fulfill their usual duties remotely and stay reachable during regular office hours. Although this arrangement requires adjustments, leadership expects team members to _______________ throughout this transition period.",
+      "transcript": "",
+      "choices": [
+        "maintain high standards of performance",
+        "cancel all upcoming project deadlines",
+        "relocate to a different regional office",
+        "submit daily physical attendance logs"
+      ],
+      "answer": 0,
+      "explanation": {
+        "summary": "사무실 리모델링 기간 동안 재택근무를 시행하지만 업무 성과 수준을 유지해주길 기대한다는 내용이다.",
+        "evidence": "fulfill their usual duties remotely and stay reachable... leadership expects team members to maintain high standards of performance",
+        "choiceAnalysis": [
+          "(A) 정답: 평소와 동일한 업무 수행 및 연락 가능 상태 유지를 요청하므로 '높은 성과 기준을 유지하다'가 빈칸에 가장 적절함.",
+          "(B) 오답: 마감 기한을 취소한다는 내용은 지문의 취지와 반대됨.",
+          "(C) 오답: 다른 지역 사무실로 이전한다는 언급은 없음.",
+          "(D) 오답: 재택근무 상황이므로 매일 출석 일지를 제출한다는 것은 맥락에 맞지 않음."
+        ]
+      },
+      "skills": [
+        "contextual-inference",
+        "reading-comprehension"
+      ],
+      "vocabulary": [
+        {
+          "word": "renovation",
+          "meaning": "개보수, 리모델링"
+        },
+        {
+          "word": "fulfill",
+          "meaning": "이행하다, 완수하다"
+        },
+        {
+          "word": "transition",
+          "meaning": "전환, 이행"
+        }
+      ]
+    },
+    {
+      "id": "R-BLK-kim-0002",
+      "section": "reading",
+      "part": 1,
+      "type": "blank",
+      "difficulty": 2,
+      "targetScoreBand": "250-320",
+      "tags": [
+        "blank",
+        "environment",
+        "technology"
+      ],
+      "question": "Which of the following best completes the blank?",
+      "passage": "Urban rooftop gardens have gained popularity as effective tools for combatting the heat island effect in major cities. By covering concrete surfaces with vegetation, these gardens absorb solar radiation and lower surrounding temperatures through evapotranspiration. Consequently, city planners view them not merely as aesthetic additions, but as _______________ for sustainable urban development.",
+      "transcript": "",
+      "choices": [
+        "costly burdens",
+        "vital strategies",
+        "temporary trends",
+        "minor distractions"
+      ],
+      "answer": 1,
+      "explanation": {
+        "summary": "옥상 정원이 도심 열섬 현상을 완화하는 효과적인 도구이며 단순 미관용이 아닌 지속 가능한 도시 개발을 위한 핵심 전략이라는 내용이다.",
+        "evidence": "not merely as aesthetic additions, but as vital strategies for sustainable urban development",
+        "choiceAnalysis": [
+          "(A) 오답: 비용 부담이라는 부정적인 표현은 옥상 정원의 긍정적 역할을 설명하는 흐름과 어긋남.",
+          "(B) 정답: 단순 미관용이 아닌 도시 열섬 완화를 위한 '필수적 전략'으로 본다는 흐름이 적절함.",
+          "(C) 오답: 일시적 유행으로 치부하는 것은 긍정적 효과 강조와 맞지 않음.",
+          "(D) 오답: 사소한 주의 산만 요소라는 표현은 문맥상 부적절함."
+        ]
+      },
+      "skills": [
+        "vocabulary-in-context",
+        "logical-completion"
+      ],
+      "vocabulary": [
+        {
+          "word": "vegetation",
+          "meaning": "식생, 초목"
+        },
+        {
+          "word": "evapotranspiration",
+          "meaning": "증발산(작용)"
+        },
+        {
+          "word": "aesthetic",
+          "meaning": "미적인"
+        }
+      ]
+    },
+    {
+      "id": "R-MAI-kim-0003",
+      "section": "reading",
+      "part": 2,
+      "type": "main-idea",
+      "difficulty": 2,
+      "targetScoreBand": "250-320",
+      "tags": [
+        "main-idea",
+        "health",
+        "psychology"
+      ],
+      "question": "Which of the following best summarizes the main idea of the passage?",
+      "passage": "Recent studies suggest that taking short, frequent breaks during long periods of cognitive effort significantly improves overall focus and mental stamina. Unlike extended breaks taken late in the workday, micro-breaks lasting just two to three minutes help reset cognitive load before exhaustion sets in. Incorporating brief pauses into routine workflows allows individuals to sustain high levels of accuracy and creative problem-solving over prolonged periods.",
+      "transcript": "",
+      "choices": [
+        "Longer breaks at the end of the day are essential for total recovery.",
+        "Short and regular pauses boost cognitive focus and continuous performance.",
+        "Continuous work without interruption builds mental resilience over time.",
+        "Creative problem-solving depends entirely on physical fitness levels."
+      ],
+      "answer": 1,
+      "explanation": {
+        "summary": "짧고 주기적인 휴식이 뇌의 과부하를 막고 집중력 및 지속적인 업무 성과를 향상시킨다는 글이다.",
+        "evidence": "taking short, frequent breaks... improves overall focus... sustain high levels of accuracy",
+        "choiceAnalysis": [
+          "(A) 오답: 퇴근 무렵의 긴 휴식보다 짧은 휴식이 효과적이라는 지문 내용과 배치됨.",
+          "(B) 정답: 짧고 정기적인 휴식이 인지적 집중과 지속적인 성과를 향상시킨다는 본문 요지와 일치함.",
+          "(C) 오답: 쉬지 않고 일하는 것이 정신적 탄력성을 키운다는 언급은 없음.",
+          "(D) 오답: 신체적 체력 수준만이 창의적 문제 해결을 결정한다는 내용은 언급되지 않음."
+        ]
+      },
+      "skills": [
+        "main-idea-identification",
+        "summarization"
+      ],
+      "vocabulary": [
+        {
+          "word": "cognitive",
+          "meaning": "인지적인"
+        },
+        {
+          "word": "stamina",
+          "meaning": "체력, 원기"
+        },
+        {
+          "word": "prolonged",
+          "meaning": "장기적인, 장시간의"
+        }
+      ]
+    },
+    {
+      "id": "R-DET-kim-0004",
+      "section": "reading",
+      "part": 2,
+      "type": "detail",
+      "difficulty": 2,
+      "targetScoreBand": "250-320",
+      "tags": [
+        "detail",
+        "science",
+        "astronomy"
+      ],
+      "question": "According to the passage, which of the following is TRUE about James Webb Space Telescope?",
+      "passage": "Launched in December 2021, the James Webb Space Telescope (JWST) operates primarily in the infrared spectrum, allowing it to peer through dense cosmic dust clouds. Unlike the Hubble Space Telescope, which orbits Earth, JWST orbits the Sun at the second Lagrange point (L2), roughly 1.5 million kilometers away. This distant position provides a stable cryogenic environment necessary for its extremely sensitive infrared instruments to detect light from the universe's earliest galaxies.",
+      "transcript": "",
+      "choices": [
+        "It orbits the Earth at a closer distance than the Hubble Space Telescope.",
+        "It primary observes space using visible spectrum radiation.",
+        "It is positioned at the second Lagrange point to maintain a stable low temperature.",
+        "It was designed mainly to monitor weather patterns in Earth's atmosphere."
+      ],
+      "answer": 2,
+      "explanation": {
+        "summary": "제임스 웹 우주망원경의 주요 특성과 궤도 위치(L2)에 대한 세부 정보를 설명하는 글이다.",
+        "evidence": "orbits the Sun at the second Lagrange point (L2)... provides a stable cryogenic environment",
+        "choiceAnalysis": [
+          "(A) 오답: 지구 궤도를 도는 허블과 달리 태양 궤도의 L2 지점에 위치하므로 지구에 더 가깝지 않음.",
+          "(B) 오답: 가시광선이 아닌 적외선 영역(infrared spectrum)에서 주로 작동함.",
+          "(C) 정답: 안정적인 저온(cryogenic) 환경을 유지하기 위해 L2 지점에 위치한다는 지문의 사실과 일치함.",
+          "(D) 오답: 지구 대기 기상 관측용이 아니라 초기 은하의 빛을 감지하기 위한 목적임."
+        ]
+      },
+      "skills": [
+        "fact-checking",
+        "detail-comprehension"
+      ],
+      "vocabulary": [
+        {
+          "word": "infrared",
+          "meaning": "적외선의"
+        },
+        {
+          "word": "orbit",
+          "meaning": "궤도를 돌다"
+        },
+        {
+          "word": "cryogenic",
+          "meaning": "극저온의"
+        }
+      ]
+    },
+    {
+      "id": "R-DET-kim-0005",
+      "section": "reading",
+      "part": 2,
+      "type": "detail",
+      "difficulty": 2,
+      "targetScoreBand": "250-320",
+      "tags": [
+        "detail",
+        "business",
+        "marketing"
+      ],
+      "question": "According to the passage, why are companies increasingly using subscription models?",
+      "passage": "In recent years, companies across various industries have shifted from traditional one-time sales to subscription-based models. This transition offers businesses predictable recurring revenue streams, which simplifies financial forecasting and long-term planning. Additionally, subscriptions encourage continuous customer engagement, as firms regularly update software or add new services to retain subscribers. For consumers, this model often lowers upfront costs while providing access to continually improving products.",
+      "transcript": "",
+      "choices": [
+        "To eliminate the need for regular software updates",
+        "To secure predictable revenue and improve financial forecasting",
+        "To maximize single-transaction profit margins on hardware sales",
+        "To reduce the number of active customer interactions"
+      ],
+      "answer": 1,
+      "explanation": {
+        "summary": "기업들이 구독 모델을 도입하는 이유(예측 가능한 수익 확보, 재무 예측 용이성 등)를 다루고 있다.",
+        "evidence": "offers businesses predictable recurring revenue streams, which simplifies financial forecasting",
+        "choiceAnalysis": [
+          "(A) 오답: 지속적인 업데이트를 제공한다고 했지 업데이트 필요성을 없앤다고 하지 않음.",
+          "(B) 정답: 예측 가능한 수익을 확보하고 재무 예측을 용이하게 만든다는 내용과 정확히 일치함.",
+          "(C) 오답: 단일 거래 이익을 극대화한다는 것은 일회성 판매에 해당하므로 구독 모델과 다름.",
+          "(D) 오답: 고객 참여를 지속시킨다고 했으므로 상호작용을 줄인다는 것은 사실과 반대됨."
+        ]
+      },
+      "skills": [
+        "scanning",
+        "detail-retrieval"
+      ],
+      "vocabulary": [
+        {
+          "word": "recurring",
+          "meaning": "반복되는, 순환하는"
+        },
+        {
+          "word": "forecasting",
+          "meaning": "예측, 전망"
+        },
+        {
+          "word": "upfront",
+          "meaning": "선불의, 선두의"
+        }
+      ]
+    },
+    {
+      "id": "R-INF-kim-0006",
+      "section": "reading",
+      "part": 3,
+      "type": "inference",
+      "difficulty": 3,
+      "targetScoreBand": "327-target",
+      "tags": [
+        "inference",
+        "history",
+        "culture"
+      ],
+      "question": "What can be inferred about the printing press from the passage?",
+      "passage": "Before Johannes Gutenberg perfected the movable type printing press around 1440, manuscripts were copied entirely by hand by scribes. This tedious process made books extraordinarily rare and expensive, confining knowledge largely to wealthy elites and religious institutions. The rapid adoption of Gutenberg's technology dramatically reduced production costs and accelerated the dissemination of scientific, political, and philosophical ideas across Europe, laying the groundwork for the Renaissance and the Enlightenment.",
+      "transcript": "",
+      "choices": [
+        "It caused scribes to lose their societal role almost immediately in 1440.",
+        "It democratized access to information that was previously restricted.",
+        "It was initially opposed by European scholars and political leaders.",
+        "It was restricted to printing religious texts for its first century."
+      ],
+      "answer": 1,
+      "explanation": {
+        "summary": "구텐베르크의 인쇄술이 지식의 독점을 깨고 인쇄 비용을 낮추어 정보의 보급 및 대중화에 기여했다는 내용이다.",
+        "evidence": "confining knowledge largely to wealthy elites... reduced production costs and accelerated the dissemination of ideas",
+        "choiceAnalysis": [
+          "(A) 오답: 필사기가 즉각 직업을 잃었는지 여부는 지문에서 추론할 수 없음.",
+          "(B) 정답: 과거 엘리트/종교 단체에 한정되었던 정보 접근성을 대중화(democratized)했다는 추론이 적절함.",
+          "(C) 오답: 학자나 정치 지도자들이 초기 반대했다는 언급은 지문에 없음.",
+          "(D) 오답: 첫 1세기 동안 종교 서적만 인쇄하도록 제한되었다는 내용도 지문 내용과 맞지 않음."
+        ]
+      },
+      "skills": [
+        "logical-inference",
+        "contextual-deduction"
+      ],
+      "vocabulary": [
+        {
+          "word": "manuscript",
+          "meaning": "원고, 필사본"
+        },
+        {
+          "word": "tedious",
+          "meaning": "지루한, 소모적인"
+        },
+        {
+          "word": "dissemination",
+          "meaning": "유포, 보급"
+        }
+      ]
+    },
+    {
+      "id": "R-BLK-kim-0007",
+      "section": "reading",
+      "part": 1,
+      "type": "blank",
+      "difficulty": 3,
+      "targetScoreBand": "327-target",
+      "tags": [
+        "blank",
+        "economics",
+        "finance"
+      ],
+      "question": "Which of the following best completes the blank?",
+      "passage": "Central banks often face a delicate balancing act when managing inflation. Raising interest rates can curb rising prices by borrowing costs and discouraging consumer spending. However, if rates are increased too aggressively, central banks risk halting economic growth altogether and triggering a recession. Therefore, policymakers must carefully calibrate monetary adjustments to control inflation without _______________.",
+      "transcript": "",
+      "choices": [
+        "stifling economic activity unnecessarily",
+        "encouraging excessive foreign investment",
+        "reducing the national tax revenue base",
+        "expanding emergency welfare expenditures"
+      ],
+      "answer": 0,
+      "explanation": {
+        "summary": "중앙은행이 물가를 잡기 위해 금리를 인상할 때, 과도한 인상으로 경기 침체를 유발하지 않도록 조율해야 한다는 내용이다.",
+        "evidence": "risk halting economic growth altogether... calibrate monetary adjustments to control inflation without stifling economic activity unnecessarily",
+        "choiceAnalysis": [
+          "(A) 정답: 경제 성장이 멈추고 침체되는 것을 막아야 하므로 '경제 활동을 불필요하게 위축시키지 않으면서'가 적절함.",
+          "(B) 오답: 외국인 투자 과다 유치를 막는다는 맥락은 긴축 통화정책의 위험성과 관련 없음.",
+          "(C) 오답: 세수 기반 축소는 중앙은행의 금리 정책 목적과 직접적 연관이 부족함.",
+          "(D) 오답: 긴급 복지 지출 확대를 피한다는 것은 지문의 핵심 균형점과 어긋남."
+        ]
+      },
+      "skills": [
+        "cohesion-and-coherence",
+        "academic-reading"
+      ],
+      "vocabulary": [
+        {
+          "word": "curb",
+          "meaning": "억제하다"
+        },
+        {
+          "word": "recession",
+          "meaning": "경기 침체"
+        },
+        {
+          "word": "calibrate",
+          "meaning": "조율하다, 정밀 조정하다"
+        }
+      ]
+    },
+    {
+      "id": "R-BLK-kim-0008",
+      "section": "reading",
+      "part": 1,
+      "type": "blank",
+      "difficulty": 3,
+      "targetScoreBand": "327-target",
+      "tags": [
+        "blank",
+        "sociology",
+        "workplace"
+      ],
+      "question": "Which of the following best completes the blank?",
+      "passage": "The concept of psychological safety in the workplace refers to a shared belief that team members will not be embarrassed, rejected, or punished for speaking up with ideas, questions, or mistakes. Organizations that foster psychological safety report higher levels of innovation and faster problem-solving. This is largely because employees in such environments feel empowered to _______________ without fear of negative consequences.",
+      "transcript": "",
+      "choices": [
+        "take calculated risks and express constructive criticism",
+        "delegate their individual responsibilities to peers",
+        "avoid taking responsibility for operational errors",
+        "demand higher compensation during quarterly reviews"
+      ],
+      "answer": 0,
+      "explanation": {
+        "summary": "심리적 안정감이 조성된 조직에서는 구성원들이 부정적 결과에 대한 두려움 없이 의견을 내고 조심스러운 위험을 무릅쓴다는 내용이다.",
+        "evidence": "will not be embarrassed... for speaking up with ideas... feel empowered to take calculated risks and express constructive criticism",
+        "choiceAnalysis": [
+          "(A) 정답: 아이디어나 오류를 솔직히 말할 수 있는 안전한 분위기이므로 '계산된 위험을 무릅쓰고 건설적 비판을 표현하다'가 정답임.",
+          "(B) 오답: 동료에게 책임을 전가한다는 내용은 심리적 안정감의 긍정적 효과와 거리가 멞.",
+          "(C) 오답: 오류 책임을 회피하는 것은 정직한 소통과 반대되는 행위임.",
+          "(D) 오답: 급여 인상을 요구하는 것과 심리적 안정감의 핵심 가치는 직접적 관련이 없음."
+        ]
+      },
+      "skills": [
+        "contextual-synthesis",
+        "logic-building"
+      ],
+      "vocabulary": [
+        {
+          "word": "psychological",
+          "meaning": "심리적인"
+        },
+        {
+          "word": "empower",
+          "meaning": "권한을 주다, 용기를 북돋우다"
+        },
+        {
+          "word": "calculated risk",
+          "meaning": "계산된(예상된) 위험"
+        }
+      ]
+    },
+    {
+      "id": "R-COH-kim-0009",
+      "section": "reading",
+      "part": 4,
+      "type": "coherence",
+      "difficulty": 3,
+      "targetScoreBand": "327-target",
+      "tags": [
+        "coherence",
+        "biology",
+        "nature"
+      ],
+      "question": "Which of the following sentences does NOT belong in the passage?",
+      "passage": "(a) Coral reefs are among the most biodiverse ecosystems on Earth, supporting roughly 25 percent of all marine species. (b) They provide vital coastal protection by absorbing wave energy and preventing shoreline erosion. (c) Many coastal tourism operators report significant revenue growth due to eco-friendly scuba diving packages. (d) However, rising sea temperatures caused by global climate change are leading to widespread coral bleaching, threatening their long-term survival.",
+      "transcript": "",
+      "choices": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ],
+      "answer": 2,
+      "explanation": {
+        "summary": "산호초 생태계의 중요성과 기후 변화로 인한 위기를 다루는 글에서 관광 상품 수익 증대는 맥락상 흐름을 해치는 문장이다.",
+        "evidence": "문장 (a), (b), (d)는 산호초의 생태적 역할과 기후변화 위기에 관한 설명인 반면, (c)는 관광 업체 수익에 대한 뜬금없는 상업적 내용임.",
+        "choiceAnalysis": [
+          "(a) 문맥상 적절: 산호초의 높은 생물다양성을 소개함.",
+          "(b) 문맥상 적절: 해안 보호라는 산호초의 생태적 기능을 설명함.",
+          "(c) 정답(흐름에서 벗어남): 스쿠버 다이빙 관광 상품의 매출 증가 이야기는 산호초 생태계 역할 및 위기라는 전체 흐름에서 벗어남.",
+          "(d) 문맥상 적절: 지구 온난화로 인한 산호 백화 현상과 위기를 언급하여 논지를 완성함."
+        ]
+      },
+      "skills": [
+        "coherence-check",
+        "paragraph-structure"
+      ],
+      "vocabulary": [
+        {
+          "word": "biodiverse",
+          "meaning": "생물다양성이 풍부한"
+        },
+        {
+          "word": "erosion",
+          "meaning": "침식"
+        },
+        {
+          "word": "bleaching",
+          "meaning": "백화 현상"
+        }
+      ]
+    },
+    {
+      "id": "R-MAI-kim-0010",
+      "section": "reading",
+      "part": 2,
+      "type": "main-idea",
+      "difficulty": 3,
+      "targetScoreBand": "327-target",
+      "tags": [
+        "main-idea",
+        "technology",
+        "artificial-intelligence"
+      ],
+      "question": "Which of the following best expresses the main idea of the passage?",
+      "passage": "While artificial intelligence tools have automated routine administrative tasks, human intuition and empathy remain irreplaceable in effective leadership. AI algorithms can process vast amounts of data to forecast market trends, but they lack the capacity to understand emotional nuances or inspire organizational morale during crises. Thus, future executives must leverage analytical AI tools while honing distinctly human interpersonal skills to guide their organizations effectively.",
+      "transcript": "",
+      "choices": [
+        "AI will fully replace corporate executives within the next decade.",
+        "Effective leadership requires combining AI capabilities with uniquely human qualities.",
+        "Data analysis is far more crucial than empathy when managing corporate crises.",
+        "Administrative tasks should no longer be automated due to accuracy concerns."
+      ],
+      "answer": 1,
+      "explanation": {
+        "summary": "AI의 데이터 분석 능력과 인간의 공감 능력 및 직관을 결합하는 것이 미래 리더십의 핵심이라는 내용이다.",
+        "evidence": "executives must leverage analytical AI tools while honing distinctly human interpersonal skills",
+        "choiceAnalysis": [
+          "(A) 오답: AI가 경영진을 완전히 대체할 것이라는 것은 지문의 주장과 다름.",
+          "(B) 정답: AI의 분석력과 인간 고유의 감성/대인관계 역량을 결합해야 한다는 요지와 정확히 일치함.",
+          "(C) 오답: 데이터 분석이 공감 능력보다 훨씬 중요하다는 것은 지문 내용과 반대됨.",
+          "(D) 오답: 행정 업무 자동화를 중단해야 한다는 내용은 지문에 없음."
+        ]
+      },
+      "skills": [
+        "main-idea-extraction",
+        "critical-reading"
+      ],
+      "vocabulary": [
+        {
+          "word": "intuition",
+          "meaning": "직관(력)"
+        },
+        {
+          "word": "morale",
+          "meaning": "사기, 의욕"
+        },
+        {
+          "word": "leverage",
+          "meaning": "활용하다"
+        }
+      ]
+    },
+    {
+      "id": "R-INF-kim-0011",
+      "section": "reading",
+      "part": 3,
+      "type": "inference",
+      "difficulty": 4,
+      "targetScoreBand": "327-target",
+      "tags": [
+        "inference",
+        "linguistics",
+        "cognition"
+      ],
+      "question": "What can be inferred about bilingual individuals from the passage?",
+      "passage": "For decades, researchers debated whether acquiring two languages simultaneously delayed childhood cognitive development. Recent neuroimaging studies, however, demonstrate that managing two linguistic systems continuously strengthens executive control networks in the brain. Bilingual individuals habitually suppress one language while accessing another, which enhances cognitive flexibility and task-switching ability throughout adulthood. Furthermore, evidence indicates this neural resilience may delay the onset of age-related cognitive decline.",
+      "transcript": "",
+      "choices": [
+        "They experience lifelong speech impediments due to language interference.",
+        "Their brain networks benefit cognitive control from managing multiple languages.",
+        "They are less capable of multitasking compared to monolingual peers.",
+        "They generally lose their second language fluency as they reach old age."
+      ],
+      "answer": 1,
+      "explanation": {
+        "summary": "이중 언어 사용이 억제 제어와 뇌 신경망을 강화하여 인지적 유연성을 높이고 나이가 들어서도 인지 저하를 늦춰준다는 내용이다.",
+        "evidence": "managing two linguistic systems continuously strengthens executive control networks... enhances cognitive flexibility",
+        "choiceAnalysis": [
+          "(A) 오답: 평생 언어 장애를 겪는다는 부작용은 지문에 언급되지 않으며 통념과도 다름.",
+          "(B) 정답: 두 언어를 다루는 과정에서 뇌의 인지 조절 능력이 강화된다는 본문 내용으로부터 적절하게 추론됨.",
+          "(C) 오답: 다중 작업 능력이 떨어진다는 것은 인지적 유연성이 높아진다는 본문과 반대임.",
+          "(D) 오답: 노년기에 제2언어 유창성을 잃는다는 내용 또한 지문에 등장하지 않음."
+        ]
+      },
+      "skills": [
+        "advanced-inference",
+        "textual-deduction"
+      ],
+      "vocabulary": [
+        {
+          "word": "simultaneously",
+          "meaning": "동시에"
+        },
+        {
+          "word": "suppress",
+          "meaning": "억제하다"
+        },
+        {
+          "word": "onset",
+          "meaning": "발병, 시작"
+        }
+      ]
+    },
+    {
+      "id": "R-BLK-kim-0012",
+      "section": "reading",
+      "part": 1,
+      "type": "blank",
+      "difficulty": 4,
+      "targetScoreBand": "327-target",
+      "tags": [
+        "blank",
+        "philosophy",
+        "ethics"
+      ],
+      "question": "Which of the following best completes the blank?",
+      "passage": "Scientific discovery thrives on the objective evaluation of empirical evidence. However, scientists are not immune to confirmation bias—the subconscious tendency to notice data that supports existing theories while ignoring conflicting results. To counter this human limitation, the scientific community relies heavily on peer review and independent replication. These rigorous protocols ensure that findings are accepted only after withstanding _______________.",
+      "transcript": "",
+      "choices": [
+        "uncritical public approval and media praise",
+        "thorough scrutiny and empirical verification by peers",
+        "unconditional endorsement by government agencies",
+        "preliminary testing without formal documentation"
+      ],
+      "answer": 1,
+      "explanation": {
+        "summary": "과학적 확증 편향을 방지하기 위해 동료 검토(peer review)와 독립적 재현 등 엄격한 과정을 통해 철저한 검증을 거친다는 글이다.",
+        "evidence": "relies heavily on peer review and independent replication... ensure findings are accepted only after withstanding thorough scrutiny",
+        "choiceAnalysis": [
+          "(A) 오답: 비판 없는 대중 승인과 언론 찬사는 과학적 정밀성과 거리가 멞.",
+          "(B) 정답: 동료들에 의한 철저한 조사와 실증적 검증을 견뎌낸 후에야 받아들여진다는 문맥이 정답임.",
+          "(C) 오답: 정부 기관의 무조건적인 승인은 독립적 검증의 개념과 무관함.",
+          "(D) 오답: 문서화 없는 예비 테스트는 엄격한 과학적 절차와 반대됨."
+        ]
+      },
+      "skills": [
+        "complex-blank-completion",
+        "academic-reasoning"
+      ],
+      "vocabulary": [
+        {
+          "word": "empirical",
+          "meaning": "실증적인, 경험적인"
+        },
+        {
+          "word": "bias",
+          "meaning": "편향, 편견"
+        },
+        {
+          "word": "scrutiny",
+          "meaning": "철저한 조사, 정밀 검사"
+        }
+      ]
+    }
+  ]
+}

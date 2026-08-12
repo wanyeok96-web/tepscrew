@@ -948,6 +948,15 @@
         questionCount: 22,
         file: "./data/packs/TEPS_Crew_Pack_002.json",
         notes: "Reading 12 + Listening 10 \xB7 TEPS 327 Target \uD559\uC2B5\uC6A9 \uC790\uCCB4 \uC81C\uC791 \uBB38\uD56D"
+      },
+      {
+        id: "tepscrew-pack-kim-reading-0001",
+        title: "TEPSCrew Pack kim reading 0001",
+        version: 1,
+        sections: ["reading"],
+        questionCount: 12,
+        file: "./data/packs/TEPSCrew_Pack_kim_reading_0001.json",
+        notes: "\uC120\uC0DD\uB2D8 \uC81C\uC791(kim) \xB7 Reading 12 \xB7 \uD559\uC2B5\uC6A9 \uC790\uCCB4 \uC81C\uC791"
       }
     ]
   };
@@ -3037,6 +3046,631 @@
       ]
     }
   ];
+
+  // data/packs/TEPSCrew_Pack_kim_reading_0001.json
+  var TEPSCrew_Pack_kim_reading_0001_default = {
+    name: "TEPSCrew_Pack_kim_reading_0001",
+    author: "kim",
+    section: "reading",
+    version: 1,
+    questionCount: 12,
+    createdAt: "2026-08-12",
+    notes: "\uD559\uC2B5\uC6A9 \uC790\uCCB4 \uC81C\uC791 \xB7 \uACF5\uC2DD TEPS \uAE30\uCD9C \uC544\uB2D8",
+    questions: [
+      {
+        id: "R-BLK-kim-0001",
+        section: "reading",
+        part: 1,
+        type: "blank",
+        difficulty: 2,
+        targetScoreBand: "250-320",
+        tags: [
+          "blank",
+          "business",
+          "workplace"
+        ],
+        question: "Which of the following best completes the blank?",
+        passage: "To maintain productivity during the office renovation, management has decided to implement a temporary work-from-home policy. Employees are expected to fulfill their usual duties remotely and stay reachable during regular office hours. Although this arrangement requires adjustments, leadership expects team members to _______________ throughout this transition period.",
+        transcript: "",
+        choices: [
+          "maintain high standards of performance",
+          "cancel all upcoming project deadlines",
+          "relocate to a different regional office",
+          "submit daily physical attendance logs"
+        ],
+        answer: 0,
+        explanation: {
+          summary: "\uC0AC\uBB34\uC2E4 \uB9AC\uBAA8\uB378\uB9C1 \uAE30\uAC04 \uB3D9\uC548 \uC7AC\uD0DD\uADFC\uBB34\uB97C \uC2DC\uD589\uD558\uC9C0\uB9CC \uC5C5\uBB34 \uC131\uACFC \uC218\uC900\uC744 \uC720\uC9C0\uD574\uC8FC\uAE38 \uAE30\uB300\uD55C\uB2E4\uB294 \uB0B4\uC6A9\uC774\uB2E4.",
+          evidence: "fulfill their usual duties remotely and stay reachable... leadership expects team members to maintain high standards of performance",
+          choiceAnalysis: [
+            "(A) \uC815\uB2F5: \uD3C9\uC18C\uC640 \uB3D9\uC77C\uD55C \uC5C5\uBB34 \uC218\uD589 \uBC0F \uC5F0\uB77D \uAC00\uB2A5 \uC0C1\uD0DC \uC720\uC9C0\uB97C \uC694\uCCAD\uD558\uBBC0\uB85C '\uB192\uC740 \uC131\uACFC \uAE30\uC900\uC744 \uC720\uC9C0\uD558\uB2E4'\uAC00 \uBE48\uCE78\uC5D0 \uAC00\uC7A5 \uC801\uC808\uD568.",
+            "(B) \uC624\uB2F5: \uB9C8\uAC10 \uAE30\uD55C\uC744 \uCDE8\uC18C\uD55C\uB2E4\uB294 \uB0B4\uC6A9\uC740 \uC9C0\uBB38\uC758 \uCDE8\uC9C0\uC640 \uBC18\uB300\uB428.",
+            "(C) \uC624\uB2F5: \uB2E4\uB978 \uC9C0\uC5ED \uC0AC\uBB34\uC2E4\uB85C \uC774\uC804\uD55C\uB2E4\uB294 \uC5B8\uAE09\uC740 \uC5C6\uC74C.",
+            "(D) \uC624\uB2F5: \uC7AC\uD0DD\uADFC\uBB34 \uC0C1\uD669\uC774\uBBC0\uB85C \uB9E4\uC77C \uCD9C\uC11D \uC77C\uC9C0\uB97C \uC81C\uCD9C\uD55C\uB2E4\uB294 \uAC83\uC740 \uB9E5\uB77D\uC5D0 \uB9DE\uC9C0 \uC54A\uC74C."
+          ]
+        },
+        skills: [
+          "contextual-inference",
+          "reading-comprehension"
+        ],
+        vocabulary: [
+          {
+            word: "renovation",
+            meaning: "\uAC1C\uBCF4\uC218, \uB9AC\uBAA8\uB378\uB9C1"
+          },
+          {
+            word: "fulfill",
+            meaning: "\uC774\uD589\uD558\uB2E4, \uC644\uC218\uD558\uB2E4"
+          },
+          {
+            word: "transition",
+            meaning: "\uC804\uD658, \uC774\uD589"
+          }
+        ]
+      },
+      {
+        id: "R-BLK-kim-0002",
+        section: "reading",
+        part: 1,
+        type: "blank",
+        difficulty: 2,
+        targetScoreBand: "250-320",
+        tags: [
+          "blank",
+          "environment",
+          "technology"
+        ],
+        question: "Which of the following best completes the blank?",
+        passage: "Urban rooftop gardens have gained popularity as effective tools for combatting the heat island effect in major cities. By covering concrete surfaces with vegetation, these gardens absorb solar radiation and lower surrounding temperatures through evapotranspiration. Consequently, city planners view them not merely as aesthetic additions, but as _______________ for sustainable urban development.",
+        transcript: "",
+        choices: [
+          "costly burdens",
+          "vital strategies",
+          "temporary trends",
+          "minor distractions"
+        ],
+        answer: 1,
+        explanation: {
+          summary: "\uC625\uC0C1 \uC815\uC6D0\uC774 \uB3C4\uC2EC \uC5F4\uC12C \uD604\uC0C1\uC744 \uC644\uD654\uD558\uB294 \uD6A8\uACFC\uC801\uC778 \uB3C4\uAD6C\uC774\uBA70 \uB2E8\uC21C \uBBF8\uAD00\uC6A9\uC774 \uC544\uB2CC \uC9C0\uC18D \uAC00\uB2A5\uD55C \uB3C4\uC2DC \uAC1C\uBC1C\uC744 \uC704\uD55C \uD575\uC2EC \uC804\uB7B5\uC774\uB77C\uB294 \uB0B4\uC6A9\uC774\uB2E4.",
+          evidence: "not merely as aesthetic additions, but as vital strategies for sustainable urban development",
+          choiceAnalysis: [
+            "(A) \uC624\uB2F5: \uBE44\uC6A9 \uBD80\uB2F4\uC774\uB77C\uB294 \uBD80\uC815\uC801\uC778 \uD45C\uD604\uC740 \uC625\uC0C1 \uC815\uC6D0\uC758 \uAE0D\uC815\uC801 \uC5ED\uD560\uC744 \uC124\uBA85\uD558\uB294 \uD750\uB984\uACFC \uC5B4\uAE0B\uB0A8.",
+            "(B) \uC815\uB2F5: \uB2E8\uC21C \uBBF8\uAD00\uC6A9\uC774 \uC544\uB2CC \uB3C4\uC2DC \uC5F4\uC12C \uC644\uD654\uB97C \uC704\uD55C '\uD544\uC218\uC801 \uC804\uB7B5'\uC73C\uB85C \uBCF8\uB2E4\uB294 \uD750\uB984\uC774 \uC801\uC808\uD568.",
+            "(C) \uC624\uB2F5: \uC77C\uC2DC\uC801 \uC720\uD589\uC73C\uB85C \uCE58\uBD80\uD558\uB294 \uAC83\uC740 \uAE0D\uC815\uC801 \uD6A8\uACFC \uAC15\uC870\uC640 \uB9DE\uC9C0 \uC54A\uC74C.",
+            "(D) \uC624\uB2F5: \uC0AC\uC18C\uD55C \uC8FC\uC758 \uC0B0\uB9CC \uC694\uC18C\uB77C\uB294 \uD45C\uD604\uC740 \uBB38\uB9E5\uC0C1 \uBD80\uC801\uC808\uD568."
+          ]
+        },
+        skills: [
+          "vocabulary-in-context",
+          "logical-completion"
+        ],
+        vocabulary: [
+          {
+            word: "vegetation",
+            meaning: "\uC2DD\uC0DD, \uCD08\uBAA9"
+          },
+          {
+            word: "evapotranspiration",
+            meaning: "\uC99D\uBC1C\uC0B0(\uC791\uC6A9)"
+          },
+          {
+            word: "aesthetic",
+            meaning: "\uBBF8\uC801\uC778"
+          }
+        ]
+      },
+      {
+        id: "R-MAI-kim-0003",
+        section: "reading",
+        part: 2,
+        type: "main-idea",
+        difficulty: 2,
+        targetScoreBand: "250-320",
+        tags: [
+          "main-idea",
+          "health",
+          "psychology"
+        ],
+        question: "Which of the following best summarizes the main idea of the passage?",
+        passage: "Recent studies suggest that taking short, frequent breaks during long periods of cognitive effort significantly improves overall focus and mental stamina. Unlike extended breaks taken late in the workday, micro-breaks lasting just two to three minutes help reset cognitive load before exhaustion sets in. Incorporating brief pauses into routine workflows allows individuals to sustain high levels of accuracy and creative problem-solving over prolonged periods.",
+        transcript: "",
+        choices: [
+          "Longer breaks at the end of the day are essential for total recovery.",
+          "Short and regular pauses boost cognitive focus and continuous performance.",
+          "Continuous work without interruption builds mental resilience over time.",
+          "Creative problem-solving depends entirely on physical fitness levels."
+        ],
+        answer: 1,
+        explanation: {
+          summary: "\uC9E7\uACE0 \uC8FC\uAE30\uC801\uC778 \uD734\uC2DD\uC774 \uB1CC\uC758 \uACFC\uBD80\uD558\uB97C \uB9C9\uACE0 \uC9D1\uC911\uB825 \uBC0F \uC9C0\uC18D\uC801\uC778 \uC5C5\uBB34 \uC131\uACFC\uB97C \uD5A5\uC0C1\uC2DC\uD0A8\uB2E4\uB294 \uAE00\uC774\uB2E4.",
+          evidence: "taking short, frequent breaks... improves overall focus... sustain high levels of accuracy",
+          choiceAnalysis: [
+            "(A) \uC624\uB2F5: \uD1F4\uADFC \uBB34\uB835\uC758 \uAE34 \uD734\uC2DD\uBCF4\uB2E4 \uC9E7\uC740 \uD734\uC2DD\uC774 \uD6A8\uACFC\uC801\uC774\uB77C\uB294 \uC9C0\uBB38 \uB0B4\uC6A9\uACFC \uBC30\uCE58\uB428.",
+            "(B) \uC815\uB2F5: \uC9E7\uACE0 \uC815\uAE30\uC801\uC778 \uD734\uC2DD\uC774 \uC778\uC9C0\uC801 \uC9D1\uC911\uACFC \uC9C0\uC18D\uC801\uC778 \uC131\uACFC\uB97C \uD5A5\uC0C1\uC2DC\uD0A8\uB2E4\uB294 \uBCF8\uBB38 \uC694\uC9C0\uC640 \uC77C\uCE58\uD568.",
+            "(C) \uC624\uB2F5: \uC26C\uC9C0 \uC54A\uACE0 \uC77C\uD558\uB294 \uAC83\uC774 \uC815\uC2E0\uC801 \uD0C4\uB825\uC131\uC744 \uD0A4\uC6B4\uB2E4\uB294 \uC5B8\uAE09\uC740 \uC5C6\uC74C.",
+            "(D) \uC624\uB2F5: \uC2E0\uCCB4\uC801 \uCCB4\uB825 \uC218\uC900\uB9CC\uC774 \uCC3D\uC758\uC801 \uBB38\uC81C \uD574\uACB0\uC744 \uACB0\uC815\uD55C\uB2E4\uB294 \uB0B4\uC6A9\uC740 \uC5B8\uAE09\uB418\uC9C0 \uC54A\uC74C."
+          ]
+        },
+        skills: [
+          "main-idea-identification",
+          "summarization"
+        ],
+        vocabulary: [
+          {
+            word: "cognitive",
+            meaning: "\uC778\uC9C0\uC801\uC778"
+          },
+          {
+            word: "stamina",
+            meaning: "\uCCB4\uB825, \uC6D0\uAE30"
+          },
+          {
+            word: "prolonged",
+            meaning: "\uC7A5\uAE30\uC801\uC778, \uC7A5\uC2DC\uAC04\uC758"
+          }
+        ]
+      },
+      {
+        id: "R-DET-kim-0004",
+        section: "reading",
+        part: 2,
+        type: "detail",
+        difficulty: 2,
+        targetScoreBand: "250-320",
+        tags: [
+          "detail",
+          "science",
+          "astronomy"
+        ],
+        question: "According to the passage, which of the following is TRUE about James Webb Space Telescope?",
+        passage: "Launched in December 2021, the James Webb Space Telescope (JWST) operates primarily in the infrared spectrum, allowing it to peer through dense cosmic dust clouds. Unlike the Hubble Space Telescope, which orbits Earth, JWST orbits the Sun at the second Lagrange point (L2), roughly 1.5 million kilometers away. This distant position provides a stable cryogenic environment necessary for its extremely sensitive infrared instruments to detect light from the universe's earliest galaxies.",
+        transcript: "",
+        choices: [
+          "It orbits the Earth at a closer distance than the Hubble Space Telescope.",
+          "It primary observes space using visible spectrum radiation.",
+          "It is positioned at the second Lagrange point to maintain a stable low temperature.",
+          "It was designed mainly to monitor weather patterns in Earth's atmosphere."
+        ],
+        answer: 2,
+        explanation: {
+          summary: "\uC81C\uC784\uC2A4 \uC6F9 \uC6B0\uC8FC\uB9DD\uC6D0\uACBD\uC758 \uC8FC\uC694 \uD2B9\uC131\uACFC \uADA4\uB3C4 \uC704\uCE58(L2)\uC5D0 \uB300\uD55C \uC138\uBD80 \uC815\uBCF4\uB97C \uC124\uBA85\uD558\uB294 \uAE00\uC774\uB2E4.",
+          evidence: "orbits the Sun at the second Lagrange point (L2)... provides a stable cryogenic environment",
+          choiceAnalysis: [
+            "(A) \uC624\uB2F5: \uC9C0\uAD6C \uADA4\uB3C4\uB97C \uB3C4\uB294 \uD5C8\uBE14\uACFC \uB2EC\uB9AC \uD0DC\uC591 \uADA4\uB3C4\uC758 L2 \uC9C0\uC810\uC5D0 \uC704\uCE58\uD558\uBBC0\uB85C \uC9C0\uAD6C\uC5D0 \uB354 \uAC00\uAE5D\uC9C0 \uC54A\uC74C.",
+            "(B) \uC624\uB2F5: \uAC00\uC2DC\uAD11\uC120\uC774 \uC544\uB2CC \uC801\uC678\uC120 \uC601\uC5ED(infrared spectrum)\uC5D0\uC11C \uC8FC\uB85C \uC791\uB3D9\uD568.",
+            "(C) \uC815\uB2F5: \uC548\uC815\uC801\uC778 \uC800\uC628(cryogenic) \uD658\uACBD\uC744 \uC720\uC9C0\uD558\uAE30 \uC704\uD574 L2 \uC9C0\uC810\uC5D0 \uC704\uCE58\uD55C\uB2E4\uB294 \uC9C0\uBB38\uC758 \uC0AC\uC2E4\uACFC \uC77C\uCE58\uD568.",
+            "(D) \uC624\uB2F5: \uC9C0\uAD6C \uB300\uAE30 \uAE30\uC0C1 \uAD00\uCE21\uC6A9\uC774 \uC544\uB2C8\uB77C \uCD08\uAE30 \uC740\uD558\uC758 \uBE5B\uC744 \uAC10\uC9C0\uD558\uAE30 \uC704\uD55C \uBAA9\uC801\uC784."
+          ]
+        },
+        skills: [
+          "fact-checking",
+          "detail-comprehension"
+        ],
+        vocabulary: [
+          {
+            word: "infrared",
+            meaning: "\uC801\uC678\uC120\uC758"
+          },
+          {
+            word: "orbit",
+            meaning: "\uADA4\uB3C4\uB97C \uB3CC\uB2E4"
+          },
+          {
+            word: "cryogenic",
+            meaning: "\uADF9\uC800\uC628\uC758"
+          }
+        ]
+      },
+      {
+        id: "R-DET-kim-0005",
+        section: "reading",
+        part: 2,
+        type: "detail",
+        difficulty: 2,
+        targetScoreBand: "250-320",
+        tags: [
+          "detail",
+          "business",
+          "marketing"
+        ],
+        question: "According to the passage, why are companies increasingly using subscription models?",
+        passage: "In recent years, companies across various industries have shifted from traditional one-time sales to subscription-based models. This transition offers businesses predictable recurring revenue streams, which simplifies financial forecasting and long-term planning. Additionally, subscriptions encourage continuous customer engagement, as firms regularly update software or add new services to retain subscribers. For consumers, this model often lowers upfront costs while providing access to continually improving products.",
+        transcript: "",
+        choices: [
+          "To eliminate the need for regular software updates",
+          "To secure predictable revenue and improve financial forecasting",
+          "To maximize single-transaction profit margins on hardware sales",
+          "To reduce the number of active customer interactions"
+        ],
+        answer: 1,
+        explanation: {
+          summary: "\uAE30\uC5C5\uB4E4\uC774 \uAD6C\uB3C5 \uBAA8\uB378\uC744 \uB3C4\uC785\uD558\uB294 \uC774\uC720(\uC608\uCE21 \uAC00\uB2A5\uD55C \uC218\uC775 \uD655\uBCF4, \uC7AC\uBB34 \uC608\uCE21 \uC6A9\uC774\uC131 \uB4F1)\uB97C \uB2E4\uB8E8\uACE0 \uC788\uB2E4.",
+          evidence: "offers businesses predictable recurring revenue streams, which simplifies financial forecasting",
+          choiceAnalysis: [
+            "(A) \uC624\uB2F5: \uC9C0\uC18D\uC801\uC778 \uC5C5\uB370\uC774\uD2B8\uB97C \uC81C\uACF5\uD55C\uB2E4\uACE0 \uD588\uC9C0 \uC5C5\uB370\uC774\uD2B8 \uD544\uC694\uC131\uC744 \uC5C6\uC564\uB2E4\uACE0 \uD558\uC9C0 \uC54A\uC74C.",
+            "(B) \uC815\uB2F5: \uC608\uCE21 \uAC00\uB2A5\uD55C \uC218\uC775\uC744 \uD655\uBCF4\uD558\uACE0 \uC7AC\uBB34 \uC608\uCE21\uC744 \uC6A9\uC774\uD558\uAC8C \uB9CC\uB4E0\uB2E4\uB294 \uB0B4\uC6A9\uACFC \uC815\uD655\uD788 \uC77C\uCE58\uD568.",
+            "(C) \uC624\uB2F5: \uB2E8\uC77C \uAC70\uB798 \uC774\uC775\uC744 \uADF9\uB300\uD654\uD55C\uB2E4\uB294 \uAC83\uC740 \uC77C\uD68C\uC131 \uD310\uB9E4\uC5D0 \uD574\uB2F9\uD558\uBBC0\uB85C \uAD6C\uB3C5 \uBAA8\uB378\uACFC \uB2E4\uB984.",
+            "(D) \uC624\uB2F5: \uACE0\uAC1D \uCC38\uC5EC\uB97C \uC9C0\uC18D\uC2DC\uD0A8\uB2E4\uACE0 \uD588\uC73C\uBBC0\uB85C \uC0C1\uD638\uC791\uC6A9\uC744 \uC904\uC778\uB2E4\uB294 \uAC83\uC740 \uC0AC\uC2E4\uACFC \uBC18\uB300\uB428."
+          ]
+        },
+        skills: [
+          "scanning",
+          "detail-retrieval"
+        ],
+        vocabulary: [
+          {
+            word: "recurring",
+            meaning: "\uBC18\uBCF5\uB418\uB294, \uC21C\uD658\uD558\uB294"
+          },
+          {
+            word: "forecasting",
+            meaning: "\uC608\uCE21, \uC804\uB9DD"
+          },
+          {
+            word: "upfront",
+            meaning: "\uC120\uBD88\uC758, \uC120\uB450\uC758"
+          }
+        ]
+      },
+      {
+        id: "R-INF-kim-0006",
+        section: "reading",
+        part: 3,
+        type: "inference",
+        difficulty: 3,
+        targetScoreBand: "327-target",
+        tags: [
+          "inference",
+          "history",
+          "culture"
+        ],
+        question: "What can be inferred about the printing press from the passage?",
+        passage: "Before Johannes Gutenberg perfected the movable type printing press around 1440, manuscripts were copied entirely by hand by scribes. This tedious process made books extraordinarily rare and expensive, confining knowledge largely to wealthy elites and religious institutions. The rapid adoption of Gutenberg's technology dramatically reduced production costs and accelerated the dissemination of scientific, political, and philosophical ideas across Europe, laying the groundwork for the Renaissance and the Enlightenment.",
+        transcript: "",
+        choices: [
+          "It caused scribes to lose their societal role almost immediately in 1440.",
+          "It democratized access to information that was previously restricted.",
+          "It was initially opposed by European scholars and political leaders.",
+          "It was restricted to printing religious texts for its first century."
+        ],
+        answer: 1,
+        explanation: {
+          summary: "\uAD6C\uD150\uBCA0\uB974\uD06C\uC758 \uC778\uC1C4\uC220\uC774 \uC9C0\uC2DD\uC758 \uB3C5\uC810\uC744 \uAE68\uACE0 \uC778\uC1C4 \uBE44\uC6A9\uC744 \uB0AE\uCD94\uC5B4 \uC815\uBCF4\uC758 \uBCF4\uAE09 \uBC0F \uB300\uC911\uD654\uC5D0 \uAE30\uC5EC\uD588\uB2E4\uB294 \uB0B4\uC6A9\uC774\uB2E4.",
+          evidence: "confining knowledge largely to wealthy elites... reduced production costs and accelerated the dissemination of ideas",
+          choiceAnalysis: [
+            "(A) \uC624\uB2F5: \uD544\uC0AC\uAE30\uAC00 \uC989\uAC01 \uC9C1\uC5C5\uC744 \uC783\uC5C8\uB294\uC9C0 \uC5EC\uBD80\uB294 \uC9C0\uBB38\uC5D0\uC11C \uCD94\uB860\uD560 \uC218 \uC5C6\uC74C.",
+            "(B) \uC815\uB2F5: \uACFC\uAC70 \uC5D8\uB9AC\uD2B8/\uC885\uAD50 \uB2E8\uCCB4\uC5D0 \uD55C\uC815\uB418\uC5C8\uB358 \uC815\uBCF4 \uC811\uADFC\uC131\uC744 \uB300\uC911\uD654(democratized)\uD588\uB2E4\uB294 \uCD94\uB860\uC774 \uC801\uC808\uD568.",
+            "(C) \uC624\uB2F5: \uD559\uC790\uB098 \uC815\uCE58 \uC9C0\uB3C4\uC790\uB4E4\uC774 \uCD08\uAE30 \uBC18\uB300\uD588\uB2E4\uB294 \uC5B8\uAE09\uC740 \uC9C0\uBB38\uC5D0 \uC5C6\uC74C.",
+            "(D) \uC624\uB2F5: \uCCAB 1\uC138\uAE30 \uB3D9\uC548 \uC885\uAD50 \uC11C\uC801\uB9CC \uC778\uC1C4\uD558\uB3C4\uB85D \uC81C\uD55C\uB418\uC5C8\uB2E4\uB294 \uB0B4\uC6A9\uB3C4 \uC9C0\uBB38 \uB0B4\uC6A9\uACFC \uB9DE\uC9C0 \uC54A\uC74C."
+          ]
+        },
+        skills: [
+          "logical-inference",
+          "contextual-deduction"
+        ],
+        vocabulary: [
+          {
+            word: "manuscript",
+            meaning: "\uC6D0\uACE0, \uD544\uC0AC\uBCF8"
+          },
+          {
+            word: "tedious",
+            meaning: "\uC9C0\uB8E8\uD55C, \uC18C\uBAA8\uC801\uC778"
+          },
+          {
+            word: "dissemination",
+            meaning: "\uC720\uD3EC, \uBCF4\uAE09"
+          }
+        ]
+      },
+      {
+        id: "R-BLK-kim-0007",
+        section: "reading",
+        part: 1,
+        type: "blank",
+        difficulty: 3,
+        targetScoreBand: "327-target",
+        tags: [
+          "blank",
+          "economics",
+          "finance"
+        ],
+        question: "Which of the following best completes the blank?",
+        passage: "Central banks often face a delicate balancing act when managing inflation. Raising interest rates can curb rising prices by borrowing costs and discouraging consumer spending. However, if rates are increased too aggressively, central banks risk halting economic growth altogether and triggering a recession. Therefore, policymakers must carefully calibrate monetary adjustments to control inflation without _______________.",
+        transcript: "",
+        choices: [
+          "stifling economic activity unnecessarily",
+          "encouraging excessive foreign investment",
+          "reducing the national tax revenue base",
+          "expanding emergency welfare expenditures"
+        ],
+        answer: 0,
+        explanation: {
+          summary: "\uC911\uC559\uC740\uD589\uC774 \uBB3C\uAC00\uB97C \uC7A1\uAE30 \uC704\uD574 \uAE08\uB9AC\uB97C \uC778\uC0C1\uD560 \uB54C, \uACFC\uB3C4\uD55C \uC778\uC0C1\uC73C\uB85C \uACBD\uAE30 \uCE68\uCCB4\uB97C \uC720\uBC1C\uD558\uC9C0 \uC54A\uB3C4\uB85D \uC870\uC728\uD574\uC57C \uD55C\uB2E4\uB294 \uB0B4\uC6A9\uC774\uB2E4.",
+          evidence: "risk halting economic growth altogether... calibrate monetary adjustments to control inflation without stifling economic activity unnecessarily",
+          choiceAnalysis: [
+            "(A) \uC815\uB2F5: \uACBD\uC81C \uC131\uC7A5\uC774 \uBA48\uCD94\uACE0 \uCE68\uCCB4\uB418\uB294 \uAC83\uC744 \uB9C9\uC544\uC57C \uD558\uBBC0\uB85C '\uACBD\uC81C \uD65C\uB3D9\uC744 \uBD88\uD544\uC694\uD558\uAC8C \uC704\uCD95\uC2DC\uD0A4\uC9C0 \uC54A\uC73C\uBA74\uC11C'\uAC00 \uC801\uC808\uD568.",
+            "(B) \uC624\uB2F5: \uC678\uAD6D\uC778 \uD22C\uC790 \uACFC\uB2E4 \uC720\uCE58\uB97C \uB9C9\uB294\uB2E4\uB294 \uB9E5\uB77D\uC740 \uAE34\uCD95 \uD1B5\uD654\uC815\uCC45\uC758 \uC704\uD5D8\uC131\uACFC \uAD00\uB828 \uC5C6\uC74C.",
+            "(C) \uC624\uB2F5: \uC138\uC218 \uAE30\uBC18 \uCD95\uC18C\uB294 \uC911\uC559\uC740\uD589\uC758 \uAE08\uB9AC \uC815\uCC45 \uBAA9\uC801\uACFC \uC9C1\uC811\uC801 \uC5F0\uAD00\uC774 \uBD80\uC871\uD568.",
+            "(D) \uC624\uB2F5: \uAE34\uAE09 \uBCF5\uC9C0 \uC9C0\uCD9C \uD655\uB300\uB97C \uD53C\uD55C\uB2E4\uB294 \uAC83\uC740 \uC9C0\uBB38\uC758 \uD575\uC2EC \uADE0\uD615\uC810\uACFC \uC5B4\uAE0B\uB0A8."
+          ]
+        },
+        skills: [
+          "cohesion-and-coherence",
+          "academic-reading"
+        ],
+        vocabulary: [
+          {
+            word: "curb",
+            meaning: "\uC5B5\uC81C\uD558\uB2E4"
+          },
+          {
+            word: "recession",
+            meaning: "\uACBD\uAE30 \uCE68\uCCB4"
+          },
+          {
+            word: "calibrate",
+            meaning: "\uC870\uC728\uD558\uB2E4, \uC815\uBC00 \uC870\uC815\uD558\uB2E4"
+          }
+        ]
+      },
+      {
+        id: "R-BLK-kim-0008",
+        section: "reading",
+        part: 1,
+        type: "blank",
+        difficulty: 3,
+        targetScoreBand: "327-target",
+        tags: [
+          "blank",
+          "sociology",
+          "workplace"
+        ],
+        question: "Which of the following best completes the blank?",
+        passage: "The concept of psychological safety in the workplace refers to a shared belief that team members will not be embarrassed, rejected, or punished for speaking up with ideas, questions, or mistakes. Organizations that foster psychological safety report higher levels of innovation and faster problem-solving. This is largely because employees in such environments feel empowered to _______________ without fear of negative consequences.",
+        transcript: "",
+        choices: [
+          "take calculated risks and express constructive criticism",
+          "delegate their individual responsibilities to peers",
+          "avoid taking responsibility for operational errors",
+          "demand higher compensation during quarterly reviews"
+        ],
+        answer: 0,
+        explanation: {
+          summary: "\uC2EC\uB9AC\uC801 \uC548\uC815\uAC10\uC774 \uC870\uC131\uB41C \uC870\uC9C1\uC5D0\uC11C\uB294 \uAD6C\uC131\uC6D0\uB4E4\uC774 \uBD80\uC815\uC801 \uACB0\uACFC\uC5D0 \uB300\uD55C \uB450\uB824\uC6C0 \uC5C6\uC774 \uC758\uACAC\uC744 \uB0B4\uACE0 \uC870\uC2EC\uC2A4\uB7EC\uC6B4 \uC704\uD5D8\uC744 \uBB34\uB985\uC4F4\uB2E4\uB294 \uB0B4\uC6A9\uC774\uB2E4.",
+          evidence: "will not be embarrassed... for speaking up with ideas... feel empowered to take calculated risks and express constructive criticism",
+          choiceAnalysis: [
+            "(A) \uC815\uB2F5: \uC544\uC774\uB514\uC5B4\uB098 \uC624\uB958\uB97C \uC194\uC9C1\uD788 \uB9D0\uD560 \uC218 \uC788\uB294 \uC548\uC804\uD55C \uBD84\uC704\uAE30\uC774\uBBC0\uB85C '\uACC4\uC0B0\uB41C \uC704\uD5D8\uC744 \uBB34\uB985\uC4F0\uACE0 \uAC74\uC124\uC801 \uBE44\uD310\uC744 \uD45C\uD604\uD558\uB2E4'\uAC00 \uC815\uB2F5\uC784.",
+            "(B) \uC624\uB2F5: \uB3D9\uB8CC\uC5D0\uAC8C \uCC45\uC784\uC744 \uC804\uAC00\uD55C\uB2E4\uB294 \uB0B4\uC6A9\uC740 \uC2EC\uB9AC\uC801 \uC548\uC815\uAC10\uC758 \uAE0D\uC815\uC801 \uD6A8\uACFC\uC640 \uAC70\uB9AC\uAC00 \uBA5E.",
+            "(C) \uC624\uB2F5: \uC624\uB958 \uCC45\uC784\uC744 \uD68C\uD53C\uD558\uB294 \uAC83\uC740 \uC815\uC9C1\uD55C \uC18C\uD1B5\uACFC \uBC18\uB300\uB418\uB294 \uD589\uC704\uC784.",
+            "(D) \uC624\uB2F5: \uAE09\uC5EC \uC778\uC0C1\uC744 \uC694\uAD6C\uD558\uB294 \uAC83\uACFC \uC2EC\uB9AC\uC801 \uC548\uC815\uAC10\uC758 \uD575\uC2EC \uAC00\uCE58\uB294 \uC9C1\uC811\uC801 \uAD00\uB828\uC774 \uC5C6\uC74C."
+          ]
+        },
+        skills: [
+          "contextual-synthesis",
+          "logic-building"
+        ],
+        vocabulary: [
+          {
+            word: "psychological",
+            meaning: "\uC2EC\uB9AC\uC801\uC778"
+          },
+          {
+            word: "empower",
+            meaning: "\uAD8C\uD55C\uC744 \uC8FC\uB2E4, \uC6A9\uAE30\uB97C \uBD81\uB3CB\uC6B0\uB2E4"
+          },
+          {
+            word: "calculated risk",
+            meaning: "\uACC4\uC0B0\uB41C(\uC608\uC0C1\uB41C) \uC704\uD5D8"
+          }
+        ]
+      },
+      {
+        id: "R-COH-kim-0009",
+        section: "reading",
+        part: 4,
+        type: "coherence",
+        difficulty: 3,
+        targetScoreBand: "327-target",
+        tags: [
+          "coherence",
+          "biology",
+          "nature"
+        ],
+        question: "Which of the following sentences does NOT belong in the passage?",
+        passage: "(a) Coral reefs are among the most biodiverse ecosystems on Earth, supporting roughly 25 percent of all marine species. (b) They provide vital coastal protection by absorbing wave energy and preventing shoreline erosion. (c) Many coastal tourism operators report significant revenue growth due to eco-friendly scuba diving packages. (d) However, rising sea temperatures caused by global climate change are leading to widespread coral bleaching, threatening their long-term survival.",
+        transcript: "",
+        choices: [
+          "(a)",
+          "(b)",
+          "(c)",
+          "(d)"
+        ],
+        answer: 2,
+        explanation: {
+          summary: "\uC0B0\uD638\uCD08 \uC0DD\uD0DC\uACC4\uC758 \uC911\uC694\uC131\uACFC \uAE30\uD6C4 \uBCC0\uD654\uB85C \uC778\uD55C \uC704\uAE30\uB97C \uB2E4\uB8E8\uB294 \uAE00\uC5D0\uC11C \uAD00\uAD11 \uC0C1\uD488 \uC218\uC775 \uC99D\uB300\uB294 \uB9E5\uB77D\uC0C1 \uD750\uB984\uC744 \uD574\uCE58\uB294 \uBB38\uC7A5\uC774\uB2E4.",
+          evidence: "\uBB38\uC7A5 (a), (b), (d)\uB294 \uC0B0\uD638\uCD08\uC758 \uC0DD\uD0DC\uC801 \uC5ED\uD560\uACFC \uAE30\uD6C4\uBCC0\uD654 \uC704\uAE30\uC5D0 \uAD00\uD55C \uC124\uBA85\uC778 \uBC18\uBA74, (c)\uB294 \uAD00\uAD11 \uC5C5\uCCB4 \uC218\uC775\uC5D0 \uB300\uD55C \uB72C\uAE08\uC5C6\uB294 \uC0C1\uC5C5\uC801 \uB0B4\uC6A9\uC784.",
+          choiceAnalysis: [
+            "(a) \uBB38\uB9E5\uC0C1 \uC801\uC808: \uC0B0\uD638\uCD08\uC758 \uB192\uC740 \uC0DD\uBB3C\uB2E4\uC591\uC131\uC744 \uC18C\uAC1C\uD568.",
+            "(b) \uBB38\uB9E5\uC0C1 \uC801\uC808: \uD574\uC548 \uBCF4\uD638\uB77C\uB294 \uC0B0\uD638\uCD08\uC758 \uC0DD\uD0DC\uC801 \uAE30\uB2A5\uC744 \uC124\uBA85\uD568.",
+            "(c) \uC815\uB2F5(\uD750\uB984\uC5D0\uC11C \uBC97\uC5B4\uB0A8): \uC2A4\uCFE0\uBC84 \uB2E4\uC774\uBE59 \uAD00\uAD11 \uC0C1\uD488\uC758 \uB9E4\uCD9C \uC99D\uAC00 \uC774\uC57C\uAE30\uB294 \uC0B0\uD638\uCD08 \uC0DD\uD0DC\uACC4 \uC5ED\uD560 \uBC0F \uC704\uAE30\uB77C\uB294 \uC804\uCCB4 \uD750\uB984\uC5D0\uC11C \uBC97\uC5B4\uB0A8.",
+            "(d) \uBB38\uB9E5\uC0C1 \uC801\uC808: \uC9C0\uAD6C \uC628\uB09C\uD654\uB85C \uC778\uD55C \uC0B0\uD638 \uBC31\uD654 \uD604\uC0C1\uACFC \uC704\uAE30\uB97C \uC5B8\uAE09\uD558\uC5EC \uB17C\uC9C0\uB97C \uC644\uC131\uD568."
+          ]
+        },
+        skills: [
+          "coherence-check",
+          "paragraph-structure"
+        ],
+        vocabulary: [
+          {
+            word: "biodiverse",
+            meaning: "\uC0DD\uBB3C\uB2E4\uC591\uC131\uC774 \uD48D\uBD80\uD55C"
+          },
+          {
+            word: "erosion",
+            meaning: "\uCE68\uC2DD"
+          },
+          {
+            word: "bleaching",
+            meaning: "\uBC31\uD654 \uD604\uC0C1"
+          }
+        ]
+      },
+      {
+        id: "R-MAI-kim-0010",
+        section: "reading",
+        part: 2,
+        type: "main-idea",
+        difficulty: 3,
+        targetScoreBand: "327-target",
+        tags: [
+          "main-idea",
+          "technology",
+          "artificial-intelligence"
+        ],
+        question: "Which of the following best expresses the main idea of the passage?",
+        passage: "While artificial intelligence tools have automated routine administrative tasks, human intuition and empathy remain irreplaceable in effective leadership. AI algorithms can process vast amounts of data to forecast market trends, but they lack the capacity to understand emotional nuances or inspire organizational morale during crises. Thus, future executives must leverage analytical AI tools while honing distinctly human interpersonal skills to guide their organizations effectively.",
+        transcript: "",
+        choices: [
+          "AI will fully replace corporate executives within the next decade.",
+          "Effective leadership requires combining AI capabilities with uniquely human qualities.",
+          "Data analysis is far more crucial than empathy when managing corporate crises.",
+          "Administrative tasks should no longer be automated due to accuracy concerns."
+        ],
+        answer: 1,
+        explanation: {
+          summary: "AI\uC758 \uB370\uC774\uD130 \uBD84\uC11D \uB2A5\uB825\uACFC \uC778\uAC04\uC758 \uACF5\uAC10 \uB2A5\uB825 \uBC0F \uC9C1\uAD00\uC744 \uACB0\uD569\uD558\uB294 \uAC83\uC774 \uBBF8\uB798 \uB9AC\uB354\uC2ED\uC758 \uD575\uC2EC\uC774\uB77C\uB294 \uB0B4\uC6A9\uC774\uB2E4.",
+          evidence: "executives must leverage analytical AI tools while honing distinctly human interpersonal skills",
+          choiceAnalysis: [
+            "(A) \uC624\uB2F5: AI\uAC00 \uACBD\uC601\uC9C4\uC744 \uC644\uC804\uD788 \uB300\uCCB4\uD560 \uAC83\uC774\uB77C\uB294 \uAC83\uC740 \uC9C0\uBB38\uC758 \uC8FC\uC7A5\uACFC \uB2E4\uB984.",
+            "(B) \uC815\uB2F5: AI\uC758 \uBD84\uC11D\uB825\uACFC \uC778\uAC04 \uACE0\uC720\uC758 \uAC10\uC131/\uB300\uC778\uAD00\uACC4 \uC5ED\uB7C9\uC744 \uACB0\uD569\uD574\uC57C \uD55C\uB2E4\uB294 \uC694\uC9C0\uC640 \uC815\uD655\uD788 \uC77C\uCE58\uD568.",
+            "(C) \uC624\uB2F5: \uB370\uC774\uD130 \uBD84\uC11D\uC774 \uACF5\uAC10 \uB2A5\uB825\uBCF4\uB2E4 \uD6E8\uC52C \uC911\uC694\uD558\uB2E4\uB294 \uAC83\uC740 \uC9C0\uBB38 \uB0B4\uC6A9\uACFC \uBC18\uB300\uB428.",
+            "(D) \uC624\uB2F5: \uD589\uC815 \uC5C5\uBB34 \uC790\uB3D9\uD654\uB97C \uC911\uB2E8\uD574\uC57C \uD55C\uB2E4\uB294 \uB0B4\uC6A9\uC740 \uC9C0\uBB38\uC5D0 \uC5C6\uC74C."
+          ]
+        },
+        skills: [
+          "main-idea-extraction",
+          "critical-reading"
+        ],
+        vocabulary: [
+          {
+            word: "intuition",
+            meaning: "\uC9C1\uAD00(\uB825)"
+          },
+          {
+            word: "morale",
+            meaning: "\uC0AC\uAE30, \uC758\uC695"
+          },
+          {
+            word: "leverage",
+            meaning: "\uD65C\uC6A9\uD558\uB2E4"
+          }
+        ]
+      },
+      {
+        id: "R-INF-kim-0011",
+        section: "reading",
+        part: 3,
+        type: "inference",
+        difficulty: 4,
+        targetScoreBand: "327-target",
+        tags: [
+          "inference",
+          "linguistics",
+          "cognition"
+        ],
+        question: "What can be inferred about bilingual individuals from the passage?",
+        passage: "For decades, researchers debated whether acquiring two languages simultaneously delayed childhood cognitive development. Recent neuroimaging studies, however, demonstrate that managing two linguistic systems continuously strengthens executive control networks in the brain. Bilingual individuals habitually suppress one language while accessing another, which enhances cognitive flexibility and task-switching ability throughout adulthood. Furthermore, evidence indicates this neural resilience may delay the onset of age-related cognitive decline.",
+        transcript: "",
+        choices: [
+          "They experience lifelong speech impediments due to language interference.",
+          "Their brain networks benefit cognitive control from managing multiple languages.",
+          "They are less capable of multitasking compared to monolingual peers.",
+          "They generally lose their second language fluency as they reach old age."
+        ],
+        answer: 1,
+        explanation: {
+          summary: "\uC774\uC911 \uC5B8\uC5B4 \uC0AC\uC6A9\uC774 \uC5B5\uC81C \uC81C\uC5B4\uC640 \uB1CC \uC2E0\uACBD\uB9DD\uC744 \uAC15\uD654\uD558\uC5EC \uC778\uC9C0\uC801 \uC720\uC5F0\uC131\uC744 \uB192\uC774\uACE0 \uB098\uC774\uAC00 \uB4E4\uC5B4\uC11C\uB3C4 \uC778\uC9C0 \uC800\uD558\uB97C \uB2A6\uCDB0\uC900\uB2E4\uB294 \uB0B4\uC6A9\uC774\uB2E4.",
+          evidence: "managing two linguistic systems continuously strengthens executive control networks... enhances cognitive flexibility",
+          choiceAnalysis: [
+            "(A) \uC624\uB2F5: \uD3C9\uC0DD \uC5B8\uC5B4 \uC7A5\uC560\uB97C \uACAA\uB294\uB2E4\uB294 \uBD80\uC791\uC6A9\uC740 \uC9C0\uBB38\uC5D0 \uC5B8\uAE09\uB418\uC9C0 \uC54A\uC73C\uBA70 \uD1B5\uB150\uACFC\uB3C4 \uB2E4\uB984.",
+            "(B) \uC815\uB2F5: \uB450 \uC5B8\uC5B4\uB97C \uB2E4\uB8E8\uB294 \uACFC\uC815\uC5D0\uC11C \uB1CC\uC758 \uC778\uC9C0 \uC870\uC808 \uB2A5\uB825\uC774 \uAC15\uD654\uB41C\uB2E4\uB294 \uBCF8\uBB38 \uB0B4\uC6A9\uC73C\uB85C\uBD80\uD130 \uC801\uC808\uD558\uAC8C \uCD94\uB860\uB428.",
+            "(C) \uC624\uB2F5: \uB2E4\uC911 \uC791\uC5C5 \uB2A5\uB825\uC774 \uB5A8\uC5B4\uC9C4\uB2E4\uB294 \uAC83\uC740 \uC778\uC9C0\uC801 \uC720\uC5F0\uC131\uC774 \uB192\uC544\uC9C4\uB2E4\uB294 \uBCF8\uBB38\uACFC \uBC18\uB300\uC784.",
+            "(D) \uC624\uB2F5: \uB178\uB144\uAE30\uC5D0 \uC81C2\uC5B8\uC5B4 \uC720\uCC3D\uC131\uC744 \uC783\uB294\uB2E4\uB294 \uB0B4\uC6A9 \uB610\uD55C \uC9C0\uBB38\uC5D0 \uB4F1\uC7A5\uD558\uC9C0 \uC54A\uC74C."
+          ]
+        },
+        skills: [
+          "advanced-inference",
+          "textual-deduction"
+        ],
+        vocabulary: [
+          {
+            word: "simultaneously",
+            meaning: "\uB3D9\uC2DC\uC5D0"
+          },
+          {
+            word: "suppress",
+            meaning: "\uC5B5\uC81C\uD558\uB2E4"
+          },
+          {
+            word: "onset",
+            meaning: "\uBC1C\uBCD1, \uC2DC\uC791"
+          }
+        ]
+      },
+      {
+        id: "R-BLK-kim-0012",
+        section: "reading",
+        part: 1,
+        type: "blank",
+        difficulty: 4,
+        targetScoreBand: "327-target",
+        tags: [
+          "blank",
+          "philosophy",
+          "ethics"
+        ],
+        question: "Which of the following best completes the blank?",
+        passage: "Scientific discovery thrives on the objective evaluation of empirical evidence. However, scientists are not immune to confirmation bias\u2014the subconscious tendency to notice data that supports existing theories while ignoring conflicting results. To counter this human limitation, the scientific community relies heavily on peer review and independent replication. These rigorous protocols ensure that findings are accepted only after withstanding _______________.",
+        transcript: "",
+        choices: [
+          "uncritical public approval and media praise",
+          "thorough scrutiny and empirical verification by peers",
+          "unconditional endorsement by government agencies",
+          "preliminary testing without formal documentation"
+        ],
+        answer: 1,
+        explanation: {
+          summary: "\uACFC\uD559\uC801 \uD655\uC99D \uD3B8\uD5A5\uC744 \uBC29\uC9C0\uD558\uAE30 \uC704\uD574 \uB3D9\uB8CC \uAC80\uD1A0(peer review)\uC640 \uB3C5\uB9BD\uC801 \uC7AC\uD604 \uB4F1 \uC5C4\uACA9\uD55C \uACFC\uC815\uC744 \uD1B5\uD574 \uCCA0\uC800\uD55C \uAC80\uC99D\uC744 \uAC70\uCE5C\uB2E4\uB294 \uAE00\uC774\uB2E4.",
+          evidence: "relies heavily on peer review and independent replication... ensure findings are accepted only after withstanding thorough scrutiny",
+          choiceAnalysis: [
+            "(A) \uC624\uB2F5: \uBE44\uD310 \uC5C6\uB294 \uB300\uC911 \uC2B9\uC778\uACFC \uC5B8\uB860 \uCC2C\uC0AC\uB294 \uACFC\uD559\uC801 \uC815\uBC00\uC131\uACFC \uAC70\uB9AC\uAC00 \uBA5E.",
+            "(B) \uC815\uB2F5: \uB3D9\uB8CC\uB4E4\uC5D0 \uC758\uD55C \uCCA0\uC800\uD55C \uC870\uC0AC\uC640 \uC2E4\uC99D\uC801 \uAC80\uC99D\uC744 \uACAC\uB38C\uB0B8 \uD6C4\uC5D0\uC57C \uBC1B\uC544\uB4E4\uC5EC\uC9C4\uB2E4\uB294 \uBB38\uB9E5\uC774 \uC815\uB2F5\uC784.",
+            "(C) \uC624\uB2F5: \uC815\uBD80 \uAE30\uAD00\uC758 \uBB34\uC870\uAC74\uC801\uC778 \uC2B9\uC778\uC740 \uB3C5\uB9BD\uC801 \uAC80\uC99D\uC758 \uAC1C\uB150\uACFC \uBB34\uAD00\uD568.",
+            "(D) \uC624\uB2F5: \uBB38\uC11C\uD654 \uC5C6\uB294 \uC608\uBE44 \uD14C\uC2A4\uD2B8\uB294 \uC5C4\uACA9\uD55C \uACFC\uD559\uC801 \uC808\uCC28\uC640 \uBC18\uB300\uB428."
+          ]
+        },
+        skills: [
+          "complex-blank-completion",
+          "academic-reasoning"
+        ],
+        vocabulary: [
+          {
+            word: "empirical",
+            meaning: "\uC2E4\uC99D\uC801\uC778, \uACBD\uD5D8\uC801\uC778"
+          },
+          {
+            word: "bias",
+            meaning: "\uD3B8\uD5A5, \uD3B8\uACAC"
+          },
+          {
+            word: "scrutiny",
+            meaning: "\uCCA0\uC800\uD55C \uC870\uC0AC, \uC815\uBC00 \uAC80\uC0AC"
+          }
+        ]
+      }
+    ]
+  };
 
   // data/foundation/manifest.json
   var manifest_default2 = {
@@ -7085,6 +7719,7 @@
     "./data/packs/manifest.json": manifest_default,
     "./data/packs/TEPS_Crew_Pack_001.json": TEPS_Crew_Pack_001_default,
     "./data/packs/TEPS_Crew_Pack_002.json": TEPS_Crew_Pack_002_default,
+    "./data/packs/TEPSCrew_Pack_kim_reading_0001.json": TEPSCrew_Pack_kim_reading_0001_default,
     "./data/foundation/manifest.json": manifest_default2,
     "./data/foundation/lessons/F-001.json": F_001_default,
     "./data/foundation/lessons/F-002.json": F_002_default,
